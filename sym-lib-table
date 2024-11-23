@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "P2-3_era")(type "KiCad")(uri "${KIPRJMOD}/P2-3_era.kicad_sym")(options "")(descr ""))
+)
