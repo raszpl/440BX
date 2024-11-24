@@ -1,12 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20241004)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "c21d09c4-6e55-413b-846c-46e45027be87")
 	(paper "A3")
+	(title_block
+		(date "Thursday, April 09, 1998")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +85,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,11 +146,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -249,9 +260,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -299,12 +310,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -431,7 +447,96 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 232.918 44.45)
+		(end 332.486 164.084)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e64a682-9689-437a-b9b2-0f2650597907)
+	)
+	(rectangle
+		(start 65.786 48.006)
+		(end 200.406 165.608)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c2c39f9-b801-4a81-b11e-4738c133e46e)
+	)
+	(rectangle
+		(start 149.098 169.672)
+		(end 251.714 244.348)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e04319e-152a-4459-9e80-605e93b0bdbb)
+	)
+	(rectangle
+		(start 73.914 167.386)
+		(end 136.398 242.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a9cdc3cb-a15d-4b86-8b64-d7d84efdbedf)
+	)
+	(text "CK100 DECOUPLING\n"
+		(exclude_from_sim no)
+		(at 197.612 173.482 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "0e278841-b56a-448c-ab38-d0fec8ec1a23")
+	)
+	(text "443BX DECOUPLING"
+		(exclude_from_sim no)
+		(at 287.782 55.118 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "1e31d693-74b5-4108-ae52-471f6e2540f5")
+	)
+	(text "CKBF DECOUPLING\n"
+		(exclude_from_sim no)
+		(at 110.744 175.006 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "986e29d9-8c5c-4d98-9bd6-491ec4414958")
+	)
+	(text "DIMMM DECOUPLING"
+		(exclude_from_sim no)
+		(at 127 59.944 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "da048af8-f861-43ca-990c-b9732f2036de")
 	)
 	(junction
 		(at 292.354 90.424)
@@ -2244,94 +2349,6 @@
 			(type default)
 		)
 		(uuid "ff96189e-e686-4b51-a5fc-88ee70bc8509")
-	)
-	(rectangle
-		(start 232.918 44.45)
-		(end 332.486 164.084)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0e64a682-9689-437a-b9b2-0f2650597907)
-	)
-	(rectangle
-		(start 65.786 48.006)
-		(end 200.406 165.608)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2c2c39f9-b801-4a81-b11e-4738c133e46e)
-	)
-	(rectangle
-		(start 149.098 169.672)
-		(end 251.714 244.348)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3e04319e-152a-4459-9e80-605e93b0bdbb)
-	)
-	(rectangle
-		(start 73.914 167.386)
-		(end 136.398 242.57)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a9cdc3cb-a15d-4b86-8b64-d7d84efdbedf)
-	)
-	(text "CK100 DECOUPLING\n"
-		(exclude_from_sim no)
-		(at 197.612 173.482 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "0e278841-b56a-448c-ab38-d0fec8ec1a23")
-	)
-	(text "443BX DECOUPLING"
-		(exclude_from_sim no)
-		(at 287.782 55.118 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "1e31d693-74b5-4108-ae52-471f6e2540f5")
-	)
-	(text "CKBF DECOUPLING\n"
-		(exclude_from_sim no)
-		(at 110.744 175.006 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "986e29d9-8c5c-4d98-9bd6-491ec4414958")
-	)
-	(text "DIMMM DECOUPLING"
-		(exclude_from_sim no)
-		(at 127 59.944 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "da048af8-f861-43ca-990c-b9732f2036de")
 	)
 	(netclass_flag ""
 		(length 2.54)

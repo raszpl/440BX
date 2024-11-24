@@ -1,12 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20241004)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "c21d09c4-6e55-413b-846c-46e45027be87")
 	(paper "A4")
+	(title_block
+		(date "Thursday, April 09, 1998")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +85,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,11 +146,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -249,9 +260,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -299,11 +310,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Crystal"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -369,17 +385,6 @@
 				)
 			)
 			(symbol "Crystal_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
@@ -398,6 +403,17 @@
 					)
 					(stroke
 						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -467,9 +483,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:FerriteBead"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -540,7 +559,7 @@
 			(symbol "FerriteBead_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
 					)
 					(stroke
 						(width 0)
@@ -564,7 +583,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+						(xy 0 -1.27) (xy 0 -1.2192)
 					)
 					(stroke
 						(width 0)
@@ -613,9 +632,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -734,6 +756,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "P2-3_era:CK100/133"
 			(pin_names
@@ -817,17 +840,17 @@
 				)
 			)
 			(symbol "CK100/133_1_1"
-				(pin output line
-					(at -17.78 -19.685 180)
+				(pin input line
+					(at -59.69 26.035 0)
 					(length 5.08)
-					(name "REF0"
+					(name "XTALIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -836,16 +859,16 @@
 					)
 				)
 				(pin output line
-					(at -17.78 11.43 180)
+					(at -59.69 17.145 0)
 					(length 5.08)
-					(name "PCICLK_2"
+					(name "XTALOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -853,17 +876,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at -17.78 8.89 180)
+				(pin unspecified line
+					(at -59.69 10.16 0)
 					(length 5.08)
-					(name "PCICLK_3"
+					(name "RESV"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -871,251 +894,17 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -45.085 -41.91 90)
+				(pin unspecified line
+					(at -59.69 7.62 0)
 					(length 5.08)
-					(name "VSSPCI1"
+					(name "RESV"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 6.35 180)
-					(length 5.08)
-					(name "PCICLK_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 3.81 180)
-					(length 5.08)
-					(name "PCICLK_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -48.895 46.355 270)
-					(length 5.08)
-					(name "VDDPCI1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 1.27 180)
-					(length 5.08)
-					(name "PCICLK_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -1.27 180)
-					(length 5.08)
-					(name "PCICLK_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -42.545 -41.91 90)
-					(length 5.08)
-					(name "VSSPCI2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -46.355 46.355 270)
-					(length 5.08)
-					(name "VDDCORE0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -22.225 180)
-					(length 5.08)
-					(name "REF1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -40.005 -41.91 90)
-					(length 5.08)
-					(name "VSSCORE0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -43.815 46.355 270)
-					(length 5.08)
-					(name "VDD48MHZ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -5.08 180)
-					(length 5.08)
-					(name "48MHZ_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 -7.62 180)
-					(length 5.08)
-					(name "48MHZ_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -37.465 -41.91 90)
-					(length 5.08)
-					(name "VSS48MHZ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
+					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1124,16 +913,16 @@
 					)
 				)
 				(pin input line
-					(at -59.69 -8.255 0)
+					(at -59.69 -3.175 0)
 					(length 5.08)
-					(name "SEL_100/66#"
+					(name "SEL0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,34 +949,16 @@
 					)
 				)
 				(pin input line
-					(at -59.69 -3.175 0)
+					(at -59.69 -8.255 0)
 					(length 5.08)
-					(name "SEL0"
+					(name "SEL_100/66#"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -59.69 10.16 0)
-					(length 5.08)
-					(name "RESV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1196,34 +967,16 @@
 					)
 				)
 				(pin input line
-					(at -59.69 -23.495 0)
+					(at -59.69 -18.415 0)
 					(length 5.08)
-					(name "PWRDWN#"
+					(name "PCI_STP#"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -50.165 -41.91 90)
-					(length 5.08)
-					(name "VSSREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1250,16 +1003,34 @@
 					)
 				)
 				(pin input line
-					(at -59.69 -18.415 0)
+					(at -59.69 -23.495 0)
 					(length 5.08)
-					(name "PCI_STP#"
+					(name "PWRDWN#"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "31"
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -51.435 46.355 270)
+					(length 5.08)
+					(name "VDDPCI0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1268,16 +1039,124 @@
 					)
 				)
 				(pin power_out line
-					(at -34.925 -41.91 90)
+					(at -50.165 -41.91 90)
 					(length 5.08)
-					(name "VSSCORE1"
+					(name "VSSREF"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "32"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -48.895 46.355 270)
+					(length 5.08)
+					(name "VDDPCI1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -47.625 -41.91 90)
+					(length 5.08)
+					(name "VSSPCI0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -46.355 46.355 270)
+					(length 5.08)
+					(name "VDDCORE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -45.085 -41.91 90)
+					(length 5.08)
+					(name "VSSPCI1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -43.815 46.355 270)
+					(length 5.08)
+					(name "VDD48MHZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -42.545 -41.91 90)
+					(length 5.08)
+					(name "VSSPCI2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1304,16 +1183,16 @@
 					)
 				)
 				(pin power_out line
-					(at -29.845 -41.91 90)
+					(at -40.005 -41.91 90)
 					(length 5.08)
-					(name "VSSCPU1"
+					(name "VSSCORE0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "34"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1321,17 +1200,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at -17.78 20.955 180)
+				(pin power_in line
+					(at -38.735 46.355 270)
 					(length 5.08)
-					(name "CPUCLK3"
+					(name "VDDQREF"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "35"
+					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1339,17 +1218,89 @@
 						)
 					)
 				)
-				(pin output line
-					(at -17.78 23.495 180)
+				(pin power_out line
+					(at -37.465 -41.91 90)
 					(length 5.08)
-					(name "CPUCLK2"
+					(name "VSS48MHZ"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -34.925 46.355 270)
+					(length 5.08)
+					(name "VDDAPIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -34.925 -41.91 90)
+					(length 5.08)
+					(name "VSSCORE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -32.385 46.355 270)
+					(length 5.08)
+					(name "VDDCPU0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -32.385 -41.91 90)
+					(length 5.08)
+					(name "VSSCPU0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1376,106 +1327,16 @@
 					)
 				)
 				(pin power_out line
-					(at -32.385 -41.91 90)
+					(at -29.845 -41.91 90)
 					(length 5.08)
-					(name "VSSCPU0"
+					(name "VSSCPU1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 26.035 180)
-					(length 5.08)
-					(name "CPUCLK1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -59.69 26.035 0)
-					(length 5.08)
-					(name "XTALIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -17.78 28.575 180)
-					(length 5.08)
-					(name "CPUCLK0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -32.385 46.355 270)
-					(length 5.08)
-					(name "VDDCPU0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -59.69 7.62 0)
-					(length 5.08)
-					(name "RESV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1502,16 +1363,16 @@
 					)
 				)
 				(pin output line
-					(at -17.145 -14.605 180)
+					(at -17.78 28.575 180)
 					(length 5.08)
-					(name "APICCLK_1"
+					(name "CPUCLK0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "44"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1520,34 +1381,16 @@
 					)
 				)
 				(pin output line
-					(at -17.145 -12.065 180)
+					(at -17.78 26.035 180)
 					(length 5.08)
-					(name "APICCLK_0"
+					(name "CPUCLK1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -34.925 46.355 270)
-					(length 5.08)
-					(name "VDDAPIC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1556,34 +1399,16 @@
 					)
 				)
 				(pin output line
-					(at -17.78 -24.765 180)
+					(at -17.78 23.495 180)
 					(length 5.08)
-					(name "REF2"
+					(name "CPUCLK2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -38.735 46.355 270)
-					(length 5.08)
-					(name "VDDQREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1592,34 +1417,16 @@
 					)
 				)
 				(pin output line
-					(at -59.69 17.145 0)
+					(at -17.78 20.955 180)
 					(length 5.08)
-					(name "XTALOUT"
+					(name "CPUCLK3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -47.625 -41.91 90)
-					(length 5.08)
-					(name "VSSPCI0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1663,17 +1470,233 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -51.435 46.355 270)
+				(pin output line
+					(at -17.78 11.43 180)
 					(length 5.08)
-					(name "VDDPCI0"
+					(name "PCICLK_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 8.89 180)
+					(length 5.08)
+					(name "PCICLK_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 6.35 180)
+					(length 5.08)
+					(name "PCICLK_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 3.81 180)
+					(length 5.08)
+					(name "PCICLK_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 1.27 180)
+					(length 5.08)
+					(name "PCICLK_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -1.27 180)
+					(length 5.08)
+					(name "PCICLK_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -5.08 180)
+					(length 5.08)
+					(name "48MHZ_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -7.62 180)
+					(length 5.08)
+					(name "48MHZ_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -19.685 180)
+					(length 5.08)
+					(name "REF0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -22.225 180)
+					(length 5.08)
+					(name "REF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -24.765 180)
+					(length 5.08)
+					(name "REF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.145 -12.065 180)
+					(length 5.08)
+					(name "APICCLK_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.145 -14.605 180)
+					(length 5.08)
+					(name "APICCLK_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1682,12 +1705,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1814,7 +1842,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "DIDNT BOTHER WITH OPTIONAL TEST CONNECTOR\n"
+		(exclude_from_sim no)
+		(at 232.41 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "402c6bb5-dd91-43ba-8cfc-15599f79705b")
+	)
+	(text "THE REST HERE SAID DO NOT STUFF\nWHICH APPARENTLY MEANS DON'T INSTALL"
+		(exclude_from_sim no)
+		(at 83.82 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0f4007c-6aac-44e6-9988-e801130479df")
 	)
 	(junction
 		(at 146.05 152.4)
@@ -3611,26 +3660,6 @@
 			(type default)
 		)
 		(uuid "ff49e7c8-9f21-47a8-ab5c-4576de5b2d96")
-	)
-	(text "DIDNT BOTHER WITH OPTIONAL TEST CONNECTOR\n"
-		(exclude_from_sim no)
-		(at 232.41 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "402c6bb5-dd91-43ba-8cfc-15599f79705b")
-	)
-	(text "THE REST HERE SAID DO NOT STUFF\nWHICH APPARENTLY MEANS DON'T INSTALL"
-		(exclude_from_sim no)
-		(at 83.82 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0f4007c-6aac-44e6-9988-e801130479df")
 	)
 	(label "ITPCLK"
 		(at 193.675 84.455 0)

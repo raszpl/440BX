@@ -221,6 +221,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -411,14 +412,20 @@
       "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
+      "duplicate_pins": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -429,11 +436,16 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -464,6 +476,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -472,513 +485,1710 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/PII4XE/GPO27": "TP3",
-      "/PII4XE/GPO28": "TP4",
-      "/PII4XE/PGCS#0": "TP5",
-      "/PS2 CONNS/TP095": "TP29",
-      "/PS2 CONNS/TP096": "TP30",
-      "/PS2 CONNS/TP097": "TP31",
-      "/PS2 CONNS/TP098": "TP32",
-      "/Power Connector & Misc/TP888": "TP33",
-      "/SERIAL AND FLOPPY/TP094": "TP28",
-      "/ULTRAIO/TP069": "TP26",
-      "/ULTRAIO/TP070": "TP25",
-      "/ULTRAIO/TP071": "TP24",
-      "/ULTRAIO/TP072": "TP20",
-      "/ULTRAIO/TP073": "TP18",
-      "/ULTRAIO/TP075": "TP23",
-      "/ULTRAIO/TP076": "TP6",
-      "/ULTRAIO/TP077": "TP7",
-      "/ULTRAIO/TP078": "TP19",
-      "/ULTRAIO/TP079": "TP17",
-      "/ULTRAIO/TP080": "TP10",
-      "/ULTRAIO/TP081": "TP11",
-      "/ULTRAIO/TP082": "TP12",
-      "/ULTRAIO/TP083": "TP14",
-      "/ULTRAIO/TP084": "TP16",
-      "/ULTRAIO/TP085": "TP21",
-      "/ULTRAIO/TP087": "TP22",
-      "/ULTRAIO/TP088": "TP8",
-      "/ULTRAIO/TP090": "TP9",
-      "/ULTRAIO/TP091": "TP15",
-      "/ULTRAIO/TP092": "TP13",
-      "/VRMS/V25_R1": "VCC3",
-      "/VRMS1/V25_R1": "VCC3",
-      "AGP_OC#": "VCC3",
-      "Net-(C1-Pad1)": "VCC3",
-      "Net-(C100-Pad1)": "VCC",
-      "Net-(C101-Pad1)": "+12V",
-      "Net-(C102-Pad1)": "+5V",
-      "Net-(C103-Pad1)": "-12V",
-      "Net-(C170-Pad1)": "VCC2.5",
-      "Net-(C170-Pad2)": "VCC2.5",
-      "Net-(C171-Pad1)": "VCC3",
-      "Net-(C171-Pad2)": "VCC3",
-      "Net-(C185-Pad1)": "VCC3",
-      "Net-(C2-Pad1)": "VCC3",
-      "Net-(C21001-Pad1)": "VCC3",
-      "Net-(C21004-Pad2)": "VCC2.5",
-      "Net-(C21006-Pad1)": "VCC3",
-      "Net-(C22001-Pad1)": "VCC3",
-      "Net-(C22002-Pad1)": "VCC",
-      "Net-(C22003-Pad1)": "+12V",
-      "Net-(C22004-Pad1)": "+5V",
-      "Net-(C22005-Pad1)": "-12V",
-      "Net-(C61-Pad1)": "VCC3",
-      "Net-(C62-Pad1)": "VCC3",
-      "Net-(C63-Pad1)": "VCC3",
-      "Net-(C66-Pad1)": "VCC2.5",
-      "Net-(C67-Pad1)": "+12V",
-      "Net-(C68-Pad1)": "VCC3",
-      "Net-(C69-Pad1)": "+5V",
-      "Net-(C70-Pad1)": "VCC",
-      "Net-(C71-Pad1)": "-12V",
-      "Net-(C96-Pad1)": "VCC3",
-      "Net-(C99-Pad1)": "VCC3",
-      "Net-(CD100-Pad2)": "VCCCORE",
-      "Net-(CD101-Pad2)": "VCCCORE",
-      "Net-(CD102-Pad2)": "VCCCORE",
-      "Net-(CD13-Pad2)": "VCC3",
-      "Net-(CD19-Pad2)": "VCC3",
-      "Net-(CD21001-Pad2)": "VCC3",
-      "Net-(CD22005-Pad2)": "VCC3",
-      "Net-(CD22026-Pad2)": "VCCCORE",
-      "Net-(CD22027-Pad2)": "VCCCORE",
-      "Net-(CD22028-Pad2)": "VCCCORE",
-      "Net-(CD23001-Pad2)": "VTT",
-      "Net-(CD31-Pad2)": "VCCCORE",
-      "Net-(CD37-Pad2)": "VCCCORE",
-      "Net-(CD44-Pad2)": "VCCCORE",
-      "Net-(CD49-Pad2)": "VCC3",
-      "Net-(CD51-Pad2)": "VCC3",
-      "Net-(CD69-Pad2)": "VTT",
-      "Net-(CD70-Pad2)": "VTT",
-      "Net-(D5-K)": "3VSB",
-      "Net-(J10001-+3.3V-PadA21)": "VCC3",
-      "Net-(J10001-+3.3V-PadB25)": "VCC3",
-      "Net-(J10001-+5V-PadA05)": "VCC",
-      "Net-(J10001-+5V-PadB05)": "VCC",
-      "Net-(J10002-+3.3V-PadA21)": "VCC3",
-      "Net-(J10002-+3.3V-PadB25)": "VCC3",
-      "Net-(J10002-+5V-PadA05)": "VCC",
-      "Net-(J10002-+5V-PadB05)": "VCC",
-      "Net-(J11001-VCC-PadB29)": "VCC",
-      "Net-(J11002-VCC-PadB29)": "VCC",
-      "Net-(J24-12VIN)": "+12V",
-      "Net-(J24-5Vin-PadA1)": "VCC",
-      "Net-(J24-VCCcore-PadA10)": "VCCCORE",
-      "Net-(J26-Pin_1)": "+12V",
-      "Net-(J30-+12V-Pad10)": "+12v",
-      "Net-(J30-+3.3V-Pad1)": "VCC3",
-      "Net-(J30-+5V-Pad21)": "VCC",
-      "Net-(J30-+5VSB)": "+5VSB",
-      "Net-(J32-5V-PadB2)": "VCC",
-      "Net-(J32-Vddq3.3-PadA34)": "VCC3",
-      "Net-(J33-VCC_3-PadB113)": "VCC3",
-      "Net-(J33-VCC_CORE-PadB105)": "VCCCORE",
-      "Net-(J33-VCC_VTT-PadA01)": "VCC_VTT",
-      "Net-(J34-+3.3V-PadA21)": "VCC3",
-      "Net-(J34-+3.3V-PadB25)": "VCC3",
-      "Net-(J34-+5V-PadA05)": "VCC",
-      "Net-(J34-+5V-PadB05)": "VCC",
-      "Net-(J35-+3.3V-PadA21)": "VCC3",
-      "Net-(J35-+3.3V-PadB25)": "VCC3",
-      "Net-(J35-+5V-PadA05)": "VCC",
-      "Net-(J35-+5V-PadB05)": "VCC",
-      "Net-(J36-+3.3V-PadA21)": "VCC3",
-      "Net-(J36-+3.3V-PadB25)": "VCC3",
-      "Net-(J36-+5V-PadA05)": "VCC",
-      "Net-(J36-+5V-PadB05)": "VCC",
-      "Net-(J37-+3.3V-PadA21)": "VCC3",
-      "Net-(J37-+3.3V-PadB25)": "VCC3",
-      "Net-(J37-+5V-PadA05)": "VCC",
-      "Net-(J37-+5V-PadB05)": "VCC",
-      "Net-(J4-VCC-Pad102)": "VCC3",
-      "Net-(J5-VCC-Pad102)": "VCC3",
-      "Net-(J6-VCC-Pad102)": "VCC3",
-      "Net-(J7-VCC-Pad102)": "VCC3",
-      "Net-(J7001-VCC-Pad102)": "VCC3",
-      "Net-(J7002-VCC-Pad102)": "VCC3",
-      "Net-(J7003-VCC-Pad102)": "VCC3",
-      "Net-(J7004-VCC-Pad102)": "VCC3",
-      "Net-(J8001-5V-PadB2)": "VCC",
-      "Net-(J8001-Vddq3.3-PadA34)": "VCC3",
-      "Net-(J9001-+3.3V-PadA21)": "VCC3",
-      "Net-(J9001-+3.3V-PadB25)": "VCC3",
-      "Net-(J9001-+5V-PadA05)": "VCC",
-      "Net-(J9001-+5V-PadB05)": "VCC",
-      "Net-(J9002-+3.3V-PadA21)": "VCC3",
-      "Net-(J9002-+3.3V-PadB25)": "VCC3",
-      "Net-(J9002-+5V-PadA05)": "VCC",
-      "Net-(J9002-+5V-PadB05)": "VCC",
-      "Net-(JP15-B)": "3VSB",
-      "Net-(Q7-S)": "+12V",
-      "Net-(R1-Pad1)": "VCC",
-      "Net-(R10-Pad1)": "VCC",
-      "Net-(R11-Pad1)": "VCC",
-      "Net-(R136-Pad2)": "VCC2.5",
-      "Net-(R143-Pad2)": "VCC3",
-      "Net-(R160-Pad2)": "VCC",
-      "Net-(R18-Pad1)": "VCC3",
-      "Net-(R19001-Pad2)": "VCC2.5",
-      "Net-(R19008-Pad2)": "VCC3",
-      "Net-(R20001-Pad2)": "VCC",
-      "Net-(R2009-Pad1)": "VCC",
-      "Net-(R2015-Pad1)": "VCC",
-      "Net-(R231-Pad1)": "VCC",
-      "Net-(R234-Pad2)": "VCC3",
-      "Net-(R242-Pad1)": "VCC3",
-      "Net-(R59-Pad2)": "VCC2.5",
-      "Net-(R61-Pad1)": "VCC",
-      "Net-(R61-Pad2)": "VCC3",
-      "Net-(R67-Pad1)": "VCC",
-      "Net-(R82-Pad2)": "VCC",
-      "Net-(RP1-R1.1)": "VCC",
-      "Net-(RP1-R1.2)": "VCC",
-      "Net-(RP16001-R1.2)": "VCC",
-      "Net-(RP17-R1.2)": "VCC",
-      "Net-(RP18-R1.2)": "VCC",
-      "Net-(RP18001-R1.2)": "VTT",
-      "Net-(RP18019-R1.2)": "VTT",
-      "Net-(RP18021-R1.2)": "VTT",
-      "Net-(RP18023-R1.2)": "VTT",
-      "Net-(RP18025-R1.2)": "VTT",
-      "Net-(RP18027-R1.2)": "VTT",
-      "Net-(RP18029-R1.2)": "VTT",
-      "Net-(RP19-R1.2)": "VTT",
-      "Net-(RP19004-R1.2)": "VCC3",
-      "Net-(RP19009-R1.2)": "VCC3",
-      "Net-(RP2-R1.2)": "VCC",
-      "Net-(RP20001-R1.2)": "VCC",
-      "Net-(RP3-R1.2)": "VCC",
-      "Net-(RP3001-R1.1)": "VCC",
-      "Net-(RP40-R1.2)": "VTT",
-      "Net-(RP42-R1.2)": "VTT",
-      "Net-(RP53-R1.2)": "VCC3",
-      "Net-(RP55-R1.2)": "VCC3",
-      "Net-(RP59-R1.2)": "VCC3",
-      "Net-(RP62-R1.2)": "VCC",
-      "Net-(RP9001-R1.2)": "VCC",
-      "Net-(U1-+3.3V-PadA21)": "VCC3",
-      "Net-(U1-+3.3V-PadB25)": "VCC3",
-      "Net-(U1-+5V-PadA05)": "VCC",
-      "Net-(U1-+5V-PadB05)": "VCC",
-      "Net-(U1-VCC_3-PadB113)": "VCC3",
-      "Net-(U1-VCC_CORE-PadB105)": "VCCCORE",
-      "Net-(U1-VCC_VTT-PadA01)": "VCC_VTT",
-      "Net-(U10-+3.3V-PadA21)": "VCC3",
-      "Net-(U10-+3.3V-PadB25)": "VCC3",
-      "Net-(U10-+5V-PadA05)": "VCC",
-      "Net-(U10-+5V-PadB05)": "VCC",
-      "Net-(U11-+3.3V-PadA21)": "VCC3",
-      "Net-(U11-+3.3V-PadB25)": "VCC3",
-      "Net-(U11-+5V-PadA05)": "VCC",
-      "Net-(U11-+5V-PadB05)": "VCC",
-      "Net-(U12-+3.3V-PadA21)": "VCC3",
-      "Net-(U12-+3.3V-PadB25)": "VCC3",
-      "Net-(U12-+5V-PadA05)": "VCC",
-      "Net-(U12-+5V-PadB05)": "VCC",
-      "Net-(U13-+3.3V-PadA21)": "VCC3",
-      "Net-(U13-+3.3V-PadB25)": "VCC3",
-      "Net-(U13-+5V-PadA05)": "VCC",
-      "Net-(U13-+5V-PadB05)": "VCC",
-      "Net-(U14-VCC-PadB29)": "+5V",
-      "Net-(U15-VCC-PadB29)": "VCC",
-      "Net-(U19-VDD-PadAA18)": "VCC3",
-      "Net-(U19-VTTA)": "VTT",
-      "Net-(U2-+3.3V-PadA21)": "VCC3",
-      "Net-(U2-+3.3V-PadB25)": "VCC3",
-      "Net-(U2-+5V-PadA05)": "VCC",
-      "Net-(U2-+5V-PadB05)": "VCC",
-      "Net-(U2-VDD-PadAA18)": "VCC3",
-      "Net-(U2-VTTA)": "VTT",
-      "Net-(U2002-VCC_3-PadB113)": "VCC3",
-      "Net-(U2002-VCC_CORE-PadB105)": "VCCCORE",
-      "Net-(U2002-VCC_VTT-PadA01)": "VCC_VTT",
-      "Net-(U21-VCC)": "VCC",
-      "Net-(U24-12VIN)": "+12V",
-      "Net-(U24-5Vin-PadA1)": "VCC",
-      "Net-(U24-VCCcore-PadA10)": "VCCCORE",
-      "Net-(U3-+3.3V-PadA21)": "VCC3",
-      "Net-(U3-+3.3V-PadB25)": "VCC3",
-      "Net-(U3-+5V-PadA05)": "VCC",
-      "Net-(U3-+5V-PadB05)": "VCC",
-      "Net-(U3-VCC-Pad102)": "VCC3",
-      "Net-(U3001-VCC-Pad101)": "VCC",
-      "Net-(U4-+3.3V-PadA21)": "VCC3",
-      "Net-(U4-+3.3V-PadB25)": "VCC3",
-      "Net-(U4-+5V-PadA05)": "VCC",
-      "Net-(U4-+5V-PadB05)": "VCC",
-      "Net-(U4-VCC-Pad102)": "VCC3",
-      "Net-(U5-VCC-PadB29)": "+5V",
-      "Net-(U6-VCC-Pad101)": "VCC",
-      "Net-(U6-VCC-Pad102)": "VCC3",
-      "Net-(U6-VCC-PadB29)": "VCC",
-      "Net-(U6001-VDD-PadAA18)": "VCC3",
-      "Net-(U6001-VTTA)": "VTT",
-      "Net-(U8-5V-PadB2)": "VCC",
-      "Net-(U8-VCC-Pad102)": "VCC3",
-      "Net-(U8-Vddq3.3-PadA34)": "VCC3",
-      "Net-(U9-5V-PadB2)": "VCC",
-      "Net-(U9-Vddq3.3-PadA34)": "VCC3",
-      "Net-(VR1-VI)": "VCC3",
-      "Net-(VR1-VO)": "VTT",
-      "Net-(VR2-VIN)": "+12V",
-      "Net-(VR24001-VIN)": "+12V",
-      "unconnected-(C164-Pad1)": "VCC3",
-      "unconnected-(C2001-Pad1)": "VCC3",
-      "unconnected-(C76-Pad1)": "VTT",
-      "unconnected-(C77-Pad1)": "+12V",
-      "unconnected-(CD103-Pad1)": "VCC",
-      "unconnected-(CD103-Pad2)": "VCCCORE",
-      "unconnected-(CD22029-Pad1)": "VCC",
-      "unconnected-(CD22029-Pad2)": "VCCCORE",
-      "unconnected-(CD50-Pad1)": "VCC",
-      "unconnected-(CD50-Pad2)": "VCCCORE",
-      "unconnected-(D1-A-Pad1)": "VCC3",
-      "unconnected-(D1-A-Pad2)": "VCC",
-      "unconnected-(D15001-A-Pad2)": "VCC",
-      "unconnected-(D2-A-Pad1)": "3VSB",
-      "unconnected-(D4-A-Pad2)": "VCC",
-      "unconnected-(D5002-A-Pad1)": "VCC3",
-      "unconnected-(F1-Pad1)": "VCC",
-      "unconnected-(F13001-Pad1)": "VCC",
-      "unconnected-(F13002-Pad1)": "VCC",
-      "unconnected-(F17001-Pad1)": "VCC",
-      "unconnected-(F2-Pad1)": "VCC",
-      "unconnected-(F3-Pad1)": "VCC",
-      "unconnected-(F4-Pad1)": "VCC",
-      "unconnected-(F95-Pad1)": "VCC",
-      "unconnected-(F96-Pad1)": "VCC",
-      "unconnected-(J10-Pin_1-Pad1)": "5VSB",
-      "unconnected-(J10001-+12V-PadA02)": "+12V",
-      "unconnected-(J10001--12V-PadB01)": "-12V",
-      "unconnected-(J10002-+12V-PadA02)": "+12V",
-      "unconnected-(J10002--12V-PadB01)": "-12V",
-      "unconnected-(J11001-+12V-PadB9)": "+12V",
-      "unconnected-(J11001--12V-PadB7)": "-12V",
-      "unconnected-(J11001--5V-PadB5)": "-5V",
-      "unconnected-(J11002-+12V-PadB9)": "+12V",
-      "unconnected-(J11002--12V-PadB7)": "-12V",
-      "unconnected-(J11002--5V-PadB5)": "-5V",
-      "unconnected-(J27-Pin_1-Pad1)": "VCC",
-      "unconnected-(J30--12V-Pad14)": "-12V",
-      "unconnected-(J30--5V-Pad20)": "-5V",
-      "unconnected-(J32-12V-PadA1)": "+12V",
-      "unconnected-(J33-VCC_5-PadB109)": "VCC",
-      "unconnected-(J34-+12V-PadA02)": "+12V",
-      "unconnected-(J34--12V-PadB01)": "-12V",
-      "unconnected-(J35-+12V-PadA02)": "+12V",
-      "unconnected-(J35--12V-PadB01)": "-12V",
-      "unconnected-(J36-+12V-PadA02)": "+12V",
-      "unconnected-(J36--12V-PadB01)": "-12V",
-      "unconnected-(J37-+12V-PadA02)": "+12V",
-      "unconnected-(J37--12V-PadB01)": "-12V",
-      "unconnected-(J39-Pin_1-Pad1)": "5VSB",
-      "unconnected-(J8001-12V-PadA1)": "+12V",
-      "unconnected-(J9001-+12V-PadA02)": "+12V",
-      "unconnected-(J9001--12V-PadB01)": "-12V",
-      "unconnected-(J9002-+12V-PadA02)": "+12V",
-      "unconnected-(J9002--12V-PadB01)": "-12V",
-      "unconnected-(JP10-A-Pad1)": "+12V",
-      "unconnected-(JP14002-A-Pad1)": "+12V",
-      "unconnected-(JP14003-A-Pad1)": "+12V",
-      "unconnected-(JP22-A-Pad1)": "+12V",
-      "unconnected-(JP23-A-Pad1)": "+12V",
-      "unconnected-(JP9-A-Pad1)": "+12V",
-      "unconnected-(L14-Pad1)": "VCC2.5",
-      "unconnected-(L15-Pad1)": "VCC3",
-      "unconnected-(L16-Pad1)": "VCC3",
-      "unconnected-(R1-Pad2)": "VCC2.5",
-      "unconnected-(R1043-Pad2)": "VCC3",
-      "unconnected-(R11001-Pad1)": "VCC",
-      "unconnected-(R11002-Pad1)": "VCC",
-      "unconnected-(R113-Pad2)": "VCC3",
-      "unconnected-(R114-Pad2)": "VCC3",
-      "unconnected-(R12005-Pad2)": "VCC",
-      "unconnected-(R12006-Pad2)": "VCC",
-      "unconnected-(R121-Pad2)": "VCC3",
-      "unconnected-(R124-Pad1)": "VCC",
-      "unconnected-(R125-Pad1)": "VCC",
-      "unconnected-(R1254-Pad2)": "VCC3",
-      "unconnected-(R126-Pad1)": "VCC",
-      "unconnected-(R128-Pad1)": "VCC3",
-      "unconnected-(R129-Pad1)": "3VSB",
-      "unconnected-(R130-Pad1)": "3VSB",
-      "unconnected-(R131-Pad1)": "VCC3",
-      "unconnected-(R133-Pad1)": "VCC",
-      "unconnected-(R134-Pad1)": "+5VSB",
-      "unconnected-(R161-Pad2)": "3VSB",
-      "unconnected-(R174-Pad1)": "VCC3",
-      "unconnected-(R176-Pad2)": "VCC3",
-      "unconnected-(R18-Pad1)": "VCC",
-      "unconnected-(R19-Pad1)": "VCC",
-      "unconnected-(R196-Pad1)": "VCC3",
-      "unconnected-(R20-Pad2)": "VCC",
-      "unconnected-(R20002-Pad2)": "3VSB",
-      "unconnected-(R2001-Pad1)": "VCC3",
-      "unconnected-(R2007-Pad2)": "VCC2.5",
-      "unconnected-(R2008-Pad1)": "VCC2.5",
-      "unconnected-(R206-Pad1)": "VCC",
-      "unconnected-(R207-Pad1)": "VCCCORE",
-      "unconnected-(R208-Pad1)": "VTT",
-      "unconnected-(R209-Pad1)": "VCC3",
-      "unconnected-(R210-Pad1)": "VCC",
-      "unconnected-(R211-Pad1)": "+12V",
-      "unconnected-(R212-Pad1)": "-12V",
-      "unconnected-(R213-Pad1)": "-5V",
-      "unconnected-(R230-Pad2)": "VCC",
-      "unconnected-(R239-Pad1)": "VCC3",
-      "unconnected-(R243-Pad2)": "5VSB",
-      "unconnected-(R252-Pad2)": "VCC3",
-      "unconnected-(R253-Pad2)": "VCC3",
-      "unconnected-(R254-Pad2)": "VCC3",
-      "unconnected-(R258-Pad1)": "VCC",
-      "unconnected-(R274-Pad1)": "VCC",
-      "unconnected-(R275-Pad1)": "VCC",
-      "unconnected-(R287-Pad1)": "VCC",
-      "unconnected-(R288-Pad1)": "VCC",
-      "unconnected-(R290-Pad2)": "5VSB",
-      "unconnected-(R292-Pad2)": "5VSB",
-      "unconnected-(R3-Pad1)": "VCC2.5",
-      "unconnected-(R3001-Pad1)": "VCC",
-      "unconnected-(R3002-Pad1)": "VCC",
-      "unconnected-(R3004-Pad1)": "VCC",
-      "unconnected-(R3005-Pad1)": "VCC",
-      "unconnected-(R3006-Pad1)": "VCC",
-      "unconnected-(R32-Pad2)": "VCC",
-      "unconnected-(R370-Pad2)": "VCC3",
-      "unconnected-(R374-Pad1)": "VCC",
-      "unconnected-(R38-Pad2)": "VCC3",
-      "unconnected-(R404-Pad1)": "VCC",
-      "unconnected-(R42-Pad2)": "VCC3",
-      "unconnected-(R43-Pad2)": "VCC3",
-      "unconnected-(R46-Pad2)": "VCC",
-      "unconnected-(R5006-Pad2)": "5VSB",
-      "unconnected-(R5007-Pad2)": "VCC",
-      "unconnected-(R5008-Pad2)": "5VSB",
-      "unconnected-(R5014-Pad2)": "5VSB",
-      "unconnected-(R53-Pad1)": "VCC",
-      "unconnected-(R54-Pad1)": "VCC",
-      "unconnected-(R55-Pad1)": "VCC3",
-      "unconnected-(R56-Pad1)": "VCC3",
-      "unconnected-(R57-Pad1)": "VCC",
-      "unconnected-(R58-Pad1)": "VCC",
-      "unconnected-(R6001-Pad2)": "VCC3",
-      "unconnected-(R6023-Pad1)": "VCC3",
-      "unconnected-(R6026-Pad1)": "VCC3",
-      "unconnected-(R7001-Pad2)": "VCC3",
-      "unconnected-(R7002-Pad2)": "VCC3",
-      "unconnected-(R7003-Pad2)": "VCC3",
-      "unconnected-(R7004-Pad2)": "VCC3",
-      "unconnected-(R7005-Pad2)": "VCC3",
-      "unconnected-(R7006-Pad2)": "VCC3",
-      "unconnected-(R7007-Pad2)": "VCC3",
-      "unconnected-(R73-Pad1)": "VCC",
-      "unconnected-(R74-Pad1)": "VCC",
-      "unconnected-(R74-Pad2)": "VCC3",
-      "unconnected-(R77-Pad2)": "VCC",
-      "unconnected-(R78-Pad2)": "VCC",
-      "unconnected-(R8-Pad1)": "VCC",
-      "unconnected-(R8001-Pad1)": "VCC3",
-      "unconnected-(R8002-Pad1)": "VCC3",
-      "unconnected-(R81-Pad2)": "3VSB",
-      "unconnected-(R9-Pad1)": "VCC",
-      "unconnected-(R9003-Pad1)": "VCC",
-      "unconnected-(R9004-Pad1)": "VCC",
-      "unconnected-(RP19001-common-Pad1)": "VCC",
-      "unconnected-(RP19002-common-Pad1)": "VCC",
-      "unconnected-(RP19005-common-Pad1)": "VCC2.5",
-      "unconnected-(RP19006-common-Pad1)": "VCC3",
-      "unconnected-(RP19007-common-Pad1)": "3VSB",
-      "unconnected-(RP20002-common-Pad1)": "VCC",
-      "unconnected-(RP20003-common-Pad1)": "VCC",
-      "unconnected-(RP20004-common-Pad1)": "VCC",
-      "unconnected-(RP20005-common-Pad1)": "VCC",
-      "unconnected-(RP20006-common-Pad1)": "VCC",
-      "unconnected-(RP20008-common-Pad1)": "VCC",
-      "unconnected-(RP48-common-Pad1)": "VCC",
-      "unconnected-(RP49-common-Pad1)": "VCC3",
-      "unconnected-(RP50-common-Pad1)": "VCC",
-      "unconnected-(RP51-common-Pad1)": "VCC",
-      "unconnected-(RP52-common-Pad1)": "VCC",
-      "unconnected-(RP54-common-Pad1)": "VCC3",
-      "unconnected-(RP55-common-Pad1)": "VCC2.5",
-      "unconnected-(RP56-common-Pad1)": "3VSB",
-      "unconnected-(RP58-common-Pad1)": "VCC2.5",
-      "unconnected-(RP60-common-Pad1)": "VCC",
-      "unconnected-(RP61-common-Pad1)": "VCC",
-      "unconnected-(RP62-common-Pad1)": "VCC",
-      "unconnected-(RP63-common-Pad1)": "VCC",
-      "unconnected-(RP64-common-Pad1)": "VCC",
-      "unconnected-(RP65-common-Pad1)": "VCC",
-      "unconnected-(RP66-common-Pad1)": "VCC",
-      "unconnected-(RP67-common-Pad1)": "VCC",
-      "unconnected-(RP69-common-Pad1)": "VCC",
-      "unconnected-(RR1254-Pad2)": "VCC3",
-      "unconnected-(U1-+12V-PadA02)": "+12V",
-      "unconnected-(U1--12V-PadB01)": "-12V",
-      "unconnected-(U1-VCC_5-PadB109)": "VCC",
-      "unconnected-(U10-+12V-PadA02)": "+12V",
-      "unconnected-(U10--12V-PadB01)": "-12V",
-      "unconnected-(U10-V_{CC}-Pad20)": "VCC",
-      "unconnected-(U10-V_{DD}-Pad1)": "+12v",
-      "unconnected-(U10-V_{SS}-Pad10)": "-12v",
-      "unconnected-(U1001C-VCC-Pad14)": "5VSB",
-      "unconnected-(U11-+12V-PadA02)": "+12V",
-      "unconnected-(U11--12V-PadB01)": "-12V",
-      "unconnected-(U11-V_{CC}-Pad20)": "VCC",
-      "unconnected-(U11-V_{DD}-Pad1)": "+12v",
-      "unconnected-(U11-V_{SS}-Pad10)": "-12v",
-      "unconnected-(U12-+12V-PadA02)": "+12V",
-      "unconnected-(U12--12V-PadB01)": "-12V",
-      "unconnected-(U13-+12V-PadA02)": "+12V",
-      "unconnected-(U13--12V-PadB01)": "-12V",
-      "unconnected-(U14-+12V-PadB9)": "+12V",
-      "unconnected-(U14--12V-PadB7)": "-12V",
-      "unconnected-(U14--5V-PadB5)": "-5V",
-      "unconnected-(U15-+12V-PadB9)": "+12V",
-      "unconnected-(U15--12V-PadB7)": "-12V",
-      "unconnected-(U15--5V-PadB5)": "-5V",
-      "unconnected-(U17-2A-Pad3)": "5VSB",
-      "unconnected-(U17-VCC-Pad14)": "5VSB",
-      "unconnected-(U17A-VCC-Pad14)": "5VSB",
-      "unconnected-(U17B-2A-Pad3)": "5VSB",
-      "unconnected-(U17B-VCC-Pad14)": "5VSB",
-      "unconnected-(U2-+12V-PadA02)": "+12V",
-      "unconnected-(U2--12V-PadB01)": "-12V",
-      "unconnected-(U2002-VCC_5-PadB109)": "VCC",
-      "unconnected-(U28-VCC-Pad14)": "5VSB",
-      "unconnected-(U28A-VCC-Pad14)": "5VSB",
-      "unconnected-(U28B-GND-Pad7)": "5VSB",
-      "unconnected-(U3-+12V-PadA02)": "+12V",
-      "unconnected-(U3--12V-PadB01)": "-12V",
-      "unconnected-(U4-+12V-PadA02)": "+12V",
-      "unconnected-(U4--12V-PadB01)": "-12V",
-      "unconnected-(U5-+12V-PadB9)": "+12V",
-      "unconnected-(U5--12V-PadB7)": "-12V",
-      "unconnected-(U5--5V-PadB5)": "-5V",
-      "unconnected-(U5-VCC-Pad14)": "3VSB",
-      "unconnected-(U5001A-VCC-Pad14)": "3VSB",
-      "unconnected-(U5001F-VCC-Pad14)": "3VSB",
-      "unconnected-(U5002A-VCC-Pad14)": "5VSB",
-      "unconnected-(U5003B-2A-Pad3)": "5VSB",
-      "unconnected-(U5003B-VCC-Pad14)": "5VSB",
-      "unconnected-(U5A-VCC-Pad14)": "3VSB",
-      "unconnected-(U5B-VCC-Pad14)": "3VSB",
-      "unconnected-(U5C-VCC-Pad14)": "3VSB",
-      "unconnected-(U5D-VCC-Pad14)": "3VSB",
-      "unconnected-(U5E-VCC-Pad14)": "3VSB",
-      "unconnected-(U5F-VCC-Pad14)": "3VSB",
-      "unconnected-(U6-+12V-PadB9)": "+12V",
-      "unconnected-(U6--12V-PadB7)": "-12V",
-      "unconnected-(U6--5V-PadB5)": "-5V",
-      "unconnected-(U8-12V-PadA1)": "+12V",
-      "unconnected-(U9-12V-PadA1)": "+12V"
+      "/KEYBOARD MOUSE/TP095": [
+        "TP29"
+      ],
+      "/KEYBOARD MOUSE/TP096": [
+        "TP30"
+      ],
+      "/KEYBOARD MOUSE/TP097": [
+        "TP31"
+      ],
+      "/KEYBOARD MOUSE/TP098": [
+        "TP32"
+      ],
+      "/PII4XE/GPO27": [
+        "TP3"
+      ],
+      "/PII4XE/GPO28": [
+        "TP4"
+      ],
+      "/PII4XE/PGCS#0": [
+        "TP5"
+      ],
+      "/PS2 CONNS/TP095": [
+        "TP29"
+      ],
+      "/PS2 CONNS/TP096": [
+        "TP30"
+      ],
+      "/PS2 CONNS/TP097": [
+        "TP31"
+      ],
+      "/PS2 CONNS/TP098": [
+        "TP32"
+      ],
+      "/Power Connector & Misc/TP888": [
+        "TP33"
+      ],
+      "/SERIAL AND FLOPPY/TP094": [
+        "TP28"
+      ],
+      "/SERIAL FLOPPY/TP094": [
+        "TP28"
+      ],
+      "/ULTRA-IO.kicad_sch/TP069": [
+        "TP26"
+      ],
+      "/ULTRA-IO.kicad_sch/TP070": [
+        "TP25"
+      ],
+      "/ULTRA-IO.kicad_sch/TP071": [
+        "TP24"
+      ],
+      "/ULTRA-IO.kicad_sch/TP072": [
+        "TP20"
+      ],
+      "/ULTRA-IO.kicad_sch/TP073": [
+        "TP18"
+      ],
+      "/ULTRA-IO.kicad_sch/TP075": [
+        "TP23"
+      ],
+      "/ULTRA-IO.kicad_sch/TP076": [
+        "TP6"
+      ],
+      "/ULTRA-IO.kicad_sch/TP077": [
+        "TP7"
+      ],
+      "/ULTRA-IO.kicad_sch/TP078": [
+        "TP19"
+      ],
+      "/ULTRA-IO.kicad_sch/TP079": [
+        "TP17"
+      ],
+      "/ULTRA-IO.kicad_sch/TP080": [
+        "TP10"
+      ],
+      "/ULTRA-IO.kicad_sch/TP081": [
+        "TP11"
+      ],
+      "/ULTRA-IO.kicad_sch/TP082": [
+        "TP12"
+      ],
+      "/ULTRA-IO.kicad_sch/TP083": [
+        "TP14"
+      ],
+      "/ULTRA-IO.kicad_sch/TP084": [
+        "TP16"
+      ],
+      "/ULTRA-IO.kicad_sch/TP085": [
+        "TP21"
+      ],
+      "/ULTRA-IO.kicad_sch/TP087": [
+        "TP22"
+      ],
+      "/ULTRA-IO.kicad_sch/TP088": [
+        "TP8"
+      ],
+      "/ULTRA-IO.kicad_sch/TP090": [
+        "TP9"
+      ],
+      "/ULTRA-IO.kicad_sch/TP091": [
+        "TP15"
+      ],
+      "/ULTRA-IO.kicad_sch/TP092": [
+        "TP13"
+      ],
+      "/ULTRAIO/TP069": [
+        "TP26"
+      ],
+      "/ULTRAIO/TP070": [
+        "TP25"
+      ],
+      "/ULTRAIO/TP071": [
+        "TP24"
+      ],
+      "/ULTRAIO/TP072": [
+        "TP20"
+      ],
+      "/ULTRAIO/TP073": [
+        "TP18"
+      ],
+      "/ULTRAIO/TP075": [
+        "TP23"
+      ],
+      "/ULTRAIO/TP076": [
+        "TP6"
+      ],
+      "/ULTRAIO/TP077": [
+        "TP7"
+      ],
+      "/ULTRAIO/TP078": [
+        "TP19"
+      ],
+      "/ULTRAIO/TP079": [
+        "TP17"
+      ],
+      "/ULTRAIO/TP080": [
+        "TP10"
+      ],
+      "/ULTRAIO/TP081": [
+        "TP11"
+      ],
+      "/ULTRAIO/TP082": [
+        "TP12"
+      ],
+      "/ULTRAIO/TP083": [
+        "TP14"
+      ],
+      "/ULTRAIO/TP084": [
+        "TP16"
+      ],
+      "/ULTRAIO/TP085": [
+        "TP21"
+      ],
+      "/ULTRAIO/TP087": [
+        "TP22"
+      ],
+      "/ULTRAIO/TP088": [
+        "TP8"
+      ],
+      "/ULTRAIO/TP090": [
+        "TP9"
+      ],
+      "/ULTRAIO/TP091": [
+        "TP15"
+      ],
+      "/ULTRAIO/TP092": [
+        "TP13"
+      ],
+      "/VRM/V25_R1": [
+        "VCC2.5",
+        "VCC3"
+      ],
+      "/VRMS/V25_R1": [
+        "VCC2.5",
+        "VCC3"
+      ],
+      "/VRMS1/V25_R1": [
+        "VCC3"
+      ],
+      "AGP_OC#": [
+        "VCC3"
+      ],
+      "Net-(C1-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C100-Pad1)": [
+        "VCC"
+      ],
+      "Net-(C101-Pad1)": [
+        "+12V"
+      ],
+      "Net-(C102-Pad1)": [
+        "+5V"
+      ],
+      "Net-(C103-Pad1)": [
+        "-12V"
+      ],
+      "Net-(C170-Pad1)": [
+        "VCC2.5"
+      ],
+      "Net-(C170-Pad2)": [
+        "VCC2.5"
+      ],
+      "Net-(C171-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C171-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(C185-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C2-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C21001-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C21004-Pad2)": [
+        "VCC2.5"
+      ],
+      "Net-(C21006-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C22001-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C22002-Pad1)": [
+        "VCC"
+      ],
+      "Net-(C22003-Pad1)": [
+        "+12V"
+      ],
+      "Net-(C22004-Pad1)": [
+        "+5V"
+      ],
+      "Net-(C22005-Pad1)": [
+        "-12V"
+      ],
+      "Net-(C61-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C62-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C63-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C66-Pad1)": [
+        "VCC2.5"
+      ],
+      "Net-(C67-Pad1)": [
+        "+12V"
+      ],
+      "Net-(C68-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C69-Pad1)": [
+        "+5V"
+      ],
+      "Net-(C70-Pad1)": [
+        "VCC"
+      ],
+      "Net-(C71-Pad1)": [
+        "-12V"
+      ],
+      "Net-(C96-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(C99-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(CD100-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD101-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD102-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD13-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(CD19-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(CD21001-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(CD22005-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(CD22026-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD22027-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD22028-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD23001-Pad2)": [
+        "VTT"
+      ],
+      "Net-(CD31-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD37-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD44-Pad2)": [
+        "VCCCORE"
+      ],
+      "Net-(CD49-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(CD51-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(CD69-Pad2)": [
+        "VTT"
+      ],
+      "Net-(CD70-Pad2)": [
+        "VTT"
+      ],
+      "Net-(D5-K)": [
+        "3VSB"
+      ],
+      "Net-(J10001-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J10001-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J10001-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J10001-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J10002-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J10002-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J10002-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J10002-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J11001-VCC-PadB29)": [
+        "VCC"
+      ],
+      "Net-(J11002-VCC-PadB29)": [
+        "VCC"
+      ],
+      "Net-(J24-12VIN)": [
+        "+12V"
+      ],
+      "Net-(J24-5Vin-PadA1)": [
+        "VCC"
+      ],
+      "Net-(J24-VCCcore-PadA10)": [
+        "VCCCORE"
+      ],
+      "Net-(J26-Pin_1)": [
+        "+12V"
+      ],
+      "Net-(J30-+12V-Pad10)": [
+        "+12v"
+      ],
+      "Net-(J30-+3.3V-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(J30-+5V-Pad21)": [
+        "VCC"
+      ],
+      "Net-(J30-+5VSB)": [
+        "+5VSB"
+      ],
+      "Net-(J32-5V-PadB2)": [
+        "VCC"
+      ],
+      "Net-(J32-Vddq3.3-PadA34)": [
+        "VCC3"
+      ],
+      "Net-(J33-VCC_3-PadB113)": [
+        "VCC3"
+      ],
+      "Net-(J33-VCC_CORE-PadB105)": [
+        "VCCCORE"
+      ],
+      "Net-(J33-VCC_VTT-PadA01)": [
+        "VCC_VTT"
+      ],
+      "Net-(J34-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J34-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J34-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J34-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J35-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J35-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J35-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J35-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J36-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J36-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J36-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J36-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J37-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J37-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J37-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J37-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J4-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J5-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J6-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J7-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J7001-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J7002-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J7003-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J7004-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(J8001-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J8001-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J8001-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J8001-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J8001-5V-PadB2)": [
+        "VCC"
+      ],
+      "Net-(J8001-VCC_3-PadB113)": [
+        "VCC3"
+      ],
+      "Net-(J8001-VCC_CORE-PadB105)": [
+        "VCCCORE"
+      ],
+      "Net-(J8001-VCC_VTT-PadA01)": [
+        "VCC_VTT"
+      ],
+      "Net-(J8001-Vddq3.3-PadA34)": [
+        "VCC3"
+      ],
+      "Net-(J8002-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J8002-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J8002-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J8002-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J8003-VCC_3-PadB113)": [
+        "VCC3"
+      ],
+      "Net-(J8003-VCC_CORE-PadB105)": [
+        "VCCCORE"
+      ],
+      "Net-(J8003-VCC_VTT-PadA01)": [
+        "VCC_VTT"
+      ],
+      "Net-(J9001-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J9001-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J9001-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J9001-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(J9002-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(J9002-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(J9002-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(J9002-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(JP15-B)": [
+        "3VSB"
+      ],
+      "Net-(Q7-S)": [
+        "+12V"
+      ],
+      "Net-(R1-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R10-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R10-Pad1)_1": [
+        "VCC"
+      ],
+      "Net-(R11-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R136-Pad2)": [
+        "VCC2.5"
+      ],
+      "Net-(R143-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(R160-Pad2)": [
+        "VCC"
+      ],
+      "Net-(R18-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(R19001-Pad2)": [
+        "VCC2.5"
+      ],
+      "Net-(R19008-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(R20001-Pad2)": [
+        "VCC"
+      ],
+      "Net-(R2009-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R2015-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R231-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R234-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(R242-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(R59-Pad2)": [
+        "VCC2.5"
+      ],
+      "Net-(R61-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R61-Pad2)": [
+        "VCC3"
+      ],
+      "Net-(R67-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R8001-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R8014-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R8020-Pad1)": [
+        "VCC"
+      ],
+      "Net-(R82-Pad2)": [
+        "VCC"
+      ],
+      "Net-(RP1-R1.1)": [
+        "VCC"
+      ],
+      "Net-(RP1-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP16001-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP17-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP18-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP18001-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP18019-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP18021-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP18023-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP18025-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP18027-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP18029-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP19-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP19004-R1.2)": [
+        "VCC3"
+      ],
+      "Net-(RP19009-R1.2)": [
+        "VCC3"
+      ],
+      "Net-(RP2-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP20001-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP3-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP3001-R1.1)": [
+        "VCC"
+      ],
+      "Net-(RP40-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP42-R1.2)": [
+        "VTT"
+      ],
+      "Net-(RP53-R1.2)": [
+        "VCC3"
+      ],
+      "Net-(RP55-R1.2)": [
+        "VCC3"
+      ],
+      "Net-(RP59-R1.2)": [
+        "VCC3"
+      ],
+      "Net-(RP62-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP8001-R1.2)": [
+        "VCC"
+      ],
+      "Net-(RP9001-R1.2)": [
+        "VCC"
+      ],
+      "Net-(U1-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U1-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U1-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U1-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U1-VCC_3-PadB113)": [
+        "VCC3"
+      ],
+      "Net-(U1-VCC_CORE-PadB105)": [
+        "VCCCORE"
+      ],
+      "Net-(U1-VCC_VTT-PadA01)": [
+        "VCC_VTT"
+      ],
+      "Net-(U10-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U10-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U10-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U10-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U11-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U11-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U11-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U11-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U12-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U12-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U12-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U12-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U13-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U13-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U13-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U13-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U14-VCC-PadB29)": [
+        "+5V"
+      ],
+      "Net-(U15-VCC-PadB29)": [
+        "VCC"
+      ],
+      "Net-(U19-VDD-PadAA18)": [
+        "VCC3"
+      ],
+      "Net-(U19-VTTA)": [
+        "VTT"
+      ],
+      "Net-(U2-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U2-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U2-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U2-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U2-VDD-PadAA18)": [
+        "VCC3"
+      ],
+      "Net-(U2-VTTA)": [
+        "VTT"
+      ],
+      "Net-(U2002-VCC_3-PadB113)": [
+        "VCC3"
+      ],
+      "Net-(U2002-VCC_CORE-PadB105)": [
+        "VCCCORE"
+      ],
+      "Net-(U2002-VCC_VTT-PadA01)": [
+        "VCC_VTT"
+      ],
+      "Net-(U21-VCC)": [
+        "VCC"
+      ],
+      "Net-(U24-12VIN)": [
+        "+12V"
+      ],
+      "Net-(U24-5Vin-PadA1)": [
+        "VCC"
+      ],
+      "Net-(U24-VCCcore-PadA10)": [
+        "VCCCORE"
+      ],
+      "Net-(U3-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U3-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U3-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U3-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U3-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(U3001-VCC-Pad101)": [
+        "VCC"
+      ],
+      "Net-(U4-+3.3V-PadA21)": [
+        "VCC3"
+      ],
+      "Net-(U4-+3.3V-PadB25)": [
+        "VCC3"
+      ],
+      "Net-(U4-+5V-PadA05)": [
+        "VCC"
+      ],
+      "Net-(U4-+5V-PadB05)": [
+        "VCC"
+      ],
+      "Net-(U4-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(U5-VCC-PadB29)": [
+        "+5V"
+      ],
+      "Net-(U6-VCC-Pad101)": [
+        "VCC"
+      ],
+      "Net-(U6-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(U6-VCC-PadB29)": [
+        "VCC"
+      ],
+      "Net-(U6001-VDD-PadAA18)": [
+        "VCC3"
+      ],
+      "Net-(U6001-VTTA)": [
+        "VTT"
+      ],
+      "Net-(U8-5V-PadB2)": [
+        "VCC"
+      ],
+      "Net-(U8-VCC-Pad102)": [
+        "VCC3"
+      ],
+      "Net-(U8-Vddq3.3-PadA34)": [
+        "VCC3"
+      ],
+      "Net-(U9-5V-PadB2)": [
+        "VCC"
+      ],
+      "Net-(U9-Vddq3.3-PadA34)": [
+        "VCC3"
+      ],
+      "Net-(VR1-VI)": [
+        "VCC3"
+      ],
+      "Net-(VR1-VO)": [
+        "VTT"
+      ],
+      "Net-(VR2-VIN)": [
+        "+12V"
+      ],
+      "Net-(VR24001-VIN)": [
+        "+12V"
+      ],
+      "unconnected-(C164-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(C164-Pad1)_1": [
+        "VCC3"
+      ],
+      "unconnected-(C2001-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(C76-Pad1)": [
+        "VTT"
+      ],
+      "unconnected-(C77-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(C8002-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(C8006-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(CD103-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(CD103-Pad2)": [
+        "VCCCORE"
+      ],
+      "unconnected-(CD22029-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(CD22029-Pad2)": [
+        "VCCCORE"
+      ],
+      "unconnected-(CD50-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(CD50-Pad2)": [
+        "VCCCORE"
+      ],
+      "unconnected-(D1-A-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(D1-A-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(D15001-A-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(D2-A-Pad1)": [
+        "3VSB"
+      ],
+      "unconnected-(D4-A-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(D5002-A-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(F1-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F13001-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F13002-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F17001-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F2-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F3-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F4-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F95-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(F96-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(J10-Pin_1-Pad1)": [
+        "5VSB"
+      ],
+      "unconnected-(J10001-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J10001--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J10002-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J10002--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J11001-+12V-PadB9)": [
+        "+12V"
+      ],
+      "unconnected-(J11001--12V-PadB7)": [
+        "-12V"
+      ],
+      "unconnected-(J11001--5V-PadB5)": [
+        "-5V"
+      ],
+      "unconnected-(J11002-+12V-PadB9)": [
+        "+12V"
+      ],
+      "unconnected-(J11002--12V-PadB7)": [
+        "-12V"
+      ],
+      "unconnected-(J11002--5V-PadB5)": [
+        "-5V"
+      ],
+      "unconnected-(J27-Pin_1-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(J30--12V-Pad14)": [
+        "-12V"
+      ],
+      "unconnected-(J30--5V-Pad20)": [
+        "-5V"
+      ],
+      "unconnected-(J32-12V-PadA1)": [
+        "+12V"
+      ],
+      "unconnected-(J33-VCC_5-PadB109)": [
+        "VCC"
+      ],
+      "unconnected-(J34-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J34--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J35-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J35--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J36-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J36--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J37-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J37--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J39-Pin_1-Pad1)": [
+        "5VSB"
+      ],
+      "unconnected-(J8001-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J8001--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J8001-12V-PadA1)": [
+        "+12V"
+      ],
+      "unconnected-(J8001-VCC_5-PadB109)": [
+        "VCC"
+      ],
+      "unconnected-(J8002-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J8002--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J8003-VCC_5-PadB109)": [
+        "VCC"
+      ],
+      "unconnected-(J9001-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J9001--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(J9002-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(J9002--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(JP10-A-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(JP14002-A-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(JP14003-A-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(JP22-A-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(JP23-A-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(JP9-A-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(L14-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(L15-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(L16-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R1-Pad2)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R1-Pad2)_1": [
+        "VCC2.5"
+      ],
+      "unconnected-(R1043-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R11001-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R11002-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R113-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R114-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R12005-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R12006-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R121-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R124-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R125-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R1254-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R126-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R128-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R129-Pad1)": [
+        "3VSB"
+      ],
+      "unconnected-(R130-Pad1)": [
+        "3VSB"
+      ],
+      "unconnected-(R131-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R133-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R134-Pad1)": [
+        "+5VSB"
+      ],
+      "unconnected-(R161-Pad2)": [
+        "3VSB"
+      ],
+      "unconnected-(R174-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R176-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R18-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R19-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R196-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R20-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R20002-Pad2)": [
+        "3VSB"
+      ],
+      "unconnected-(R2001-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R2007-Pad2)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R2008-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R206-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R207-Pad1)": [
+        "VCCCORE"
+      ],
+      "unconnected-(R208-Pad1)": [
+        "VTT"
+      ],
+      "unconnected-(R209-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R210-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R211-Pad1)": [
+        "+12V"
+      ],
+      "unconnected-(R212-Pad1)": [
+        "-12V"
+      ],
+      "unconnected-(R213-Pad1)": [
+        "-5V"
+      ],
+      "unconnected-(R230-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R239-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R239-Pad1)_1": [
+        "VCC3"
+      ],
+      "unconnected-(R243-Pad2)": [
+        "5VSB"
+      ],
+      "unconnected-(R252-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R253-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R254-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R258-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R274-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R275-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R287-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R288-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R290-Pad2)": [
+        "5VSB"
+      ],
+      "unconnected-(R292-Pad2)": [
+        "5VSB"
+      ],
+      "unconnected-(R3-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R3001-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R3002-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R3004-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R3005-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R3006-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R32-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R370-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R374-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R38-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R404-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R42-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R43-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R46-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R5006-Pad2)": [
+        "5VSB"
+      ],
+      "unconnected-(R5007-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R5008-Pad2)": [
+        "5VSB"
+      ],
+      "unconnected-(R5014-Pad2)": [
+        "5VSB"
+      ],
+      "unconnected-(R53-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R54-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R55-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R56-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R57-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R58-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R6001-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R6023-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R6026-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R7001-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R7002-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R7003-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R7004-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R7005-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R7006-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R7007-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R73-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R74-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R74-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R77-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R78-Pad2)": [
+        "VCC"
+      ],
+      "unconnected-(R8-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R8001-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R8001-Pad2)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R8002-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R8007-Pad2)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R8012-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R8013-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R8018-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R8019-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R81-Pad2)": [
+        "3VSB"
+      ],
+      "unconnected-(R9-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R9003-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(R9004-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP19001-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP19002-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP19005-common-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(RP19006-common-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(RP19007-common-Pad1)": [
+        "3VSB"
+      ],
+      "unconnected-(RP20002-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP20003-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP20004-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP20005-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP20006-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP20008-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP48-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP49-common-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(RP50-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP51-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP52-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP54-common-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(RP55-common-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(RP56-common-Pad1)": [
+        "3VSB"
+      ],
+      "unconnected-(RP58-common-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(RP60-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP61-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP62-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP63-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP64-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP65-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP66-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP67-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RP69-common-Pad1)": [
+        "VCC"
+      ],
+      "unconnected-(RR1254-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(U1-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U1--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U1-VCC_5-PadB109)": [
+        "VCC"
+      ],
+      "unconnected-(U10-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U10--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U10-V_{CC}-Pad20)": [
+        "VCC"
+      ],
+      "unconnected-(U10-V_{DD}-Pad1)": [
+        "+12v"
+      ],
+      "unconnected-(U10-V_{SS}-Pad10)": [
+        "-12v"
+      ],
+      "unconnected-(U1001C-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U11-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U11--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U11-V_{CC}-Pad20)": [
+        "VCC"
+      ],
+      "unconnected-(U11-V_{DD}-Pad1)": [
+        "+12v"
+      ],
+      "unconnected-(U11-V_{SS}-Pad10)": [
+        "-12v"
+      ],
+      "unconnected-(U12-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U12--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U13-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U13--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U14-+12V-PadB9)": [
+        "+12V"
+      ],
+      "unconnected-(U14--12V-PadB7)": [
+        "-12V"
+      ],
+      "unconnected-(U14--5V-PadB5)": [
+        "-5V"
+      ],
+      "unconnected-(U15-+12V-PadB9)": [
+        "+12V"
+      ],
+      "unconnected-(U15--12V-PadB7)": [
+        "-12V"
+      ],
+      "unconnected-(U15--5V-PadB5)": [
+        "-5V"
+      ],
+      "unconnected-(U17-2A-Pad3)": [
+        "5VSB"
+      ],
+      "unconnected-(U17-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U17A-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U17B-2A-Pad3)": [
+        "5VSB"
+      ],
+      "unconnected-(U17B-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U2-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U2--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U2002-VCC_5-PadB109)": [
+        "VCC"
+      ],
+      "unconnected-(U28-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U28A-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U28B-GND-Pad7)": [
+        "5VSB"
+      ],
+      "unconnected-(U3-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U3--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U4-+12V-PadA02)": [
+        "+12V"
+      ],
+      "unconnected-(U4--12V-PadB01)": [
+        "-12V"
+      ],
+      "unconnected-(U5-+12V-PadB9)": [
+        "+12V"
+      ],
+      "unconnected-(U5--12V-PadB7)": [
+        "-12V"
+      ],
+      "unconnected-(U5--5V-PadB5)": [
+        "-5V"
+      ],
+      "unconnected-(U5-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5001A-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5001F-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5002A-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U5003B-2A-Pad3)": [
+        "5VSB"
+      ],
+      "unconnected-(U5003B-VCC-Pad14)": [
+        "5VSB"
+      ],
+      "unconnected-(U5A-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5B-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5C-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5D-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5E-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U5F-VCC-Pad14)": [
+        "3VSB"
+      ],
+      "unconnected-(U6-+12V-PadB9)": [
+        "+12V"
+      ],
+      "unconnected-(U6--12V-PadB7)": [
+        "-12V"
+      ],
+      "unconnected-(U6--5V-PadB5)": [
+        "-5V"
+      ],
+      "unconnected-(U8-12V-PadA1)": [
+        "+12V"
+      ],
+      "unconnected-(U9-12V-PadA1)": [
+        "+12V"
+      ]
     },
     "netclass_patterns": []
   },
@@ -1076,6 +2286,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -1108,8 +2319,9 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://440BX REFERENCE DESIGN.kicad_wks",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -1125,20 +2337,16 @@
       "Root"
     ],
     [
-      "5fdc826b-6626-4913-807b-069554d316bd",
-      "SLOT 1 CONNECTOR"
+      "1429e29f-9b79-44a6-b899-618b74bf12c1",
+      "BLOCK DIAGRAM"
     ],
     [
-      "4ae91877-d4a0-470c-bf63-ff31a246f62d",
-      "ULTRAIO"
+      "5fdc826b-6626-4913-807b-069554d316bd",
+      "SLOT 1 (PART I)"
     ],
     [
       "265f68ea-d5af-47e5-b361-9da793f8df8c",
       "CLOCK SYNTHESIZER"
-    ],
-    [
-      "d55f89e6-5b37-4815-973b-6303e5005bba",
-      "PII4XE"
     ],
     [
       "64138dad-0552-4410-af5b-f91ef9e9a39f",
@@ -1149,16 +2357,20 @@
       "DIMM SOCKETS"
     ],
     [
+      "d55f89e6-5b37-4815-973b-6303e5005bba",
+      "PII4XE"
+    ],
+    [
+      "4ae91877-d4a0-470c-bf63-ff31a246f62d",
+      "ULTRA-IO.kicad_sch"
+    ],
+    [
       "b5e0bb4f-60a8-4f96-ba38-e27a7f7da466",
       "AGP CONNECTOR"
     ],
     [
       "e4eeeccb-2172-49c5-baf6-923b28080366",
-      "PCI CONNECTORS"
-    ],
-    [
-      "be75dd4e-fe37-4466-bc74-689026b53b1d",
-      "PCI CONNECTORS1"
+      "PCI CONNECTORS 1 & 2"
     ],
     [
       "c15c0eff-1e72-48d0-b4bd-7dd4043af671",
@@ -1182,15 +2394,19 @@
     ],
     [
       "3020945b-4e4f-4f21-b402-e212ded40366",
-      "SERIAL AND FLOPPY"
+      "SERIAL FLOPPY"
     ],
     [
       "cb7401be-6441-4669-a469-cab4d3dca15b",
-      "PS2 CONNS"
+      "KEYBOARD MOUSE"
     ],
     [
-      "c4377d3c-f036-48c4-9526-82a7fdb86ffc",
-      "HARDWARE MONITOR"
+      "c79a4051-ac56-4e8a-8db0-9f101ca7dcf5",
+      "VRM"
+    ],
+    [
+      "0d44c185-cd8d-427c-aae6-f699898e47c6",
+      "Power Connector & Misc"
     ],
     [
       "42ff7eec-c187-4ca3-9790-357a8b504e3d",
@@ -1217,12 +2433,16 @@
       "TERMINATION DECOUPLING"
     ],
     [
-      "c79a4051-ac56-4e8a-8db0-9f101ca7dcf5",
-      "VRMS"
+      "c4377d3c-f036-48c4-9526-82a7fdb86ffc",
+      "LM79"
     ],
     [
-      "0d44c185-cd8d-427c-aae6-f699898e47c6",
-      "Power Connector & Misc"
+      "fcc266a0-3641-408e-8ed9-4d56a83ccf3e",
+      "SLOT 1 (PART II)"
+    ],
+    [
+      "be75dd4e-fe37-4466-bc74-689026b53b1d",
+      "PCI CONNECTORS 3 & 4"
     ]
   ],
   "text_variables": {}

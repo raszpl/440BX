@@ -1,12 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20241004)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "c21d09c4-6e55-413b-846c-46e45027be87")
 	(paper "A3")
+	(title_block
+		(date "Thursday, April 09, 1998")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +85,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,12 +146,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -272,7 +283,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 103.378 68.072)
+		(end 204.978 225.044)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d061444-273b-4cd2-989e-779bc920ac0c)
+	)
+	(text "TERMINATION \nVOLTAGE DECOUPLING"
+		(exclude_from_sim no)
+		(at 157.734 78.232 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "1547a883-a80c-429b-b863-9f54b28375c6")
 	)
 	(junction
 		(at 148.59 188.722)
@@ -1093,28 +1127,6 @@
 			(type default)
 		)
 		(uuid "f35ce833-0474-4c3f-8788-8958951483c4")
-	)
-	(rectangle
-		(start 103.378 68.072)
-		(end 204.978 225.044)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3d061444-273b-4cd2-989e-779bc920ac0c)
-	)
-	(text "TERMINATION \nVOLTAGE DECOUPLING"
-		(exclude_from_sim no)
-		(at 157.734 78.232 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "1547a883-a80c-429b-b863-9f54b28375c6")
 	)
 	(netclass_flag ""
 		(length 2.54)

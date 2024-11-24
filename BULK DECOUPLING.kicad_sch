@@ -1,12 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20241004)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "c21d09c4-6e55-413b-846c-46e45027be87")
 	(paper "A3")
+	(title_block
+		(date "Thursday, April 09, 1998")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +85,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,11 +146,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -249,9 +260,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -299,12 +310,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -431,7 +447,74 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 259.842 78.232)
+		(end 356.362 227.838)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37c66b7b-9f04-4449-8929-dce806e01a46)
+	)
+	(rectangle
+		(start 81.534 29.972)
+		(end 231.902 153.162)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 645c0c84-362c-4e75-8c85-be366b59a96b)
+	)
+	(rectangle
+		(start 54.864 166.878)
+		(end 248.666 265.684)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fd1e2e91-f21e-4344-a2f0-1f7c328b2a03)
+	)
+	(text "CORE VOLTAGE DECOUPLING"
+		(exclude_from_sim no)
+		(at 137.414 174.498 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "505e1f37-8979-4169-90d9-8c4646fe4287")
+	)
+	(text "3VOLT DECOUPLING"
+		(exclude_from_sim no)
+		(at 304.8 90.17 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "b62aaf6e-3951-4bca-81a7-b73bc9ec14b3")
+	)
+	(text "BULK POWER DECOUPLING\n"
+		(exclude_from_sim no)
+		(at 168.91 43.688 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "be2d5cf7-3011-4b0a-8d56-586b19948e2d")
 	)
 	(junction
 		(at 156.972 85.598)
@@ -2746,72 +2829,6 @@
 			(type default)
 		)
 		(uuid "ffa1a9ae-a93a-4133-8503-682ccadaa8bf")
-	)
-	(rectangle
-		(start 259.842 78.232)
-		(end 356.362 227.838)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 37c66b7b-9f04-4449-8929-dce806e01a46)
-	)
-	(rectangle
-		(start 81.534 29.972)
-		(end 231.902 153.162)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 645c0c84-362c-4e75-8c85-be366b59a96b)
-	)
-	(rectangle
-		(start 54.864 166.878)
-		(end 248.666 265.684)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fd1e2e91-f21e-4344-a2f0-1f7c328b2a03)
-	)
-	(text "CORE VOLTAGE DECOUPLING"
-		(exclude_from_sim no)
-		(at 137.414 174.498 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "505e1f37-8979-4169-90d9-8c4646fe4287")
-	)
-	(text "3VOLT DECOUPLING"
-		(exclude_from_sim no)
-		(at 304.8 90.17 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "b62aaf6e-3951-4bca-81a7-b73bc9ec14b3")
-	)
-	(text "BULK POWER DECOUPLING\n"
-		(exclude_from_sim no)
-		(at 168.91 43.688 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "be2d5cf7-3011-4b0a-8d56-586b19948e2d")
 	)
 	(netclass_flag ""
 		(length 2.54)
