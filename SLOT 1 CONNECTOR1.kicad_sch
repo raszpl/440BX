@@ -10431,6 +10431,750 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 26.162 137.414 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "06f322b0-fc9d-47d7-bdc7-f9a269f0470a")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 18.796 198.374 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "0979d49f-8c00-4694-a9e8-f40ffe2bb0dc")
+	)
+	(text "25"
+		(exclude_from_sim no)
+		(at 17.018 203.454 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#25")
+		)
+		(uuid "09837850-d296-4e7d-820f-000f5c1b3847")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 22.606 198.374 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "0f01978d-76ae-4bb4-9923-84748b866d4b")
+	)
+	(text "VRM optional override\njumpers & resistors"
+		(exclude_from_sim no)
+		(at 219.964 229.108 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "110cfb67-e72d-4562-ae0e-811c01fd7d5b")
+	)
+	(text "33"
+		(exclude_from_sim no)
+		(at 22.606 203.454 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#33")
+		)
+		(uuid "113c2cb6-1667-4776-94fe-29a45c988d4a")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 134.874 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "1b2238ab-1e86-40fd-9885-ef5083788f72")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 124.714 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "20dc9a7e-a69d-456d-8110-5b601b5b366d")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 155.194 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "256af3a9-c985-497c-990a-f71306949ffb")
+	)
+	(text "* Please place as close to\nthe connector as possible"
+		(exclude_from_sim no)
+		(at 91.44 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "25c8393d-fad3-4f36-aa74-a0188026af1b")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 132.334 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "2aeb56e9-f5d9-46a3-99aa-96205c5f4d8e")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 22.606 193.294 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "2b7335ee-6f94-4c6e-ae95-38fa26b98c74")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 134.874 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "2d9d1fc4-d467-43b3-9065-1c13531effa3")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 28.702 142.494 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "2dbd442c-0d1a-4098-a86c-23a00dff854e")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 28.702 137.414 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "2ec22954-8bba-436a-a065-132a24cb5091")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 160.274 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "2fb0a01b-e6d4-4736-8849-98afd37d53f4")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 28.702 150.114 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "306adefb-62d2-4b70-b016-3223c77a7dc8")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 145.034 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "3156ef4e-47e7-43b5-a52e-21e257f51b45")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 29.21 56.134 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "3f3f1a5e-9553-4219-aff7-bcafbb098d8d")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 132.334 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "43412459-4520-42df-a8e2-1f480c2c20c5")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 25.4 56.134 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "46edb709-79f5-4194-9701-4cdf9aecaa3d")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 124.714 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "48afb65c-5dbd-4aa4-bf25-2f17bb82cd27")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 160.274 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "4950404c-6efe-4f60-81bd-e81b1b554d4a")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 26.162 150.114 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "5789722d-a2ff-431d-9207-503ad1ecd6f3")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 129.794 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "5f4265ff-3666-44e5-9f1c-4b2d31778499")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 145.034 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "61426698-81e8-4a73-98fc-cbc9dc0dbfeb")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 21.844 56.134 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#5")
+		)
+		(uuid "614ab3ee-32ce-4fe6-a67a-ec85d5c54744")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 152.654 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "6247f7f8-6297-4496-a723-e33fba191ef3")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 160.274 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "653d258b-01d1-42df-b08b-d203838603c4")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 334.01 61.214 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "68ba2583-4499-428a-a15b-598fe08105ab")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 332.74 61.214 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "70205014-1f74-4697-ba40-0a2e4afb80e1")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 28.702 147.574 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7386d06d-fdc1-4fc9-a8f3-3a43a85d2e8d")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 28.702 139.954 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "755afcda-089a-4292-b1a3-01a6229a1e24")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 129.794 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "76361701-1e07-4a5e-b7c6-dfa27f3ab0a0")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 124.714 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "78ffdb5d-2d2b-43e1-8f7c-27fc17d539ff")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 21.336 193.294 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7b051d04-6850-45af-aa8f-d302a9ef17d5")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 21.336 198.374 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7b0910bf-8671-434c-8d84-215e800e3588")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 29.972 142.494 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "7e71f328-6cae-48a8-9503-5420e0bc61ab")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 24.384 56.134 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7ea2e876-c859-43c7-8393-eb2402ae8d60")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 150.114 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "834d35c3-cab3-4a40-b1fc-342a19561999")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 152.654 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "8f25cabf-6ee5-452d-9b57-294c1112e42e")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 328.93 155.194 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "98e471ca-539c-43b2-80ef-25b2cf996f20")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 29.972 150.114 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "99f935a0-5e16-4494-9dbc-226741715316")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 155.194 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "a29f548b-340a-458c-8acd-23784eaf90f9")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 330.2 58.674 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#5")
+		)
+		(uuid "a306854b-a190-4736-b584-26232337d55f")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 132.334 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "a4f20701-74a3-4421-a767-b8c588e081cc")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 29.972 137.414 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "a79ed4d5-28c1-4be7-aba8-1f7105e6cb9d")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 18.796 193.294 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "ad9f93f2-cc89-439c-8c97-273124c57074")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 29.972 139.954 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "ae7b9cc0-2a4d-45e9-abd9-52df5bc4e8fc")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 26.162 147.574 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "b07857d6-eeb2-457c-b9ff-6b2d2d0255f1")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 21.336 203.454 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "b9fd8761-6839-4880-8cca-976c547d1cd2")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 152.654 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "c1b828b9-74e2-4e3c-a00e-3d5f59dff66a")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 134.874 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "cefa9538-0d95-46a7-914f-093f1ec726f0")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 26.162 142.494 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "d199e7f8-56fc-41ed-8001-166f45f9e82f")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 330.2 61.214 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "d4239d28-7dd4-4098-870d-c3f1f17f6302")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 150.114 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "da86421f-d901-45f3-8485-c6d88ef6fd21")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 26.162 139.954 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "dc65dca6-9577-42c0-9fad-e2a38bfa5c7e")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 325.12 150.114 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "ded02e74-663e-4180-9f2f-870be36bdc3d")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 129.794 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "e2b76a00-0518-4c6f-9161-1db5b43be5fc")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 29.972 147.574 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+			(href "#27")
+		)
+		(uuid "e3ee7cf8-d276-482d-93b6-ef01c28493e2")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 27.94 56.134 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "e855ef98-4af5-48d1-857e-6d37d60cd6f1")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 327.66 145.034 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "f8799df2-19c8-455a-a478-b982be64dabc")
+	)
 	(junction
 		(at 246.38 157.48)
 		(diameter 0)
@@ -13687,7 +14431,7 @@
 		(dnp no)
 		(uuid "0556b542-cbd6-49dd-b6da-11c9b06374f0")
 		(property "Reference" "R10"
-			(at 201.168 227.076 90)
+			(at 205.486 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +14440,7 @@
 			)
 		)
 		(property "Value" "8.2K"
-			(at 206.502 228.6 90)
+			(at 206.248 230.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13756,7 +14500,7 @@
 		(dnp no)
 		(uuid "10238d15-a3e5-40e6-98e2-8f9a6dc9c3d8")
 		(property "Reference" "JP2"
-			(at 170.18 237.998 90)
+			(at 169.672 239.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13827,7 +14571,7 @@
 		(dnp no)
 		(uuid "161e52b1-d305-4f50-ba7e-843b0162392e")
 		(property "Reference" "JP3"
-			(at 170.18 250.698 90)
+			(at 169.672 251.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +14652,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 108.458 170.18 90)
+			(at 114.046 169.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +14713,7 @@
 		(dnp no)
 		(uuid "2046401f-5733-452a-89d0-1907d2350394")
 		(property "Reference" "R11"
-			(at 201.168 239.776 90)
+			(at 205.486 238.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,7 +14722,7 @@
 			)
 		)
 		(property "Value" "8.2K"
-			(at 206.502 241.3 90)
+			(at 206.248 243.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14039,7 +14783,7 @@
 		(dnp no)
 		(uuid "29333595-a5e0-4001-86dd-aa1cf2cbe01f")
 		(property "Reference" "R12"
-			(at 201.168 252.476 90)
+			(at 205.486 251.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14048,7 +14792,7 @@
 			)
 		)
 		(property "Value" "8.2K"
-			(at 206.502 254 90)
+			(at 206.248 256.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14118,7 +14862,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 265.938 175.26 90)
+			(at 271.526 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,7 +14989,7 @@
 		(dnp no)
 		(uuid "486b76bf-b7a3-42fd-8a86-25531d125c36")
 		(property "Reference" "JP4"
-			(at 170.18 263.398 90)
+			(at 169.672 264.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15247,7 +15991,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 108.458 172.72 90)
+			(at 114.046 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15317,7 +16061,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 265.938 170.18 90)
+			(at 271.526 169.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15387,7 +16131,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 265.938 172.72 90)
+			(at 271.526 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,7 +16192,7 @@
 		(dnp no)
 		(uuid "818dc1a4-b168-4235-91a3-0c7acee3e58b")
 		(property "Reference" "R7"
-			(at 201.168 214.376 90)
+			(at 204.216 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15457,7 +16201,7 @@
 			)
 		)
 		(property "Value" "8.2K"
-			(at 206.502 215.9 90)
+			(at 206.248 218.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15518,7 +16262,7 @@
 		(dnp no)
 		(uuid "8cc7e035-b030-4ec1-b5d3-aab0b3ea20e4")
 		(property "Reference" "R13"
-			(at 201.168 265.176 90)
+			(at 205.486 263.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15527,7 +16271,7 @@
 			)
 		)
 		(property "Value" "8.2K"
-			(at 206.502 266.7 90)
+			(at 206.248 268.986 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15597,7 +16341,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 121.92 226.822 90)
+			(at 124.714 226.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15657,7 +16401,7 @@
 		(dnp no)
 		(uuid "a6a8d8ec-fcbe-44a9-b892-0b2e2ea6dd50")
 		(property "Reference" "JP1"
-			(at 170.18 225.298 90)
+			(at 169.672 226.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15805,7 +16549,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 132.08 226.822 90)
+			(at 134.874 226.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,7 +16676,7 @@
 		(dnp no)
 		(uuid "f739eb65-e2ce-4a66-ad4b-18658c29ede8")
 		(property "Reference" "JP0"
-			(at 170.18 212.598 90)
+			(at 169.672 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
