@@ -2253,7 +2253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "SLOT 1 CONNECTOR.kicad_sch"
+		(property "Sheetfile" "SLOT 1 CONNECTOR1.kicad_sch"
 			(at 148.59 66.6246 0)
 			(effects
 				(font
