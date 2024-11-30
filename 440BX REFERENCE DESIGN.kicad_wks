@@ -13,7 +13,7 @@
 	)
 	(rect
 		(name "")
-		(start 110 15)
+		(start 103.65 15)
 		(end 2 2)
 		(comment "rect around the title block")
 	)
@@ -93,17 +93,17 @@
 	)
 	(tbtext "Date:   ${ISSUE_DATE}"
 		(name "")
-		(pos 110 4.5)
+		(pos 102.38 4.5)
 		(justify top)
 	)
 	(line
 		(name "")
-		(start 110 5)
+		(start 103.65 5)
 		(end 2 5)
 	)
 	(line
 		(name "")
-		(start 110 10)
+		(start 103.65 10)
 		(end 2 10)
 	)
 	(tbtext "Rev:\n  ${REVISION}"
@@ -113,30 +113,30 @@
 	)
 	(tbtext "Size:\n ${PAPER}"
 		(name "")
-		(pos 110 9.5)
+		(pos 103.65 9.5)
 		(justify top)
 		(comment "Paper format name")
 	)
 	(tbtext "Sheet:     ${#}      /      ${##}"
 		(name "")
-		(pos 54.48 4.5)
+		(pos 48.13 4.5)
 		(justify top)
 		(comment "Sheet id")
 	)
-	(tbtext "Title:\n ${TITLE}"
+	(tbtext "Title:\n   ${TITLE}"
 		(name "")
-		(pos 110 12.5)
+		(pos 103.65 12.5)
 		(font italic)
 	)
 	(line
 		(name "")
-		(start 100.16 10)
-		(end 100.16 5)
+		(start 93.81 10)
+		(end 93.81 5)
 	)
 	(line
 		(name "")
-		(start 55.21 5)
-		(end 55.21 2)
+		(start 48.86 5)
+		(end 48.86 2)
 	)
 	(line
 		(name "")
@@ -145,7 +145,7 @@
 	)
 	(tbtext "Document Number\n                Intel(R) 440BX AGPset"
 		(name "")
-		(pos 96.68 7.78)
+		(pos 91.6 7.78)
 		(font italic)
 	)
 )
