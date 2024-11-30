@@ -3,30 +3,16 @@
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "19b5cfab-a0aa-46d2-a988-5c1e8c946518")
-	(paper "User" 500 410)
+	(paper "User" 510 410)
 	(title_block
 		(title "INTEL 100MHz Pentium(tm) II processor/440BX AGPset Block Diagram")
 		(date "Thursday, April 09, 1998")
 		(rev "1.0")
 	)
 	(lib_symbols)
-	(polyline
-		(pts
-			(xy 37.0416 11.176) (xy 35.8562 11.176) (xy 35.8562 8.636) (xy 37.0416 8.636) (xy 37.0416 11.176)
-		)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(uuid f7842073-bacd-469b-9bc0-fadf3e11c4d1)
-	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 169.672 0)
+		(at 458.1736 170.8997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -36,7 +22,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 257.0057 216.9584 0)
+		(at 271.8223 218.9481 0)
 		(effects
 			(font
 				(size 2 2)
@@ -48,7 +34,7 @@
 	)
 	(text "PARA.\nCONN."
 		(exclude_from_sim no)
-		(at 173.4397 360.7224 0)
+		(at 188.2563 362.7121 0)
 		(effects
 			(font
 				(size 2 2)
@@ -60,7 +46,7 @@
 	)
 	(text "ITP Connector"
 		(exclude_from_sim no)
-		(at 371.348 106.172 0)
+		(at 375.8776 107.3997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -73,7 +59,7 @@
 	)
 	(text "DEVICE\nTYPE"
 		(exclude_from_sim no)
-		(at 378.46 82.804 0)
+		(at 382.9896 84.0317 0)
 		(effects
 			(font
 				(size 3 3)
@@ -85,7 +71,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 449.58 182.372 0)
+		(at 454.1096 183.5997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -98,7 +84,7 @@
 	)
 	(text "L1-L6,L7-L13"
 		(exclude_from_sim no)
-		(at 413.004 169.672 0)
+		(at 417.5336 170.8997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -111,7 +97,7 @@
 	)
 	(text "J14, J15"
 		(exclude_from_sim no)
-		(at 413.258 125.222 0)
+		(at 417.7876 126.4497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -124,7 +110,7 @@
 	)
 	(text "25"
 		(exclude_from_sim no)
-		(at 449.326 303.276 0)
+		(at 453.8556 304.5037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -137,7 +123,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 208.026 0)
+		(at 458.1736 209.2537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -147,7 +133,7 @@
 	)
 	(text "FLASH\nBIOS"
 		(exclude_from_sim no)
-		(at 63.9657 308.1444 0)
+		(at 78.7823 310.1341 0)
 		(effects
 			(font
 				(size 4 4)
@@ -159,7 +145,7 @@
 	)
 	(text "PG. 24"
 		(exclude_from_sim no)
-		(at 113.4957 352.5944 0)
+		(at 128.3123 354.5841 0)
 		(effects
 			(font
 				(size 2 2)
@@ -171,7 +157,7 @@
 	)
 	(text "74HC10   5VSB"
 		(exclude_from_sim no)
-		(at 370.84 246.126 0)
+		(at 375.3696 247.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -184,7 +170,7 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 454.914 277.876 0)
+		(at 459.4436 279.1037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -197,7 +183,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 451.612 112.522 0)
+		(at 456.1416 113.7497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -207,7 +193,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 449.326 106.426 0)
+		(at 453.8556 107.6537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -220,7 +206,7 @@
 	)
 	(text "DATA"
 		(exclude_from_sim no)
-		(at 194.5217 72.1784 90)
+		(at 209.3383 74.1681 90)
 		(effects
 			(font
 				(size 2 2)
@@ -232,7 +218,7 @@
 	)
 	(text "J24"
 		(exclude_from_sim no)
-		(at 413.004 137.922 0)
+		(at 417.5336 139.1497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -245,7 +231,7 @@
 	)
 	(text "J32"
 		(exclude_from_sim no)
-		(at 413.004 150.622 0)
+		(at 417.5336 151.8497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -258,7 +244,7 @@
 	)
 	(text "U9"
 		(exclude_from_sim no)
-		(at 412.75 214.376 0)
+		(at 417.2796 215.6037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -271,7 +257,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 132.7997 136.4404 0)
+		(at 147.6163 138.4301 0)
 		(effects
 			(font
 				(size 2 2)
@@ -283,7 +269,7 @@
 	)
 	(text "25"
 		(exclude_from_sim no)
-		(at 449.326 309.626 0)
+		(at 453.8556 310.8537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -296,7 +282,7 @@
 	)
 	(text "PG. 28-29"
 		(exclude_from_sim no)
-		(at 313.3937 373.4224 0)
+		(at 328.2103 375.4121 0)
 		(effects
 			(font
 				(size 2 2)
@@ -308,7 +294,7 @@
 	)
 	(text "20"
 		(exclude_from_sim no)
-		(at 449.326 93.98 0)
+		(at 453.8556 95.2077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -321,7 +307,7 @@
 	)
 	(text "Slot 1 Connector"
 		(exclude_from_sim no)
-		(at 371.094 144.272 0)
+		(at 375.6236 145.4997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -334,7 +320,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 186.6477 174.0324 90)
+		(at 201.4643 176.0221 90)
 		(effects
 			(font
 				(size 2 2)
@@ -346,7 +332,7 @@
 	)
 	(text "U5 A,B,C,D,E,F"
 		(exclude_from_sim no)
-		(at 413.004 188.722 0)
+		(at 417.5336 189.9497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -359,7 +345,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 449.326 239.776 0)
+		(at 453.8556 241.0037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -372,7 +358,7 @@
 	)
 	(text "ISA, PCI RESISTORS"
 		(exclude_from_sim no)
-		(at 268.6897 372.9144 0)
+		(at 283.5063 374.9041 0)
 		(effects
 			(font
 				(size 2 2)
@@ -384,7 +370,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 454.914 246.126 0)
+		(at 459.4436 247.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -397,7 +383,7 @@
 	)
 	(text "DATA"
 		(exclude_from_sim no)
-		(at 144.4837 261.1544 90)
+		(at 159.3003 263.1441 90)
 		(effects
 			(font
 				(size 2 2)
@@ -409,7 +395,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 277.876 0)
+		(at 458.1736 279.1037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -419,7 +405,7 @@
 	)
 	(text "FUSES"
 		(exclude_from_sim no)
-		(at 371.348 93.98 0)
+		(at 375.8776 95.2077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -432,7 +418,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 166.5817 291.6344 90)
+		(at 181.3983 293.6241 90)
 		(effects
 			(font
 				(size 2 2)
@@ -444,7 +430,7 @@
 	)
 	(text "74F07   5VSB"
 		(exclude_from_sim no)
-		(at 370.84 271.526 0)
+		(at 375.3696 272.7537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -457,7 +443,7 @@
 	)
 	(text "U28 A,B,C,D,E,F"
 		(exclude_from_sim no)
-		(at 412.75 271.526 0)
+		(at 417.2796 272.7537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -470,7 +456,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 457.2 112.522 0)
+		(at 461.7296 113.7497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -480,7 +466,7 @@
 	)
 	(text "PG. 6"
 		(exclude_from_sim no)
-		(at 234.1457 146.0924 0)
+		(at 248.9623 148.0821 0)
 		(effects
 			(font
 				(size 2 2)
@@ -492,7 +478,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 449.326 252.476 0)
+		(at 453.8556 253.7037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -505,7 +491,7 @@
 	)
 	(text "PG. 21"
 		(exclude_from_sim no)
-		(at 62.6957 315.5104 0)
+		(at 77.5123 317.5001 0)
 		(effects
 			(font
 				(size 2 2)
@@ -517,7 +503,7 @@
 	)
 	(text "PG. 18"
 		(exclude_from_sim no)
-		(at 283.9297 289.3484 0)
+		(at 298.7463 291.3381 0)
 		(effects
 			(font
 				(size 2 2)
@@ -529,7 +515,7 @@
 	)
 	(text "DECOUPLING CAPACITORS"
 		(exclude_from_sim no)
-		(at 269.9597 381.8044 0)
+		(at 284.7763 383.7941 0)
 		(effects
 			(font
 				(size 2 2)
@@ -541,7 +527,7 @@
 	)
 	(text "16"
 		(exclude_from_sim no)
-		(at 449.326 156.972 0)
+		(at 453.8556 158.1997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -554,7 +540,7 @@
 	)
 	(text "19"
 		(exclude_from_sim no)
-		(at 449.326 125.222 0)
+		(at 453.8556 126.4497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -567,7 +553,7 @@
 	)
 	(text "(SLOT 1)"
 		(exclude_from_sim no)
-		(at 180.8057 52.1124 0)
+		(at 195.6223 54.1021 0)
 		(effects
 			(font
 				(size 2 2)
@@ -579,7 +565,7 @@
 	)
 	(text "U23 A,B"
 		(exclude_from_sim no)
-		(at 412.75 278.13 0)
+		(at 417.2796 279.3577 0)
 		(effects
 			(font
 				(size 2 2)
@@ -592,7 +578,7 @@
 	)
 	(text "74ALS08"
 		(exclude_from_sim no)
-		(at 370.84 239.776 0)
+		(at 375.3696 241.0037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -605,7 +591,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 86.0637 210.3544 90)
+		(at 100.8803 212.3441 90)
 		(effects
 			(font
 				(size 3 3)
@@ -617,7 +603,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 449.326 284.48 0)
+		(at 453.8556 285.7077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -630,7 +616,7 @@
 	)
 	(text "PG. 25"
 		(exclude_from_sim no)
-		(at 71.0777 53.1284 0)
+		(at 85.8943 55.1181 0)
 		(effects
 			(font
 				(size 2 2)
@@ -642,7 +628,7 @@
 	)
 	(text "VR2"
 		(exclude_from_sim no)
-		(at 412.75 309.88 0)
+		(at 417.2796 311.1077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -655,7 +641,7 @@
 	)
 	(text "PG. 14"
 		(exclude_from_sim no)
-		(at 172.4237 324.1464 0)
+		(at 187.2403 326.1361 0)
 		(effects
 			(font
 				(size 2 2)
@@ -667,7 +653,7 @@
 	)
 	(text "U24"
 		(exclude_from_sim no)
-		(at 412.75 284.48 0)
+		(at 417.2796 285.7077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -680,7 +666,7 @@
 	)
 	(text "DATA"
 		(exclude_from_sim no)
-		(at 92.4137 306.1124 0)
+		(at 107.2303 308.1021 0)
 		(effects
 			(font
 				(size 2 2)
@@ -692,7 +678,7 @@
 	)
 	(text "15"
 		(exclude_from_sim no)
-		(at 449.326 150.622 0)
+		(at 453.8556 151.8497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -705,7 +691,7 @@
 	)
 	(text "74LVC14   3VSB"
 		(exclude_from_sim no)
-		(at 371.094 188.722 0)
+		(at 375.6236 189.9497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -718,7 +704,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 459.232 201.676 0)
+		(at 463.7616 202.9037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -728,7 +714,7 @@
 	)
 	(text "J2"
 		(exclude_from_sim no)
-		(at 413.258 106.172 0)
+		(at 417.7876 107.3997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -741,7 +727,7 @@
 	)
 	(text "X-BUS"
 		(exclude_from_sim no)
-		(at 115.5277 305.3504 0)
+		(at 130.3443 307.3401 0)
 		(effects
 			(font
 				(size 4 4)
@@ -753,7 +739,7 @@
 	)
 	(text "ADDR/DATA"
 		(exclude_from_sim no)
-		(at 132.5457 123.9944 0)
+		(at 147.3623 125.9841 0)
 		(effects
 			(font
 				(size 2 2)
@@ -765,7 +751,7 @@
 	)
 	(text "ULTRA I/O"
 		(exclude_from_sim no)
-		(at 174.2017 318.0504 0)
+		(at 189.0183 320.0401 0)
 		(effects
 			(font
 				(size 4 4)
@@ -777,7 +763,7 @@
 	)
 	(text "PG. 27"
 		(exclude_from_sim no)
-		(at 299.6777 95.5464 0)
+		(at 314.4943 97.5361 0)
 		(effects
 			(font
 				(size 2 2)
@@ -789,7 +775,7 @@
 	)
 	(text "ADDR"
 		(exclude_from_sim no)
-		(at 54.8217 286.3004 90)
+		(at 69.6383 288.2901 90)
 		(effects
 			(font
 				(size 2 2)
@@ -801,7 +787,7 @@
 	)
 	(text "PG. 30-32"
 		(exclude_from_sim no)
-		(at 313.3937 381.5504 0)
+		(at 328.2103 383.5401 0)
 		(effects
 			(font
 				(size 2 2)
@@ -813,7 +799,7 @@
 	)
 	(text "74LVC3244"
 		(exclude_from_sim no)
-		(at 370.84 227.076 0)
+		(at 375.3696 228.3037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -826,7 +812,7 @@
 	)
 	(text "DATA"
 		(exclude_from_sim no)
-		(at 254.9737 340.9104 0)
+		(at 269.7903 342.9001 0)
 		(effects
 			(font
 				(size 2 2)
@@ -838,7 +824,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 229.3197 117.8984 0)
+		(at 244.1363 119.8881 0)
 		(effects
 			(font
 				(size 2 2)
@@ -850,7 +836,7 @@
 	)
 	(text "CK100\n&\nITP CON."
 		(exclude_from_sim no)
-		(at 293.5817 42.4604 0)
+		(at 308.3983 44.4501 0)
 		(effects
 			(font
 				(size 3 3)
@@ -862,7 +848,7 @@
 	)
 	(text "33"
 		(exclude_from_sim no)
-		(at 449.326 265.176 0)
+		(at 453.8556 266.4037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -875,7 +861,7 @@
 	)
 	(text "SYSTEM BUS"
 		(exclude_from_sim no)
-		(at 242.0197 82.0844 0)
+		(at 256.8363 84.0741 0)
 		(effects
 			(font
 				(size 4 4)
@@ -887,7 +873,7 @@
 	)
 	(text "U8 A,B,C,D,E,F"
 		(exclude_from_sim no)
-		(at 413.004 207.772 0)
+		(at 417.5336 208.9997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -900,7 +886,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 449.326 144.272 0)
+		(at 453.8556 145.4997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -913,7 +899,7 @@
 	)
 	(text "ADDR"
 		(exclude_from_sim no)
-		(at 114.2577 260.6464 90)
+		(at 129.0743 262.6361 90)
 		(effects
 			(font
 				(size 2 2)
@@ -925,7 +911,7 @@
 	)
 	(text "CONTROL"
 		(exclude_from_sim no)
-		(at 70.3157 260.1384 90)
+		(at 85.1323 262.1281 90)
 		(effects
 			(font
 				(size 2 2)
@@ -937,7 +923,7 @@
 	)
 	(text "DATA"
 		(exclude_from_sim no)
-		(at 188.1717 103.1664 90)
+		(at 202.9883 105.1561 90)
 		(effects
 			(font
 				(size 2 2)
@@ -949,7 +935,7 @@
 	)
 	(text "J34-37"
 		(exclude_from_sim no)
-		(at 413.004 156.972 0)
+		(at 417.5336 158.1997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -962,7 +948,7 @@
 	)
 	(text "PG. 19"
 		(exclude_from_sim no)
-		(at 205.1897 214.6724 0)
+		(at 220.0063 216.6621 0)
 		(effects
 			(font
 				(size 2 2)
@@ -974,7 +960,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 188.976 0)
+		(at 458.1736 190.2037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -984,7 +970,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 454.914 188.976 0)
+		(at 459.4436 190.2037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -997,7 +983,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 172.6777 102.9124 90)
+		(at 187.4943 104.9021 90)
 		(effects
 			(font
 				(size 2 2)
@@ -1009,7 +995,7 @@
 	)
 	(text "PCI Connectors"
 		(exclude_from_sim no)
-		(at 371.094 156.972 0)
+		(at 375.6236 158.1997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1022,7 +1008,7 @@
 	)
 	(text "U21"
 		(exclude_from_sim no)
-		(at 412.75 265.43 0)
+		(at 417.2796 266.6577 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1035,7 +1021,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 201.676 0)
+		(at 458.1736 202.9037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1045,7 +1031,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 172.4237 223.3084 0)
+		(at 187.2403 225.2981 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1057,7 +1043,7 @@
 	)
 	(text "MOUSE"
 		(exclude_from_sim no)
-		(at 113.7497 347.2604 0)
+		(at 128.5663 349.2501 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1069,7 +1055,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 452.882 144.272 0)
+		(at 457.4116 145.4997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1082,7 +1068,7 @@
 	)
 	(text "Crystal (14.318MHz)"
 		(exclude_from_sim no)
-		(at 370.84 321.818 0)
+		(at 375.3696 323.0457 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1095,7 +1081,7 @@
 	)
 	(text "74HCT14"
 		(exclude_from_sim no)
-		(at 371.094 207.772 0)
+		(at 375.6236 208.9997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1108,7 +1094,7 @@
 	)
 	(text "24"
 		(exclude_from_sim no)
-		(at 454.914 93.98 0)
+		(at 459.4436 95.2077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1121,7 +1107,7 @@
 	)
 	(text "U1"
 		(exclude_from_sim no)
-		(at 413.004 182.372 0)
+		(at 417.5336 183.5997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1134,7 +1120,7 @@
 	)
 	(text "PG. 23"
 		(exclude_from_sim no)
-		(at 207.7297 365.2944 0)
+		(at 222.5463 367.2841 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1146,7 +1132,7 @@
 	)
 	(text "PG. 3"
 		(exclude_from_sim no)
-		(at 110.9557 74.9724 0)
+		(at 125.7723 76.9621 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1158,7 +1144,7 @@
 	)
 	(text "SER.\nCONN."
 		(exclude_from_sim no)
-		(at 209.2537 357.6744 0)
+		(at 224.0703 359.6641 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1170,7 +1156,7 @@
 	)
 	(text "82443BX"
 		(exclude_from_sim no)
-		(at 183.0917 132.8844 0)
+		(at 197.9083 134.8741 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1182,7 +1168,7 @@
 	)
 	(text "AGP SIDEBAND"
 		(exclude_from_sim no)
-		(at 133.5617 148.8864 0)
+		(at 148.3783 150.8761 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1194,7 +1180,7 @@
 	)
 	(text "29"
 		(exclude_from_sim no)
-		(at 460.502 271.526 0)
+		(at 465.0316 272.7537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1207,7 +1193,7 @@
 	)
 	(text "U20"
 		(exclude_from_sim no)
-		(at 412.75 258.826 0)
+		(at 417.2796 260.0537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1220,7 +1206,7 @@
 	)
 	(text "CKBF"
 		(exclude_from_sim no)
-		(at 233.3837 140.7584 0)
+		(at 248.2003 142.7481 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1232,7 +1218,7 @@
 	)
 	(text "74HC112"
 		(exclude_from_sim no)
-		(at 370.84 291.084 0)
+		(at 375.3696 292.3117 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1245,7 +1231,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 70.5697 210.3544 90)
+		(at 85.3863 212.3441 90)
 		(effects
 			(font
 				(size 3 3)
@@ -1257,7 +1243,7 @@
 	)
 	(text "U17 A,B,C"
 		(exclude_from_sim no)
-		(at 412.75 246.126 0)
+		(at 417.2796 247.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1270,7 +1256,7 @@
 	)
 	(text "20"
 		(exclude_from_sim no)
-		(at 449.326 131.572 0)
+		(at 453.8556 132.7997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1283,7 +1269,7 @@
 	)
 	(text "25"
 		(exclude_from_sim no)
-		(at 454.914 208.026 0)
+		(at 459.4436 209.2537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1296,7 +1282,7 @@
 	)
 	(text "BLM31A700S"
 		(exclude_from_sim no)
-		(at 371.094 169.672 0)
+		(at 375.6236 170.8997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1309,7 +1295,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 459.232 271.526 0)
+		(at 463.7616 272.7537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1319,7 +1305,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 452.882 252.476 0)
+		(at 457.4116 253.7037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1332,7 +1318,7 @@
 	)
 	(text "Crystal(32.768KHz)"
 		(exclude_from_sim no)
-		(at 370.84 328.168 0)
+		(at 375.3696 329.3957 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1345,7 +1331,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 246.126 0)
+		(at 458.1736 247.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1355,7 +1341,7 @@
 	)
 	(text "ISA BUS"
 		(exclude_from_sim no)
-		(at 234.6537 270.5524 0)
+		(at 249.4703 272.5421 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1367,7 +1353,7 @@
 	)
 	(text "PCI CONN"
 		(exclude_from_sim no)
-		(at 295.6137 226.3564 90)
+		(at 310.4303 228.3461 90)
 		(effects
 			(font
 				(size 4 4)
@@ -1379,7 +1365,7 @@
 	)
 	(text "324 BGA"
 		(exclude_from_sim no)
-		(at 132.7997 235.2464 0)
+		(at 147.6163 237.2361 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1391,7 +1377,7 @@
 	)
 	(text "15"
 		(exclude_from_sim no)
-		(at 449.326 201.676 0)
+		(at 453.8556 202.9037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1404,7 +1390,7 @@
 	)
 	(text "492 BGA"
 		(exclude_from_sim no)
-		(at 184.8697 139.7424 0)
+		(at 199.6863 141.7321 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1416,7 +1402,7 @@
 	)
 	(text "DEVICE TABLE"
 		(exclude_from_sim no)
-		(at 423.164 68.58 0)
+		(at 427.6936 69.8077 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1428,7 +1414,7 @@
 	)
 	(text "PCI CONN"
 		(exclude_from_sim no)
-		(at 280.1197 226.3564 90)
+		(at 294.9363 228.3461 90)
 		(effects
 			(font
 				(size 4 4)
@@ -1440,7 +1426,7 @@
 	)
 	(text "REFERENCE\nDESIGNATOR"
 		(exclude_from_sim no)
-		(at 422.91 81.788 0)
+		(at 427.4396 83.0157 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1452,7 +1438,7 @@
 	)
 	(text "SER.\nCONN."
 		(exclude_from_sim no)
-		(at 208.9997 373.1684 0)
+		(at 223.8163 375.1581 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1464,7 +1450,7 @@
 	)
 	(text "PG. 9-11"
 		(exclude_from_sim no)
-		(at 277.8337 133.6464 0)
+		(at 292.6503 135.6361 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1476,7 +1462,7 @@
 	)
 	(text "PAGE#"
 		(exclude_from_sim no)
-		(at 454.914 81.28 0)
+		(at 459.4436 82.5077 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1488,7 +1474,7 @@
 	)
 	(text "USB Connectors"
 		(exclude_from_sim no)
-		(at 371.348 131.572 0)
+		(at 375.8776 132.7997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1501,7 +1487,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 451.612 252.476 0)
+		(at 456.1416 253.7037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1511,7 +1497,7 @@
 	)
 	(text "PG. 15"
 		(exclude_from_sim no)
-		(at 105.6217 151.4264 0)
+		(at 120.4383 153.4161 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1523,7 +1509,7 @@
 	)
 	(text "82371EB"
 		(exclude_from_sim no)
-		(at 133.5617 228.3884 0)
+		(at 148.3783 230.3781 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1535,7 +1521,7 @@
 	)
 	(text "29"
 		(exclude_from_sim no)
-		(at 454.914 239.776 0)
+		(at 459.4436 241.0037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1548,7 +1534,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 178.5197 71.9244 90)
+		(at 193.3363 73.9141 90)
 		(effects
 			(font
 				(size 2 2)
@@ -1560,7 +1546,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 449.326 258.826 0)
+		(at 453.8556 260.0537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1573,7 +1559,7 @@
 	)
 	(text "11"
 		(exclude_from_sim no)
-		(at 458.47 112.522 0)
+		(at 462.9996 113.7497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1586,7 +1572,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 220.726 0)
+		(at 458.1736 221.9537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1596,7 +1582,7 @@
 	)
 	(text "LM79"
 		(exclude_from_sim no)
-		(at 370.84 265.43 0)
+		(at 375.3696 266.6577 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1609,7 +1595,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 137.1177 204.7664 90)
+		(at 151.9343 206.7561 90)
 		(effects
 			(font
 				(size 2 2)
@@ -1621,7 +1607,7 @@
 	)
 	(text "ADDR"
 		(exclude_from_sim no)
-		(at 255.2277 298.2384 0)
+		(at 270.0443 300.2281 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1633,7 +1619,7 @@
 	)
 	(text "MAX1617 ME"
 		(exclude_from_sim no)
-		(at 110.7017 71.4164 0)
+		(at 125.5183 73.4061 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1645,7 +1631,7 @@
 	)
 	(text "21"
 		(exclude_from_sim no)
-		(at 449.326 208.026 0)
+		(at 453.8556 209.2537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1658,7 +1644,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 93.98 0)
+		(at 458.1736 95.2077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1668,7 +1654,7 @@
 	)
 	(text "U16 A,B,C,D"
 		(exclude_from_sim no)
-		(at 412.75 239.776 0)
+		(at 417.2796 241.0037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1681,7 +1667,7 @@
 	)
 	(text "Y1"
 		(exclude_from_sim no)
-		(at 412.75 321.818 0)
+		(at 417.2796 323.0457 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1694,7 +1680,7 @@
 	)
 	(text "Y2"
 		(exclude_from_sim no)
-		(at 412.75 328.168 0)
+		(at 417.2796 329.3957 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1707,7 +1693,7 @@
 	)
 	(text "PG. 26"
 		(exclude_from_sim no)
-		(at 310.3457 364.0244 0)
+		(at 325.1623 366.0141 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1719,7 +1705,7 @@
 	)
 	(text "VR1"
 		(exclude_from_sim no)
-		(at 412.75 303.53 0)
+		(at 417.2796 304.7577 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1732,7 +1718,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 459.232 246.126 0)
+		(at 463.7616 247.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1742,7 +1728,7 @@
 	)
 	(text "74AS07"
 		(exclude_from_sim no)
-		(at 371.094 201.422 0)
+		(at 375.6236 202.6497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1755,7 +1741,7 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 449.326 328.676 0)
+		(at 453.8556 329.9037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1768,7 +1754,7 @@
 	)
 	(text "ADDR/DATA"
 		(exclude_from_sim no)
-		(at 172.4237 235.7544 0)
+		(at 187.2403 237.7441 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1780,7 +1766,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 156.972 0)
+		(at 458.1736 158.1997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1790,7 +1776,7 @@
 	)
 	(text "29"
 		(exclude_from_sim no)
-		(at 460.502 220.726 0)
+		(at 465.0316 221.9537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1803,7 +1789,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 459.232 208.026 0)
+		(at 463.7616 209.2537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1813,7 +1799,7 @@
 	)
 	(text "25"
 		(exclude_from_sim no)
-		(at 449.326 220.726 0)
+		(at 453.8556 221.9537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1826,7 +1812,7 @@
 	)
 	(text "AGP\nCONN."
 		(exclude_from_sim no)
-		(at 106.3837 133.1384 0)
+		(at 121.2003 135.1281 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1838,7 +1824,7 @@
 	)
 	(text "FLOPPY\nCONN."
 		(exclude_from_sim no)
-		(at 151.0877 359.9604 0)
+		(at 165.9043 361.9501 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1850,7 +1836,7 @@
 	)
 	(text "9"
 		(exclude_from_sim no)
-		(at 449.326 112.522 0)
+		(at 453.8556 113.7497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1863,7 +1849,7 @@
 	)
 	(text "ISA Connectors"
 		(exclude_from_sim no)
-		(at 371.348 118.872 0)
+		(at 375.8776 120.0997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1876,7 +1862,7 @@
 	)
 	(text "12"
 		(exclude_from_sim no)
-		(at 449.326 277.876 0)
+		(at 453.8556 279.1037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1889,7 +1875,7 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 449.326 290.576 0)
+		(at 453.8556 291.8037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1902,7 +1888,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 239.776 0)
+		(at 458.1736 241.0037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1912,7 +1898,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 454.914 271.526 0)
+		(at 459.4436 272.7537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1925,7 +1911,7 @@
 	)
 	(text "J4,J5,J6"
 		(exclude_from_sim no)
-		(at 413.258 112.522 0)
+		(at 417.7876 113.7497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1938,7 +1924,7 @@
 	)
 	(text "ADDR"
 		(exclude_from_sim no)
-		(at 163.0257 71.9244 90)
+		(at 177.8423 73.9141 90)
 		(effects
 			(font
 				(size 2 2)
@@ -1950,7 +1936,7 @@
 	)
 	(text "PG. 5"
 		(exclude_from_sim no)
-		(at 295.6137 52.8744 0)
+		(at 310.4303 54.8641 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1962,7 +1948,7 @@
 	)
 	(text "PCI CONN"
 		(exclude_from_sim no)
-		(at 311.3617 226.3564 90)
+		(at 326.1783 228.3461 90)
 		(effects
 			(font
 				(size 4 4)
@@ -1974,7 +1960,7 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 449.326 188.976 0)
+		(at 453.8556 190.2037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1987,7 +1973,7 @@
 	)
 	(text "U7 A,B,C,D,E,F"
 		(exclude_from_sim no)
-		(at 413.004 201.422 0)
+		(at 417.5336 202.6497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2000,7 +1986,7 @@
 	)
 	(text "2 USB CONN."
 		(exclude_from_sim no)
-		(at 49.2337 200.9564 0)
+		(at 64.0503 202.9461 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2012,7 +1998,7 @@
 	)
 	(text "E28F002BC-T(FLASH)"
 		(exclude_from_sim no)
-		(at 370.84 214.376 0)
+		(at 375.3696 215.6037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2025,7 +2011,7 @@
 	)
 	(text "25"
 		(exclude_from_sim no)
-		(at 449.326 227.076 0)
+		(at 453.8556 228.3037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2038,7 +2024,7 @@
 	)
 	(text "MEMORY"
 		(exclude_from_sim no)
-		(at 279.1037 119.1684 0)
+		(at 293.9203 121.1581 0)
 		(effects
 			(font
 				(size 4 4)
@@ -2050,7 +2036,7 @@
 	)
 	(text "DIMM Sockets"
 		(exclude_from_sim no)
-		(at 371.348 112.522 0)
+		(at 375.8776 113.7497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2063,7 +2049,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 454.914 220.726 0)
+		(at 459.4436 221.9537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2076,7 +2062,7 @@
 	)
 	(text "ISA CONN"
 		(exclude_from_sim no)
-		(at 289.0097 317.0344 90)
+		(at 303.8263 319.0241 90)
 		(effects
 			(font
 				(size 4 4)
@@ -2088,7 +2074,7 @@
 	)
 	(text "ADDR/DATA"
 		(exclude_from_sim no)
-		(at 257.5137 241.5964 0)
+		(at 272.3303 243.5861 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2100,7 +2086,7 @@
 	)
 	(text "PG. 16-17"
 		(exclude_from_sim no)
-		(at 303.4877 202.4804 0)
+		(at 318.3043 204.4701 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2112,7 +2098,7 @@
 	)
 	(text "IDE Connectors"
 		(exclude_from_sim no)
-		(at 371.348 125.222 0)
+		(at 375.8776 126.4497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2125,7 +2111,7 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 449.326 246.126 0)
+		(at 453.8556 247.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2138,7 +2124,7 @@
 	)
 	(text "ADDR/DATA"
 		(exclude_from_sim no)
-		(at 117.5597 205.2744 90)
+		(at 132.3763 207.2641 90)
 		(effects
 			(font
 				(size 2 2)
@@ -2150,7 +2136,7 @@
 	)
 	(text "LM79"
 		(exclude_from_sim no)
-		(at 61.6797 331.5124 0)
+		(at 76.4963 333.5021 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2162,7 +2148,7 @@
 	)
 	(text "GTL\nTERM."
 		(exclude_from_sim no)
-		(at 300.4397 87.9264 0)
+		(at 315.2563 89.9161 0)
 		(effects
 			(font
 				(size 4 4)
@@ -2174,7 +2160,7 @@
 	)
 	(text "ISA CONN"
 		(exclude_from_sim no)
-		(at 273.5157 316.7804 90)
+		(at 288.3323 318.7701 90)
 		(effects
 			(font
 				(size 4 4)
@@ -2186,7 +2172,7 @@
 	)
 	(text "82371EB (PIIX4E)"
 		(exclude_from_sim no)
-		(at 370.84 278.13 0)
+		(at 375.3696 279.3577 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2199,7 +2185,7 @@
 	)
 	(text "J12, J13"
 		(exclude_from_sim no)
-		(at 413.258 118.872 0)
+		(at 417.7876 120.0997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2212,7 +2198,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 455.168 252.476 0)
+		(at 459.6976 253.7037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2222,7 +2208,7 @@
 	)
 	(text "FDC37C932FR"
 		(exclude_from_sim no)
-		(at 371.094 195.072 0)
+		(at 375.6236 196.2997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2235,7 +2221,7 @@
 	)
 	(text "ADDR"
 		(exclude_from_sim no)
-		(at 229.3197 127.2964 0)
+		(at 244.1363 129.2861 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2247,7 +2233,7 @@
 	)
 	(text "MAX1617 ME"
 		(exclude_from_sim no)
-		(at 370.84 284.48 0)
+		(at 375.3696 285.7077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2260,7 +2246,7 @@
 	)
 	(text "ADDR"
 		(exclude_from_sim no)
-		(at 156.9297 102.9124 90)
+		(at 171.7463 104.9021 90)
 		(effects
 			(font
 				(size 2 2)
@@ -2272,7 +2258,7 @@
 	)
 	(text "PCI BUS"
 		(exclude_from_sim no)
-		(at 237.9557 182.9224 0)
+		(at 252.7723 184.9121 0)
 		(effects
 			(font
 				(size 4 4)
@@ -2284,7 +2270,7 @@
 	)
 	(text "U19-1,2,3"
 		(exclude_from_sim no)
-		(at 412.75 252.476 0)
+		(at 417.2796 253.7037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2297,7 +2283,7 @@
 	)
 	(text "PCI CONN"
 		(exclude_from_sim no)
-		(at 326.8557 226.3564 90)
+		(at 341.6723 228.3461 90)
 		(effects
 			(font
 				(size 4 4)
@@ -2309,7 +2295,7 @@
 	)
 	(text "74F07"
 		(exclude_from_sim no)
-		(at 370.84 220.472 0)
+		(at 375.3696 221.6997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2322,7 +2308,7 @@
 	)
 	(text "ADDR"
 		(exclude_from_sim no)
-		(at 154.1357 291.8884 90)
+		(at 168.9523 293.8781 90)
 		(effects
 			(font
 				(size 2 2)
@@ -2334,7 +2320,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 456.438 252.476 0)
+		(at 460.9676 253.7037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2347,7 +2333,7 @@
 	)
 	(text "PG. 20"
 		(exclude_from_sim no)
-		(at 173.1857 366.0564 0)
+		(at 188.0023 368.0461 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2359,7 +2345,7 @@
 	)
 	(text "82443BX"
 		(exclude_from_sim no)
-		(at 370.84 252.476 0)
+		(at 375.3696 253.7037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2372,7 +2358,7 @@
 	)
 	(text "KEYBOARD"
 		(exclude_from_sim no)
-		(at 114.5117 318.5584 0)
+		(at 129.3283 320.5481 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2384,7 +2370,7 @@
 	)
 	(text "DATA"
 		(exclude_from_sim no)
-		(at 229.8277 151.6804 0)
+		(at 244.6443 153.6701 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2396,7 +2382,7 @@
 	)
 	(text "ADDR/DATA"
 		(exclude_from_sim no)
-		(at 167.5977 174.2864 90)
+		(at 182.4143 176.2761 90)
 		(effects
 			(font
 				(size 2 2)
@@ -2408,7 +2394,7 @@
 	)
 	(text "LT1575"
 		(exclude_from_sim no)
-		(at 370.84 309.88 0)
+		(at 375.3696 311.1077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2421,7 +2407,7 @@
 	)
 	(text "10"
 		(exclude_from_sim no)
-		(at 452.882 112.522 0)
+		(at 457.4116 113.7497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2434,7 +2420,7 @@
 	)
 	(text "3 SDRAM DIMM\nMODULES"
 		(exclude_from_sim no)
-		(at 279.8657 127.0424 0)
+		(at 294.6823 129.0321 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2446,7 +2432,7 @@
 	)
 	(text "PG. 3-4"
 		(exclude_from_sim no)
-		(at 182.3297 55.6684 0)
+		(at 197.1463 57.6581 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2458,7 +2444,7 @@
 	)
 	(text "PG. 12-13"
 		(exclude_from_sim no)
-		(at 134.5777 238.8024 0)
+		(at 149.3943 240.7921 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2470,7 +2456,7 @@
 	)
 	(text "18"
 		(exclude_from_sim no)
-		(at 449.326 119.126 0)
+		(at 453.8556 120.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2483,7 +2469,7 @@
 	)
 	(text "PG. 20"
 		(exclude_from_sim no)
-		(at 76.6657 196.8924 0)
+		(at 91.4823 198.8821 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2495,7 +2481,7 @@
 	)
 	(text "J33 A,B"
 		(exclude_from_sim no)
-		(at 413.004 144.272 0)
+		(at 417.5336 145.4997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2508,7 +2494,7 @@
 	)
 	(text "SECONDARY\nIDE"
 		(exclude_from_sim no)
-		(at 216.8737 233.2144 90)
+		(at 231.6903 235.2041 90)
 		(effects
 			(font
 				(size 3 3)
@@ -2520,7 +2506,7 @@
 	)
 	(text "PRIMARY\nIDE"
 		(exclude_from_sim no)
-		(at 194.7757 233.2144 90)
+		(at 209.5923 235.2041 90)
 		(effects
 			(font
 				(size 3 3)
@@ -2532,7 +2518,7 @@
 	)
 	(text "DATA"
 		(exclude_from_sim no)
-		(at 179.2817 292.1424 90)
+		(at 194.0983 294.1321 90)
 		(effects
 			(font
 				(size 2 2)
@@ -2544,7 +2530,7 @@
 	)
 	(text "PG. 24"
 		(exclude_from_sim no)
-		(at 115.7817 323.8924 0)
+		(at 130.5983 325.8821 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2556,7 +2542,7 @@
 	)
 	(text "CK100"
 		(exclude_from_sim no)
-		(at 371.094 182.372 0)
+		(at 375.6236 183.5997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2569,7 +2555,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 454.914 201.676 0)
+		(at 459.4436 202.9037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2582,7 +2568,7 @@
 	)
 	(text "2 PCI IDE\nCONNECTORS"
 		(exclude_from_sim no)
-		(at 205.6977 207.8144 0)
+		(at 220.5143 209.8041 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2594,7 +2580,7 @@
 	)
 	(text "PG. 33"
 		(exclude_from_sim no)
-		(at 62.4417 336.5924 0)
+		(at 77.2583 338.5821 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2606,7 +2592,7 @@
 	)
 	(text "26"
 		(exclude_from_sim no)
-		(at 460.502 208.026 0)
+		(at 465.0316 209.2537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2619,7 +2605,7 @@
 	)
 	(text "29"
 		(exclude_from_sim no)
-		(at 460.502 246.126 0)
+		(at 465.0316 247.3537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2632,7 +2618,7 @@
 	)
 	(text "SMBus\nInterface"
 		(exclude_from_sim no)
-		(at 74.6337 71.4164 0)
+		(at 89.4503 73.4061 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2644,7 +2630,7 @@
 	)
 	(text "RESET, POWER CONNECTORS"
 		(exclude_from_sim no)
-		(at 271.9917 363.5164 0)
+		(at 286.8083 365.5061 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2656,7 +2642,7 @@
 	)
 	(text "17"
 		(exclude_from_sim no)
-		(at 454.914 156.972 0)
+		(at 459.4436 158.1997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2669,7 +2655,7 @@
 	)
 	(text "LT1585"
 		(exclude_from_sim no)
-		(at 370.84 303.53 0)
+		(at 375.3696 304.7577 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2682,7 +2668,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 129.4977 260.6464 90)
+		(at 144.3143 262.6361 90)
 		(effects
 			(font
 				(size 2 2)
@@ -2694,7 +2680,7 @@
 	)
 	(text "CKBF"
 		(exclude_from_sim no)
-		(at 370.84 258.826 0)
+		(at 375.3696 260.0537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2707,7 +2693,7 @@
 	)
 	(text "U27 A,B"
 		(exclude_from_sim no)
-		(at 412.75 291.084 0)
+		(at 417.2796 292.3117 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2720,7 +2706,7 @@
 	)
 	(text "25"
 		(exclude_from_sim no)
-		(at 449.326 137.922 0)
+		(at 453.8556 139.1497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2733,7 +2719,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 453.644 271.526 0)
+		(at 458.1736 272.7537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2743,7 +2729,7 @@
 	)
 	(text "14"
 		(exclude_from_sim no)
-		(at 449.326 195.326 0)
+		(at 453.8556 196.5537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2756,7 +2742,7 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 449.326 271.526 0)
+		(at 453.8556 272.7537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2769,7 +2755,7 @@
 	)
 	(text "CNTL"
 		(exclude_from_sim no)
-		(at 255.2277 319.5744 0)
+		(at 270.0443 321.5641 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2781,7 +2767,7 @@
 	)
 	(text "PG. 6-8"
 		(exclude_from_sim no)
-		(at 182.5837 152.1884 0)
+		(at 197.4003 154.1781 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2793,7 +2779,7 @@
 	)
 	(text "VRM8.2"
 		(exclude_from_sim no)
-		(at 371.094 137.922 0)
+		(at 375.6236 139.1497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2806,7 +2792,7 @@
 	)
 	(text "24"
 		(exclude_from_sim no)
-		(at 454.914 169.672 0)
+		(at 459.4436 170.8997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2819,7 +2805,7 @@
 	)
 	(text "VRM\nVTT GEN."
 		(exclude_from_sim no)
-		(at 73.1097 43.9844 0)
+		(at 87.9263 45.9741 0)
 		(effects
 			(font
 				(size 4 4)
@@ -2831,7 +2817,7 @@
 	)
 	(text "U6"
 		(exclude_from_sim no)
-		(at 413.004 195.072 0)
+		(at 417.5336 196.2997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2844,7 +2830,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 451.612 144.272 0)
+		(at 456.1416 145.4997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2854,7 +2840,7 @@
 	)
 	(text ","
 		(exclude_from_sim no)
-		(at 459.232 220.726 0)
+		(at 463.7616 221.9537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2864,7 +2850,7 @@
 	)
 	(text "J16, J17"
 		(exclude_from_sim no)
-		(at 413.258 131.572 0)
+		(at 417.7876 132.7997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2877,7 +2863,7 @@
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 449.326 322.326 0)
+		(at 453.8556 323.5537 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2890,7 +2876,7 @@
 	)
 	(text "29"
 		(exclude_from_sim no)
-		(at 460.502 201.676 0)
+		(at 465.0316 202.9037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2903,7 +2889,7 @@
 	)
 	(text "PG. 23"
 		(exclude_from_sim no)
-		(at 150.3257 365.8024 0)
+		(at 165.1423 367.7921 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2915,7 +2901,7 @@
 	)
 	(text "F1,F2,F3,F4"
 		(exclude_from_sim no)
-		(at 413.258 93.98 0)
+		(at 417.7876 95.2077 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2928,7 +2914,7 @@
 	)
 	(text "U13"
 		(exclude_from_sim no)
-		(at 412.75 227.076 0)
+		(at 417.2796 228.3037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2941,7 +2927,7 @@
 	)
 	(text "21"
 		(exclude_from_sim no)
-		(at 449.326 214.376 0)
+		(at 453.8556 215.6037 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2954,7 +2940,7 @@
 	)
 	(text "20"
 		(exclude_from_sim no)
-		(at 449.326 169.672 0)
+		(at 453.8556 170.8997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2967,7 +2953,7 @@
 	)
 	(text "PENTIUM(tm) II\nPROCESSOR"
 		(exclude_from_sim no)
-		(at 163.0257 40.1744 0)
+		(at 177.8423 42.1641 0)
 		(effects
 			(font
 				(size 4 4)
@@ -2980,7 +2966,7 @@
 	)
 	(text "U12 A,B,C,D,E,F"
 		(exclude_from_sim no)
-		(at 412.75 220.472 0)
+		(at 417.2796 221.6997 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2993,7 +2979,7 @@
 	)
 	(text "AGP Connector"
 		(exclude_from_sim no)
-		(at 371.094 150.622 0)
+		(at 375.6236 151.8497 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3006,7 +2992,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 370.8822) (xy 197.358 367.6651)
+			(xy 215.392 372.8719) (xy 212.1746 369.6548)
 		)
 		(stroke
 			(width 0.1693)
@@ -3017,7 +3003,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.7127 85.7249) (xy 194.1407 79.4596)
+			(xy 213.5293 87.7146) (xy 208.9573 81.4493)
 		)
 		(stroke
 			(width 0.1693)
@@ -3028,7 +3014,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 79.6291) (xy 172.8046 79.6291)
+			(xy 184.4039 81.6188) (xy 187.6212 81.6188)
 		)
 		(stroke
 			(width 0.1693)
@@ -3039,7 +3025,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.0807 33.0624) (xy 51.3927 33.0624)
+			(xy 109.8973 35.0521) (xy 66.2093 35.0521)
 		)
 		(stroke
 			(width 0.8466)
@@ -3050,7 +3036,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 95.0384) (xy 188.0447 95.0384)
+			(xy 206.0786 97.0281) (xy 202.8613 97.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -3061,7 +3047,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 259.2917) (xy 305.7313 259.2917)
+			(xy 330.0306 261.2814) (xy 320.5479 261.2814)
 		)
 		(stroke
 			(width 0.8466)
@@ -3072,7 +3058,7 @@
 	)
 	(polyline
 		(pts
-			(xy 225.298 342.9424) (xy 262.7207 342.9424)
+			(xy 240.1146 344.9321) (xy 277.5373 344.9321)
 		)
 		(stroke
 			(width 0.1693)
@@ -3083,7 +3069,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 33.0624) (xy 95.25 54.9064)
+			(xy 110.0666 35.0521) (xy 110.0666 56.8961)
 		)
 		(stroke
 			(width 0.8466)
@@ -3094,7 +3080,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 225.2557) (xy 179.07 225.2557)
+			(xy 181.356 227.2454) (xy 193.8866 227.2454)
 		)
 		(stroke
 			(width 0.1693)
@@ -3105,7 +3091,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5634 342.9424) (xy 126.4074 342.9424)
+			(xy 119.38 344.9321) (xy 141.224 344.9321)
 		)
 		(stroke
 			(width 0.8466)
@@ -3116,7 +3102,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 217.17) (xy 475.615 217.17)
+			(xy 369.6546 218.3977) (xy 480.1446 218.3977)
 		)
 		(stroke
 			(width 0.1693)
@@ -3127,7 +3113,7 @@
 	)
 	(polyline
 		(pts
-			(xy 245.7873 191.0503) (xy 250.3593 197.485)
+			(xy 260.6039 193.04) (xy 265.1759 199.4747)
 		)
 		(stroke
 			(width 0.1693)
@@ -3138,7 +3124,7 @@
 	)
 	(polyline
 		(pts
-			(xy 79.6714 336.8464) (xy 79.6714 340.0637)
+			(xy 94.488 338.8361) (xy 94.488 342.0534)
 		)
 		(stroke
 			(width 0.1693)
@@ -3149,7 +3135,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6234 188.0023) (xy 330.6234 184.785)
+			(xy 345.44 189.992) (xy 345.44 186.7747)
 		)
 		(stroke
 			(width 0.1693)
@@ -3160,7 +3146,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 122.9784) (xy 250.3593 122.9784)
+			(xy 224.7053 124.9681) (xy 265.1759 124.9681)
 		)
 		(stroke
 			(width 0.1693)
@@ -3171,7 +3157,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 240.665) (xy 179.07 240.665)
+			(xy 181.356 242.6547) (xy 193.8866 242.6547)
 		)
 		(stroke
 			(width 0.1693)
@@ -3182,7 +3168,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 147.701) (xy 113.538 152.781)
+			(xy 134.7893 149.6907) (xy 128.3546 154.7707)
 		)
 		(stroke
 			(width 0.1693)
@@ -3193,7 +3179,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 110.6171) (xy 193.294 116.8824)
+			(xy 203.0306 112.6068) (xy 208.1106 118.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -3204,7 +3190,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 355.3037) (xy 160.274 368.0038)
+			(xy 175.0906 357.2934) (xy 175.0906 369.9935)
 		)
 		(stroke
 			(width 0.8466)
@@ -3215,7 +3201,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 256.2437) (xy 147.9127 265.7264)
+			(xy 162.7293 258.2334) (xy 162.7293 267.7161)
 		)
 		(stroke
 			(width 0.1693)
@@ -3226,7 +3212,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5033 135.3397) (xy 259.5033 113.4957)
+			(xy 274.3199 137.3294) (xy 274.3199 115.4854)
 		)
 		(stroke
 			(width 0.8466)
@@ -3237,7 +3223,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.9967 191.0504) (xy 327.7446 191.0504)
+			(xy 72.8133 193.0401) (xy 342.5612 193.0401)
 		)
 		(stroke
 			(width 0.1693)
@@ -3248,7 +3234,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6954 212.8943) (xy 148.0821 212.8943)
+			(xy 159.512 214.884) (xy 162.8987 214.884)
 		)
 		(stroke
 			(width 0.1693)
@@ -3259,7 +3245,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 127.2117) (xy 150.7914 122.8091)
+			(xy 172.0426 129.2014) (xy 165.608 124.7988)
 		)
 		(stroke
 			(width 0.1693)
@@ -3270,7 +3256,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6354 284.0144) (xy 175.8527 284.0144)
+			(xy 187.452 286.0041) (xy 190.6693 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -3281,7 +3267,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 318.2197) (xy 268.8167 323.2997)
+			(xy 277.368 320.2094) (xy 283.6333 325.2894)
 		)
 		(stroke
 			(width 0.1693)
@@ -3292,7 +3278,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 296.5451) (xy 181.9487 299.7624)
+			(xy 196.7653 298.5348) (xy 196.7653 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -3303,7 +3289,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 358.5209) (xy 200.5753 352.0864)
+			(xy 215.3919 360.5106) (xy 215.3919 354.0761)
 		)
 		(stroke
 			(width 0.8466)
@@ -3314,7 +3300,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 218.9904) (xy 268.6474 215.773)
+			(xy 283.464 220.9801) (xy 283.464 217.7627)
 		)
 		(stroke
 			(width 0.1693)
@@ -3325,7 +3311,7 @@
 	)
 	(polyline
 		(pts
-			(xy 327.5753 277.9184) (xy 330.7927 277.9184)
+			(xy 342.3919 279.9081) (xy 345.6093 279.9081)
 		)
 		(stroke
 			(width 0.1693)
@@ -3336,7 +3322,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6474 200.3637) (xy 141.6474 209.8464)
+			(xy 156.464 202.3534) (xy 156.464 211.8361)
 		)
 		(stroke
 			(width 0.1693)
@@ -3347,7 +3333,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 284.0144) (xy 219.0327 284.0144)
+			(xy 237.0666 286.0041) (xy 233.8493 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -3358,7 +3344,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 153.9664) (xy 122.8514 153.9664)
+			(xy 162.7293 155.9561) (xy 137.668 155.9561)
 		)
 		(stroke
 			(width 0.1693)
@@ -3369,17 +3355,18 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 324.3157) (xy 262.5514 327.7024)
+			(xy 277.368 326.3054) (xy 277.368 329.6921)
 		)
 		(stroke
 			(width 0.1693)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(uuid "08728b5d-759f-4a1d-91c8-46921fac29ac")
 	)
 	(polyline
 		(pts
-			(xy 365.125 147.32) (xy 475.615 147.32)
+			(xy 369.6546 148.5477) (xy 480.1446 148.5477)
 		)
 		(stroke
 			(width 0.1693)
@@ -3390,7 +3377,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 345.9904) (xy 262.5514 349.377)
+			(xy 277.368 347.9801) (xy 277.368 351.3667)
 		)
 		(stroke
 			(width 0.1693)
@@ -3401,7 +3388,7 @@
 	)
 	(polyline
 		(pts
-			(xy 42.5873 274.8704) (xy 39.2006 274.8704)
+			(xy 57.4039 276.8601) (xy 54.0172 276.8601)
 		)
 		(stroke
 			(width 0.1693)
@@ -3412,7 +3399,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 153.9664) (xy 284.226 144.4837)
+			(xy 299.0426 155.9561) (xy 299.0426 146.4734)
 		)
 		(stroke
 			(width 0.1693)
@@ -3423,7 +3410,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.9367 311.9544) (xy 85.9367 315.1717)
+			(xy 100.7533 313.9441) (xy 100.7533 317.1614)
 		)
 		(stroke
 			(width 0.1693)
@@ -3434,7 +3421,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 98.0864) (xy 194.31 94.869)
+			(xy 209.1266 100.0761) (xy 209.1266 96.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -3445,7 +3432,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 42.3756) (xy 250.19 39.1583)
+			(xy 265.0066 44.3653) (xy 265.0066 41.148)
 		)
 		(stroke
 			(width 0.1693)
@@ -3456,7 +3443,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 237.617) (xy 163.1527 237.617)
+			(xy 181.356 239.6067) (xy 177.9693 239.6067)
 		)
 		(stroke
 			(width 0.1693)
@@ -3467,7 +3454,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 345.9904) (xy 169.5873 349.377)
+			(xy 184.4039 347.9801) (xy 184.4039 351.3667)
 		)
 		(stroke
 			(width 0.1693)
@@ -3478,7 +3465,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 268.605) (xy 113.538 268.605)
+			(xy 131.7413 270.5947) (xy 128.3546 270.5947)
 		)
 		(stroke
 			(width 0.1693)
@@ -3489,7 +3476,7 @@
 	)
 	(polyline
 		(pts
-			(xy 61.0447 290.2797) (xy 61.0447 293.497)
+			(xy 75.8613 292.2694) (xy 75.8613 295.4867)
 		)
 		(stroke
 			(width 0.1693)
@@ -3500,7 +3487,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5033 299.5931) (xy 262.7207 299.5931)
+			(xy 274.3199 301.5828) (xy 277.5373 301.5828)
 		)
 		(stroke
 			(width 0.1693)
@@ -3511,7 +3498,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.098 274.8704) (xy 144.526 268.4357)
+			(xy 163.9146 276.8601) (xy 159.3426 270.4254)
 		)
 		(stroke
 			(width 0.1693)
@@ -3522,7 +3509,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 98.0863) (xy 160.274 94.869)
+			(xy 175.0906 100.076) (xy 175.0906 96.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -3533,7 +3520,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5034 342.9424) (xy 262.7207 342.9424)
+			(xy 274.32 344.9321) (xy 277.5373 344.9321)
 		)
 		(stroke
 			(width 0.1693)
@@ -3544,7 +3531,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 110.6171) (xy 188.0447 110.6171)
+			(xy 206.0786 112.6068) (xy 202.8613 112.6068)
 		)
 		(stroke
 			(width 0.1693)
@@ -3555,7 +3542,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 312.42) (xy 475.615 312.42)
+			(xy 369.6546 313.6477) (xy 480.1446 313.6477)
 		)
 		(stroke
 			(width 0.1693)
@@ -3566,7 +3553,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 218.9904) (xy 268.8167 218.9904)
+			(xy 280.416 220.9801) (xy 283.6333 220.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -3577,7 +3564,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6833 181.9064) (xy 179.07 181.9064)
+			(xy 190.4999 183.8961) (xy 193.8866 183.8961)
 		)
 		(stroke
 			(width 0.1693)
@@ -3588,7 +3575,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.7194 333.629) (xy 92.202 333.629)
+			(xy 97.536 335.6187) (xy 107.0186 335.6187)
 		)
 		(stroke
 			(width 0.1693)
@@ -3599,7 +3586,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 370.8822) (xy 197.358 374.0997)
+			(xy 215.3919 372.8719) (xy 212.1746 376.0894)
 		)
 		(stroke
 			(width 0.1693)
@@ -3610,7 +3597,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9847 153.9664) (xy 215.9847 150.749)
+			(xy 230.8013 155.9561) (xy 230.8013 152.7387)
 		)
 		(stroke
 			(width 0.1693)
@@ -3621,7 +3608,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 181.9064) (xy 169.418 181.9064)
+			(xy 187.4519 183.8961) (xy 184.2346 183.8961)
 		)
 		(stroke
 			(width 0.1693)
@@ -3632,7 +3619,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 253.0263) (xy 154.178 253.0263)
+			(xy 165.7773 255.016) (xy 168.9946 255.016)
 		)
 		(stroke
 			(width 0.1693)
@@ -3643,7 +3630,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 67.0984) (xy 184.9967 76.5811)
+			(xy 199.8133 69.0881) (xy 199.8133 78.5708)
 		)
 		(stroke
 			(width 0.1693)
@@ -3654,7 +3641,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 64.0503) (xy 183.9807 57.785)
+			(xy 193.7173 66.04) (xy 198.7973 59.7747)
 		)
 		(stroke
 			(width 0.1693)
@@ -3665,7 +3652,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 302.641) (xy 262.7207 302.641)
+			(xy 261.7893 304.6307) (xy 277.5373 304.6307)
 		)
 		(stroke
 			(width 0.1693)
@@ -3676,7 +3663,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.2381 200.3637) (xy 126.2381 197.1463)
+			(xy 141.0547 202.3534) (xy 141.0547 199.136)
 		)
 		(stroke
 			(width 0.1693)
@@ -3687,7 +3674,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.286 253.0263) (xy 134.366 246.761)
+			(xy 144.1026 255.016) (xy 149.1826 248.7507)
 		)
 		(stroke
 			(width 0.1693)
@@ -3698,7 +3685,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5874 342.9424) (xy 169.5874 339.725)
+			(xy 184.404 344.9321) (xy 184.404 341.7147)
 		)
 		(stroke
 			(width 0.1693)
@@ -3709,7 +3696,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 253.0264) (xy 113.538 253.0264)
+			(xy 131.7413 255.0161) (xy 128.3546 255.0161)
 		)
 		(stroke
 			(width 0.1693)
@@ -3720,7 +3707,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.0087 284.0144) (xy 159.258 277.749)
+			(xy 168.8253 286.0041) (xy 174.0746 279.7387)
 		)
 		(stroke
 			(width 0.1693)
@@ -3731,7 +3718,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.2381 197.3157) (xy 129.4554 197.3157)
+			(xy 141.0547 199.3054) (xy 144.272 199.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -3742,7 +3729,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 243.8824) (xy 321.6487 243.8824)
+			(xy 330.0306 245.8721) (xy 336.4653 245.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -3753,7 +3740,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.334 256.2437) (xy 132.334 252.857)
+			(xy 147.1506 258.2334) (xy 147.1506 254.8467)
 		)
 		(stroke
 			(width 0.1693)
@@ -3764,7 +3751,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5275 166.3276) (xy 192.2781 159.8929)
+			(xy 212.3441 168.3173) (xy 207.0947 161.8826)
 		)
 		(stroke
 			(width 0.1693)
@@ -3775,7 +3762,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.178 82.677) (xy 287.4433 87.757)
+			(xy 295.9946 84.6667) (xy 302.2599 89.7467)
 		)
 		(stroke
 			(width 0.1693)
@@ -3786,7 +3773,7 @@
 	)
 	(polyline
 		(pts
-			(xy 237.6594 287.2317) (xy 237.6594 283.845)
+			(xy 252.476 289.2214) (xy 252.476 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -3797,7 +3784,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5513 45.4237) (xy 265.7687 45.4237)
+			(xy 277.3679 47.4134) (xy 280.5853 47.4134)
 		)
 		(stroke
 			(width 0.1693)
@@ -3808,7 +3795,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.6234 79.6289) (xy 198.5434 85.8943)
+			(xy 218.44 81.6186) (xy 213.36 87.884)
 		)
 		(stroke
 			(width 0.1693)
@@ -3819,7 +3806,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 345.9904) (xy 169.5873 342.7731)
+			(xy 184.4039 347.9801) (xy 184.4039 344.7628)
 		)
 		(stroke
 			(width 0.1693)
@@ -3830,7 +3817,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.7074 152.6117) (xy 120.142 157.1837)
+			(xy 128.524 154.6014) (xy 134.9586 159.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -3841,7 +3828,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 96.52) (xy 475.615 96.52)
+			(xy 369.6546 97.7477) (xy 480.1446 97.7477)
 		)
 		(stroke
 			(width 0.1693)
@@ -3852,7 +3839,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 293.3277) (xy 293.7087 293.3277)
+			(xy 299.0426 295.3174) (xy 308.5253 295.3174)
 		)
 		(stroke
 			(width 0.8466)
@@ -3863,7 +3850,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5034 130.937) (xy 253.0687 135.509)
+			(xy 274.32 132.9267) (xy 267.8853 137.4987)
 		)
 		(stroke
 			(width 0.1693)
@@ -3874,7 +3861,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.3754 191.0503) (xy 119.8034 197.485)
+			(xy 139.192 193.04) (xy 134.62 199.4747)
 		)
 		(stroke
 			(width 0.1693)
@@ -3885,7 +3872,7 @@
 	)
 	(polyline
 		(pts
-			(xy 173.8208 160.0623) (xy 169.4181 166.497)
+			(xy 188.6374 162.052) (xy 184.2347 168.4867)
 		)
 		(stroke
 			(width 0.1693)
@@ -3896,7 +3883,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 178.6891) (xy 172.6353 182.0757)
+			(xy 187.4519 180.6788) (xy 187.4519 184.0654)
 		)
 		(stroke
 			(width 0.1693)
@@ -3907,7 +3894,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 135.3397) (xy 262.382 138.557)
+			(xy 280.416 137.3294) (xy 277.1986 140.5467)
 		)
 		(stroke
 			(width 0.1693)
@@ -3918,7 +3905,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 284.0144) (xy 178.7314 284.0144)
+			(xy 196.7653 286.0041) (xy 193.548 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -3929,7 +3916,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 169.3757) (xy 194.31 178.8584)
+			(xy 209.1266 171.3654) (xy 209.1266 180.8481)
 		)
 		(stroke
 			(width 0.1693)
@@ -3940,7 +3927,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.7073 127.889) (xy 120.142 132.461)
+			(xy 128.5239 129.8787) (xy 134.9586 134.4507)
 		)
 		(stroke
 			(width 0.1693)
@@ -3951,7 +3938,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 67.0984) (xy 197.5273 76.581)
+			(xy 212.3439 69.0881) (xy 212.3439 78.5707)
 		)
 		(stroke
 			(width 0.1693)
@@ -3962,7 +3949,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 256.2437) (xy 119.9727 252.857)
+			(xy 134.7893 258.2334) (xy 134.7893 254.8467)
 		)
 		(stroke
 			(width 0.1693)
@@ -3973,7 +3960,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 334.9837) (xy 79.8407 330.4117)
+			(xy 88.392 336.9734) (xy 94.6573 332.4014)
 		)
 		(stroke
 			(width 0.1693)
@@ -3984,7 +3971,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.5634 197.3157) (xy 228.346 197.3157)
+			(xy 246.38 199.3054) (xy 243.1626 199.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -3995,7 +3982,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 30.0144) (xy 123.0207 58.1237)
+			(xy 137.8373 32.0041) (xy 137.8373 60.1134)
 		)
 		(stroke
 			(width 0.8466)
@@ -4006,7 +3993,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 239.4797) (xy 163.4913 244.0517)
+			(xy 172.0426 241.4694) (xy 178.3079 246.0414)
 		)
 		(stroke
 			(width 0.1693)
@@ -4017,7 +4004,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 296.5451) (xy 157.226 299.7624)
+			(xy 172.0426 298.5348) (xy 172.0426 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -4028,7 +4015,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 339.8944) (xy 171.6193 333.4597)
+			(xy 181.356 341.8841) (xy 186.4359 335.4494)
 		)
 		(stroke
 			(width 0.1693)
@@ -4039,7 +4026,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 39.3276) (xy 243.7553 44.4076)
+			(xy 265.0066 41.3173) (xy 258.5719 46.3973)
 		)
 		(stroke
 			(width 0.1693)
@@ -4050,7 +4037,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 222.0384) (xy 188.3834 227.2877)
+			(xy 196.7653 224.0281) (xy 203.2 229.2774)
 		)
 		(stroke
 			(width 0.1693)
@@ -4061,7 +4048,7 @@
 	)
 	(polyline
 		(pts
-			(xy 39.3702 274.8704) (xy 39.3702 271.4837)
+			(xy 54.1868 276.8601) (xy 54.1868 273.4734)
 		)
 		(stroke
 			(width 0.1693)
@@ -4072,7 +4059,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.5634 200.3637) (xy 231.5634 247.0997)
+			(xy 246.38 202.3534) (xy 246.38 249.0894)
 		)
 		(stroke
 			(width 0.1693)
@@ -4083,7 +4070,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6353 206.629) (xy 299.6353 259.461)
+			(xy 314.4519 208.6187) (xy 314.4519 261.4507)
 		)
 		(stroke
 			(width 0.8466)
@@ -4094,7 +4081,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 243.8824) (xy 290.6607 243.8824)
+			(xy 299.0426 245.8721) (xy 305.4773 245.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -4105,7 +4092,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.9367 308.9064) (xy 85.9367 305.689)
+			(xy 100.7533 310.8961) (xy 100.7533 307.6787)
 		)
 		(stroke
 			(width 0.1693)
@@ -4116,7 +4103,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 367.8343) (xy 163.1527 367.8343)
+			(xy 196.7653 369.824) (xy 177.9693 369.824)
 		)
 		(stroke
 			(width 0.8466)
@@ -4127,7 +4114,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 256.2437) (xy 150.9607 252.857)
+			(xy 165.7773 258.2334) (xy 165.7773 254.8467)
 		)
 		(stroke
 			(width 0.1693)
@@ -4138,7 +4125,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 218.9904) (xy 222.4193 218.9904)
+			(xy 224.7053 220.9801) (xy 237.2359 220.9801)
 		)
 		(stroke
 			(width 0.8466)
@@ -4149,7 +4136,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.7194 336.8464) (xy 95.4194 336.8464)
+			(xy 97.536 338.8361) (xy 110.236 338.8361)
 		)
 		(stroke
 			(width 0.1693)
@@ -4160,7 +4147,7 @@
 	)
 	(polyline
 		(pts
-			(xy 100.4994 65.5744) (xy 100.4994 78.1051)
+			(xy 115.316 67.5641) (xy 115.316 80.0948)
 		)
 		(stroke
 			(width 0.8466)
@@ -4171,7 +4158,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6954 339.8944) (xy 149.9447 333.4597)
+			(xy 159.512 341.8841) (xy 164.7613 335.4494)
 		)
 		(stroke
 			(width 0.1693)
@@ -4182,7 +4169,7 @@
 	)
 	(polyline
 		(pts
-			(xy 173.8207 188.0024) (xy 169.418 181.7371)
+			(xy 188.6373 189.9921) (xy 184.2346 183.7268)
 		)
 		(stroke
 			(width 0.1693)
@@ -4193,7 +4180,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 110.6171) (xy 166.7087 110.6171)
+			(xy 178.1386 112.6068) (xy 181.5253 112.6068)
 		)
 		(stroke
 			(width 0.1693)
@@ -4204,7 +4191,7 @@
 	)
 	(polyline
 		(pts
-			(xy 70.358 222.0384) (xy 70.358 234.7384)
+			(xy 85.1746 224.0281) (xy 85.1746 236.7281)
 		)
 		(stroke
 			(width 0.1693)
@@ -4215,7 +4202,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 225.2557) (xy 210.058 225.2557)
+			(xy 215.392 227.2454) (xy 224.8746 227.2454)
 		)
 		(stroke
 			(width 0.1693)
@@ -4226,7 +4213,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.346 39.3276) (xy 95.0807 44.4076)
+			(xy 116.1626 41.3173) (xy 109.8973 46.3973)
 		)
 		(stroke
 			(width 0.1693)
@@ -4237,7 +4224,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.274 141.605) (xy 290.6607 141.605)
+			(xy 302.0906 143.5947) (xy 305.4773 143.5947)
 		)
 		(stroke
 			(width 0.1693)
@@ -4248,7 +4235,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 306.07) (xy 475.615 306.07)
+			(xy 369.6546 307.2977) (xy 480.1446 307.2977)
 		)
 		(stroke
 			(width 0.1693)
@@ -4259,7 +4246,7 @@
 	)
 	(polyline
 		(pts
-			(xy 171.45 277.9183) (xy 175.8527 284.1837)
+			(xy 186.2666 279.908) (xy 190.6693 286.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -4270,7 +4257,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 323.1304) (xy 262.3821 327.7024)
+			(xy 283.464 325.1201) (xy 277.1987 329.6921)
 		)
 		(stroke
 			(width 0.1693)
@@ -4281,7 +4268,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 79.6291) (xy 167.5553 85.8944)
+			(xy 187.4519 81.6188) (xy 182.3719 87.8841)
 		)
 		(stroke
 			(width 0.1693)
@@ -4292,7 +4279,7 @@
 	)
 	(polyline
 		(pts
-			(xy 61.0447 277.9183) (xy 327.7446 277.9183)
+			(xy 75.8613 279.908) (xy 342.5612 279.908)
 		)
 		(stroke
 			(width 0.1693)
@@ -4303,7 +4290,7 @@
 	)
 	(polyline
 		(pts
-			(xy 100.4994 65.5744) (xy 125.3913 65.5744)
+			(xy 115.316 67.5641) (xy 140.2079 67.5641)
 		)
 		(stroke
 			(width 0.8466)
@@ -4314,7 +4301,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 246.9304) (xy 110.6594 234.3997)
+			(xy 125.476 248.9201) (xy 125.476 236.3894)
 		)
 		(stroke
 			(width 0.8466)
@@ -4325,7 +4312,7 @@
 	)
 	(polyline
 		(pts
-			(xy 79.6714 299.593) (xy 79.6714 321.437)
+			(xy 94.488 301.5827) (xy 94.488 323.4267)
 		)
 		(stroke
 			(width 0.8466)
@@ -4336,7 +4323,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9847 376.9784) (xy 200.406 376.9784)
+			(xy 230.8013 378.9681) (xy 215.2226 378.9681)
 		)
 		(stroke
 			(width 0.8466)
@@ -4347,7 +4334,7 @@
 	)
 	(polyline
 		(pts
-			(xy 305.9007 259.2917) (xy 305.9007 206.4597)
+			(xy 320.7173 261.2814) (xy 320.7173 208.4494)
 		)
 		(stroke
 			(width 0.8466)
@@ -4358,7 +4345,7 @@
 	)
 	(polyline
 		(pts
-			(xy 406.4 74.295) (xy 406.4 331.47)
+			(xy 410.9296 75.5227) (xy 410.9296 332.6977)
 		)
 		(stroke
 			(width 0.8466)
@@ -4369,7 +4356,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 253.0263) (xy 144.526 253.0263)
+			(xy 162.7293 255.016) (xy 159.3426 255.016)
 		)
 		(stroke
 			(width 0.1693)
@@ -4380,7 +4367,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 222.0384) (xy 265.7687 222.0384)
+			(xy 258.7413 224.0281) (xy 280.5853 224.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -4391,7 +4378,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.9487 293.3277) (xy 60.0287 299.7624)
+			(xy 69.7653 295.3174) (xy 74.8453 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -4402,7 +4389,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 315.0024) (xy 126.238 321.437)
+			(xy 141.0546 316.9921) (xy 141.0546 323.4267)
 		)
 		(stroke
 			(width 0.8466)
@@ -4413,7 +4400,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5274 79.6289) (xy 194.1407 79.6289)
+			(xy 212.344 81.6186) (xy 208.9573 81.6186)
 		)
 		(stroke
 			(width 0.1693)
@@ -4424,7 +4411,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.274 144.653) (xy 287.274 141.4357)
+			(xy 302.0906 146.6427) (xy 302.0906 143.4254)
 		)
 		(stroke
 			(width 0.1693)
@@ -4435,7 +4422,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6953 253.0263) (xy 149.9447 246.761)
+			(xy 159.5119 255.016) (xy 164.7613 248.7507)
 		)
 		(stroke
 			(width 0.1693)
@@ -4446,7 +4433,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9847 361.5689) (xy 200.406 361.5689)
+			(xy 230.8013 363.5586) (xy 215.2226 363.5586)
 		)
 		(stroke
 			(width 0.8466)
@@ -4457,7 +4444,7 @@
 	)
 	(polyline
 		(pts
-			(xy 42.5873 277.9183) (xy 39.2006 277.9183)
+			(xy 57.4039 279.908) (xy 54.0172 279.908)
 		)
 		(stroke
 			(width 0.1693)
@@ -4468,7 +4455,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 237.617) (xy 163.322 234.3997)
+			(xy 178.1386 239.6067) (xy 178.1386 236.3894)
 		)
 		(stroke
 			(width 0.1693)
@@ -4479,7 +4466,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 166.37) (xy 475.615 166.37)
+			(xy 369.6546 167.5977) (xy 480.1446 167.5977)
 		)
 		(stroke
 			(width 0.1693)
@@ -4490,7 +4477,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5874 284.0144) (xy 166.37 284.0144)
+			(xy 184.404 286.0041) (xy 181.1866 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -4501,7 +4488,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5274 76.4116) (xy 197.5274 79.7983)
+			(xy 212.344 78.4013) (xy 212.344 81.788)
 		)
 		(stroke
 			(width 0.1693)
@@ -4512,7 +4499,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 110.6171) (xy 177.7153 116.8824)
+			(xy 187.4519 112.6068) (xy 192.5319 118.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -4523,7 +4510,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5993 88.9424) (xy 278.13 88.9424)
+			(xy 153.4159 90.9321) (xy 292.9466 90.9321)
 		)
 		(stroke
 			(width 0.1693)
@@ -4534,7 +4521,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 386.2917) (xy 246.9727 358.3518)
+			(xy 261.7893 388.2814) (xy 261.7893 360.3415)
 		)
 		(stroke
 			(width 0.1693)
@@ -4545,7 +4532,7 @@
 	)
 	(polyline
 		(pts
-			(xy 183.8114 57.9543) (xy 188.3834 64.2196)
+			(xy 198.628 59.944) (xy 203.2 66.2093)
 		)
 		(stroke
 			(width 0.1693)
@@ -4556,7 +4543,7 @@
 	)
 	(polyline
 		(pts
-			(xy 93.8954 311.9544) (xy 98.4674 318.389)
+			(xy 108.712 313.9441) (xy 113.284 320.3787)
 		)
 		(stroke
 			(width 0.1693)
@@ -4567,7 +4554,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.038 88.9424) (xy 172.466 95.2077)
+			(xy 191.8546 90.9321) (xy 187.2826 97.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -4578,7 +4565,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 228.3037) (xy 181.9487 231.521)
+			(xy 196.7653 230.2934) (xy 196.7653 233.5107)
 		)
 		(stroke
 			(width 0.1693)
@@ -4589,7 +4576,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.274 76.4117) (xy 315.3834 76.4117)
+			(xy 302.0906 78.4014) (xy 330.2 78.4014)
 		)
 		(stroke
 			(width 0.8466)
@@ -4600,7 +4587,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 299.593) (xy 284.3953 299.593)
+			(xy 292.7773 301.5827) (xy 299.2119 301.5827)
 		)
 		(stroke
 			(width 0.1693)
@@ -4611,7 +4598,7 @@
 	)
 	(polyline
 		(pts
-			(xy 33.274 276.5637) (xy 39.5394 281.1357)
+			(xy 48.0906 278.5534) (xy 54.356 283.1254)
 		)
 		(stroke
 			(width 0.1693)
@@ -4622,7 +4609,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6113 324.3157) (xy 234.6113 287.0624)
+			(xy 249.4279 326.3054) (xy 249.4279 289.0521)
 		)
 		(stroke
 			(width 0.1693)
@@ -4633,7 +4620,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9847 367.8343) (xy 215.9847 377.1476)
+			(xy 230.8013 369.824) (xy 230.8013 379.1373)
 		)
 		(stroke
 			(width 0.8466)
@@ -4644,7 +4631,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6953 321.2677) (xy 144.6953 305.689)
+			(xy 159.5119 323.2574) (xy 159.5119 307.6787)
 		)
 		(stroke
 			(width 0.8466)
@@ -4655,7 +4642,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 76.4116) (xy 200.5754 79.7983)
+			(xy 215.392 78.4013) (xy 215.392 81.788)
 		)
 		(stroke
 			(width 0.1693)
@@ -4666,7 +4653,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 169.3757) (xy 191.262 178.8584)
+			(xy 206.0786 171.3654) (xy 206.0786 180.8481)
 		)
 		(stroke
 			(width 0.1693)
@@ -4677,7 +4664,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 138.3877) (xy 119.9727 135.1704)
+			(xy 134.7893 140.3774) (xy 134.7893 137.1601)
 		)
 		(stroke
 			(width 0.1693)
@@ -4688,7 +4675,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 138.3877) (xy 151.13 138.3877)
+			(xy 162.7293 140.3774) (xy 165.9466 140.3774)
 		)
 		(stroke
 			(width 0.1693)
@@ -4699,7 +4686,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6953 327.533) (xy 144.6953 321.0984)
+			(xy 159.5119 329.5227) (xy 159.5119 323.0881)
 		)
 		(stroke
 			(width 0.8466)
@@ -4710,7 +4697,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.4593 88.9424) (xy 157.0567 95.2077)
+			(xy 176.2759 90.9321) (xy 171.8733 97.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -4721,7 +4708,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9728 287.2317) (xy 246.9728 283.845)
+			(xy 261.7894 289.2214) (xy 261.7894 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -4732,7 +4719,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5753 299.593) (xy 76.7927 296.3757)
+			(xy 88.3919 301.5827) (xy 91.6093 298.3654)
 		)
 		(stroke
 			(width 0.1693)
@@ -4743,7 +4730,7 @@
 	)
 	(polyline
 		(pts
-			(xy 39.3702 271.653) (xy 33.1048 276.733)
+			(xy 54.1868 273.6427) (xy 47.9214 278.7227)
 		)
 		(stroke
 			(width 0.1693)
@@ -4754,7 +4741,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.286 87.0797) (xy 135.7206 82.5077)
+			(xy 144.1026 89.0694) (xy 150.5372 84.4974)
 		)
 		(stroke
 			(width 0.1693)
@@ -4765,7 +4752,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 255.27) (xy 475.615 255.27)
+			(xy 369.6546 256.4977) (xy 480.1446 256.4977)
 		)
 		(stroke
 			(width 0.1693)
@@ -4776,7 +4763,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 212.8943) (xy 142.6634 219.1596)
+			(xy 162.7293 214.884) (xy 157.48 221.1493)
 		)
 		(stroke
 			(width 0.1693)
@@ -4787,7 +4774,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 85.7251) (xy 138.43 85.7251)
+			(xy 292.7773 87.7148) (xy 153.2466 87.7148)
 		)
 		(stroke
 			(width 0.1693)
@@ -4798,7 +4785,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6473 324.3157) (xy 144.8647 327.7024)
+			(xy 156.4639 326.3054) (xy 159.6813 329.6921)
 		)
 		(stroke
 			(width 0.1693)
@@ -4809,7 +4796,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 349.2077) (xy 135.5513 342.7731)
+			(xy 150.3679 351.1974) (xy 150.3679 344.7628)
 		)
 		(stroke
 			(width 0.1693)
@@ -4820,7 +4807,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9008 166.3276) (xy 173.6514 159.893)
+			(xy 193.7174 168.3173) (xy 188.468 161.8827)
 		)
 		(stroke
 			(width 0.1693)
@@ -4831,7 +4818,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 228.3037) (xy 179.07 228.3037)
+			(xy 181.356 230.2934) (xy 193.8866 230.2934)
 		)
 		(stroke
 			(width 0.1693)
@@ -4842,7 +4829,7 @@
 	)
 	(polyline
 		(pts
-			(xy 293.5393 293.3277) (xy 293.5393 352.425)
+			(xy 308.3559 295.3174) (xy 308.3559 354.4147)
 		)
 		(stroke
 			(width 0.8466)
@@ -4853,7 +4840,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 138.3877) (xy 265.43 135.1704)
+			(xy 283.464 140.3774) (xy 280.2466 137.1601)
 		)
 		(stroke
 			(width 0.1693)
@@ -4864,7 +4851,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 218.9904) (xy 157.226 247.0997)
+			(xy 172.0426 220.9801) (xy 172.0426 249.0894)
 		)
 		(stroke
 			(width 0.8466)
@@ -4875,7 +4862,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 333.629) (xy 194.31 358.6905)
+			(xy 209.1266 335.6187) (xy 209.1266 360.6802)
 		)
 		(stroke
 			(width 0.1693)
@@ -4886,7 +4873,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 185.42) (xy 475.615 185.42)
+			(xy 369.6546 186.6477) (xy 480.1446 186.6477)
 		)
 		(stroke
 			(width 0.1693)
@@ -4897,7 +4884,7 @@
 	)
 	(polyline
 		(pts
-			(xy 51.7314 54.7371) (xy 51.7314 32.8931)
+			(xy 66.548 56.7268) (xy 66.548 34.8828)
 		)
 		(stroke
 			(width 0.8466)
@@ -4908,7 +4895,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 197.3157) (xy 240.7073 197.3157)
+			(xy 258.7413 199.3054) (xy 255.5239 199.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -4919,7 +4906,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 355.3037) (xy 104.394 355.3037)
+			(xy 141.0546 357.2934) (xy 119.2106 357.2934)
 		)
 		(stroke
 			(width 0.8466)
@@ -4930,7 +4917,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 54.7371) (xy 51.562 54.7371)
+			(xy 110.0666 56.7268) (xy 66.3786 56.7268)
 		)
 		(stroke
 			(width 0.8466)
@@ -4941,7 +4928,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6954 310.769) (xy 138.4301 315.1717)
+			(xy 159.512 312.7587) (xy 153.2467 317.1614)
 		)
 		(stroke
 			(width 0.1693)
@@ -4952,7 +4939,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9847 318.2197) (xy 94.0647 311.785)
+			(xy 103.8013 320.2094) (xy 108.8813 313.7747)
 		)
 		(stroke
 			(width 0.1693)
@@ -4963,7 +4950,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.2381 212.8943) (xy 129.4554 212.8943)
+			(xy 141.0547 214.884) (xy 144.272 214.884)
 		)
 		(stroke
 			(width 0.1693)
@@ -4974,7 +4961,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.5634 200.3637) (xy 231.5634 197.1463)
+			(xy 246.38 202.3534) (xy 246.38 199.136)
 		)
 		(stroke
 			(width 0.1693)
@@ -4985,7 +4972,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 135.3397) (xy 246.9727 147.8704)
+			(xy 261.7893 137.3294) (xy 261.7893 149.8601)
 		)
 		(stroke
 			(width 0.8466)
@@ -4996,7 +4983,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.9126 259.2917) (xy 274.9126 206.4597)
+			(xy 289.7292 261.2814) (xy 289.7292 208.4494)
 		)
 		(stroke
 			(width 0.8466)
@@ -5007,7 +4994,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.238 45.4237) (xy 262.7206 45.4237)
+			(xy 268.0546 47.4134) (xy 277.5372 47.4134)
 		)
 		(stroke
 			(width 0.1693)
@@ -5018,7 +5005,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 253.0264) (xy 123.19 253.0264)
+			(xy 134.7893 255.0161) (xy 138.0066 255.0161)
 		)
 		(stroke
 			(width 0.1693)
@@ -5029,7 +5016,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6353 386.2918) (xy 299.6353 358.3518)
+			(xy 314.4519 388.2815) (xy 314.4519 360.3415)
 		)
 		(stroke
 			(width 0.1693)
@@ -5040,7 +5027,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 287.2317) (xy 184.9967 296.7144)
+			(xy 199.8133 289.2214) (xy 199.8133 298.7041)
 		)
 		(stroke
 			(width 0.1693)
@@ -5051,7 +5038,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 150.9184) (xy 150.9607 147.5317)
+			(xy 165.7773 152.9081) (xy 165.7773 149.5214)
 		)
 		(stroke
 			(width 0.1693)
@@ -5062,7 +5049,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 287.2317) (xy 181.9487 283.845)
+			(xy 196.7653 289.2214) (xy 196.7653 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -5073,7 +5060,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 44.2383) (xy 250.3593 48.8103)
+			(xy 258.7413 46.228) (xy 265.1759 50.8)
 		)
 		(stroke
 			(width 0.1693)
@@ -5084,7 +5071,7 @@
 	)
 	(polyline
 		(pts
-			(xy 51.7314 339.8944) (xy 51.7314 327.3637)
+			(xy 66.548 341.8841) (xy 66.548 329.3534)
 		)
 		(stroke
 			(width 0.8466)
@@ -5095,7 +5082,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6353 259.2917) (xy 290.322 259.2917)
+			(xy 314.4519 261.2814) (xy 305.1386 261.2814)
 		)
 		(stroke
 			(width 0.8466)
@@ -5106,7 +5093,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 225.2557) (xy 163.1527 225.2557)
+			(xy 181.356 227.2454) (xy 177.9693 227.2454)
 		)
 		(stroke
 			(width 0.1693)
@@ -5117,7 +5104,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 349.2077) (xy 129.4553 345.821)
+			(xy 141.0546 351.1974) (xy 144.2719 347.8107)
 		)
 		(stroke
 			(width 0.1693)
@@ -5128,7 +5115,7 @@
 	)
 	(polyline
 		(pts
-			(xy 224.1127 277.9183) (xy 228.6847 284.1837)
+			(xy 238.9293 279.908) (xy 243.5013 286.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -5139,7 +5126,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 138.3877) (xy 122.8514 138.3877)
+			(xy 162.7293 140.3774) (xy 137.668 140.3774)
 		)
 		(stroke
 			(width 0.1693)
@@ -5150,7 +5137,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9726 302.641) (xy 246.9726 287.0624)
+			(xy 261.7892 304.6307) (xy 261.7892 289.0521)
 		)
 		(stroke
 			(width 0.1693)
@@ -5161,7 +5148,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 234.569) (xy 107.442 231.1824)
+			(xy 125.476 236.5587) (xy 122.2586 233.1721)
 		)
 		(stroke
 			(width 0.1693)
@@ -5172,7 +5159,7 @@
 	)
 	(polyline
 		(pts
-			(xy 171.45 333.629) (xy 175.8527 340.0637)
+			(xy 186.2666 335.6187) (xy 190.6693 342.0534)
 		)
 		(stroke
 			(width 0.1693)
@@ -5183,7 +5170,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 67.0984) (xy 169.5873 63.881)
+			(xy 184.4039 69.0881) (xy 184.4039 65.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -5194,7 +5181,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 67.0983) (xy 184.9967 63.881)
+			(xy 199.8133 69.088) (xy 199.8133 65.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -5205,7 +5192,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5874 287.2317) (xy 169.5874 283.845)
+			(xy 184.404 289.2214) (xy 184.404 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -5216,7 +5203,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 240.665) (xy 163.322 244.0517)
+			(xy 178.1386 242.6547) (xy 178.1386 246.0414)
 		)
 		(stroke
 			(width 0.1693)
@@ -5227,7 +5214,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 147.701) (xy 247.142 147.701)
+			(xy 237.0666 149.6907) (xy 261.9586 149.6907)
 		)
 		(stroke
 			(width 0.8466)
@@ -5238,7 +5225,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.334 256.2437) (xy 132.334 265.7264)
+			(xy 147.1506 258.2334) (xy 147.1506 267.7161)
 		)
 		(stroke
 			(width 0.1693)
@@ -5249,7 +5236,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 85.7251) (xy 281.3473 85.7251)
+			(xy 292.7773 87.7148) (xy 296.1639 87.7148)
 		)
 		(stroke
 			(width 0.1693)
@@ -5260,7 +5247,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 333.629) (xy 188.0447 333.629)
+			(xy 209.1266 335.6187) (xy 202.8613 335.6187)
 		)
 		(stroke
 			(width 0.8466)
@@ -5271,7 +5258,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.9967 188.0023) (xy 54.7794 188.0023)
+			(xy 72.8133 189.992) (xy 69.596 189.992)
 		)
 		(stroke
 			(width 0.1693)
@@ -5282,7 +5269,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6954 197.3156) (xy 148.0821 197.3156)
+			(xy 159.512 199.3053) (xy 162.8987 199.3053)
 		)
 		(stroke
 			(width 0.1693)
@@ -5293,7 +5280,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 243.8824) (xy 73.5754 275.0397)
+			(xy 88.392 245.8721) (xy 88.392 277.0294)
 		)
 		(stroke
 			(width 0.1693)
@@ -5304,7 +5291,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 333.629) (xy 191.0927 337.0157)
+			(xy 209.1266 335.6187) (xy 205.9093 339.0054)
 		)
 		(stroke
 			(width 0.1693)
@@ -5315,7 +5302,7 @@
 	)
 	(polyline
 		(pts
-			(xy 67.31 222.0384) (xy 67.31 200.1944)
+			(xy 82.1266 224.0281) (xy 82.1266 202.1841)
 		)
 		(stroke
 			(width 0.8466)
@@ -5326,7 +5313,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 98.0863) (xy 163.322 94.869)
+			(xy 178.1386 100.076) (xy 178.1386 96.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -5337,7 +5324,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 122.9783) (xy 253.4073 122.9783)
+			(xy 265.0066 124.968) (xy 268.2239 124.968)
 		)
 		(stroke
 			(width 0.1693)
@@ -5348,7 +5335,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 45.4236) (xy 250.19 48.8103)
+			(xy 265.0066 47.4133) (xy 265.0066 50.8)
 		)
 		(stroke
 			(width 0.1693)
@@ -5359,7 +5346,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.334 253.0263) (xy 129.1167 253.0263)
+			(xy 147.1506 255.016) (xy 143.9333 255.016)
 		)
 		(stroke
 			(width 0.1693)
@@ -5370,7 +5357,7 @@
 	)
 	(polyline
 		(pts
-			(xy 61.0447 293.3277) (xy 64.4314 293.3277)
+			(xy 75.8613 295.3174) (xy 79.248 295.3174)
 		)
 		(stroke
 			(width 0.1693)
@@ -5381,7 +5368,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.3101 169.3756) (xy 194.3101 166.1583)
+			(xy 209.1267 171.3653) (xy 209.1267 168.148)
 		)
 		(stroke
 			(width 0.1693)
@@ -5392,7 +5379,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.9967 188.0024) (xy 327.7446 188.0024)
+			(xy 72.8133 189.9921) (xy 342.5612 189.9921)
 		)
 		(stroke
 			(width 0.1693)
@@ -5403,7 +5390,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 129.0744) (xy 119.9727 132.4611)
+			(xy 134.7893 131.0641) (xy 134.7893 134.4508)
 		)
 		(stroke
 			(width 0.1693)
@@ -5414,7 +5401,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 42.3757) (xy 265.5994 39.1583)
+			(xy 280.416 44.3654) (xy 280.416 41.148)
 		)
 		(stroke
 			(width 0.1693)
@@ -5425,7 +5412,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.2861 197.3157) (xy 124.2061 190.881)
+			(xy 144.1027 199.3054) (xy 139.0227 192.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -5436,7 +5423,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 200.3637) (xy 126.238 209.8464)
+			(xy 141.0546 202.3534) (xy 141.0546 211.8361)
 		)
 		(stroke
 			(width 0.1693)
@@ -5447,7 +5434,7 @@
 	)
 	(polyline
 		(pts
-			(xy 70.358 222.0384) (xy 67.1407 225.425)
+			(xy 85.1746 224.0281) (xy 81.9573 227.4147)
 		)
 		(stroke
 			(width 0.1693)
@@ -5458,7 +5445,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 200.3637) (xy 243.9247 222.2077)
+			(xy 258.7413 202.3534) (xy 258.7413 224.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -5469,7 +5456,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 126.0264) (xy 119.8033 126.0264)
+			(xy 137.8373 128.0161) (xy 134.6199 128.0161)
 		)
 		(stroke
 			(width 0.1693)
@@ -5480,7 +5467,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 246.9304) (xy 268.8167 246.9304)
+			(xy 280.416 248.9201) (xy 283.6333 248.9201)
 		)
 		(stroke
 			(width 0.1693)
@@ -5491,7 +5478,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.2621 169.3757) (xy 191.2621 166.1583)
+			(xy 206.0787 171.3654) (xy 206.0787 168.148)
 		)
 		(stroke
 			(width 0.1693)
@@ -5502,7 +5489,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 345.9904) (xy 172.6353 349.377)
+			(xy 187.4519 347.9801) (xy 187.4519 351.3667)
 		)
 		(stroke
 			(width 0.1693)
@@ -5513,7 +5500,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 237.617) (xy 181.9487 234.3997)
+			(xy 196.7653 239.6067) (xy 196.7653 236.3894)
 		)
 		(stroke
 			(width 0.1693)
@@ -5524,7 +5511,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 67.0984) (xy 166.5394 76.581)
+			(xy 181.356 69.0881) (xy 181.356 78.5707)
 		)
 		(stroke
 			(width 0.1693)
@@ -5535,7 +5522,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6233 274.8704) (xy 330.6233 271.4837)
+			(xy 345.4399 276.8601) (xy 345.4399 273.4734)
 		)
 		(stroke
 			(width 0.1693)
@@ -5546,7 +5533,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 370.8822) (xy 200.5753 367.6651)
+			(xy 215.3919 372.8719) (xy 215.3919 369.6548)
 		)
 		(stroke
 			(width 0.8466)
@@ -5557,7 +5544,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.6835 189.865) (xy 55.118 194.437)
+			(xy 63.5001 191.8547) (xy 69.9346 196.4267)
 		)
 		(stroke
 			(width 0.1693)
@@ -5568,7 +5555,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5513 302.641) (xy 262.5513 306.0277)
+			(xy 277.3679 304.6307) (xy 277.3679 308.0174)
 		)
 		(stroke
 			(width 0.1693)
@@ -5579,7 +5566,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 150.9184) (xy 119.8033 150.9184)
+			(xy 137.8373 152.9081) (xy 134.6199 152.9081)
 		)
 		(stroke
 			(width 0.1693)
@@ -5590,7 +5577,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 358.5209) (xy 197.358 355.1344)
+			(xy 215.392 360.5106) (xy 212.1746 357.1241)
 		)
 		(stroke
 			(width 0.1693)
@@ -5601,7 +5588,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6474 197.3156) (xy 138.4301 197.3156)
+			(xy 156.464 199.3053) (xy 153.2467 199.3053)
 		)
 		(stroke
 			(width 0.1693)
@@ -5612,7 +5599,7 @@
 	)
 	(polyline
 		(pts
-			(xy 159.0887 277.9183) (xy 163.4913 284.1837)
+			(xy 173.9053 279.908) (xy 178.3079 286.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -5623,7 +5610,7 @@
 	)
 	(polyline
 		(pts
-			(xy 225.298 287.2317) (xy 225.298 343.1117)
+			(xy 240.1146 289.2214) (xy 240.1146 345.1014)
 		)
 		(stroke
 			(width 0.1693)
@@ -5634,7 +5621,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 102.87) (xy 475.615 102.87)
+			(xy 369.6546 104.0977) (xy 480.1446 104.0977)
 		)
 		(stroke
 			(width 0.1693)
@@ -5645,7 +5632,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 246.9304) (xy 321.6487 246.9304)
+			(xy 330.0306 248.9201) (xy 336.4653 248.9201)
 		)
 		(stroke
 			(width 0.1693)
@@ -5656,7 +5643,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.334 268.605) (xy 129.1167 268.605)
+			(xy 147.1506 270.5947) (xy 143.9333 270.5947)
 		)
 		(stroke
 			(width 0.1693)
@@ -5667,7 +5654,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 98.0864) (xy 178.9007 94.869)
+			(xy 193.7173 100.0761) (xy 193.7173 96.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -5678,7 +5665,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 39.3276) (xy 272.034 44.4076)
+			(xy 280.416 41.3173) (xy 286.8506 46.3973)
 		)
 		(stroke
 			(width 0.1693)
@@ -5689,7 +5676,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.9126 206.629) (xy 284.3953 206.629)
+			(xy 289.7292 208.6187) (xy 299.2119 208.6187)
 		)
 		(stroke
 			(width 0.8466)
@@ -5700,7 +5687,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 344.8051) (xy 262.3821 349.3771)
+			(xy 283.464 346.7948) (xy 277.1987 351.3668)
 		)
 		(stroke
 			(width 0.1693)
@@ -5711,7 +5698,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 129.0744) (xy 122.8514 129.0744)
+			(xy 162.7293 131.0641) (xy 137.668 131.0641)
 		)
 		(stroke
 			(width 0.1693)
@@ -5722,7 +5709,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6234 191.0503) (xy 330.6234 194.437)
+			(xy 345.44 193.04) (xy 345.44 196.4267)
 		)
 		(stroke
 			(width 0.1693)
@@ -5733,7 +5720,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.7194 222.0384) (xy 82.7194 200.1944)
+			(xy 97.536 224.0281) (xy 97.536 202.1841)
 		)
 		(stroke
 			(width 0.8466)
@@ -5744,7 +5731,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6354 169.3757) (xy 172.6354 166.1583)
+			(xy 187.452 171.3654) (xy 187.452 168.148)
 		)
 		(stroke
 			(width 0.1693)
@@ -5755,7 +5742,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 172.72) (xy 475.615 172.72)
+			(xy 369.6546 173.9477) (xy 480.1446 173.9477)
 		)
 		(stroke
 			(width 0.1693)
@@ -5766,7 +5753,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 342.9424) (xy 147.9127 339.725)
+			(xy 162.7293 344.9321) (xy 162.7293 341.7147)
 		)
 		(stroke
 			(width 0.1693)
@@ -5777,7 +5764,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5633 45.4237) (xy 113.8767 45.4237)
+			(xy 119.3799 47.4134) (xy 128.6933 47.4134)
 		)
 		(stroke
 			(width 0.1693)
@@ -5788,7 +5775,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 229.87) (xy 475.615 229.87)
+			(xy 369.6546 231.0977) (xy 480.1446 231.0977)
 		)
 		(stroke
 			(width 0.1693)
@@ -5799,7 +5786,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5994 305.8584) (xy 144.8647 310.9384)
+			(xy 153.416 307.8481) (xy 159.6813 312.9281)
 		)
 		(stroke
 			(width 0.1693)
@@ -5810,7 +5797,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 132.2917) (xy 157.3954 127.0424)
+			(xy 165.7773 134.2814) (xy 172.212 129.0321)
 		)
 		(stroke
 			(width 0.1693)
@@ -5821,7 +5808,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5393 95.0383) (xy 161.29 88.773)
+			(xy 181.3559 97.028) (xy 176.1066 90.7627)
 		)
 		(stroke
 			(width 0.1693)
@@ -5832,7 +5819,7 @@
 	)
 	(polyline
 		(pts
-			(xy 475.615 61.595) (xy 475.615 331.47)
+			(xy 480.1446 62.8227) (xy 480.1446 332.6977)
 		)
 		(stroke
 			(width 0.8466)
@@ -5843,7 +5830,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 150.9184) (xy 119.9727 147.5317)
+			(xy 134.7893 152.9081) (xy 134.7893 149.5214)
 		)
 		(stroke
 			(width 0.1693)
@@ -5854,7 +5841,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 141.605) (xy 281.0087 141.605)
+			(xy 299.0426 143.5947) (xy 295.8253 143.5947)
 		)
 		(stroke
 			(width 0.1693)
@@ -5865,7 +5852,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 352.2557) (xy 216.154 352.2557)
+			(xy 215.3919 354.2454) (xy 230.9706 354.2454)
 		)
 		(stroke
 			(width 0.8466)
@@ -5876,7 +5863,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.178 85.7251) (xy 281.178 82.5077)
+			(xy 295.9946 87.7148) (xy 295.9946 84.4974)
 		)
 		(stroke
 			(width 0.1693)
@@ -5887,7 +5874,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.6835 321.2677) (xy 48.6835 299.4237)
+			(xy 63.5001 323.2574) (xy 63.5001 301.4134)
 		)
 		(stroke
 			(width 0.8466)
@@ -5898,17 +5885,18 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 321.2677) (xy 262.5514 318.0504)
+			(xy 277.368 323.2574) (xy 277.368 320.0401)
 		)
 		(stroke
 			(width 0.1693)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(uuid "512f59ec-6df9-480b-b58b-9b3e4f895d1f")
 	)
 	(polyline
 		(pts
-			(xy 67.31 200.3637) (xy 73.7447 200.3637)
+			(xy 82.1266 202.3534) (xy 88.5613 202.3534)
 		)
 		(stroke
 			(width 0.8466)
@@ -5919,7 +5907,7 @@
 	)
 	(polyline
 		(pts
-			(xy 440.69 74.295) (xy 440.69 331.47)
+			(xy 445.2196 75.5227) (xy 445.2196 332.6977)
 		)
 		(stroke
 			(width 0.8466)
@@ -5930,7 +5918,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.202 153.9664) (xy 284.3953 153.9664)
+			(xy 234.0186 155.9561) (xy 299.2119 155.9561)
 		)
 		(stroke
 			(width 0.1693)
@@ -5941,7 +5929,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 67.0984) (xy 197.5273 63.881)
+			(xy 212.3439 69.0881) (xy 212.3439 65.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -5952,7 +5940,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.202 157.0144) (xy 287.4433 157.0144)
+			(xy 234.0186 159.0041) (xy 302.2599 159.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -5963,7 +5951,7 @@
 	)
 	(polyline
 		(pts
-			(xy 321.4793 206.629) (xy 330.7927 206.629)
+			(xy 336.2959 208.6187) (xy 345.6093 208.6187)
 		)
 		(stroke
 			(width 0.8466)
@@ -5974,7 +5962,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 39.3277) (xy 123.19 44.4077)
+			(xy 131.7413 41.3174) (xy 138.0066 46.3974)
 		)
 		(stroke
 			(width 0.1693)
@@ -5985,7 +5973,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6113 200.3637) (xy 234.6113 244.0517)
+			(xy 249.4279 202.3534) (xy 249.4279 246.0414)
 		)
 		(stroke
 			(width 0.1693)
@@ -5996,7 +5984,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 64.0503) (xy 178.7314 64.0503)
+			(xy 196.7653 66.04) (xy 193.548 66.04)
 		)
 		(stroke
 			(width 0.1693)
@@ -6007,7 +5995,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 234.569) (xy 110.6594 228.1344)
+			(xy 125.476 236.5587) (xy 125.476 230.1241)
 		)
 		(stroke
 			(width 0.8466)
@@ -6018,7 +6006,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 126.0264) (xy 119.9727 122.8091)
+			(xy 134.7893 128.0161) (xy 134.7893 124.7988)
 		)
 		(stroke
 			(width 0.1693)
@@ -6029,7 +6017,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 265.557) (xy 116.9247 268.7743)
+			(xy 131.7413 267.5467) (xy 131.7413 270.764)
 		)
 		(stroke
 			(width 0.1693)
@@ -6040,7 +6028,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 129.0744) (xy 250.3593 129.0744)
+			(xy 224.7053 131.0641) (xy 265.1759 131.0641)
 		)
 		(stroke
 			(width 0.1693)
@@ -6051,7 +6039,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 321.2677) (xy 129.4553 324.485)
+			(xy 141.0546 323.2574) (xy 144.2719 326.4747)
 		)
 		(stroke
 			(width 0.1693)
@@ -6062,7 +6050,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9126 268.6051) (xy 144.526 268.6051)
+			(xy 162.7292 270.5948) (xy 159.3426 270.5948)
 		)
 		(stroke
 			(width 0.1693)
@@ -6073,7 +6061,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 349.2077) (xy 129.4553 352.425)
+			(xy 141.0546 351.1974) (xy 144.2719 354.4147)
 		)
 		(stroke
 			(width 0.1693)
@@ -6084,7 +6072,7 @@
 	)
 	(polyline
 		(pts
-			(xy 290.4913 206.629) (xy 299.8046 206.629)
+			(xy 305.3079 208.6187) (xy 314.6212 208.6187)
 		)
 		(stroke
 			(width 0.8466)
@@ -6095,7 +6083,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 223.52) (xy 475.615 223.52)
+			(xy 369.6546 224.7477) (xy 480.1446 224.7477)
 		)
 		(stroke
 			(width 0.1693)
@@ -6106,7 +6094,7 @@
 	)
 	(polyline
 		(pts
-			(xy 286.0886 135.3397) (xy 290.6606 141.7743)
+			(xy 300.9052 137.3294) (xy 305.4772 143.764)
 		)
 		(stroke
 			(width 0.1693)
@@ -6117,7 +6105,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 327.533) (xy 73.5754 340.0637)
+			(xy 88.392 329.5227) (xy 88.392 342.0534)
 		)
 		(stroke
 			(width 0.8466)
@@ -6128,7 +6116,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 98.0864) (xy 191.262 94.869)
+			(xy 206.0786 100.0761) (xy 206.0786 96.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -6139,7 +6127,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 293.3277) (xy 278.13 293.3277)
+			(xy 283.464 295.3174) (xy 292.9466 295.3174)
 		)
 		(stroke
 			(width 0.8466)
@@ -6150,7 +6138,7 @@
 	)
 	(polyline
 		(pts
-			(xy 79.6714 333.629) (xy 79.6714 330.4117)
+			(xy 94.488 335.6187) (xy 94.488 332.4014)
 		)
 		(stroke
 			(width 0.1693)
@@ -6161,7 +6149,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 98.0864) (xy 175.6834 107.569)
+			(xy 190.5 100.0761) (xy 190.5 109.5587)
 		)
 		(stroke
 			(width 0.1693)
@@ -6172,7 +6160,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5513 42.3757) (xy 265.7687 42.3757)
+			(xy 277.3679 44.3654) (xy 280.5853 44.3654)
 		)
 		(stroke
 			(width 0.1693)
@@ -6183,7 +6171,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 150.9184) (xy 122.8514 150.9184)
+			(xy 162.7293 152.9081) (xy 137.668 152.9081)
 		)
 		(stroke
 			(width 0.1693)
@@ -6194,7 +6182,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 160.0624) (xy 157.226 116.5437)
+			(xy 172.0426 162.0521) (xy 172.0426 118.5334)
 		)
 		(stroke
 			(width 0.8466)
@@ -6205,7 +6193,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5994 308.9064) (xy 138.5994 305.689)
+			(xy 153.416 310.8961) (xy 153.416 307.6787)
 		)
 		(stroke
 			(width 0.1693)
@@ -6216,7 +6204,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 336.8464) (xy 194.1407 333.4597)
+			(xy 212.3439 338.8361) (xy 208.9573 335.4494)
 		)
 		(stroke
 			(width 0.1693)
@@ -6227,7 +6215,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 349.2077) (xy 135.7207 349.2077)
+			(xy 141.0546 351.1974) (xy 150.5373 351.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -6238,7 +6226,7 @@
 	)
 	(polyline
 		(pts
-			(xy 100.4994 77.9357) (xy 125.3913 77.9357)
+			(xy 115.316 79.9254) (xy 140.2079 79.9254)
 		)
 		(stroke
 			(width 0.8466)
@@ -6249,7 +6237,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6113 197.3157) (xy 237.8287 197.3157)
+			(xy 249.4279 199.3054) (xy 252.6453 199.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -6260,7 +6248,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.9127 245.5757) (xy 268.478 250.1477)
+			(xy 289.7293 247.5654) (xy 283.2946 252.1374)
 		)
 		(stroke
 			(width 0.1693)
@@ -6271,7 +6259,7 @@
 	)
 	(polyline
 		(pts
-			(xy 327.5754 386.2917) (xy 246.8033 386.2917)
+			(xy 342.392 388.2814) (xy 261.6199 388.2814)
 		)
 		(stroke
 			(width 0.1693)
@@ -6282,7 +6270,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 349.2077) (xy 175.8527 349.2077)
+			(xy 187.4519 351.1974) (xy 190.6693 351.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -6293,7 +6281,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 267.97) (xy 475.615 267.97)
+			(xy 369.6546 269.1977) (xy 480.1446 269.1977)
 		)
 		(stroke
 			(width 0.1693)
@@ -6304,7 +6292,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 90.17) (xy 474.98 90.17)
+			(xy 369.6546 91.3977) (xy 479.5096 91.3977)
 		)
 		(stroke
 			(width 0.8466)
@@ -6315,7 +6303,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6113 200.3637) (xy 234.6113 197.1463)
+			(xy 249.4279 202.3534) (xy 249.4279 199.136)
 		)
 		(stroke
 			(width 0.1693)
@@ -6326,7 +6314,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 198.12) (xy 475.615 198.12)
+			(xy 369.6546 199.3477) (xy 480.1446 199.3477)
 		)
 		(stroke
 			(width 0.1693)
@@ -6337,7 +6325,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 54.7371) (xy 271.6954 54.7371)
+			(xy 330.0306 56.7268) (xy 286.512 56.7268)
 		)
 		(stroke
 			(width 0.8466)
@@ -6348,7 +6336,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 222.0384) (xy 268.6474 225.425)
+			(xy 283.464 224.0281) (xy 283.464 227.4147)
 		)
 		(stroke
 			(width 0.1693)
@@ -6359,7 +6347,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 240.665) (xy 181.9487 244.0517)
+			(xy 196.7653 242.6547) (xy 196.7653 246.0414)
 		)
 		(stroke
 			(width 0.1693)
@@ -6370,7 +6358,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.2621 166.3276) (xy 188.0448 166.3276)
+			(xy 206.0787 168.3173) (xy 202.8614 168.3173)
 		)
 		(stroke
 			(width 0.1693)
@@ -6381,7 +6369,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 355.3037) (xy 182.118 355.3037)
+			(xy 178.1386 357.2934) (xy 196.9346 357.2934)
 		)
 		(stroke
 			(width 0.8466)
@@ -6392,7 +6380,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 302.641) (xy 284.3953 302.641)
+			(xy 292.7773 304.6307) (xy 299.2119 304.6307)
 		)
 		(stroke
 			(width 0.1693)
@@ -6403,7 +6391,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 181.9064) (xy 173.6514 188.1717)
+			(xy 193.7173 183.8961) (xy 188.468 190.1614)
 		)
 		(stroke
 			(width 0.1693)
@@ -6414,7 +6402,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 287.2317) (xy 184.9967 283.845)
+			(xy 199.8133 289.2214) (xy 199.8133 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -6425,7 +6413,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 237.617) (xy 179.07 237.617)
+			(xy 181.356 239.6067) (xy 193.8866 239.6067)
 		)
 		(stroke
 			(width 0.1693)
@@ -6436,7 +6424,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 76.4117) (xy 181.9487 79.7984)
+			(xy 196.7653 78.4014) (xy 196.7653 81.7881)
 		)
 		(stroke
 			(width 0.1693)
@@ -6447,7 +6435,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 256.2437) (xy 150.9607 265.7264)
+			(xy 165.7773 258.2334) (xy 165.7773 267.7161)
 		)
 		(stroke
 			(width 0.1693)
@@ -6458,7 +6446,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 287.2317) (xy 157.226 296.7144)
+			(xy 172.0426 289.2214) (xy 172.0426 298.7041)
 		)
 		(stroke
 			(width 0.1693)
@@ -6469,7 +6457,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9847 225.2557) (xy 85.7674 221.869)
+			(xy 103.8013 227.2454) (xy 100.584 223.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -6480,7 +6468,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 64.0503) (xy 199.39 57.785)
+			(xy 209.1266 66.04) (xy 214.2066 59.7747)
 		)
 		(stroke
 			(width 0.1693)
@@ -6491,7 +6479,7 @@
 	)
 	(polyline
 		(pts
-			(xy 237.6594 321.2677) (xy 262.7207 321.2677)
+			(xy 252.476 323.2574) (xy 277.5373 323.2574)
 		)
 		(stroke
 			(width 0.1693)
@@ -6502,7 +6490,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 67.0983) (xy 181.9487 63.881)
+			(xy 196.7653 69.088) (xy 196.7653 65.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -6513,7 +6501,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6354 218.9904) (xy 306.07 218.9904)
+			(xy 314.452 220.9801) (xy 320.8866 220.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -6524,7 +6512,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6354 287.2317) (xy 172.6354 283.845)
+			(xy 187.452 289.2214) (xy 187.452 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -6535,7 +6523,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 265.557) (xy 119.9727 268.7743)
+			(xy 134.7893 267.5467) (xy 134.7893 270.764)
 		)
 		(stroke
 			(width 0.1693)
@@ -6546,7 +6534,7 @@
 	)
 	(polyline
 		(pts
-			(xy 327.5754 188.0023) (xy 330.7927 188.0023)
+			(xy 342.392 189.992) (xy 345.6093 189.992)
 		)
 		(stroke
 			(width 0.1693)
@@ -6557,7 +6545,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 240.665) (xy 163.1527 240.665)
+			(xy 181.356 242.6547) (xy 177.9693 242.6547)
 		)
 		(stroke
 			(width 0.1693)
@@ -6568,7 +6556,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6474 209.677) (xy 141.6474 213.0636)
+			(xy 156.464 211.6667) (xy 156.464 215.0533)
 		)
 		(stroke
 			(width 0.1693)
@@ -6579,7 +6567,7 @@
 	)
 	(polyline
 		(pts
-			(xy 240.8767 197.3157) (xy 245.9567 190.881)
+			(xy 255.6933 199.3054) (xy 260.7733 192.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -6590,7 +6578,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 321.2677) (xy 129.4553 318.0504)
+			(xy 141.0546 323.2574) (xy 144.2719 320.0401)
 		)
 		(stroke
 			(width 0.1693)
@@ -6601,7 +6589,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6833 169.3757) (xy 175.6833 178.8584)
+			(xy 190.4999 171.3654) (xy 190.4999 180.8481)
 		)
 		(stroke
 			(width 0.1693)
@@ -6612,7 +6600,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 67.0984) (xy 166.5394 63.881)
+			(xy 181.356 69.0881) (xy 181.356 65.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -6623,7 +6611,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6354 246.9304) (xy 306.07 246.9304)
+			(xy 314.452 248.9201) (xy 320.8866 248.9201)
 		)
 		(stroke
 			(width 0.1693)
@@ -6634,7 +6622,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9728 284.0144) (xy 243.7554 284.0144)
+			(xy 261.7894 286.0041) (xy 258.572 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -6645,7 +6633,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.9126 101.3037) (xy 203.454 101.3037)
+			(xy 289.7292 103.2934) (xy 218.2706 103.2934)
 		)
 		(stroke
 			(width 0.1693)
@@ -6656,7 +6644,7 @@
 	)
 	(polyline
 		(pts
-			(xy 236.474 277.9183) (xy 241.046 284.1837)
+			(xy 251.2906 279.908) (xy 255.8626 286.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -6667,7 +6655,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.2207 57.9543) (xy 203.7927 64.2197)
+			(xy 214.0373 59.944) (xy 218.6093 66.2094)
 		)
 		(stroke
 			(width 0.1693)
@@ -6678,7 +6666,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 76.4117) (xy 169.5873 79.7984)
+			(xy 184.4039 78.4014) (xy 184.4039 81.7881)
 		)
 		(stroke
 			(width 0.1693)
@@ -6689,7 +6677,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 261.62) (xy 475.615 261.62)
+			(xy 369.6546 262.8477) (xy 480.1446 262.8477)
 		)
 		(stroke
 			(width 0.1693)
@@ -6700,7 +6688,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 129.0744) (xy 119.8033 129.0744)
+			(xy 137.8373 131.0641) (xy 134.6199 131.0641)
 		)
 		(stroke
 			(width 0.1693)
@@ -6711,7 +6699,7 @@
 	)
 	(polyline
 		(pts
-			(xy 92.0327 321.2677) (xy 92.0327 333.7984)
+			(xy 106.8493 323.2574) (xy 106.8493 335.7881)
 		)
 		(stroke
 			(width 0.1693)
@@ -6722,7 +6710,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9847 157.0144) (xy 215.9847 160.2317)
+			(xy 230.8013 159.0041) (xy 230.8013 162.2214)
 		)
 		(stroke
 			(width 0.1693)
@@ -6733,7 +6721,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 246.9304) (xy 110.49 246.9304)
+			(xy 172.0426 248.9201) (xy 125.3066 248.9201)
 		)
 		(stroke
 			(width 0.8466)
@@ -6744,7 +6732,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6233 259.2917) (xy 321.31 259.2917)
+			(xy 345.4399 261.2814) (xy 336.1266 261.2814)
 		)
 		(stroke
 			(width 0.8466)
@@ -6755,7 +6743,7 @@
 	)
 	(polyline
 		(pts
-			(xy 39.3702 277.9183) (xy 39.3702 281.1357)
+			(xy 54.1868 279.908) (xy 54.1868 283.1254)
 		)
 		(stroke
 			(width 0.1693)
@@ -6766,7 +6754,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 339.8944) (xy 268.8168 344.9744)
+			(xy 277.368 341.8841) (xy 283.6334 346.9641)
 		)
 		(stroke
 			(width 0.1693)
@@ -6777,7 +6765,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9847 308.9064) (xy 85.7674 308.9064)
+			(xy 103.8013 310.8961) (xy 100.584 310.8961)
 		)
 		(stroke
 			(width 0.1693)
@@ -6788,7 +6776,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 197.3157) (xy 119.8034 197.3157)
+			(xy 137.8373 199.3054) (xy 134.62 199.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -6799,7 +6787,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 296.5451) (xy 160.274 299.7624)
+			(xy 175.0906 298.5348) (xy 175.0906 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -6810,7 +6798,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 352.2557) (xy 268.6474 293.1584)
+			(xy 283.464 354.2454) (xy 283.464 295.1481)
 		)
 		(stroke
 			(width 0.8466)
@@ -6821,7 +6809,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6354 166.3277) (xy 169.4181 166.3277)
+			(xy 187.452 168.3174) (xy 184.2347 168.3174)
 		)
 		(stroke
 			(width 0.1693)
@@ -6832,7 +6820,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 135.3397) (xy 222.25 147.8704)
+			(xy 237.0666 137.3294) (xy 237.0666 149.8601)
 		)
 		(stroke
 			(width 0.8466)
@@ -6843,7 +6831,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 64.0503) (xy 188.3834 64.0503)
+			(xy 199.8133 66.04) (xy 203.2 66.04)
 		)
 		(stroke
 			(width 0.1693)
@@ -6854,7 +6842,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5514 311.9544) (xy 88.8154 311.9544)
+			(xy 150.368 313.9441) (xy 103.632 313.9441)
 		)
 		(stroke
 			(width 0.1693)
@@ -6865,7 +6853,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 67.0984) (xy 200.5754 63.881)
+			(xy 215.392 69.0881) (xy 215.392 65.8707)
 		)
 		(stroke
 			(width 0.1693)
@@ -6876,7 +6864,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 333.629) (xy 144.526 333.629)
+			(xy 203.0306 335.6187) (xy 159.3426 335.6187)
 		)
 		(stroke
 			(width 0.8466)
@@ -6887,7 +6875,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 299.72) (xy 475.615 299.72)
+			(xy 369.6546 300.9477) (xy 480.1446 300.9477)
 		)
 		(stroke
 			(width 0.1693)
@@ -6898,7 +6886,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.274 157.0144) (xy 287.274 144.4837)
+			(xy 302.0906 159.0041) (xy 302.0906 146.4734)
 		)
 		(stroke
 			(width 0.1693)
@@ -6909,7 +6897,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 222.0384) (xy 70.1887 222.0384)
+			(xy 88.392 224.0281) (xy 85.0053 224.0281)
 		)
 		(stroke
 			(width 0.8466)
@@ -6920,7 +6908,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 234.569) (xy 157.0567 239.649)
+			(xy 178.1386 236.5587) (xy 171.8733 241.6387)
 		)
 		(stroke
 			(width 0.1693)
@@ -6931,7 +6919,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 296.5451) (xy 169.5873 299.7624)
+			(xy 184.4039 298.5348) (xy 184.4039 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -6942,7 +6930,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 342.9424) (xy 262.5514 339.725)
+			(xy 277.368 344.9321) (xy 277.368 341.7147)
 		)
 		(stroke
 			(width 0.1693)
@@ -6953,7 +6941,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.274 98.0864) (xy 287.274 76.2424)
+			(xy 302.0906 100.0761) (xy 302.0906 78.2321)
 		)
 		(stroke
 			(width 0.8466)
@@ -6964,7 +6952,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 128.27) (xy 475.615 128.27)
+			(xy 369.6546 129.4977) (xy 480.1446 129.4977)
 		)
 		(stroke
 			(width 0.1693)
@@ -6975,7 +6963,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.9967 293.3277) (xy 54.7794 293.3277)
+			(xy 72.8133 295.3174) (xy 69.596 295.3174)
 		)
 		(stroke
 			(width 0.1693)
@@ -6986,7 +6974,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 349.2077) (xy 126.238 355.473)
+			(xy 141.0546 351.1974) (xy 141.0546 357.4627)
 		)
 		(stroke
 			(width 0.8466)
@@ -6997,7 +6985,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 200.3637) (xy 243.9247 197.1464)
+			(xy 258.7413 202.3534) (xy 258.7413 199.1361)
 		)
 		(stroke
 			(width 0.1693)
@@ -7008,7 +6996,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 240.665) (xy 275.082 245.745)
+			(xy 283.464 242.6547) (xy 289.8986 247.7347)
 		)
 		(stroke
 			(width 0.1693)
@@ -7019,7 +7007,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 218.9904) (xy 200.7447 218.9904)
+			(xy 203.0306 220.9801) (xy 215.5613 220.9801)
 		)
 		(stroke
 			(width 0.8466)
@@ -7030,7 +7018,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 287.02) (xy 475.615 287.02)
+			(xy 369.6546 288.2477) (xy 480.1446 288.2477)
 		)
 		(stroke
 			(width 0.1693)
@@ -7041,7 +7029,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 293.3277) (xy 277.9607 352.425)
+			(xy 292.7773 295.3174) (xy 292.7773 354.4147)
 		)
 		(stroke
 			(width 0.8466)
@@ -7052,7 +7040,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.138 71.8397) (xy 100.6687 71.8397)
+			(xy 102.9546 73.8294) (xy 115.4853 73.8294)
 		)
 		(stroke
 			(width 0.1693)
@@ -7063,7 +7051,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 160.0624) (xy 157.0567 160.0624)
+			(xy 224.7053 162.0521) (xy 171.8733 162.0521)
 		)
 		(stroke
 			(width 0.8466)
@@ -7074,7 +7062,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.8647 54.7371) (xy 271.8647 32.8931)
+			(xy 286.6813 56.7268) (xy 286.6813 34.8828)
 		)
 		(stroke
 			(width 0.8466)
@@ -7085,7 +7073,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.546 116.7131) (xy 182.118 110.4477)
+			(xy 192.3626 118.7028) (xy 196.9346 112.4374)
 		)
 		(stroke
 			(width 0.1693)
@@ -7096,7 +7084,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 324.3157) (xy 284.3953 324.3157)
+			(xy 292.7773 326.3054) (xy 299.2119 326.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -7107,7 +7095,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 169.3757) (xy 172.6353 178.8584)
+			(xy 187.4519 171.3654) (xy 187.4519 180.8481)
 		)
 		(stroke
 			(width 0.1693)
@@ -7118,7 +7106,7 @@
 	)
 	(polyline
 		(pts
-			(xy 336.8887 276.5637) (xy 330.454 281.1357)
+			(xy 351.7053 278.5534) (xy 345.2706 283.1254)
 		)
 		(stroke
 			(width 0.1693)
@@ -7129,7 +7117,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 246.9304) (xy 209.8887 218.8211)
+			(xy 224.7053 248.9201) (xy 224.7053 220.8108)
 		)
 		(stroke
 			(width 0.8466)
@@ -7140,7 +7128,7 @@
 	)
 	(polyline
 		(pts
-			(xy 183.134 85.7251) (xy 178.7314 79.4597)
+			(xy 197.9506 87.7148) (xy 193.548 81.4494)
 		)
 		(stroke
 			(width 0.1693)
@@ -7151,7 +7139,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 218.9904) (xy 222.25 247.0997)
+			(xy 237.0666 220.9801) (xy 237.0666 249.0894)
 		)
 		(stroke
 			(width 0.8466)
@@ -7162,7 +7150,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.178 88.9423) (xy 281.178 92.1597)
+			(xy 295.9946 90.932) (xy 295.9946 94.1494)
 		)
 		(stroke
 			(width 0.1693)
@@ -7173,7 +7161,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 218.9904) (xy 321.6487 218.9904)
+			(xy 330.0306 220.9801) (xy 336.4653 220.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -7184,7 +7172,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.1901 287.2317) (xy 250.1901 283.845)
+			(xy 265.0067 289.2214) (xy 265.0067 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -7195,7 +7183,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 256.2437) (xy 135.5513 252.857)
+			(xy 150.3679 258.2334) (xy 150.3679 254.8467)
 		)
 		(stroke
 			(width 0.1693)
@@ -7206,7 +7194,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 228.3037) (xy 107.442 231.521)
+			(xy 125.476 230.2934) (xy 122.2586 233.5107)
 		)
 		(stroke
 			(width 0.1693)
@@ -7217,7 +7205,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 236.22) (xy 475.615 236.22)
+			(xy 369.6546 237.4477) (xy 480.1446 237.4477)
 		)
 		(stroke
 			(width 0.1693)
@@ -7228,7 +7216,7 @@
 	)
 	(polyline
 		(pts
-			(xy 98.298 113.665) (xy 98.298 169.545)
+			(xy 113.1146 115.6547) (xy 113.1146 171.5347)
 		)
 		(stroke
 			(width 0.8466)
@@ -7239,7 +7227,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 367.8343) (xy 138.43 367.8343)
+			(xy 175.0906 369.824) (xy 153.2466 369.824)
 		)
 		(stroke
 			(width 0.8466)
@@ -7250,7 +7238,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6474 200.3637) (xy 141.6474 197.1463)
+			(xy 156.464 202.3534) (xy 156.464 199.136)
 		)
 		(stroke
 			(width 0.1693)
@@ -7261,7 +7249,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 339.8944) (xy 154.178 339.8944)
+			(xy 165.7773 341.8841) (xy 168.9946 341.8841)
 		)
 		(stroke
 			(width 0.1693)
@@ -7272,7 +7260,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9847 308.9064) (xy 135.7207 308.9064)
+			(xy 103.8013 310.8961) (xy 150.5373 310.8961)
 		)
 		(stroke
 			(width 0.1693)
@@ -7283,7 +7271,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.3221 299.593) (xy 158.2421 306.0277)
+			(xy 178.1387 301.5827) (xy 173.0587 308.0174)
 		)
 		(stroke
 			(width 0.1693)
@@ -7294,7 +7282,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 109.22) (xy 475.615 109.22)
+			(xy 369.6546 110.4477) (xy 480.1446 110.4477)
 		)
 		(stroke
 			(width 0.1693)
@@ -7305,7 +7293,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5634 315.0024) (xy 126.4074 315.0024)
+			(xy 119.38 316.9921) (xy 141.224 316.9921)
 		)
 		(stroke
 			(width 0.8466)
@@ -7316,7 +7304,7 @@
 	)
 	(polyline
 		(pts
-			(xy 228.5153 197.3157) (xy 233.5953 190.8811)
+			(xy 243.3319 199.3054) (xy 248.4119 192.8708)
 		)
 		(stroke
 			(width 0.1693)
@@ -7327,7 +7315,7 @@
 	)
 	(polyline
 		(pts
-			(xy 192.4473 188.0023) (xy 188.0447 181.737)
+			(xy 207.2639 189.992) (xy 202.8613 183.7267)
 		)
 		(stroke
 			(width 0.1693)
@@ -7338,7 +7326,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 342.9424) (xy 150.9607 339.725)
+			(xy 165.7773 344.9321) (xy 165.7773 341.7147)
 		)
 		(stroke
 			(width 0.1693)
@@ -7349,7 +7337,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6473 330.581) (xy 144.8647 327.3637)
+			(xy 156.4639 332.5707) (xy 159.6813 329.3534)
 		)
 		(stroke
 			(width 0.1693)
@@ -7360,7 +7348,7 @@
 	)
 	(polyline
 		(pts
-			(xy 305.9007 206.629) (xy 315.3833 206.629)
+			(xy 320.7173 208.6187) (xy 330.1999 208.6187)
 		)
 		(stroke
 			(width 0.8466)
@@ -7371,7 +7359,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5033 302.641) (xy 262.7207 302.641)
+			(xy 274.3199 304.6307) (xy 277.5373 304.6307)
 		)
 		(stroke
 			(width 0.1693)
@@ -7382,7 +7370,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 169.3757) (xy 175.6834 166.1583)
+			(xy 190.5 171.3654) (xy 190.5 168.148)
 		)
 		(stroke
 			(width 0.1693)
@@ -7393,7 +7381,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9847 150.9184) (xy 209.7193 155.9984)
+			(xy 230.8013 152.9081) (xy 224.5359 157.9881)
 		)
 		(stroke
 			(width 0.1693)
@@ -7404,7 +7392,7 @@
 	)
 	(polyline
 		(pts
-			(xy 51.7314 327.533) (xy 73.7447 327.533)
+			(xy 66.548 329.5227) (xy 88.5613 329.5227)
 		)
 		(stroke
 			(width 0.8466)
@@ -7415,7 +7403,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 153.9664) (xy 119.8033 153.9664)
+			(xy 137.8373 155.9561) (xy 134.6199 155.9561)
 		)
 		(stroke
 			(width 0.1693)
@@ -7426,7 +7414,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 256.2437) (xy 119.9727 265.7264)
+			(xy 134.7893 258.2334) (xy 134.7893 267.7161)
 		)
 		(stroke
 			(width 0.1693)
@@ -7437,7 +7425,7 @@
 	)
 	(polyline
 		(pts
-			(xy 237.6594 284.0144) (xy 241.046 284.0144)
+			(xy 252.476 286.0041) (xy 255.8626 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -7448,7 +7436,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 256.2437) (xy 116.9247 265.7264)
+			(xy 131.7413 258.2334) (xy 131.7413 267.7161)
 		)
 		(stroke
 			(width 0.1693)
@@ -7459,7 +7447,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 256.2437) (xy 116.9247 252.857)
+			(xy 131.7413 258.2334) (xy 131.7413 254.8467)
 		)
 		(stroke
 			(width 0.1693)
@@ -7470,7 +7458,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.7754 333.629) (xy 154.178 340.0637)
+			(xy 164.592 335.6187) (xy 168.9946 342.0534)
 		)
 		(stroke
 			(width 0.1693)
@@ -7481,7 +7469,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.7194 333.629) (xy 79.5021 333.629)
+			(xy 97.536 335.6187) (xy 94.3187 335.6187)
 		)
 		(stroke
 			(width 0.1693)
@@ -7492,7 +7480,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 376.9784) (xy 200.5753 370.713)
+			(xy 215.3919 378.9681) (xy 215.3919 372.7027)
 		)
 		(stroke
 			(width 0.8466)
@@ -7503,7 +7491,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6233 271.653) (xy 337.058 276.733)
+			(xy 345.4399 273.6427) (xy 351.8746 278.7227)
 		)
 		(stroke
 			(width 0.1693)
@@ -7514,7 +7502,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 287.2317) (xy 222.25 283.845)
+			(xy 237.0666 289.2214) (xy 237.0666 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -7525,7 +7513,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.334 265.557) (xy 132.334 268.7744)
+			(xy 147.1506 267.5467) (xy 147.1506 270.7641)
 		)
 		(stroke
 			(width 0.1693)
@@ -7536,7 +7524,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.274 87.5877) (xy 281.0087 92.1597)
+			(xy 302.0906 89.5774) (xy 295.8253 94.1494)
 		)
 		(stroke
 			(width 0.1693)
@@ -7547,7 +7535,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 166.3276) (xy 179.0701 166.3276)
+			(xy 190.5 168.3173) (xy 193.8867 168.3173)
 		)
 		(stroke
 			(width 0.1693)
@@ -7558,7 +7546,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.9967 290.2797) (xy 57.9967 293.497)
+			(xy 72.8133 292.2694) (xy 72.8133 295.4867)
 		)
 		(stroke
 			(width 0.1693)
@@ -7569,7 +7557,7 @@
 	)
 	(polyline
 		(pts
-			(xy 70.358 296.5451) (xy 73.7447 299.7624)
+			(xy 85.1746 298.5348) (xy 88.5613 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -7580,7 +7568,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6953 200.3637) (xy 144.6953 209.8464)
+			(xy 159.5119 202.3534) (xy 159.5119 211.8361)
 		)
 		(stroke
 			(width 0.1693)
@@ -7591,7 +7579,7 @@
 	)
 	(polyline
 		(pts
-			(xy 290.4913 259.2917) (xy 290.4913 206.4597)
+			(xy 305.3079 261.2814) (xy 305.3079 208.4494)
 		)
 		(stroke
 			(width 0.8466)
@@ -7602,7 +7590,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 352.2557) (xy 284.226 293.1584)
+			(xy 299.0426 354.2454) (xy 299.0426 295.1481)
 		)
 		(stroke
 			(width 0.8466)
@@ -7613,7 +7601,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 284.0144) (xy 249.0047 277.7491)
+			(xy 258.7413 286.0041) (xy 263.8213 279.7388)
 		)
 		(stroke
 			(width 0.1693)
@@ -7624,7 +7612,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 321.2677) (xy 284.3953 321.2677)
+			(xy 292.7773 323.2574) (xy 299.2119 323.2574)
 		)
 		(stroke
 			(width 0.1693)
@@ -7635,7 +7623,7 @@
 	)
 	(polyline
 		(pts
-			(xy 237.6593 287.2317) (xy 237.6593 321.437)
+			(xy 252.4759 289.2214) (xy 252.4759 323.4267)
 		)
 		(stroke
 			(width 0.1693)
@@ -7646,7 +7634,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5514 327.533) (xy 144.8647 327.533)
+			(xy 150.368 329.5227) (xy 159.6813 329.5227)
 		)
 		(stroke
 			(width 0.1693)
@@ -7657,7 +7645,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 222.0384) (xy 268.8167 222.0384)
+			(xy 280.416 224.0281) (xy 283.6333 224.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -7668,7 +7656,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 126.0264) (xy 151.13 126.0264)
+			(xy 162.7293 128.0161) (xy 165.9466 128.0161)
 		)
 		(stroke
 			(width 0.1693)
@@ -7679,7 +7667,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 79.629) (xy 188.3833 79.629)
+			(xy 199.8133 81.6187) (xy 203.1999 81.6187)
 		)
 		(stroke
 			(width 0.1693)
@@ -7690,7 +7678,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 144.6531) (xy 157.3954 139.5731)
+			(xy 165.7773 146.6428) (xy 172.212 141.5628)
 		)
 		(stroke
 			(width 0.1693)
@@ -7701,7 +7689,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6953 321.2677) (xy 126.0687 321.2677)
+			(xy 159.5119 323.2574) (xy 140.8853 323.2574)
 		)
 		(stroke
 			(width 0.1693)
@@ -7712,7 +7700,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 284.0144) (xy 171.6193 277.749)
+			(xy 181.356 286.0041) (xy 186.4359 279.7387)
 		)
 		(stroke
 			(width 0.1693)
@@ -7723,7 +7711,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 218.9904) (xy 200.5753 247.0997)
+			(xy 215.3919 220.9801) (xy 215.3919 249.0894)
 		)
 		(stroke
 			(width 0.8466)
@@ -7734,7 +7722,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 256.2437) (xy 135.5513 265.7264)
+			(xy 150.3679 258.2334) (xy 150.3679 267.7161)
 		)
 		(stroke
 			(width 0.1693)
@@ -7745,7 +7733,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 144.653) (xy 284.226 141.4357)
+			(xy 299.0426 146.6427) (xy 299.0426 143.4254)
 		)
 		(stroke
 			(width 0.1693)
@@ -7756,7 +7744,7 @@
 	)
 	(polyline
 		(pts
-			(xy 327.5753 274.8704) (xy 330.7927 274.8704)
+			(xy 342.3919 276.8601) (xy 345.6093 276.8601)
 		)
 		(stroke
 			(width 0.1693)
@@ -7767,7 +7755,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.9126 54.7371) (xy 274.9126 101.4731)
+			(xy 289.7292 56.7268) (xy 289.7292 103.4628)
 		)
 		(stroke
 			(width 0.1693)
@@ -7778,7 +7766,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.9367 305.8584) (xy 79.502 310.9384)
+			(xy 100.7533 307.8481) (xy 94.3186 312.9281)
 		)
 		(stroke
 			(width 0.1693)
@@ -7789,7 +7777,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 98.0864) (xy 191.262 107.569)
+			(xy 206.0786 100.0761) (xy 206.0786 109.5587)
 		)
 		(stroke
 			(width 0.1693)
@@ -7800,7 +7788,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9847 222.0384) (xy 85.7674 222.0384)
+			(xy 103.8013 224.0281) (xy 100.584 224.0281)
 		)
 		(stroke
 			(width 0.8466)
@@ -7811,7 +7799,7 @@
 	)
 	(polyline
 		(pts
-			(xy 70.358 222.0384) (xy 67.1407 222.0384)
+			(xy 85.1746 224.0281) (xy 81.9573 224.0281)
 		)
 		(stroke
 			(width 0.8466)
@@ -7822,7 +7810,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5634 327.533) (xy 104.5634 314.833)
+			(xy 119.38 329.5227) (xy 119.38 316.8227)
 		)
 		(stroke
 			(width 0.8466)
@@ -7833,7 +7821,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 227.1184) (xy 163.4913 231.521)
+			(xy 172.0426 229.1081) (xy 178.3079 233.5107)
 		)
 		(stroke
 			(width 0.1693)
@@ -7844,7 +7832,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 287.2317) (xy 160.274 283.845)
+			(xy 175.0906 289.2214) (xy 175.0906 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -7855,7 +7843,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 284.0144) (xy 163.4914 284.0144)
+			(xy 175.0906 286.0041) (xy 178.308 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -7866,7 +7854,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 98.0864) (xy 175.6834 94.869)
+			(xy 190.5 100.0761) (xy 190.5 96.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -7877,7 +7865,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 336.8464) (xy 188.0447 333.4597)
+			(xy 206.0786 338.8361) (xy 202.8613 335.4494)
 		)
 		(stroke
 			(width 0.1693)
@@ -7888,7 +7876,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5633 45.4236) (xy 101.1767 45.4236)
+			(xy 119.3799 47.4133) (xy 115.9933 47.4133)
 		)
 		(stroke
 			(width 0.1693)
@@ -7899,7 +7887,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 352.2557) (xy 268.478 352.2557)
+			(xy 292.7773 354.2454) (xy 283.2946 354.2454)
 		)
 		(stroke
 			(width 0.8466)
@@ -7910,7 +7898,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 296.5451) (xy 172.6353 299.7624)
+			(xy 187.4519 298.5348) (xy 187.4519 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -7921,7 +7909,7 @@
 	)
 	(polyline
 		(pts
-			(xy 125.222 71.8397) (xy 144.018 71.8397)
+			(xy 140.0386 73.8294) (xy 158.8346 73.8294)
 		)
 		(stroke
 			(width 0.1693)
@@ -7932,7 +7920,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 284.0144) (xy 188.3834 284.0144)
+			(xy 199.8133 286.0041) (xy 203.2 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -7943,7 +7931,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.1967 246.9303) (xy 138.7687 253.1957)
+			(xy 149.0133 248.92) (xy 153.5853 255.1854)
 		)
 		(stroke
 			(width 0.1693)
@@ -7954,7 +7942,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.238 42.3757) (xy 262.7206 42.3757)
+			(xy 268.0546 44.3654) (xy 277.5372 44.3654)
 		)
 		(stroke
 			(width 0.1693)
@@ -7965,7 +7953,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 243.8824) (xy 268.8167 243.8824)
+			(xy 280.416 245.8721) (xy 283.6333 245.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -7976,7 +7964,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 116.7131) (xy 209.8887 160.2317)
+			(xy 224.7053 118.7028) (xy 224.7053 162.2214)
 		)
 		(stroke
 			(width 0.8466)
@@ -7987,7 +7975,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 299.593) (xy 262.7207 299.593)
+			(xy 265.0066 301.5827) (xy 277.5373 301.5827)
 		)
 		(stroke
 			(width 0.1693)
@@ -7998,7 +7986,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.1247 116.7131) (xy 197.6967 110.4477)
+			(xy 207.9413 118.7028) (xy 212.5133 112.4374)
 		)
 		(stroke
 			(width 0.1693)
@@ -8009,7 +7997,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6474 212.8943) (xy 138.4301 212.8943)
+			(xy 156.464 214.884) (xy 153.2467 214.884)
 		)
 		(stroke
 			(width 0.1693)
@@ -8020,7 +8008,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.0087 268.6051) (xy 148.9287 275.0397)
+			(xy 168.8253 270.5948) (xy 163.7453 277.0294)
 		)
 		(stroke
 			(width 0.1693)
@@ -8031,7 +8019,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.098 355.3037) (xy 144.526 349.0384)
+			(xy 163.9146 357.2934) (xy 159.3426 351.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -8042,7 +8030,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 115.57) (xy 475.615 115.57)
+			(xy 369.6546 116.7977) (xy 480.1446 116.7977)
 		)
 		(stroke
 			(width 0.1693)
@@ -8053,7 +8041,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 98.0864) (xy 178.9007 107.569)
+			(xy 193.7173 100.0761) (xy 193.7173 109.5587)
 		)
 		(stroke
 			(width 0.1693)
@@ -8064,7 +8052,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 110.6171) (xy 162.306 116.8824)
+			(xy 172.0426 112.6068) (xy 177.1226 118.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -8075,7 +8063,7 @@
 	)
 	(polyline
 		(pts
-			(xy 98.298 169.3757) (xy 113.8767 169.3757)
+			(xy 113.1146 171.3654) (xy 128.6933 171.3654)
 		)
 		(stroke
 			(width 0.8466)
@@ -8086,7 +8074,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 349.2077) (xy 144.526 349.2077)
+			(xy 162.7293 351.1974) (xy 159.3426 351.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -8097,7 +8085,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 206.629) (xy 315.214 259.461)
+			(xy 330.0306 208.6187) (xy 330.0306 261.4507)
 		)
 		(stroke
 			(width 0.8466)
@@ -8108,7 +8096,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 181.9063) (xy 192.278 188.1717)
+			(xy 212.3439 183.896) (xy 207.0946 190.1614)
 		)
 		(stroke
 			(width 0.1693)
@@ -8119,7 +8107,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 345.9904) (xy 262.7207 345.9904)
+			(xy 237.0666 347.9801) (xy 277.5373 347.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -8130,7 +8118,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 280.67) (xy 475.615 280.67)
+			(xy 369.6546 281.8977) (xy 480.1446 281.8977)
 		)
 		(stroke
 			(width 0.1693)
@@ -8141,7 +8129,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 237.617) (xy 210.058 237.617)
+			(xy 215.392 239.6067) (xy 224.8746 239.6067)
 		)
 		(stroke
 			(width 0.1693)
@@ -8152,7 +8140,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.6233 101.3037) (xy 203.6233 116.8824)
+			(xy 218.4399 103.2934) (xy 218.4399 118.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -8163,7 +8151,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.8354 277.9184) (xy 253.4074 284.1837)
+			(xy 263.652 279.9081) (xy 268.224 286.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -8174,7 +8162,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 296.5451) (xy 184.9967 299.7624)
+			(xy 199.8133 298.5348) (xy 199.8133 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -8185,7 +8173,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.1901 132.2917) (xy 253.4074 132.2917)
+			(xy 265.0067 134.2814) (xy 268.224 134.2814)
 		)
 		(stroke
 			(width 0.1693)
@@ -8195,7 +8183,7 @@
 	)
 	(polyline
 		(pts
-			(xy 142.8328 218.9903) (xy 138.4301 212.725)
+			(xy 157.6494 220.98) (xy 153.2467 214.7147)
 		)
 		(stroke
 			(width 0.1693)
@@ -8206,7 +8194,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 215.9424) (xy 275.082 221.0224)
+			(xy 283.464 217.9321) (xy 289.8986 223.0121)
 		)
 		(stroke
 			(width 0.1693)
@@ -8217,7 +8205,7 @@
 	)
 	(polyline
 		(pts
-			(xy 70.358 234.569) (xy 110.8287 234.569)
+			(xy 85.1746 236.5587) (xy 125.6453 236.5587)
 		)
 		(stroke
 			(width 0.1693)
@@ -8228,7 +8216,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 333.629) (xy 194.1407 333.629)
+			(xy 212.3439 335.6187) (xy 208.9573 335.6187)
 		)
 		(stroke
 			(width 0.8466)
@@ -8239,7 +8227,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 240.665) (xy 210.058 240.665)
+			(xy 215.392 242.6547) (xy 224.8746 242.6547)
 		)
 		(stroke
 			(width 0.1693)
@@ -8250,7 +8238,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 178.689) (xy 191.262 182.0757)
+			(xy 206.0786 180.6787) (xy 206.0786 184.0654)
 		)
 		(stroke
 			(width 0.1693)
@@ -8261,7 +8249,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.7074 113.665) (xy 98.1287 113.665)
+			(xy 128.524 115.6547) (xy 112.9453 115.6547)
 		)
 		(stroke
 			(width 0.8466)
@@ -8272,7 +8260,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.0087 349.2077) (xy 148.9287 355.473)
+			(xy 168.8253 351.1974) (xy 163.7453 357.4627)
 		)
 		(stroke
 			(width 0.1693)
@@ -8283,7 +8271,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 132.2917) (xy 250.3593 132.2917)
+			(xy 224.7053 134.2814) (xy 265.1759 134.2814)
 		)
 		(stroke
 			(width 0.1693)
@@ -8294,7 +8282,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 30.0144) (xy 122.8514 30.0144)
+			(xy 258.7413 32.0041) (xy 137.668 32.0041)
 		)
 		(stroke
 			(width 0.8466)
@@ -8305,7 +8293,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 141.6051) (xy 222.4193 141.6051)
+			(xy 224.7053 143.5948) (xy 237.2359 143.5948)
 		)
 		(stroke
 			(width 0.1693)
@@ -8316,7 +8304,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 107.3997) (xy 160.274 110.7864)
+			(xy 175.0906 109.3894) (xy 175.0906 112.7761)
 		)
 		(stroke
 			(width 0.1693)
@@ -8327,7 +8315,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 246.9304) (xy 209.7193 246.9304)
+			(xy 237.0666 248.9201) (xy 224.5359 248.9201)
 		)
 		(stroke
 			(width 0.8466)
@@ -8338,7 +8326,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 376.9784) (xy 327.7446 376.9784)
+			(xy 261.7893 378.9681) (xy 342.5612 378.9681)
 		)
 		(stroke
 			(width 0.1693)
@@ -8349,7 +8337,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.9247 57.9544) (xy 243.9247 29.8451)
+			(xy 258.7413 59.9441) (xy 258.7413 31.8348)
 		)
 		(stroke
 			(width 0.8466)
@@ -8360,7 +8348,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5034 121.6237) (xy 253.0687 126.1957)
+			(xy 274.32 123.6134) (xy 267.8853 128.1854)
 		)
 		(stroke
 			(width 0.1693)
@@ -8371,7 +8359,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.2501 318.2197) (xy 98.4674 318.2197)
+			(xy 110.0667 320.2094) (xy 113.284 320.2094)
 		)
 		(stroke
 			(width 0.1693)
@@ -8382,7 +8370,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 45.4237) (xy 116.9247 48.8104)
+			(xy 131.7413 47.4134) (xy 131.7413 50.8001)
 		)
 		(stroke
 			(width 0.1693)
@@ -8393,7 +8381,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.2261 222.0384) (xy 290.6608 222.0384)
+			(xy 299.0427 224.0281) (xy 305.4774 224.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -8404,7 +8392,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 67.0984) (xy 181.9487 76.581)
+			(xy 196.7653 69.0881) (xy 196.7653 78.5707)
 		)
 		(stroke
 			(width 0.1693)
@@ -8415,7 +8403,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6953 305.8584) (xy 197.6967 305.8584)
+			(xy 159.5119 307.8481) (xy 212.5133 307.8481)
 		)
 		(stroke
 			(width 0.8466)
@@ -8426,7 +8414,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 345.9904) (xy 284.3953 345.9904)
+			(xy 292.7773 347.9801) (xy 299.2119 347.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -8437,7 +8425,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.2261 139.7424) (xy 150.7914 135.1704)
+			(xy 172.0427 141.7321) (xy 165.608 137.1601)
 		)
 		(stroke
 			(width 0.1693)
@@ -8448,7 +8436,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 67.0984) (xy 200.5753 79.7984)
+			(xy 215.3919 69.0881) (xy 215.3919 81.7881)
 		)
 		(stroke
 			(width 0.1693)
@@ -8459,7 +8447,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 141.605) (xy 119.9727 144.8224)
+			(xy 134.7893 143.5947) (xy 134.7893 146.8121)
 		)
 		(stroke
 			(width 0.1693)
@@ -8470,7 +8458,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6354 222.0384) (xy 306.0701 222.0384)
+			(xy 314.452 224.0281) (xy 320.8867 224.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -8481,7 +8469,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6113 243.8824) (xy 265.7687 243.8824)
+			(xy 249.4279 245.8721) (xy 280.5853 245.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -8492,7 +8480,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 274.32) (xy 475.615 274.32)
+			(xy 369.6546 275.5477) (xy 480.1446 275.5477)
 		)
 		(stroke
 			(width 0.1693)
@@ -8503,7 +8491,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 76.4117) (xy 315.214 98.2557)
+			(xy 330.0306 78.4014) (xy 330.0306 100.2454)
 		)
 		(stroke
 			(width 0.8466)
@@ -8514,7 +8502,7 @@
 	)
 	(polyline
 		(pts
-			(xy 192.4474 88.9424) (xy 188.0447 95.2077)
+			(xy 207.264 90.9321) (xy 202.8613 97.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -8525,7 +8513,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 135.3398) (xy 265.5994 141.7744)
+			(xy 280.416 137.3295) (xy 280.416 143.7641)
 		)
 		(stroke
 			(width 0.1693)
@@ -8536,7 +8524,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5514 308.9064) (xy 138.7687 308.9064)
+			(xy 150.368 310.8961) (xy 153.5853 310.8961)
 		)
 		(stroke
 			(width 0.1693)
@@ -8547,7 +8535,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 268.605) (xy 117.9407 275.0397)
+			(xy 137.8373 270.5947) (xy 132.7573 277.0294)
 		)
 		(stroke
 			(width 0.1693)
@@ -8558,7 +8546,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 287.2317) (xy 169.5873 296.7144)
+			(xy 184.4039 289.2214) (xy 184.4039 298.7041)
 		)
 		(stroke
 			(width 0.1693)
@@ -8569,7 +8557,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 342.9424) (xy 172.6353 346.1597)
+			(xy 187.4519 344.9321) (xy 187.4519 348.1494)
 		)
 		(stroke
 			(width 0.1693)
@@ -8580,7 +8568,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 88.9423) (xy 281.3473 88.9423)
+			(xy 292.7773 90.932) (xy 296.1639 90.932)
 		)
 		(stroke
 			(width 0.1693)
@@ -8591,7 +8579,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 138.3877) (xy 150.9607 135.1704)
+			(xy 165.7773 140.3774) (xy 165.7773 137.1601)
 		)
 		(stroke
 			(width 0.1693)
@@ -8602,7 +8590,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 64.0503) (xy 203.7927 64.0503)
+			(xy 215.392 66.04) (xy 218.6093 66.04)
 		)
 		(stroke
 			(width 0.1693)
@@ -8613,7 +8601,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 141.6051) (xy 151.1301 141.6051)
+			(xy 162.7293 143.5948) (xy 165.9467 143.5948)
 		)
 		(stroke
 			(width 0.1693)
@@ -8624,7 +8612,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 153.9664) (xy 119.9727 157.1837)
+			(xy 134.7893 155.9561) (xy 134.7893 159.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -8635,7 +8623,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 355.3037) (xy 181.9487 368.0038)
+			(xy 196.7653 357.2934) (xy 196.7653 369.9935)
 		)
 		(stroke
 			(width 0.8466)
@@ -8646,7 +8634,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 287.2317) (xy 157.226 283.845)
+			(xy 172.0426 289.2214) (xy 172.0426 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -8657,7 +8645,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 179.07) (xy 475.615 179.07)
+			(xy 369.6546 180.2977) (xy 480.1446 180.2977)
 		)
 		(stroke
 			(width 0.1693)
@@ -8668,7 +8656,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 284.0144) (xy 153.8394 284.0144)
+			(xy 172.0426 286.0041) (xy 168.656 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -8679,7 +8667,7 @@
 	)
 	(polyline
 		(pts
-			(xy 192.4474 160.0623) (xy 188.0448 166.4969)
+			(xy 207.264 162.052) (xy 202.8614 168.4866)
 		)
 		(stroke
 			(width 0.1693)
@@ -8690,7 +8678,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 299.593) (xy 163.4914 299.593)
+			(xy 175.0906 301.5827) (xy 178.308 301.5827)
 		)
 		(stroke
 			(width 0.1693)
@@ -8701,7 +8689,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 141.6051) (xy 122.8514 141.6051)
+			(xy 162.7293 143.5948) (xy 137.668 143.5948)
 		)
 		(stroke
 			(width 0.1693)
@@ -8712,7 +8700,7 @@
 	)
 	(polyline
 		(pts
-			(xy 170.7726 305.8584) (xy 166.37 299.4237)
+			(xy 185.5892 307.8481) (xy 181.1866 301.4134)
 		)
 		(stroke
 			(width 0.1693)
@@ -8723,7 +8711,7 @@
 	)
 	(polyline
 		(pts
-			(xy 327.5753 367.8343) (xy 246.8033 367.8343)
+			(xy 342.3919 369.824) (xy 261.6199 369.824)
 		)
 		(stroke
 			(width 0.1693)
@@ -8734,7 +8722,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 248.92) (xy 475.615 248.92)
+			(xy 369.6546 250.1477) (xy 480.1446 250.1477)
 		)
 		(stroke
 			(width 0.1693)
@@ -8745,7 +8733,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 370.8822) (xy 200.7447 370.8822)
+			(xy 203.0306 372.8719) (xy 215.5613 372.8719)
 		)
 		(stroke
 			(width 0.1693)
@@ -8756,7 +8744,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 287.2317) (xy 181.9487 296.7144)
+			(xy 196.7653 289.2214) (xy 196.7653 298.7041)
 		)
 		(stroke
 			(width 0.1693)
@@ -8767,7 +8755,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 181.9063) (xy 188.0447 181.9063)
+			(xy 206.0786 183.896) (xy 202.8613 183.896)
 		)
 		(stroke
 			(width 0.1693)
@@ -8778,7 +8766,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 95.0384) (xy 197.6967 95.0384)
+			(xy 209.1266 97.0281) (xy 212.5133 97.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -8789,7 +8777,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 212.8943) (xy 119.8034 212.8943)
+			(xy 137.8373 214.884) (xy 134.62 214.884)
 		)
 		(stroke
 			(width 0.1693)
@@ -8800,7 +8788,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 95.0384) (xy 176.8687 88.7731)
+			(xy 196.7653 97.0281) (xy 191.6853 90.7628)
 		)
 		(stroke
 			(width 0.1693)
@@ -8811,7 +8799,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.9967 191.0503) (xy 54.7794 191.0503)
+			(xy 72.8133 193.04) (xy 69.596 193.04)
 		)
 		(stroke
 			(width 0.1693)
@@ -8822,7 +8810,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 321.2677) (xy 126.238 327.7024)
+			(xy 141.0546 323.2574) (xy 141.0546 329.6921)
 		)
 		(stroke
 			(width 0.8466)
@@ -8833,7 +8821,7 @@
 	)
 	(polyline
 		(pts
-			(xy 133.6887 274.8704) (xy 129.1167 268.4357)
+			(xy 148.5053 276.8601) (xy 143.9333 270.4254)
 		)
 		(stroke
 			(width 0.1693)
@@ -8844,7 +8832,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 153.9664) (xy 151.13 153.9664)
+			(xy 162.7293 155.9561) (xy 165.9466 155.9561)
 		)
 		(stroke
 			(width 0.1693)
@@ -8855,7 +8843,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 311.9544) (xy 138.7687 311.9544)
+			(xy 150.3679 313.9441) (xy 153.5853 313.9441)
 		)
 		(stroke
 			(width 0.1693)
@@ -8866,7 +8854,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.178 141.605) (xy 286.258 135.1704)
+			(xy 295.9946 143.5947) (xy 301.0746 137.1601)
 		)
 		(stroke
 			(width 0.1693)
@@ -8877,7 +8865,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 107.3997) (xy 163.322 110.7864)
+			(xy 178.1386 109.3894) (xy 178.1386 112.7761)
 		)
 		(stroke
 			(width 0.1693)
@@ -8888,7 +8876,7 @@
 	)
 	(polyline
 		(pts
-			(xy 145.034 71.8397) (xy 145.034 58.2931)
+			(xy 159.8506 73.8294) (xy 159.8506 60.2828)
 		)
 		(stroke
 			(width 0.1693)
@@ -8899,7 +8887,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.2141 239.4797) (xy 181.7794 244.0517)
+			(xy 203.0307 241.4694) (xy 196.596 246.0414)
 		)
 		(stroke
 			(width 0.1693)
@@ -8910,7 +8898,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 345.9904) (xy 147.9127 349.377)
+			(xy 162.7293 347.9801) (xy 162.7293 351.3667)
 		)
 		(stroke
 			(width 0.1693)
@@ -8921,7 +8909,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 91.9904) (xy 129.1167 86.9104)
+			(xy 150.3679 93.9801) (xy 143.9333 88.9001)
 		)
 		(stroke
 			(width 0.1693)
@@ -8932,7 +8920,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 242.57) (xy 475.615 242.57)
+			(xy 369.6546 243.7977) (xy 480.1446 243.7977)
 		)
 		(stroke
 			(width 0.1693)
@@ -8943,7 +8931,7 @@
 	)
 	(polyline
 		(pts
-			(xy 183.134 305.8584) (xy 178.7313 299.4237)
+			(xy 197.9506 307.8481) (xy 193.5479 301.4134)
 		)
 		(stroke
 			(width 0.1693)
@@ -8954,7 +8942,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 228.3037) (xy 182.118 228.3037)
+			(xy 193.7173 230.2934) (xy 196.9346 230.2934)
 		)
 		(stroke
 			(width 0.1693)
@@ -8965,7 +8953,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 110.6171) (xy 157.0567 110.6171)
+			(xy 175.0906 112.6068) (xy 171.8733 112.6068)
 		)
 		(stroke
 			(width 0.1693)
@@ -8976,7 +8964,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 110.6171) (xy 182.118 110.6171)
+			(xy 193.7173 112.6068) (xy 196.9346 112.6068)
 		)
 		(stroke
 			(width 0.1693)
@@ -8987,7 +8975,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.7194 200.3637) (xy 89.154 200.3637)
+			(xy 97.536 202.3534) (xy 103.9706 202.3534)
 		)
 		(stroke
 			(width 0.8466)
@@ -8998,7 +8986,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 277.9183) (xy 73.5754 299.7624)
+			(xy 88.392 279.908) (xy 88.392 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -9009,7 +8997,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 345.9904) (xy 147.9127 342.7731)
+			(xy 162.7293 347.9801) (xy 162.7293 344.7628)
 		)
 		(stroke
 			(width 0.1693)
@@ -9020,7 +9008,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6954 209.677) (xy 144.6954 213.0636)
+			(xy 159.512 211.6667) (xy 159.512 215.0533)
 		)
 		(stroke
 			(width 0.1693)
@@ -9031,7 +9019,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.3101 166.3276) (xy 197.6968 166.3276)
+			(xy 209.1267 168.3173) (xy 212.5134 168.3173)
 		)
 		(stroke
 			(width 0.1693)
@@ -9042,7 +9030,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.1901 129.0744) (xy 253.4074 129.0744)
+			(xy 265.0067 131.0641) (xy 268.224 131.0641)
 		)
 		(stroke
 			(width 0.1693)
@@ -9053,7 +9041,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5994 311.9544) (xy 138.5994 315.1717)
+			(xy 153.416 313.9441) (xy 153.416 317.1614)
 		)
 		(stroke
 			(width 0.1693)
@@ -9064,7 +9052,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.2381 116.713) (xy 259.6727 121.793)
+			(xy 268.0547 118.7027) (xy 274.4893 123.7827)
 		)
 		(stroke
 			(width 0.1693)
@@ -9075,7 +9063,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.2141 222.0384) (xy 321.6488 222.0384)
+			(xy 330.0307 224.0281) (xy 336.4654 224.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -9086,7 +9074,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.5634 246.9304) (xy 265.7687 246.9304)
+			(xy 246.38 248.9201) (xy 280.5853 248.9201)
 		)
 		(stroke
 			(width 0.1693)
@@ -9097,7 +9085,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.9367 222.0384) (xy 82.55 222.0384)
+			(xy 100.7533 224.0281) (xy 97.3666 224.0281)
 		)
 		(stroke
 			(width 0.8466)
@@ -9108,7 +9096,7 @@
 	)
 	(polyline
 		(pts
-			(xy 231.5633 284.0144) (xy 236.6433 277.749)
+			(xy 246.3799 286.0041) (xy 251.4599 279.7387)
 		)
 		(stroke
 			(width 0.1693)
@@ -9119,7 +9107,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6114 324.3157) (xy 262.7207 324.3157)
+			(xy 249.428 326.3054) (xy 277.5373 326.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -9130,7 +9118,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 287.2317) (xy 160.274 296.7144)
+			(xy 175.0906 289.2214) (xy 175.0906 298.7041)
 		)
 		(stroke
 			(width 0.1693)
@@ -9141,7 +9129,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.1901 284.0144) (xy 253.4074 284.0144)
+			(xy 265.0067 286.0041) (xy 268.224 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -9152,7 +9140,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.6233 116.7131) (xy 210.058 116.7131)
+			(xy 218.4399 118.7028) (xy 224.8746 118.7028)
 		)
 		(stroke
 			(width 0.8466)
@@ -9163,7 +9151,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 268.6051) (xy 138.7687 268.6051)
+			(xy 150.3679 270.5948) (xy 153.5853 270.5948)
 		)
 		(stroke
 			(width 0.1693)
@@ -9174,7 +9162,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9126 265.557) (xy 147.9126 268.7744)
+			(xy 162.7292 267.5467) (xy 162.7292 270.7641)
 		)
 		(stroke
 			(width 0.1693)
@@ -9185,7 +9173,7 @@
 	)
 	(polyline
 		(pts
-			(xy 225.298 284.0144) (xy 228.6847 284.0144)
+			(xy 240.1146 286.0041) (xy 243.5013 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -9196,7 +9184,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.2381 126.0263) (xy 259.6727 131.1064)
+			(xy 268.0547 128.016) (xy 274.4893 133.0961)
 		)
 		(stroke
 			(width 0.1693)
@@ -9207,7 +9195,7 @@
 	)
 	(polyline
 		(pts
-			(xy 92.0327 321.2677) (xy 92.0327 318.0504)
+			(xy 106.8493 323.2574) (xy 106.8493 320.0401)
 		)
 		(stroke
 			(width 0.1693)
@@ -9218,7 +9206,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.426 191.0504) (xy 237.8287 197.485)
+			(xy 248.2426 193.0401) (xy 252.6453 199.4747)
 		)
 		(stroke
 			(width 0.1693)
@@ -9229,7 +9217,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6234 184.9543) (xy 337.0581 190.0343)
+			(xy 345.44 186.944) (xy 351.8747 192.024)
 		)
 		(stroke
 			(width 0.1693)
@@ -9240,7 +9228,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 121.92) (xy 475.615 121.92)
+			(xy 369.6546 123.1477) (xy 480.1446 123.1477)
 		)
 		(stroke
 			(width 0.1693)
@@ -9251,7 +9239,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 367.8343) (xy 163.322 355.1344)
+			(xy 178.1386 369.824) (xy 178.1386 357.1241)
 		)
 		(stroke
 			(width 0.8466)
@@ -9262,7 +9250,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.202 153.9664) (xy 215.8153 153.9664)
+			(xy 234.0186 155.9561) (xy 230.6319 155.9561)
 		)
 		(stroke
 			(width 0.1693)
@@ -9273,7 +9261,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6354 339.8944) (xy 175.8527 339.8944)
+			(xy 187.452 341.8841) (xy 190.6693 341.8841)
 		)
 		(stroke
 			(width 0.1693)
@@ -9284,7 +9272,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5034 345.9904) (xy 262.7207 345.9904)
+			(xy 274.32 347.9801) (xy 277.5373 347.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -9295,7 +9283,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 218.9904) (xy 290.6607 218.9904)
+			(xy 299.0426 220.9801) (xy 305.4773 220.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -9306,7 +9294,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6833 178.6891) (xy 175.6833 182.0757)
+			(xy 190.4999 180.6788) (xy 190.4999 184.0654)
 		)
 		(stroke
 			(width 0.1693)
@@ -9317,7 +9305,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 135.3397) (xy 247.142 135.3397)
+			(xy 237.0666 137.3294) (xy 261.9586 137.3294)
 		)
 		(stroke
 			(width 0.8466)
@@ -9328,7 +9316,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 122.9784) (xy 113.538 128.0584)
+			(xy 134.7893 124.9681) (xy 128.3546 130.0481)
 		)
 		(stroke
 			(width 0.1693)
@@ -9339,7 +9327,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 268.605) (xy 123.19 268.605)
+			(xy 134.7893 270.5947) (xy 138.0066 270.5947)
 		)
 		(stroke
 			(width 0.1693)
@@ -9350,7 +9338,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 246.9304) (xy 268.6474 250.1477)
+			(xy 283.464 248.9201) (xy 283.464 252.1374)
 		)
 		(stroke
 			(width 0.1693)
@@ -9361,7 +9349,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 256.2437) (xy 147.9127 252.857)
+			(xy 162.7293 258.2334) (xy 162.7293 254.8467)
 		)
 		(stroke
 			(width 0.1693)
@@ -9372,7 +9360,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 135.3397) (xy 259.334 135.3397)
+			(xy 280.416 137.3294) (xy 274.1506 137.3294)
 		)
 		(stroke
 			(width 0.8466)
@@ -9383,7 +9371,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5514 342.9424) (xy 135.5514 327.3637)
+			(xy 150.368 344.9321) (xy 150.368 329.3534)
 		)
 		(stroke
 			(width 0.1693)
@@ -9394,7 +9382,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 153.67) (xy 475.615 153.67)
+			(xy 369.6546 154.8977) (xy 480.1446 154.8977)
 		)
 		(stroke
 			(width 0.1693)
@@ -9405,7 +9393,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 157.0144) (xy 157.3954 151.9344)
+			(xy 165.7773 159.0041) (xy 172.212 153.9241)
 		)
 		(stroke
 			(width 0.1693)
@@ -9416,7 +9404,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 200.3637) (xy 73.5754 222.2077)
+			(xy 88.392 202.3534) (xy 88.392 224.1974)
 		)
 		(stroke
 			(width 0.8466)
@@ -9427,7 +9415,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 225.2557) (xy 182.118 225.2557)
+			(xy 193.7173 227.2454) (xy 196.9346 227.2454)
 		)
 		(stroke
 			(width 0.1693)
@@ -9438,7 +9426,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 240.665) (xy 182.118 240.665)
+			(xy 193.7173 242.6547) (xy 196.9346 242.6547)
 		)
 		(stroke
 			(width 0.1693)
@@ -9449,7 +9437,7 @@
 	)
 	(polyline
 		(pts
-			(xy 206.6713 113.665) (xy 203.454 116.8824)
+			(xy 221.4879 115.6547) (xy 218.2706 118.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -9460,7 +9448,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 225.2557) (xy 181.9487 221.869)
+			(xy 196.7653 227.2454) (xy 196.7653 223.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -9471,7 +9459,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 246.9304) (xy 290.6607 246.9304)
+			(xy 299.0426 248.9201) (xy 305.4773 248.9201)
 		)
 		(stroke
 			(width 0.1693)
@@ -9482,7 +9470,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.202 284.0144) (xy 224.282 277.749)
+			(xy 234.0186 286.0041) (xy 239.0986 279.7387)
 		)
 		(stroke
 			(width 0.1693)
@@ -9493,7 +9481,7 @@
 	)
 	(polyline
 		(pts
-			(xy 42.5873 277.9183) (xy 58.166 277.9183)
+			(xy 57.4039 279.908) (xy 72.9826 279.908)
 		)
 		(stroke
 			(width 0.1693)
@@ -9503,7 +9491,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5993 367.8343) (xy 138.5993 355.1344)
+			(xy 153.4159 369.824) (xy 153.4159 357.1241)
 		)
 		(stroke
 			(width 0.8466)
@@ -9514,7 +9502,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 345.9904) (xy 150.9607 349.377)
+			(xy 165.7773 347.9801) (xy 165.7773 351.3667)
 		)
 		(stroke
 			(width 0.1693)
@@ -9525,7 +9513,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 107.3997) (xy 178.9007 110.7864)
+			(xy 193.7173 109.3894) (xy 193.7173 112.7761)
 		)
 		(stroke
 			(width 0.1693)
@@ -9536,7 +9524,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5634 355.3037) (xy 104.5634 342.7731)
+			(xy 119.38 357.2934) (xy 119.38 344.7628)
 		)
 		(stroke
 			(width 0.8466)
@@ -9547,7 +9535,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 299.593) (xy 153.8394 299.593)
+			(xy 172.0426 301.5827) (xy 168.656 301.5827)
 		)
 		(stroke
 			(width 0.1693)
@@ -9558,7 +9546,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 141.605) (xy 119.8033 141.605)
+			(xy 137.8373 143.5947) (xy 134.6199 143.5947)
 		)
 		(stroke
 			(width 0.1693)
@@ -9569,7 +9557,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.2861 212.8943) (xy 124.2061 219.1596)
+			(xy 144.1027 214.884) (xy 139.0227 221.1493)
 		)
 		(stroke
 			(width 0.1693)
@@ -9580,7 +9568,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 339.8944) (xy 144.526 339.8944)
+			(xy 162.7293 341.8841) (xy 159.3426 341.8841)
 		)
 		(stroke
 			(width 0.1693)
@@ -9591,7 +9579,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 95.0384) (xy 172.466 95.0384)
+			(xy 190.5 97.0281) (xy 187.2826 97.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -9602,7 +9590,7 @@
 	)
 	(polyline
 		(pts
-			(xy 327.5754 191.0503) (xy 330.7927 191.0503)
+			(xy 342.392 193.04) (xy 345.6093 193.04)
 		)
 		(stroke
 			(width 0.1693)
@@ -9613,7 +9601,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.2381 129.0744) (xy 253.2381 125.857)
+			(xy 268.0547 131.0641) (xy 268.0547 127.8467)
 		)
 		(stroke
 			(width 0.1693)
@@ -9624,7 +9612,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.7073 45.4237) (xy 117.094 45.4237)
+			(xy 128.5239 47.4134) (xy 131.9106 47.4134)
 		)
 		(stroke
 			(width 0.1693)
@@ -9635,7 +9623,7 @@
 	)
 	(polyline
 		(pts
-			(xy 125.222 65.5744) (xy 125.222 78.105)
+			(xy 140.0386 67.5641) (xy 140.0386 80.0947)
 		)
 		(stroke
 			(width 0.8466)
@@ -9646,7 +9634,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5993 268.6051) (xy 133.5193 275.0397)
+			(xy 153.4159 270.5948) (xy 148.3359 277.0294)
 		)
 		(stroke
 			(width 0.1693)
@@ -9657,7 +9645,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 367.8343) (xy 216.154 367.8343)
+			(xy 215.3919 369.824) (xy 230.9706 369.824)
 		)
 		(stroke
 			(width 0.8466)
@@ -9668,7 +9656,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.238 122.9783) (xy 253.238 126.1957)
+			(xy 268.0546 124.968) (xy 268.0546 128.1854)
 		)
 		(stroke
 			(width 0.1693)
@@ -9679,7 +9667,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 246.9304) (xy 188.214 218.8211)
+			(xy 203.0306 248.9201) (xy 203.0306 220.8108)
 		)
 		(stroke
 			(width 0.8466)
@@ -9690,7 +9678,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.2381 132.2917) (xy 253.2381 135.5091)
+			(xy 268.0547 134.2814) (xy 268.0547 137.4988)
 		)
 		(stroke
 			(width 0.1693)
@@ -9701,7 +9689,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 259.2917) (xy 274.7434 259.2917)
+			(xy 299.0426 261.2814) (xy 289.56 261.2814)
 		)
 		(stroke
 			(width 0.8466)
@@ -9712,7 +9700,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.2381 209.677) (xy 126.2381 213.0636)
+			(xy 141.0547 211.6667) (xy 141.0547 215.0533)
 		)
 		(stroke
 			(width 0.1693)
@@ -9723,7 +9711,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.346 45.4236) (xy 101.346 48.8103)
+			(xy 116.1626 47.4133) (xy 116.1626 50.8)
 		)
 		(stroke
 			(width 0.1693)
@@ -9734,7 +9722,7 @@
 	)
 	(polyline
 		(pts
-			(xy 293.5393 352.2557) (xy 284.0567 352.2557)
+			(xy 308.3559 354.2454) (xy 298.8733 354.2454)
 		)
 		(stroke
 			(width 0.8466)
@@ -9745,7 +9733,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 327.533) (xy 104.394 327.533)
+			(xy 141.0546 329.5227) (xy 119.2106 329.5227)
 		)
 		(stroke
 			(width 0.8466)
@@ -9756,7 +9744,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 228.3037) (xy 107.442 225.0864)
+			(xy 125.476 230.2934) (xy 122.2586 227.0761)
 		)
 		(stroke
 			(width 0.1693)
@@ -9767,7 +9755,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9847 311.9544) (xy 85.7673 311.9544)
+			(xy 103.8013 313.9441) (xy 100.5839 313.9441)
 		)
 		(stroke
 			(width 0.1693)
@@ -9778,7 +9766,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.9367 228.3037) (xy 110.8287 228.3037)
+			(xy 100.7533 230.2934) (xy 125.6453 230.2934)
 		)
 		(stroke
 			(width 0.1693)
@@ -9789,7 +9777,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 44.2382) (xy 101.5153 48.8102)
+			(xy 110.0666 46.2279) (xy 116.3319 50.7999)
 		)
 		(stroke
 			(width 0.1693)
@@ -9800,7 +9788,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6954 200.3636) (xy 144.6954 197.1463)
+			(xy 159.512 202.3533) (xy 159.512 199.136)
 		)
 		(stroke
 			(width 0.1693)
@@ -9811,7 +9799,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.9127 220.853) (xy 268.478 225.425)
+			(xy 289.7293 222.8427) (xy 283.2946 227.4147)
 		)
 		(stroke
 			(width 0.1693)
@@ -9822,7 +9810,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.11 274.8703) (xy 113.538 268.4357)
+			(xy 132.9266 276.86) (xy 128.3546 270.4254)
 		)
 		(stroke
 			(width 0.1693)
@@ -9833,7 +9821,7 @@
 	)
 	(polyline
 		(pts
-			(xy 170.7727 355.3037) (xy 166.37 349.0384)
+			(xy 185.5893 357.2934) (xy 181.1866 351.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -9844,7 +9832,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 64.0504) (xy 168.402 57.7851)
+			(xy 178.1386 66.0401) (xy 183.2186 59.7748)
 		)
 		(stroke
 			(width 0.1693)
@@ -9855,7 +9843,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 138.3877) (xy 119.8033 138.3877)
+			(xy 137.8373 140.3774) (xy 134.6199 140.3774)
 		)
 		(stroke
 			(width 0.1693)
@@ -9866,7 +9854,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 336.8464) (xy 95.25 321.0984)
+			(xy 110.0666 338.8361) (xy 110.0666 323.0881)
 		)
 		(stroke
 			(width 0.1693)
@@ -9877,7 +9865,7 @@
 	)
 	(polyline
 		(pts
-			(xy 265.5994 45.4237) (xy 265.5994 48.8103)
+			(xy 280.416 47.4134) (xy 280.416 50.8)
 		)
 		(stroke
 			(width 0.1693)
@@ -9888,7 +9876,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 236.22) (xy 475.615 236.22)
+			(xy 369.6546 237.4477) (xy 480.1446 237.4477)
 		)
 		(stroke
 			(width 0.1693)
@@ -9899,7 +9887,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 246.9304) (xy 188.0447 246.9304)
+			(xy 215.3919 248.9201) (xy 202.8613 248.9201)
 		)
 		(stroke
 			(width 0.8466)
@@ -9910,7 +9898,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.7073 42.3757) (xy 117.094 42.3757)
+			(xy 128.5239 44.3654) (xy 131.9106 44.3654)
 		)
 		(stroke
 			(width 0.1693)
@@ -9921,7 +9909,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 299.593) (xy 79.8407 299.593)
+			(xy 88.392 301.5827) (xy 94.6573 301.5827)
 		)
 		(stroke
 			(width 0.8466)
@@ -9932,7 +9920,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 160.02) (xy 475.615 160.02)
+			(xy 369.6546 161.2477) (xy 480.1446 161.2477)
 		)
 		(stroke
 			(width 0.1693)
@@ -9943,7 +9931,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 200.3637) (xy 246.9727 219.1597)
+			(xy 261.7893 202.3534) (xy 261.7893 221.1494)
 		)
 		(stroke
 			(width 0.1693)
@@ -9954,7 +9942,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.2501 321.2677) (xy 95.2501 318.0504)
+			(xy 110.0667 323.2574) (xy 110.0667 320.0401)
 		)
 		(stroke
 			(width 0.1693)
@@ -9965,7 +9953,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 110.6171) (xy 172.466 110.6171)
+			(xy 190.5 112.6068) (xy 187.2826 112.6068)
 		)
 		(stroke
 			(width 0.1693)
@@ -9976,7 +9964,7 @@
 	)
 	(polyline
 		(pts
-			(xy 183.8113 277.9183) (xy 188.3834 284.1837)
+			(xy 198.6279 279.908) (xy 203.2 286.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -9987,7 +9975,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 129.0744) (xy 151.13 129.0744)
+			(xy 162.7293 131.0641) (xy 165.9466 131.0641)
 		)
 		(stroke
 			(width 0.1693)
@@ -9998,7 +9986,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 370.8822) (xy 188.214 333.4597)
+			(xy 203.0306 372.8719) (xy 203.0306 335.4494)
 		)
 		(stroke
 			(width 0.1693)
@@ -10009,7 +9997,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 222.0384) (xy 157.0567 227.2877)
+			(xy 178.1386 224.0281) (xy 171.8733 229.2774)
 		)
 		(stroke
 			(width 0.1693)
@@ -10020,7 +10008,7 @@
 	)
 	(polyline
 		(pts
-			(xy 92.0327 318.2197) (xy 88.8154 318.2197)
+			(xy 106.8493 320.2094) (xy 103.632 320.2094)
 		)
 		(stroke
 			(width 0.1693)
@@ -10031,7 +10019,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5033 113.665) (xy 299.8046 113.665)
+			(xy 274.3199 115.6547) (xy 314.6212 115.6547)
 		)
 		(stroke
 			(width 0.8466)
@@ -10042,7 +10030,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6473 324.3157) (xy 144.8647 321.0984)
+			(xy 156.4639 326.3054) (xy 159.6813 323.0881)
 		)
 		(stroke
 			(width 0.1693)
@@ -10053,7 +10041,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 349.2077) (xy 170.6034 355.473)
+			(xy 190.5 351.1974) (xy 185.42 357.4627)
 		)
 		(stroke
 			(width 0.1693)
@@ -10064,7 +10052,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 178.689) (xy 194.31 182.0757)
+			(xy 209.1266 180.6787) (xy 209.1266 184.0654)
 		)
 		(stroke
 			(width 0.1693)
@@ -10075,7 +10063,7 @@
 	)
 	(polyline
 		(pts
-			(xy 191.262 107.3997) (xy 191.262 110.7864)
+			(xy 206.0786 109.3894) (xy 206.0786 112.7761)
 		)
 		(stroke
 			(width 0.1693)
@@ -10086,7 +10074,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.9367 222.0384) (xy 85.9367 228.473)
+			(xy 100.7533 224.0281) (xy 100.7533 230.4627)
 		)
 		(stroke
 			(width 0.1693)
@@ -10097,7 +10085,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 98.0864) (xy 194.31 107.569)
+			(xy 209.1266 100.0761) (xy 209.1266 109.5587)
 		)
 		(stroke
 			(width 0.1693)
@@ -10108,7 +10096,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 64.0504) (xy 172.8047 64.0504)
+			(xy 184.4039 66.0401) (xy 187.6213 66.0401)
 		)
 		(stroke
 			(width 0.1693)
@@ -10119,7 +10107,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 243.8824) (xy 268.6474 240.4957)
+			(xy 283.464 245.8721) (xy 283.464 242.4854)
 		)
 		(stroke
 			(width 0.1693)
@@ -10130,7 +10118,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 98.0864) (xy 163.322 107.569)
+			(xy 178.1386 100.0761) (xy 178.1386 109.5587)
 		)
 		(stroke
 			(width 0.1693)
@@ -10141,7 +10129,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 210.82) (xy 475.615 210.82)
+			(xy 369.6546 212.0477) (xy 480.1446 212.0477)
 		)
 		(stroke
 			(width 0.1693)
@@ -10152,7 +10140,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 95.0383) (xy 157.0566 95.0383)
+			(xy 175.0906 97.028) (xy 171.8732 97.028)
 		)
 		(stroke
 			(width 0.1693)
@@ -10163,7 +10151,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 299.5931) (xy 178.7313 299.5931)
+			(xy 196.7653 301.5828) (xy 193.5479 301.5828)
 		)
 		(stroke
 			(width 0.1693)
@@ -10174,7 +10162,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 119.9304) (xy 250.3593 119.9304)
+			(xy 224.7053 121.9201) (xy 265.1759 121.9201)
 		)
 		(stroke
 			(width 0.1693)
@@ -10185,7 +10173,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.7873 246.9304) (xy 123.19 253.1957)
+			(xy 133.6039 248.9201) (xy 138.0066 255.1854)
 		)
 		(stroke
 			(width 0.1693)
@@ -10196,7 +10184,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.1901 119.9304) (xy 253.4074 119.9304)
+			(xy 265.0067 121.9201) (xy 268.224 121.9201)
 		)
 		(stroke
 			(width 0.1693)
@@ -10207,7 +10195,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.9487 184.9543) (xy 48.514 190.0343)
+			(xy 69.7653 186.944) (xy 63.3306 192.024)
 		)
 		(stroke
 			(width 0.1693)
@@ -10218,7 +10206,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 110.6171) (xy 197.6967 110.6171)
+			(xy 209.1266 112.6068) (xy 212.5133 112.6068)
 		)
 		(stroke
 			(width 0.1693)
@@ -10229,7 +10217,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 44.2383) (xy 116.7553 48.8103)
+			(xy 137.8373 46.228) (xy 131.5719 50.8)
 		)
 		(stroke
 			(width 0.1693)
@@ -10240,7 +10228,7 @@
 	)
 	(polyline
 		(pts
-			(xy 321.4793 259.2917) (xy 321.4793 206.4597)
+			(xy 336.2959 261.2814) (xy 336.2959 208.4494)
 		)
 		(stroke
 			(width 0.8466)
@@ -10251,7 +10239,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.9727 135.3397) (xy 113.538 140.4197)
+			(xy 134.7893 137.3294) (xy 128.3546 142.4094)
 		)
 		(stroke
 			(width 0.1693)
@@ -10262,7 +10250,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 339.8944) (xy 51.562 339.8944)
+			(xy 88.392 341.8841) (xy 66.3786 341.8841)
 		)
 		(stroke
 			(width 0.8466)
@@ -10273,7 +10261,7 @@
 	)
 	(polyline
 		(pts
-			(xy 88.9847 200.3637) (xy 88.9847 222.2077)
+			(xy 103.8013 202.3534) (xy 103.8013 224.1974)
 		)
 		(stroke
 			(width 0.8466)
@@ -10284,7 +10272,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.7246 85.7251) (xy 163.1526 79.4598)
+			(xy 182.5412 87.7148) (xy 177.9692 81.4495)
 		)
 		(stroke
 			(width 0.1693)
@@ -10295,7 +10283,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5993 355.3037) (xy 160.4433 355.3037)
+			(xy 153.4159 357.2934) (xy 175.2599 357.2934)
 		)
 		(stroke
 			(width 0.8466)
@@ -10306,7 +10294,7 @@
 	)
 	(polyline
 		(pts
-			(xy 203.6233 116.713) (xy 200.406 113.4957)
+			(xy 218.4399 118.7027) (xy 215.2226 115.4854)
 		)
 		(stroke
 			(width 0.1693)
@@ -10317,7 +10305,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 234.569) (xy 107.442 237.7864)
+			(xy 125.476 236.5587) (xy 122.2586 239.7761)
 		)
 		(stroke
 			(width 0.1693)
@@ -10328,7 +10316,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 287.2317) (xy 172.6353 296.7144)
+			(xy 187.4519 289.2214) (xy 187.4519 298.7041)
 		)
 		(stroke
 			(width 0.1693)
@@ -10339,7 +10327,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 79.629) (xy 182.9647 85.8944)
+			(xy 203.0306 81.6187) (xy 197.7813 87.8841)
 		)
 		(stroke
 			(width 0.1693)
@@ -10350,7 +10338,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 129.0744) (xy 150.9607 132.461)
+			(xy 165.7773 131.0641) (xy 165.7773 134.4507)
 		)
 		(stroke
 			(width 0.1693)
@@ -10361,7 +10349,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 331.47) (xy 365.125 61.595)
+			(xy 369.6546 332.6977) (xy 369.6546 62.8227)
 		)
 		(stroke
 			(width 0.8466)
@@ -10372,7 +10360,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 349.2077) (xy 154.178 349.2077)
+			(xy 165.7773 351.1974) (xy 168.9946 351.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -10383,7 +10371,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.6953 333.629) (xy 144.6953 327.3637)
+			(xy 159.5119 335.6187) (xy 159.5119 329.3534)
 		)
 		(stroke
 			(width 0.8466)
@@ -10394,7 +10382,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6354 243.8824) (xy 306.07 243.8824)
+			(xy 314.452 245.8721) (xy 320.8866 245.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -10405,7 +10393,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 358.5209) (xy 200.7447 358.5209)
+			(xy 209.1266 360.5106) (xy 215.5613 360.5106)
 		)
 		(stroke
 			(width 0.1693)
@@ -10416,7 +10404,7 @@
 	)
 	(polyline
 		(pts
-			(xy 79.6714 321.2677) (xy 48.514 321.2677)
+			(xy 94.488 323.2574) (xy 63.3306 323.2574)
 		)
 		(stroke
 			(width 0.8466)
@@ -10427,7 +10415,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.6835 299.593) (xy 73.7447 299.593)
+			(xy 63.5001 301.5827) (xy 88.5613 301.5827)
 		)
 		(stroke
 			(width 0.8466)
@@ -10438,7 +10426,7 @@
 	)
 	(polyline
 		(pts
-			(xy 61.0447 290.2797) (xy 61.0447 277.749)
+			(xy 75.8613 292.2694) (xy 75.8613 279.7387)
 		)
 		(stroke
 			(width 0.1693)
@@ -10449,7 +10437,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 57.9544) (xy 244.094 57.9544)
+			(xy 137.8373 59.9441) (xy 258.9106 59.9441)
 		)
 		(stroke
 			(width 0.8466)
@@ -10460,7 +10448,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 74.295) (xy 474.98 74.295)
+			(xy 369.6546 75.5227) (xy 479.5096 75.5227)
 		)
 		(stroke
 			(width 0.8466)
@@ -10471,7 +10459,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 95.0384) (xy 192.278 88.7731)
+			(xy 212.3439 97.0281) (xy 207.0946 90.7628)
 		)
 		(stroke
 			(width 0.1693)
@@ -10482,7 +10470,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 197.3156) (xy 142.6634 190.8809)
+			(xy 162.7293 199.3053) (xy 157.48 192.8706)
 		)
 		(stroke
 			(width 0.1693)
@@ -10493,7 +10481,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 64.0503) (xy 194.1407 64.0503)
+			(xy 212.3439 66.04) (xy 208.9573 66.04)
 		)
 		(stroke
 			(width 0.1693)
@@ -10504,7 +10492,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 299.5931) (xy 188.3833 299.5931)
+			(xy 199.8133 301.5828) (xy 203.1999 301.5828)
 		)
 		(stroke
 			(width 0.1693)
@@ -10515,7 +10503,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.7753 246.9303) (xy 154.178 253.1957)
+			(xy 164.5919 248.92) (xy 168.9946 255.1854)
 		)
 		(stroke
 			(width 0.1693)
@@ -10526,7 +10514,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 345.9904) (xy 222.25 287.0624)
+			(xy 237.0666 347.9801) (xy 237.0666 289.0521)
 		)
 		(stroke
 			(width 0.1693)
@@ -10537,7 +10525,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.9367 222.0384) (xy 82.55 225.425)
+			(xy 100.7533 224.0281) (xy 97.3666 227.4147)
 		)
 		(stroke
 			(width 0.1693)
@@ -10548,7 +10536,7 @@
 	)
 	(polyline
 		(pts
-			(xy 197.5273 305.8584) (xy 197.5273 333.7984)
+			(xy 212.3439 307.8481) (xy 212.3439 335.7881)
 		)
 		(stroke
 			(width 0.8466)
@@ -10559,7 +10547,7 @@
 	)
 	(polyline
 		(pts
-			(xy 284.226 206.629) (xy 284.226 259.461)
+			(xy 299.0426 208.6187) (xy 299.0426 261.4507)
 		)
 		(stroke
 			(width 0.8466)
@@ -10570,7 +10558,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 153.9664) (xy 150.9607 157.1837)
+			(xy 165.7773 155.9561) (xy 165.7773 159.1734)
 		)
 		(stroke
 			(width 0.1693)
@@ -10581,7 +10569,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6354 342.9424) (xy 172.6354 339.725)
+			(xy 187.452 344.9321) (xy 187.452 341.7147)
 		)
 		(stroke
 			(width 0.1693)
@@ -10592,7 +10580,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 253.0263) (xy 138.7687 253.0263)
+			(xy 150.3679 255.016) (xy 153.5853 255.016)
 		)
 		(stroke
 			(width 0.1693)
@@ -10603,7 +10591,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 268.6051) (xy 154.178 268.6051)
+			(xy 165.7773 270.5948) (xy 168.9946 270.5948)
 		)
 		(stroke
 			(width 0.1693)
@@ -10614,7 +10602,7 @@
 	)
 	(polyline
 		(pts
-			(xy 79.6714 339.8944) (xy 73.406 334.8144)
+			(xy 94.488 341.8841) (xy 88.2226 336.8041)
 		)
 		(stroke
 			(width 0.1693)
@@ -10625,7 +10613,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 287.2317) (xy 250.19 299.7624)
+			(xy 265.0066 289.2214) (xy 265.0066 301.7521)
 		)
 		(stroke
 			(width 0.1693)
@@ -10636,7 +10624,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 98.0864) (xy 287.1047 98.0864)
+			(xy 330.0306 100.0761) (xy 301.9213 100.0761)
 		)
 		(stroke
 			(width 0.8466)
@@ -10647,7 +10635,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 265.557) (xy 150.9607 268.7744)
+			(xy 165.7773 267.5467) (xy 165.7773 270.7641)
 		)
 		(stroke
 			(width 0.1693)
@@ -10658,7 +10646,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.8887 155.8291) (xy 216.154 160.2317)
+			(xy 224.7053 157.8188) (xy 230.9706 162.2214)
 		)
 		(stroke
 			(width 0.1693)
@@ -10669,7 +10657,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 218.9904) (xy 157.3953 218.9904)
+			(xy 125.476 220.9801) (xy 172.2119 220.9801)
 		)
 		(stroke
 			(width 0.8466)
@@ -10680,7 +10668,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 349.2077) (xy 166.37 349.2077)
+			(xy 184.4039 351.1974) (xy 181.1866 351.1974)
 		)
 		(stroke
 			(width 0.1693)
@@ -10691,7 +10679,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 204.47) (xy 475.615 204.47)
+			(xy 369.6546 205.6977) (xy 480.1446 205.6977)
 		)
 		(stroke
 			(width 0.1693)
@@ -10702,7 +10690,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.1873 71.8397) (xy 145.2033 71.8397)
+			(xy 159.0039 73.8294) (xy 160.0199 73.8294)
 		)
 		(stroke
 			(width 0.1693)
@@ -10713,17 +10701,18 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5034 321.2677) (xy 262.7207 321.2677)
+			(xy 274.32 323.2574) (xy 277.5373 323.2574)
 		)
 		(stroke
 			(width 0.1693)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(uuid "e4a1a50e-a147-44ac-8c95-34eefab2fcad")
 	)
 	(polyline
 		(pts
-			(xy 135.5513 85.7251) (xy 135.5513 82.5077)
+			(xy 150.3679 87.7148) (xy 150.3679 84.4974)
 		)
 		(stroke
 			(width 0.1693)
@@ -10734,7 +10723,7 @@
 	)
 	(polyline
 		(pts
-			(xy 277.9607 342.9424) (xy 284.3953 342.9424)
+			(xy 292.7773 344.9321) (xy 299.2119 344.9321)
 		)
 		(stroke
 			(width 0.1693)
@@ -10745,7 +10734,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 293.37) (xy 475.615 293.37)
+			(xy 369.6546 294.5977) (xy 480.1446 294.5977)
 		)
 		(stroke
 			(width 0.1693)
@@ -10756,7 +10745,7 @@
 	)
 	(polyline
 		(pts
-			(xy 79.6714 310.769) (xy 86.106 315.1717)
+			(xy 94.488 312.7587) (xy 100.9226 317.1614)
 		)
 		(stroke
 			(width 0.1693)
@@ -10767,7 +10756,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 228.3037) (xy 163.322 231.5211)
+			(xy 178.1386 230.2934) (xy 178.1386 233.5108)
 		)
 		(stroke
 			(width 0.1693)
@@ -10778,7 +10767,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.5754 225.2557) (xy 70.1887 221.869)
+			(xy 88.392 227.2454) (xy 85.0053 223.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -10789,7 +10778,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 200.3637) (xy 123.0207 197.1463)
+			(xy 137.8373 202.3534) (xy 137.8373 199.136)
 		)
 		(stroke
 			(width 0.1693)
@@ -10800,7 +10789,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.214 33.0624) (xy 315.214 54.9064)
+			(xy 330.0306 35.0521) (xy 330.0306 56.8961)
 		)
 		(stroke
 			(width 0.8466)
@@ -10811,7 +10800,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5874 339.8944) (xy 166.37 339.8944)
+			(xy 184.404 341.8841) (xy 181.1866 341.8841)
 		)
 		(stroke
 			(width 0.1693)
@@ -10822,7 +10811,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 200.3637) (xy 123.0207 209.8464)
+			(xy 137.8373 202.3534) (xy 137.8373 211.8361)
 		)
 		(stroke
 			(width 0.1693)
@@ -10833,7 +10822,7 @@
 	)
 	(polyline
 		(pts
-			(xy 59.8594 299.593) (xy 64.4314 293.1584)
+			(xy 74.676 301.5827) (xy 79.248 295.1481)
 		)
 		(stroke
 			(width 0.1693)
@@ -10844,7 +10833,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 333.629) (xy 184.8274 337.0157)
+			(xy 203.0306 335.6187) (xy 199.644 339.0054)
 		)
 		(stroke
 			(width 0.1693)
@@ -10855,7 +10844,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 318.77) (xy 475.615 318.77)
+			(xy 369.6546 319.9977) (xy 480.1446 319.9977)
 		)
 		(stroke
 			(width 0.1693)
@@ -10866,7 +10855,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 107.3997) (xy 194.31 110.7864)
+			(xy 209.1266 109.3894) (xy 209.1266 112.7761)
 		)
 		(stroke
 			(width 0.1693)
@@ -10877,7 +10866,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.214 299.5931) (xy 182.9647 306.0277)
+			(xy 203.0306 301.5828) (xy 197.7813 308.0174)
 		)
 		(stroke
 			(width 0.1693)
@@ -10888,7 +10877,7 @@
 	)
 	(polyline
 		(pts
-			(xy 141.6473 318.2197) (xy 144.8647 321.4371)
+			(xy 156.4639 320.2094) (xy 159.6813 323.4268)
 		)
 		(stroke
 			(width 0.1693)
@@ -10899,7 +10888,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6353 135.3397) (xy 265.43 135.3397)
+			(xy 314.4519 137.3294) (xy 280.2466 137.3294)
 		)
 		(stroke
 			(width 0.8466)
@@ -10910,7 +10899,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 342.9424) (xy 150.9607 346.1597)
+			(xy 165.7773 344.9321) (xy 165.7773 348.1494)
 		)
 		(stroke
 			(width 0.1693)
@@ -10921,7 +10910,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6113 287.2317) (xy 234.6113 283.845)
+			(xy 249.4279 289.2214) (xy 249.4279 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -10932,7 +10921,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 88.9424) (xy 135.5513 92.1597)
+			(xy 150.3679 90.9321) (xy 150.3679 94.1494)
 		)
 		(stroke
 			(width 0.1693)
@@ -10943,7 +10932,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 126.0264) (xy 150.9607 122.8091)
+			(xy 165.7773 128.0161) (xy 165.7773 124.7988)
 		)
 		(stroke
 			(width 0.1693)
@@ -10954,7 +10943,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 325.12) (xy 475.615 325.12)
+			(xy 369.6546 326.3477) (xy 480.1446 326.3477)
 		)
 		(stroke
 			(width 0.1693)
@@ -10965,7 +10954,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.274 98.0864) (xy 160.274 107.569)
+			(xy 175.0906 100.0761) (xy 175.0906 109.5587)
 		)
 		(stroke
 			(width 0.1693)
@@ -10976,7 +10965,7 @@
 	)
 	(polyline
 		(pts
-			(xy 327.5753 358.5209) (xy 327.5753 386.4609)
+			(xy 342.3919 360.5106) (xy 342.3919 388.4506)
 		)
 		(stroke
 			(width 0.1693)
@@ -10987,7 +10976,7 @@
 	)
 	(polyline
 		(pts
-			(xy 225.298 287.2317) (xy 225.298 283.845)
+			(xy 240.1146 289.2214) (xy 240.1146 285.8347)
 		)
 		(stroke
 			(width 0.1693)
@@ -10998,17 +10987,18 @@
 	)
 	(polyline
 		(pts
-			(xy 259.5033 324.3157) (xy 262.7207 324.3157)
+			(xy 274.3199 326.3054) (xy 277.5373 326.3054)
 		)
 		(stroke
 			(width 0.1693)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(uuid "ece677a5-807e-4a2a-9f1f-3174132faf2b")
 	)
 	(polyline
 		(pts
-			(xy 113.7074 169.3757) (xy 113.7074 113.4957)
+			(xy 128.524 171.3654) (xy 128.524 115.4854)
 		)
 		(stroke
 			(width 0.8466)
@@ -11019,7 +11009,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.346 42.3756) (xy 101.346 39.1583)
+			(xy 116.1626 44.3653) (xy 116.1626 41.148)
 		)
 		(stroke
 			(width 0.1693)
@@ -11030,7 +11020,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 225.2557) (xy 163.322 221.869)
+			(xy 178.1386 227.2454) (xy 178.1386 223.8587)
 		)
 		(stroke
 			(width 0.1693)
@@ -11041,7 +11031,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5633 42.3756) (xy 101.1767 42.3756)
+			(xy 119.3799 44.3653) (xy 115.9933 44.3653)
 		)
 		(stroke
 			(width 0.1693)
@@ -11052,7 +11042,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 284.0144) (xy 183.9807 277.749)
+			(xy 193.7173 286.0041) (xy 198.7973 279.7387)
 		)
 		(stroke
 			(width 0.1693)
@@ -11063,7 +11053,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.6353 113.665) (xy 299.6353 135.5091)
+			(xy 314.4519 115.6547) (xy 314.4519 137.4988)
 		)
 		(stroke
 			(width 0.8466)
@@ -11074,7 +11064,7 @@
 	)
 	(polyline
 		(pts
-			(xy 123.0207 209.677) (xy 123.0207 213.0636)
+			(xy 137.8373 211.6667) (xy 137.8373 215.0533)
 		)
 		(stroke
 			(width 0.1693)
@@ -11085,7 +11075,7 @@
 	)
 	(polyline
 		(pts
-			(xy 150.9607 141.6051) (xy 150.9607 144.8224)
+			(xy 165.7773 143.5948) (xy 165.7773 146.8121)
 		)
 		(stroke
 			(width 0.1693)
@@ -11096,7 +11086,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 67.0984) (xy 169.5873 76.581)
+			(xy 184.4039 69.0881) (xy 184.4039 78.5707)
 		)
 		(stroke
 			(width 0.1693)
@@ -11107,7 +11097,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 140.97) (xy 475.615 140.97)
+			(xy 369.6546 142.1977) (xy 480.1446 142.1977)
 		)
 		(stroke
 			(width 0.1693)
@@ -11118,7 +11108,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 152.1037) (xy 150.7914 147.5317)
+			(xy 172.0426 154.0934) (xy 165.608 149.5214)
 		)
 		(stroke
 			(width 0.1693)
@@ -11129,7 +11119,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 95.0384) (xy 182.118 95.0384)
+			(xy 193.7173 97.0281) (xy 196.9346 97.0281)
 		)
 		(stroke
 			(width 0.1693)
@@ -11140,7 +11130,7 @@
 	)
 	(polyline
 		(pts
-			(xy 104.5634 42.3757) (xy 113.8767 42.3757)
+			(xy 119.38 44.3654) (xy 128.6933 44.3654)
 		)
 		(stroke
 			(width 0.1693)
@@ -11151,7 +11141,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.238 45.4236) (xy 250.0207 45.4236)
+			(xy 268.0546 47.4133) (xy 264.8373 47.4133)
 		)
 		(stroke
 			(width 0.1693)
@@ -11162,7 +11152,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.2381 119.9304) (xy 253.2381 116.5437)
+			(xy 268.0547 121.9201) (xy 268.0547 118.5334)
 		)
 		(stroke
 			(width 0.1693)
@@ -11173,7 +11163,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.9487 191.0503) (xy 54.9487 194.437)
+			(xy 69.7653 193.04) (xy 69.7653 196.4267)
 		)
 		(stroke
 			(width 0.1693)
@@ -11184,7 +11174,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 61.595) (xy 475.615 61.595)
+			(xy 369.6546 62.8227) (xy 480.1446 62.8227)
 		)
 		(stroke
 			(width 0.8466)
@@ -11195,7 +11185,7 @@
 	)
 	(polyline
 		(pts
-			(xy 475.615 331.47) (xy 365.125 331.47)
+			(xy 480.1446 332.6977) (xy 369.6546 332.6977)
 		)
 		(stroke
 			(width 0.8466)
@@ -11206,7 +11196,7 @@
 	)
 	(polyline
 		(pts
-			(xy 168.2327 57.9544) (xy 172.8047 64.2197)
+			(xy 183.0493 59.9441) (xy 187.6213 66.2094)
 		)
 		(stroke
 			(width 0.1693)
@@ -11217,7 +11207,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.322 95.0383) (xy 166.7087 95.0383)
+			(xy 178.1386 97.028) (xy 181.5253 97.028)
 		)
 		(stroke
 			(width 0.1693)
@@ -11228,7 +11218,7 @@
 	)
 	(polyline
 		(pts
-			(xy 336.8887 189.865) (xy 330.454 194.437)
+			(xy 351.7053 191.8547) (xy 345.2706 196.4267)
 		)
 		(stroke
 			(width 0.1693)
@@ -11239,7 +11229,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 197.3157) (xy 250.3593 197.3157)
+			(xy 261.7893 199.3054) (xy 265.1759 199.3054)
 		)
 		(stroke
 			(width 0.1693)
@@ -11250,7 +11240,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.238 42.3756) (xy 250.0207 42.3756)
+			(xy 268.0546 44.3653) (xy 264.8373 44.3653)
 		)
 		(stroke
 			(width 0.1693)
@@ -11261,7 +11251,7 @@
 	)
 	(polyline
 		(pts
-			(xy 268.6474 301.4557) (xy 262.382 306.0277)
+			(xy 283.464 303.4454) (xy 277.1986 308.0174)
 		)
 		(stroke
 			(width 0.1693)
@@ -11272,7 +11262,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.5873 299.5931) (xy 166.37 299.5931)
+			(xy 184.4039 301.5828) (xy 181.1866 301.5828)
 		)
 		(stroke
 			(width 0.1693)
@@ -11283,7 +11273,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 218.9904) (xy 265.7687 218.9904)
+			(xy 261.7893 220.9801) (xy 280.5853 220.9801)
 		)
 		(stroke
 			(width 0.1693)
@@ -11294,7 +11284,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6233 206.629) (xy 330.6233 259.461)
+			(xy 345.4399 208.6187) (xy 345.4399 261.4507)
 		)
 		(stroke
 			(width 0.8466)
@@ -11305,7 +11295,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6834 107.3997) (xy 175.6834 110.7864)
+			(xy 190.5 109.3894) (xy 190.5 112.7761)
 		)
 		(stroke
 			(width 0.1693)
@@ -11316,7 +11306,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.4114 305.8584) (xy 153.8394 299.4237)
+			(xy 173.228 307.8481) (xy 168.656 301.4134)
 		)
 		(stroke
 			(width 0.1693)
@@ -11327,7 +11317,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.3754 218.9903) (xy 119.8034 212.725)
+			(xy 139.192 220.98) (xy 134.62 214.7147)
 		)
 		(stroke
 			(width 0.1693)
@@ -11338,7 +11328,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.9247 42.3757) (xy 116.9247 39.1584)
+			(xy 131.7413 44.3654) (xy 131.7413 41.1481)
 		)
 		(stroke
 			(width 0.1693)
@@ -11349,7 +11339,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 126.0264) (xy 122.8514 126.0264)
+			(xy 162.7293 128.0161) (xy 137.668 128.0161)
 		)
 		(stroke
 			(width 0.1693)
@@ -11360,7 +11350,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.6113 284.0144) (xy 231.394 284.0144)
+			(xy 249.4279 286.0041) (xy 246.2106 286.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -11371,7 +11361,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9847 352.2557) (xy 215.9847 361.7384)
+			(xy 230.8013 354.2454) (xy 230.8013 363.7281)
 		)
 		(stroke
 			(width 0.8466)
@@ -11382,7 +11372,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 141.6051) (xy 265.7687 141.6051)
+			(xy 261.7893 143.5948) (xy 280.5853 143.5948)
 		)
 		(stroke
 			(width 0.1693)
@@ -11393,7 +11383,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5753 361.5689) (xy 200.5753 358.3518)
+			(xy 215.3919 363.5586) (xy 215.3919 360.3415)
 		)
 		(stroke
 			(width 0.8466)
@@ -11404,7 +11394,7 @@
 	)
 	(polyline
 		(pts
-			(xy 142.8327 191.0503) (xy 138.4301 197.4849)
+			(xy 157.6493 193.04) (xy 153.2467 199.4746)
 		)
 		(stroke
 			(width 0.1693)
@@ -11415,7 +11405,7 @@
 	)
 	(polyline
 		(pts
-			(xy 135.5513 265.557) (xy 135.5513 268.7744)
+			(xy 150.3679 267.5467) (xy 150.3679 270.7641)
 		)
 		(stroke
 			(width 0.1693)
@@ -11426,7 +11416,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 234.569) (xy 188.3834 239.649)
+			(xy 196.7653 236.5587) (xy 203.2 241.6387)
 		)
 		(stroke
 			(width 0.1693)
@@ -11437,7 +11427,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.1367 116.7131) (xy 166.7087 110.4477)
+			(xy 176.9533 118.7028) (xy 181.5253 112.4374)
 		)
 		(stroke
 			(width 0.1693)
@@ -11448,7 +11438,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 296.5451) (xy 268.8167 301.625)
+			(xy 277.368 298.5348) (xy 283.6333 303.6147)
 		)
 		(stroke
 			(width 0.1693)
@@ -11459,7 +11449,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.8647 44.2383) (xy 265.43 48.8103)
+			(xy 286.6813 46.228) (xy 280.2466 50.8)
 		)
 		(stroke
 			(width 0.1693)
@@ -11470,7 +11460,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 64.0504) (xy 163.1527 64.0504)
+			(xy 181.356 66.0401) (xy 177.9693 66.0401)
 		)
 		(stroke
 			(width 0.1693)
@@ -11481,7 +11471,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 200.3637) (xy 246.9727 197.1464)
+			(xy 261.7893 202.3534) (xy 261.7893 199.1361)
 		)
 		(stroke
 			(width 0.1693)
@@ -11492,7 +11482,7 @@
 	)
 	(polyline
 		(pts
-			(xy 188.2141 227.1184) (xy 181.7794 231.521)
+			(xy 203.0307 229.1081) (xy 196.596 233.5107)
 		)
 		(stroke
 			(width 0.1693)
@@ -11503,7 +11493,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.7074 253.0264) (xy 118.9567 246.761)
+			(xy 128.524 255.0161) (xy 133.7733 248.7507)
 		)
 		(stroke
 			(width 0.1693)
@@ -11514,7 +11504,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 181.9063) (xy 197.6967 181.9063)
+			(xy 209.1266 183.896) (xy 212.5133 183.896)
 		)
 		(stroke
 			(width 0.1693)
@@ -11525,7 +11515,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.7194 336.8464) (xy 79.502 336.8464)
+			(xy 97.536 338.8361) (xy 94.3186 338.8361)
 		)
 		(stroke
 			(width 0.1693)
@@ -11536,7 +11526,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5393 76.4117) (xy 166.5393 79.7984)
+			(xy 181.3559 78.4014) (xy 181.3559 81.7881)
 		)
 		(stroke
 			(width 0.1693)
@@ -11547,7 +11537,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.5514 299.5931) (xy 262.5514 296.3757)
+			(xy 277.368 301.5828) (xy 277.368 298.3654)
 		)
 		(stroke
 			(width 0.1693)
@@ -11558,7 +11548,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.7074 140.2504) (xy 120.142 144.8224)
+			(xy 128.524 142.2401) (xy 134.9586 146.8121)
 		)
 		(stroke
 			(width 0.1693)
@@ -11569,7 +11559,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.9967 277.9183) (xy 57.9967 290.449)
+			(xy 72.8133 279.908) (xy 72.8133 292.4387)
 		)
 		(stroke
 			(width 0.1693)
@@ -11580,7 +11570,7 @@
 	)
 	(polyline
 		(pts
-			(xy 178.9007 237.617) (xy 182.118 237.617)
+			(xy 193.7173 239.6067) (xy 196.9346 239.6067)
 		)
 		(stroke
 			(width 0.1693)
@@ -11591,7 +11581,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.9127 150.9184) (xy 151.13 150.9184)
+			(xy 162.7293 152.9081) (xy 165.9466 152.9081)
 		)
 		(stroke
 			(width 0.1693)
@@ -11602,7 +11592,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 134.62) (xy 475.615 134.62)
+			(xy 369.6546 135.8477) (xy 480.1446 135.8477)
 		)
 		(stroke
 			(width 0.1693)
@@ -11613,7 +11603,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5993 88.9424) (xy 135.382 88.9424)
+			(xy 153.4159 90.9321) (xy 150.1986 90.9321)
 		)
 		(stroke
 			(width 0.1693)
@@ -11624,7 +11614,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.6233 277.9184) (xy 330.6233 281.1357)
+			(xy 345.4399 279.9081) (xy 345.4399 283.1254)
 		)
 		(stroke
 			(width 0.1693)
@@ -11635,7 +11625,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5393 79.6291) (xy 163.1526 79.6291)
+			(xy 181.3559 81.6188) (xy 177.9692 81.6188)
 		)
 		(stroke
 			(width 0.1693)
@@ -11646,7 +11636,7 @@
 	)
 	(polyline
 		(pts
-			(xy 365.125 191.77) (xy 475.615 191.77)
+			(xy 369.6546 192.9977) (xy 480.1446 192.9977)
 		)
 		(stroke
 			(width 0.1693)
@@ -11657,7 +11647,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 358.5209) (xy 197.358 361.7384)
+			(xy 215.392 360.5106) (xy 212.1746 363.7281)
 		)
 		(stroke
 			(width 0.1693)
@@ -11668,7 +11658,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.202 157.0144) (xy 215.8153 157.0144)
+			(xy 234.0186 159.0041) (xy 230.6319 159.0041)
 		)
 		(stroke
 			(width 0.1693)
@@ -11679,7 +11669,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 228.3037) (xy 210.058 228.3037)
+			(xy 215.392 230.2934) (xy 224.8746 230.2934)
 		)
 		(stroke
 			(width 0.1693)
@@ -11690,7 +11680,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.6833 299.5931) (xy 170.6033 306.0278)
+			(xy 190.4999 301.5828) (xy 185.4199 308.0175)
 		)
 		(stroke
 			(width 0.1693)
@@ -11701,7 +11691,7 @@
 	)
 	(polyline
 		(pts
-			(xy 246.9727 358.5209) (xy 327.7446 358.5209)
+			(xy 261.7893 360.5106) (xy 342.5612 360.5106)
 		)
 		(stroke
 			(width 0.1693)
@@ -11712,7 +11702,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.5394 228.3037) (xy 163.1527 228.3037)
+			(xy 181.356 230.2934) (xy 177.9693 230.2934)
 		)
 		(stroke
 			(width 0.1693)
@@ -11723,7 +11713,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 342.9424) (xy 126.238 349.377)
+			(xy 141.0546 344.9321) (xy 141.0546 351.3667)
 		)
 		(stroke
 			(width 0.8466)
@@ -11734,7 +11724,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.226 116.7131) (xy 203.7927 116.7131)
+			(xy 172.0426 118.7028) (xy 218.6093 118.7028)
 		)
 		(stroke
 			(width 0.8466)
@@ -11745,7 +11735,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 243.8824) (xy 73.406 243.8824)
+			(xy 125.476 245.8721) (xy 88.2226 245.8721)
 		)
 		(stroke
 			(width 0.1693)
@@ -11756,7 +11746,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.6353 299.5931) (xy 175.8526 299.5931)
+			(xy 187.4519 301.5828) (xy 190.6692 301.5828)
 		)
 		(stroke
 			(width 0.1693)
@@ -11767,7 +11757,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.9487 79.629) (xy 178.7313 79.629)
+			(xy 196.7653 81.6187) (xy 193.5479 81.6187)
 		)
 		(stroke
 			(width 0.1693)
@@ -11778,7 +11768,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.9487 188.0023) (xy 54.9487 184.785)
+			(xy 69.7653 189.992) (xy 69.7653 186.7747)
 		)
 		(stroke
 			(width 0.1693)
@@ -11789,7 +11779,7 @@
 	)
 	(polyline
 		(pts
-			(xy 42.5873 274.8704) (xy 327.7446 274.8704)
+			(xy 57.4039 276.8601) (xy 342.5612 276.8601)
 		)
 		(stroke
 			(width 0.1693)
@@ -11800,7 +11790,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.9967 76.4117) (xy 184.9967 79.7984)
+			(xy 199.8133 78.4014) (xy 199.8133 81.7881)
 		)
 		(stroke
 			(width 0.1693)
@@ -11811,7 +11801,7 @@
 	)
 	(polyline
 		(pts
-			(xy 271.8647 33.0624) (xy 315.3834 33.0624)
+			(xy 286.6813 35.0521) (xy 330.2 35.0521)
 		)
 		(stroke
 			(width 0.8466)
@@ -11822,7 +11812,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.6594 228.3037) (xy 110.6594 218.821)
+			(xy 125.476 230.2934) (xy 125.476 220.8107)
 		)
 		(stroke
 			(width 0.8466)
@@ -11833,7 +11823,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.5754 79.6289) (xy 203.7927 79.6289)
+			(xy 215.392 81.6186) (xy 218.6093 81.6186)
 		)
 		(stroke
 			(width 0.1693)
@@ -11844,7 +11834,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.5993 85.7251) (xy 135.382 85.7251)
+			(xy 153.4159 87.7148) (xy 150.1986 87.7148)
 		)
 		(stroke
 			(width 0.1693)

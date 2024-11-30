@@ -11,8 +11,8 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 29.21 52.07)
-		(end 134.62 189.23)
+		(start 29.21 46.99)
+		(end 134.62 184.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -131,7 +131,7 @@
 	)
 	(text "PAGE"
 		(exclude_from_sim no)
-		(at 108.204 49.784 0)
+		(at 114.3 50.292 0)
 		(effects
 			(font
 				(face "Arial")
@@ -277,12 +277,12 @@
 		)
 		(uuid "93bf45f4-8288-4e3e-8d87-9bf2cfdac9e9")
 	)
-	(text "COVER SHEET\nBLOCK DIAGRAM\nSLOT 1 CONNECTOR\nCLOCK SYNTHESIZER\n82443BX 6,7,8\nDIMM SOCKETS 9,10,11\nPIIX4E 12,13\nULTRA I/O\nAGP CONNECTOR\nPCI CONNECTORS\nISA CONNECTORS\nIDE CONNECTORS\nUSB CONNECTORS\nFLASH BIOS\nPARALLEL\nSERIAL/FLOPPY\nKEYBOARD/MOUSE\nVRM\nPOWER CONNECTOR\nGTL+ TERMINATION\nPCI/AGP PULLUPS/PULLDOWNS\nISA PULLUPS/PULLDOWNS\n82443BX DECOUPLING\nBULK DECOUPLING\nTERMINATION DECOUPLING\nLM79\nREVISION HISTORY\n"
+	(text "COVER SHEET\nBLOCK DIAGRAM\nSLOT 1 CONNECTOR\nCLOCK SYNTHESIZER\n82443BX\nDIMM SOCKETS\nPIIX4E\nULTRA I/O\nAGP CONNECTOR\nPCI CONNECTORS\nISA CONNECTORS\nIDE CONNECTORS\nUSB CONNECTORS\nFLASH BIOS\nPARALLEL\nSERIAL/FLOPPY\nKEYBOARD/MOUSE\nVRM\nPOWER CONNECTOR\nGTL+ TERMINATION\nPCI/AGP PULLUPS/PULLDOWNS\nISA PULLUPS/PULLDOWNS\n82443BX DECOUPLING\nBULK DECOUPLING\nTERMINATION DECOUPLING\nLM79"
 		(exclude_from_sim no)
-		(at 29.972 120.396 0)
+		(at 30.48 118.11 0)
 		(effects
 			(font
-				(size 3.15 3.15)
+				(size 3.16 3.16)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -361,18 +361,6 @@
 		)
 		(uuid "bae57326-1352-4edc-82ab-2ad9ff625f44")
 	)
-	(text "34"
-		(exclude_from_sim no)
-		(at 114.3 186.436 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left)
-			(href "#34")
-		)
-		(uuid "bc1fab69-979d-4dae-b1fa-9be024345dce")
-	)
 	(text "31"
 		(exclude_from_sim no)
 		(at 114.3 171.196 0)
@@ -411,7 +399,7 @@
 	)
 	(text "TITLE"
 		(exclude_from_sim no)
-		(at 29.464 49.784 0)
+		(at 29.718 50.292 0)
 		(effects
 			(font
 				(face "Arial")
@@ -752,17 +740,6 @@
 	)
 	(polyline
 		(pts
-			(xy 29.21 183.515) (xy 134.62 183.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "a7b4225a-f127-4a0c-b3e8-b52d2981b718")
-	)
-	(polyline
-		(pts
 			(xy 29.21 153.035) (xy 134.62 153.035)
 		)
 		(stroke
@@ -1004,6 +981,58 @@
 			(project "440BX REFERENCE DESIGN"
 				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16ad1f15-fa3e-4a79-bf56-d79275e3532b")
+		(property "Sheetname" "DIMM SOCKET 1"
+			(at 148.59 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "DIMM SOCKET1.kicad_sch"
+			(at 148.59 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "page" "10"
+			(at 155.194 79.502 0)
+			(effects
+				(font
+					(size 3 3)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(instances
+			(project "440BX REFERENCE DESIGN"
+				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
+					(page "10")
 				)
 			)
 		)
@@ -1554,7 +1583,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "687b5bed-272e-4918-8c99-59cf358e3033")
-		(property "Sheetname" "DIMM SOCKETS"
+		(property "Sheetname" "DIMM SOCKET 0"
 			(at 136.144 81.28 0)
 			(effects
 				(font
@@ -1564,7 +1593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "DIMM SOCKETS.kicad_sch"
+		(property "Sheetfile" "DIMM SOCKET0.kicad_sch"
 			(at 135.89 81.8646 0)
 			(effects
 				(font
@@ -2175,6 +2204,58 @@
 		)
 	)
 	(sheet
+		(at 161.29 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9192ff9-2a32-45af-89e7-ecade648b91f")
+		(property "Sheetname" "DIMM SOCKET 2"
+			(at 161.29 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "DIMM SOCKET2.kicad_sch"
+			(at 161.29 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "page" "11"
+			(at 167.894 79.502 0)
+			(effects
+				(font
+					(size 3 3)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(instances
+			(project "440BX REFERENCE DESIGN"
+				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 135.89 107.95)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -2290,19 +2371,19 @@
 		(file
 			(name "440BX REFERENCE DESIGN.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WDlB40SAAZcVyDwGD3QMXKnXDsbi32DJuszM1YDozZwAa5Ts8AzOG+fCk8ARwBRAB8C2Rxl
-				XwvKtfP8xzkDlTB26Ddr8ms5A4WyPWW/P/kXAICAwCO9f4sFxCyPZTf3cJ7VGX/Nfh1kwKSUiBln
-				X2y/7KUCICD4RibPVjU7KgSeJa3+k3/2NCLo7EhRp6xd+9U9z9lvxtpzHTtaIw1zWTv39ttD39sl
-				4Vzb6r/edVibPXu73lHK/lz/s6z2rt7XPHf4H2ceDtVygVgaFk9ZzKIVFE5KRYKRbCCX22GU/CKj
-				pB5+Cq+OcgXJNB4eiAaDkagI3c3wr4+cMyr7X9ca9bH/kUR0tmygJu2YZVmUiALgL/7IprM/HAGB
-				AVNARWMJmFi8f5ZIozmOeF1tuBQ4/yvp28medSQKScMUg3PKCSlNSBijZrn6tiGTjCTDvc1stq/G
-				LnjRQR96NehmvHvI6q9dxp/O7gVmoCE9pJQiEilIkkI6YGTExqobNwSlNVRTpI+GWluUtzbAf5mA
-				30RDIVnOD/bYCZAulz/3q5O2kVtoSPgu+vVJtuwApwIAk70iciO5ou0cAi0kC9d0sDAIJSAZgDDG
-				iYGlMcsbgByPt3DRgvjhABywoz82hwwFBYQRGmrqiWpFYSry2VMukazjaK2hOyAI0ZzSn6hW9sIx
-				fLDbh5+HdQEyi7BwCx3/0ivTjet5tAkCmklFQkpQU4sX+pAw7vokDvlQsBc9TL8aIBzYiABIRMps
-				0UG6bUkZbEigc7xi79OhqU7qw7oeCA6XuKmcNCAdg1cF|
+			(data |KLUv/WD2B9USAKabViDwGD3QMXKnXDsbi32DJuszM1YDo41yAa5Ts8AzOG+fCk4ARgBQACGQzVH2
+				taBcO89/nDNQCWOHfrMmv5YzUCjbU/b7k38BAAgIPNL7t1hAzPJYdnMP51md8dfs10EGTEp5zTj7
+				YvtlLxUAAcE3Mnm2qtlRIX/yz57Gi86OFHXK2rVf3fOc/WasPdexozXSMJe1c2+/PfS9XRLOta3+
+				612Htdmzt+tNE/CKsj/X/yyrvav3Nc8d/seZhz8WT1nMohUUTkpFgpFsIJfbYZT8IqOkHn4KEY1d
+				cMYVJNN4eCAaDEaiInQ3w78+cs6o7H9da9TH/kcS0dmygZq0Y5ZlUV4FwF/8mf1hz5JWBwGBAVNA
+				RSegXLx/lkijOY6IQLThUuD8ryR71pEoJA3TOROYxOC10CxX3zZkkpFkuLeZzTaiLwkxxKAPvRp0
+				M949ZPXXLuNPZ/eq5QKxNAJsoBE9pZQiEilIkkI6UMSQGjRuNATPNl2DpDiM1Q0JLilvYcgX5q3F
+				KnoTDhZl/DssY9ijeoBsck67n65kc8Ky+vvfzLHaxyHTziGOCAChf4Xkdnp127tFWHgWpwXgCawq
+				gApMFhBmbpwByyeWFxB9rz1x16l5frhLwFKSZnjLZ1BAGKCjTj3QoSwmLFd7ymUk6gBabGkPCGI0
+				5ylvFCl67wQu6P0TjtViAZnKrKzTDQLOK29NW9fxaRMGmlFNUiowVAsr0AFB7jpJndJgsRQ90l4l
+				fDg5okEQJGmi8CShxbysduTwE79j71OiTZ3fh3U9WBw+4n5y0oF0DEwV|
 			)
-			(checksum "AEDEA97BEAD93D669076F0EFF005E131")
+			(checksum "9CDFC081BFE7BE9B5ADA55881BA639E9")
 		)
 	)
 )

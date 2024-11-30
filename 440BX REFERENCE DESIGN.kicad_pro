@@ -887,6 +887,24 @@
       "Net-(J33-VCC_VTT-PadA01)": [
         "VCC_VTT"
       ],
+      "Net-(J33A-EMI-PadB61)": [
+        "VCCCORE"
+      ],
+      "Net-(J33A-VCC_CORE-PadB13)": [
+        "VCCCORE"
+      ],
+      "Net-(J33A-VCC_VTT-PadA1)": [
+        "VTT"
+      ],
+      "Net-(J33A-VCC_VTT-PadB5)": [
+        "VTT"
+      ],
+      "Net-(J33B-VCC_CORE-PadB105)": [
+        "VCCCORE"
+      ],
+      "Net-(J33B-VCC_L2-PadB113)": [
+        "VCC3"
+      ],
       "Net-(J34-+3.3V-PadA21)": [
         "VCC3"
       ],
@@ -1007,6 +1025,15 @@
       "Net-(J8003-VCC_VTT-PadA01)": [
         "VCC_VTT"
       ],
+      "Net-(J8003A-VCC_CORE-PadB13)": [
+        "VCCCORE"
+      ],
+      "Net-(J8003A-VCC_VTT-PadA1)": [
+        "VTT"
+      ],
+      "Net-(J8003A-VCC_VTT-PadB5)": [
+        "VTT"
+      ],
       "Net-(J9001-+3.3V-PadA21)": [
         "VCC3"
       ],
@@ -1083,6 +1110,9 @@
         "VCC3"
       ],
       "Net-(R242-Pad1)": [
+        "VCC3"
+      ],
+      "Net-(R43-Pad1)": [
         "VCC3"
       ],
       "Net-(R59-Pad2)": [
@@ -1307,6 +1337,9 @@
       "Net-(U24-5Vin-PadA1)": [
         "VCC"
       ],
+      "Net-(U24-VCC)": [
+        "VCC3"
+      ],
       "Net-(U24-VCCcore-PadA10)": [
         "VCCCORE"
       ],
@@ -1368,6 +1401,12 @@
         "VCC3"
       ],
       "Net-(U8-Vddq3.3-PadA34)": [
+        "VCC3"
+      ],
+      "Net-(U8001-VCC)": [
+        "VCC3"
+      ],
+      "Net-(U8002-VCC)": [
         "VCC3"
       ],
       "Net-(U9-5V-PadB2)": [
@@ -1520,6 +1559,9 @@
       "unconnected-(J33-VCC_5-PadB109)": [
         "VCC"
       ],
+      "unconnected-(J33B-VCC5-PadB109)": [
+        "VCC"
+      ],
       "unconnected-(J34-+12V-PadA02)": [
         "+12V"
       ],
@@ -1546,6 +1588,18 @@
       ],
       "unconnected-(J39-Pin_1-Pad1)": [
         "5VSB"
+      ],
+      "unconnected-(J4-VCC-Pad133)": [
+        "VCC3"
+      ],
+      "unconnected-(J4-VCC-Pad41)": [
+        "VCC3"
+      ],
+      "unconnected-(J5-VCC-Pad133)": [
+        "VCC3"
+      ],
+      "unconnected-(J5-VCC-Pad41)": [
+        "VCC3"
       ],
       "unconnected-(J8001-+12V-PadA02)": [
         "+12V"
@@ -1606,6 +1660,9 @@
       ],
       "unconnected-(L16-Pad1)": [
         "VCC3"
+      ],
+      "unconnected-(R1-Pad1)": [
+        "VCC2.5"
       ],
       "unconnected-(R1-Pad2)": [
         "VCC2.5"
@@ -1680,7 +1737,7 @@
         "VCC"
       ],
       "unconnected-(R19-Pad1)": [
-        "VCC"
+        "VCC3"
       ],
       "unconnected-(R196-Pad1)": [
         "VCC3"
@@ -1799,7 +1856,13 @@
       "unconnected-(R404-Pad1)": [
         "VCC"
       ],
+      "unconnected-(R42-Pad1)": [
+        "VCC3"
+      ],
       "unconnected-(R42-Pad2)": [
+        "VCC3"
+      ],
+      "unconnected-(R43-Pad1)": [
         "VCC3"
       ],
       "unconnected-(R43-Pad2)": [
@@ -1890,9 +1953,12 @@
         "VCC3"
       ],
       "unconnected-(R8001-Pad2)": [
-        "VCC2.5"
+        "VCC3"
       ],
       "unconnected-(R8002-Pad1)": [
+        "VCC3"
+      ],
+      "unconnected-(R8002-Pad2)": [
         "VCC3"
       ],
       "unconnected-(R8007-Pad2)": [
@@ -1908,6 +1974,12 @@
         "VCC3"
       ],
       "unconnected-(R8019-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R8020-Pad1)": [
+        "VCC2.5"
+      ],
+      "unconnected-(R8021-Pad1)": [
         "VCC2.5"
       ],
       "unconnected-(R81-Pad2)": [
@@ -2354,7 +2426,7 @@
     ],
     [
       "687b5bed-272e-4918-8c99-59cf358e3033",
-      "DIMM SOCKETS"
+      "DIMM SOCKET 0"
     ],
     [
       "d55f89e6-5b37-4815-973b-6303e5005bba",
@@ -2441,8 +2513,16 @@
       "SLOT 1 (PART II)"
     ],
     [
+      "16ad1f15-fa3e-4a79-bf56-d79275e3532b",
+      "DIMM SOCKET 1"
+    ],
+    [
       "be75dd4e-fe37-4466-bc74-689026b53b1d",
       "PCI CONNECTORS 3 & 4"
+    ],
+    [
+      "e9192ff9-2a32-45af-89e7-ecade648b91f",
+      "DIMM SOCKET 2"
     ]
   ],
   "text_variables": {}

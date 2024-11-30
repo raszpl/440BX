@@ -5,6 +5,7 @@
 	(uuid "c21d09c4-6e55-413b-846c-46e45027be87")
 	(paper "User" 380 300)
 	(title_block
+		(title "CLOCK SYNTHESIZER")
 		(date "Thursday, April 09, 1998")
 		(rev "1.0")
 	)
@@ -2120,7 +2121,7 @@
 		(at 193.548 221.742 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 3 3)
 				(thickness 0.4)
 				(bold yes)
 				(color 0 0 0 1)
