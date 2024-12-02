@@ -1621,6 +1621,59 @@
 		)
 	)
 	(sheet
+		(at 148.59 82.55)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "825dbe6c-aedb-49e5-a3e7-3ca88c359cc4")
+		(property "Sheetname" "82371EB (PART II)"
+			(at 148.59 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "82371EB2.kicad_sch"
+			(at 148.59 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "page" "13"
+			(at 155.194 84.582 0)
+			(effects
+				(font
+					(size 3 3)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(instances
+			(project "440BX REFERENCE DESIGN"
+				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 135.89 153.67)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -2060,7 +2113,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d55f89e6-5b37-4815-973b-6303e5005bba")
-		(property "Sheetname" "PII4XE"
+		(property "Sheetname" "82371EB (PART I)"
 			(at 136.144 86.36 0)
 			(effects
 				(font
@@ -2070,7 +2123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sheetfile" "PII4XE.kicad_sch"
+		(property "Sheetfile" "82371EB1.kicad_sch"
 			(at 135.89 86.9446 0)
 			(effects
 				(font
