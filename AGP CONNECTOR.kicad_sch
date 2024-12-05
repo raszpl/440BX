@@ -10,7 +10,440 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "AGP2.0_GENERIC_1"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "P2-3_era:74AS07"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.524 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AS07"
+				(at 0.762 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.604 2.286 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 24.765 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "hex buffer with open-collector outputs."
+				(at 3.175 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Hex Buffers and Drivers With Open-Collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SG-* SOT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AS07_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -3.81 5.08) (xy 6.35 0) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AS07_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AS07_2_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AS07_3_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AS07_4_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AS07_5_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AS07_6_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "P2-3_era:AGP1.0_Slot"
 			(pin_names
 				(offset 1.016)
 			)
@@ -69,7 +502,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AGP2.0_GENERIC_1_0_1"
+			(symbol "AGP1.0_Slot_0_1"
 				(rectangle
 					(start -38.1 175.26)
 					(end 38.1 -177.8)
@@ -2832,7 +3265,7 @@
 					)
 				)
 			)
-			(symbol "AGP2.0_GENERIC_1_1_0"
+			(symbol "AGP1.0_Slot_1_0"
 				(polyline
 					(pts
 						(xy -16.6136 162.5506) (xy -3.81 162.56)
@@ -4322,8 +4755,8 @@
 					)
 				)
 			)
-			(symbol "AGP2.0_GENERIC_1_1_1"
-				(pin output inverted
+			(symbol "AGP1.0_Slot_1_1"
+				(pin input inverted
 					(at -45.72 162.56 0)
 					(length 7.62)
 					(name "OVRCNT#"
@@ -4413,7 +4846,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin input inverted
 					(at -45.72 137.16 0)
 					(length 7.62)
 					(name "INTB#"
@@ -4431,7 +4864,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -45.72 132.08 0)
 					(length 7.62)
 					(name "CLK"
@@ -4449,7 +4882,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin input inverted
 					(at -45.72 127 0)
 					(length 7.62)
 					(name "REQ#"
@@ -4485,7 +4918,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -45.72 116.84 0)
 					(length 7.62)
 					(name "STO"
@@ -4503,7 +4936,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -45.72 111.76 0)
 					(length 7.62)
 					(name "ST2"
@@ -4521,7 +4954,7 @@
 						)
 					)
 				)
-				(pin bidirectional inverted
+				(pin input inverted
 					(at -45.72 106.68 0)
 					(length 7.62)
 					(name "RBF#"
@@ -4575,7 +5008,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -45.72 91.44 0)
 					(length 7.62)
 					(name "SBAO"
@@ -4611,7 +5044,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -45.72 81.28 0)
 					(length 7.62)
 					(name "SBA2"
@@ -4629,7 +5062,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -45.72 76.2 0)
 					(length 7.62)
 					(name "SB_STB"
@@ -4665,7 +5098,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -45.72 66.04 0)
 					(length 7.62)
 					(name "SBA4"
@@ -4683,7 +5116,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -45.72 60.96 0)
 					(length 7.62)
 					(name "SBA6"
@@ -4989,7 +5422,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -45.72 -45.72 0)
 					(length 7.62)
 					(name "SPARE"
@@ -5025,7 +5458,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -45.72 -55.88 0)
 					(length 7.62)
 					(name "SPARE"
@@ -5097,7 +5530,7 @@
 						)
 					)
 				)
-				(pin bidirectional inverted
+				(pin input inverted
 					(at -45.72 -76.2 0)
 					(length 7.62)
 					(name "PERR#"
@@ -5421,7 +5854,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -45.72 -167.64 0)
 					(length 7.62)
 					(name "RESERVED"
@@ -5457,10 +5890,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input inverted
 					(at 45.72 157.48 180)
 					(length 7.62)
-					(name "SPARE"
+					(name "TYPEDET#"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5475,7 +5908,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 152.4 180)
 					(length 7.62)
 					(name "RESERVED"
@@ -5529,7 +5962,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin input inverted
 					(at 45.72 137.16 180)
 					(length 7.62)
 					(name "INTA#"
@@ -5547,7 +5980,7 @@
 						)
 					)
 				)
-				(pin input inverted
+				(pin output inverted
 					(at 45.72 132.08 180)
 					(length 7.62)
 					(name "RST#"
@@ -5565,7 +5998,7 @@
 						)
 					)
 				)
-				(pin power_in inverted
+				(pin output inverted
 					(at 45.72 127 180)
 					(length 7.62)
 					(name "GNT#"
@@ -5601,7 +6034,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 45.72 116.84 180)
 					(length 7.62)
 					(name "ST1"
@@ -5619,7 +6052,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 111.76 180)
 					(length 7.62)
 					(name "RESERVED"
@@ -5637,7 +6070,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin input inverted
 					(at 45.72 106.68 180)
 					(length 7.62)
 					(name "PIPE#"
@@ -5691,7 +6124,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 45.72 91.44 180)
 					(length 7.62)
 					(name "SBA1"
@@ -5727,7 +6160,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 45.72 81.28 180)
 					(length 7.62)
 					(name "SBA3"
@@ -5745,7 +6178,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 76.2 180)
 					(length 7.62)
 					(name "RESERVED"
@@ -5781,7 +6214,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 45.72 66.04 180)
 					(length 7.62)
 					(name "SBA5"
@@ -5799,7 +6232,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 45.72 60.96 180)
 					(length 7.62)
 					(name "SBA7"
@@ -5925,7 +6358,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 5.08 180)
 					(length 7.62)
 					(name "RESERVED"
@@ -6105,7 +6538,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 -45.72 180)
 					(length 7.62)
 					(name "SPARE"
@@ -6141,7 +6574,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 -55.88 180)
 					(length 7.62)
 					(name "SPARE"
@@ -6213,7 +6646,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin bidirectional inverted
 					(at 45.72 -76.2 180)
 					(length 7.62)
 					(name "PME#"
@@ -6411,7 +6844,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 -132.08 180)
 					(length 7.62)
 					(name "RESERVED"
@@ -6537,7 +6970,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 45.72 -167.64 180)
 					(length 7.62)
 					(name "RESERVED"
@@ -6548,439 +6981,6 @@
 						)
 					)
 					(number "A66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "P2-3_era:74AS07"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.524 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74AS07"
-				(at 0.762 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 6.604 2.286 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 24.765 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "hex buffer with open-collector outputs."
-				(at 3.175 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Hex Buffers and Drivers With Open-Collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SG-* SOT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74AS07_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy -3.81 5.08) (xy 6.35 0) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74AS07_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AS07_2_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AS07_3_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AS07_4_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AS07_5_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AS07_6_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11664,8 +11664,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AGP2.0_GENERIC_1")
-		(lib_id "P2-3_era:AGP2.0_GENERIC")
+		(lib_id "P2-3_era:AGP1.0_Slot")
 		(at 292.1 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11699,7 +11698,7 @@
 			)
 		)
 		(property "Datasheet" "blah"
-			(at 247.65 64.77 0)
+			(at 263.652 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +11707,7 @@
 			)
 		)
 		(property "Description" "blah"
-			(at 262.382 44.45 0)
+			(at 278.384 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12150,37 +12149,37 @@
 			)
 		)
 		(pin "9"
-			(uuid "5f884160-c5a1-437b-87c6-c8fe580289fb")
+			(uuid "5f884160-c5a1-437b-87c6-c8fe580289fc")
 		)
 		(pin "13"
-			(uuid "6658c0b5-c1de-4378-8dab-f52b975bdaef")
+			(uuid "6658c0b5-c1de-4378-8dab-f52b975bdaf0")
 		)
 		(pin "1"
-			(uuid "1d389933-6608-4f31-a132-72f15b6b1c4a")
+			(uuid "1d389933-6608-4f31-a132-72f15b6b1c4b")
 		)
 		(pin "5"
 			(uuid "72f4fb9e-e4cc-4a51-a850-8ab0f0adfa3e")
 		)
 		(pin "12"
-			(uuid "d9cc1492-5041-49be-91d6-a9833d4f8a56")
+			(uuid "d9cc1492-5041-49be-91d6-a9833d4f8a57")
 		)
 		(pin "8"
-			(uuid "a8c9b714-8b5e-4e5f-9720-4dc3527900af")
+			(uuid "a8c9b714-8b5e-4e5f-9720-4dc3527900b0")
 		)
 		(pin "11"
-			(uuid "45b58624-fcb3-4a9b-b9e4-b7f50c51d80f")
+			(uuid "45b58624-fcb3-4a9b-b9e4-b7f50c51d810")
 		)
 		(pin "2"
-			(uuid "c30bb2f2-b67d-44aa-b8a4-f780e2ac7c21")
+			(uuid "c30bb2f2-b67d-44aa-b8a4-f780e2ac7c22")
 		)
 		(pin "3"
-			(uuid "3a382947-e831-4838-bd9e-a8c93eab6d0c")
+			(uuid "3a382947-e831-4838-bd9e-a8c93eab6d0d")
 		)
 		(pin "10"
-			(uuid "f170002f-d8a8-46f8-9b1a-cd46c6c1acc1")
+			(uuid "f170002f-d8a8-46f8-9b1a-cd46c6c1acc2")
 		)
 		(pin "4"
-			(uuid "f0d62a24-3a70-40ca-9961-3b9b9413004d")
+			(uuid "f0d62a24-3a70-40ca-9961-3b9b9413004e")
 		)
 		(pin "6"
 			(uuid "3985ee1d-ac04-4463-9942-026fab4fc5e0")
