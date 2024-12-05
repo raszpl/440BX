@@ -5,6 +5,7 @@
 	(uuid "c21d09c4-6e55-413b-846c-46e45027be87")
 	(paper "User" 420 340)
 	(title_block
+		(title "PCI CONNECTORS 1 & 2")
 		(date "Thursday, April 09, 1998")
 		(rev "1.0")
 	)
@@ -6535,7 +6536,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 294.64) (xy 187.96 302.26)
+			(xy 187.96 294.64) (xy 187.96 300.99)
 		)
 		(stroke
 			(width 0.1388)
@@ -11920,6 +11921,73 @@
 			(project "440BX REFERENCE DESIGN"
 				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408/e4eeeccb-2172-49c5-baf6-923b28080366"
 					(reference "#PWR08061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 300.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2898741e-fdc2-44e9-9b46-88a3986e7753")
+		(property "Reference" "#PWR08072"
+			(at 187.96 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d5c4b25-1b4e-45fb-a679-298066391855")
+		)
+		(instances
+			(project "440BX REFERENCE DESIGN"
+				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408/e4eeeccb-2172-49c5-baf6-923b28080366"
+					(reference "#PWR08072")
 					(unit 1)
 				)
 			)

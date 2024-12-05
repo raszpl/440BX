@@ -685,7 +685,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "slot1"
+			(property "ki_keywords" "slot cpu"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4076,8 +4076,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 190.5 0)
-					(length 6.35)
+					(at -48.26 190.5 0)
+					(length 7.62)
 					(name "EMI"
 						(effects
 							(font
@@ -4094,8 +4094,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 187.96 0)
-					(length 6.35)
+					(at -48.26 187.96 0)
+					(length 7.62)
 					(name "FLUSH#"
 						(effects
 							(font
@@ -4112,8 +4112,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 185.42 0)
-					(length 6.35)
+					(at -48.26 185.42 0)
+					(length 7.62)
 					(name "SMI#"
 						(effects
 							(font
@@ -4130,8 +4130,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 182.88 0)
-					(length 6.35)
+					(at -48.26 182.88 0)
+					(length 7.62)
 					(name "INIT#"
 						(effects
 							(font
@@ -4148,8 +4148,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 180.34 0)
-					(length 6.35)
+					(at -48.26 180.34 0)
+					(length 7.62)
 					(name "VCC_VTT"
 						(effects
 							(font
@@ -4166,8 +4166,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 177.8 0)
-					(length 6.35)
+					(at -48.26 177.8 0)
+					(length 7.62)
 					(name "STPCLK#"
 						(effects
 							(font
@@ -4184,8 +4184,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 175.26 0)
-					(length 6.35)
+					(at -48.26 175.26 0)
+					(length 7.62)
 					(name "TCK"
 						(effects
 							(font
@@ -4202,8 +4202,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 172.72 0)
-					(length 6.35)
+					(at -48.26 172.72 0)
+					(length 7.62)
 					(name "SLP#"
 						(effects
 							(font
@@ -4220,8 +4220,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 170.18 0)
-					(length 6.35)
+					(at -48.26 170.18 0)
+					(length 7.62)
 					(name "VCC_VTT"
 						(effects
 							(font
@@ -4238,8 +4238,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 167.64 0)
-					(length 6.35)
+					(at -48.26 167.64 0)
+					(length 7.62)
 					(name "TMS"
 						(effects
 							(font
@@ -4256,8 +4256,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 165.1 0)
-					(length 6.35)
+					(at -48.26 165.1 0)
+					(length 7.62)
 					(name "TRST#"
 						(effects
 							(font
@@ -4274,8 +4274,8 @@
 					)
 				)
 				(pin no_connect line
-					(at -46.99 162.56 0)
-					(length 6.35)
+					(at -48.26 162.56 0)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -4292,8 +4292,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 160.02 0)
-					(length 6.35)
+					(at -48.26 160.02 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4310,8 +4310,8 @@
 					)
 				)
 				(pin output line
-					(at -46.99 157.48 0)
-					(length 6.35)
+					(at -48.26 157.48 0)
+					(length 7.62)
 					(name "THERMDP"
 						(effects
 							(font
@@ -4328,8 +4328,8 @@
 					)
 				)
 				(pin output line
-					(at -46.99 154.94 0)
-					(length 6.35)
+					(at -48.26 154.94 0)
+					(length 7.62)
 					(name "THERMDN"
 						(effects
 							(font
@@ -4346,8 +4346,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 152.4 0)
-					(length 6.35)
+					(at -48.26 152.4 0)
+					(length 7.62)
 					(name "NMI"
 						(effects
 							(font
@@ -4364,8 +4364,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 149.86 0)
-					(length 6.35)
+					(at -48.26 149.86 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4382,8 +4382,8 @@
 					)
 				)
 				(pin input clock
-					(at -46.99 147.32 0)
-					(length 6.35)
+					(at -48.26 147.32 0)
+					(length 7.62)
 					(name "PICCLK"
 						(effects
 							(font
@@ -4400,8 +4400,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 144.78 0)
-					(length 6.35)
+					(at -48.26 144.78 0)
+					(length 7.62)
 					(name "BP#[2]"
 						(effects
 							(font
@@ -4418,8 +4418,8 @@
 					)
 				)
 				(pin no_connect line
-					(at -46.99 142.24 0)
-					(length 6.35)
+					(at -48.26 142.24 0)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -4436,8 +4436,8 @@
 					)
 				)
 				(pin output line
-					(at -46.99 139.7 0)
-					(length 6.35)
+					(at -48.26 139.7 0)
+					(length 7.62)
 					(name "100/66#"
 						(effects
 							(font
@@ -4454,8 +4454,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at -46.99 137.16 0)
-					(length 6.35)
+					(at -48.26 137.16 0)
+					(length 7.62)
 					(name "PICD[1]"
 						(effects
 							(font
@@ -4472,8 +4472,8 @@
 					)
 				)
 				(pin output inverted
-					(at -46.99 134.62 0)
-					(length 6.35)
+					(at -48.26 134.62 0)
+					(length 7.62)
 					(name "PRDY#"
 						(effects
 							(font
@@ -4490,8 +4490,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 132.08 0)
-					(length 6.35)
+					(at -48.26 132.08 0)
+					(length 7.62)
 					(name "BPM#[1]"
 						(effects
 							(font
@@ -4508,8 +4508,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 129.54 0)
-					(length 6.35)
+					(at -48.26 129.54 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4526,8 +4526,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 127 0)
-					(length 6.35)
+					(at -48.26 127 0)
+					(length 7.62)
 					(name "DEP#[2]"
 						(effects
 							(font
@@ -4544,8 +4544,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 124.46 0)
-					(length 6.35)
+					(at -48.26 124.46 0)
+					(length 7.62)
 					(name "DEP#[4]"
 						(effects
 							(font
@@ -4562,8 +4562,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 121.92 0)
-					(length 6.35)
+					(at -48.26 121.92 0)
+					(length 7.62)
 					(name "DEP#[7]"
 						(effects
 							(font
@@ -4580,8 +4580,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 119.38 0)
-					(length 6.35)
+					(at -48.26 119.38 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4598,8 +4598,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 116.84 0)
-					(length 6.35)
+					(at -48.26 116.84 0)
+					(length 7.62)
 					(name "D#[62]"
 						(effects
 							(font
@@ -4616,8 +4616,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 114.3 0)
-					(length 6.35)
+					(at -48.26 114.3 0)
+					(length 7.62)
 					(name "D#[58]"
 						(effects
 							(font
@@ -4634,8 +4634,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 111.76 0)
-					(length 6.35)
+					(at -48.26 111.76 0)
+					(length 7.62)
 					(name "D#[63]"
 						(effects
 							(font
@@ -4652,8 +4652,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 109.22 0)
-					(length 6.35)
+					(at -48.26 109.22 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4670,8 +4670,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 106.68 0)
-					(length 6.35)
+					(at -48.26 106.68 0)
+					(length 7.62)
 					(name "D#[56]"
 						(effects
 							(font
@@ -4688,8 +4688,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 104.14 0)
-					(length 6.35)
+					(at -48.26 104.14 0)
+					(length 7.62)
 					(name "D#[50]"
 						(effects
 							(font
@@ -4706,8 +4706,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 101.6 0)
-					(length 6.35)
+					(at -48.26 101.6 0)
+					(length 7.62)
 					(name "D#[54]"
 						(effects
 							(font
@@ -4724,8 +4724,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 99.06 0)
-					(length 6.35)
+					(at -48.26 99.06 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4742,8 +4742,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 96.52 0)
-					(length 6.35)
+					(at -48.26 96.52 0)
+					(length 7.62)
 					(name "D#[59]"
 						(effects
 							(font
@@ -4760,8 +4760,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 93.98 0)
-					(length 6.35)
+					(at -48.26 93.98 0)
+					(length 7.62)
 					(name "D#[48]"
 						(effects
 							(font
@@ -4778,8 +4778,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 91.44 0)
-					(length 6.35)
+					(at -48.26 91.44 0)
+					(length 7.62)
 					(name "D#[52]"
 						(effects
 							(font
@@ -4796,8 +4796,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 88.9 0)
-					(length 6.35)
+					(at -48.26 88.9 0)
+					(length 7.62)
 					(name "EMI"
 						(effects
 							(font
@@ -4814,8 +4814,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 86.36 0)
-					(length 6.35)
+					(at -48.26 86.36 0)
+					(length 7.62)
 					(name "D#[41]"
 						(effects
 							(font
@@ -4832,8 +4832,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 83.82 0)
-					(length 6.35)
+					(at -48.26 83.82 0)
+					(length 7.62)
 					(name "D#[47]"
 						(effects
 							(font
@@ -4850,8 +4850,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 81.28 0)
-					(length 6.35)
+					(at -48.26 81.28 0)
+					(length 7.62)
 					(name "D#[44]"
 						(effects
 							(font
@@ -4868,8 +4868,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 78.74 0)
-					(length 6.35)
+					(at -48.26 78.74 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4886,8 +4886,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 76.2 0)
-					(length 6.35)
+					(at -48.26 76.2 0)
+					(length 7.62)
 					(name "D#[36]"
 						(effects
 							(font
@@ -4904,8 +4904,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 73.66 0)
-					(length 6.35)
+					(at -48.26 73.66 0)
+					(length 7.62)
 					(name "D#[40]"
 						(effects
 							(font
@@ -4922,8 +4922,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 71.12 0)
-					(length 6.35)
+					(at -48.26 71.12 0)
+					(length 7.62)
 					(name "D#[34]"
 						(effects
 							(font
@@ -4940,8 +4940,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 68.58 0)
-					(length 6.35)
+					(at -48.26 68.58 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -4958,8 +4958,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 66.04 0)
-					(length 6.35)
+					(at -48.26 66.04 0)
+					(length 7.62)
 					(name "D#[38]"
 						(effects
 							(font
@@ -4976,8 +4976,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 63.5 0)
-					(length 6.35)
+					(at -48.26 63.5 0)
+					(length 7.62)
 					(name "D#[32]"
 						(effects
 							(font
@@ -4994,8 +4994,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 60.96 0)
-					(length 6.35)
+					(at -48.26 60.96 0)
+					(length 7.62)
 					(name "D#[28]"
 						(effects
 							(font
@@ -5012,8 +5012,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 58.42 0)
-					(length 6.35)
+					(at -48.26 58.42 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -5030,8 +5030,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 55.88 0)
-					(length 6.35)
+					(at -48.26 55.88 0)
+					(length 7.62)
 					(name "D#[29]"
 						(effects
 							(font
@@ -5048,8 +5048,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 53.34 0)
-					(length 6.35)
+					(at -48.26 53.34 0)
+					(length 7.62)
 					(name "D#[26]"
 						(effects
 							(font
@@ -5066,8 +5066,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 50.8 0)
-					(length 6.35)
+					(at -48.26 50.8 0)
+					(length 7.62)
 					(name "D#[25]"
 						(effects
 							(font
@@ -5084,8 +5084,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 48.26 0)
-					(length 6.35)
+					(at -48.26 48.26 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -5102,8 +5102,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 45.72 0)
-					(length 6.35)
+					(at -48.26 45.72 0)
+					(length 7.62)
 					(name "D#[22]"
 						(effects
 							(font
@@ -5120,8 +5120,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 43.18 0)
-					(length 6.35)
+					(at -48.26 43.18 0)
+					(length 7.62)
 					(name "D#[19]"
 						(effects
 							(font
@@ -5138,8 +5138,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 40.64 0)
-					(length 6.35)
+					(at -48.26 40.64 0)
+					(length 7.62)
 					(name "D#[18]"
 						(effects
 							(font
@@ -5156,8 +5156,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 38.1 0)
-					(length 6.35)
+					(at -48.26 38.1 0)
+					(length 7.62)
 					(name "EMI"
 						(effects
 							(font
@@ -5174,8 +5174,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 35.56 0)
-					(length 6.35)
+					(at -48.26 35.56 0)
+					(length 7.62)
 					(name "D#[20]"
 						(effects
 							(font
@@ -5192,8 +5192,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 33.02 0)
-					(length 6.35)
+					(at -48.26 33.02 0)
+					(length 7.62)
 					(name "D#[17]"
 						(effects
 							(font
@@ -5210,8 +5210,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 30.48 0)
-					(length 6.35)
+					(at -48.26 30.48 0)
+					(length 7.62)
 					(name "D#[15]"
 						(effects
 							(font
@@ -5228,8 +5228,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 27.94 0)
-					(length 6.35)
+					(at -48.26 27.94 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -5246,8 +5246,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 25.4 0)
-					(length 6.35)
+					(at -48.26 25.4 0)
+					(length 7.62)
 					(name "D#[12]"
 						(effects
 							(font
@@ -5264,8 +5264,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 22.86 0)
-					(length 6.35)
+					(at -48.26 22.86 0)
+					(length 7.62)
 					(name "D#[7]"
 						(effects
 							(font
@@ -5282,8 +5282,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 20.32 0)
-					(length 6.35)
+					(at -48.26 20.32 0)
+					(length 7.62)
 					(name "D#[6]"
 						(effects
 							(font
@@ -5300,8 +5300,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 17.78 0)
-					(length 6.35)
+					(at -48.26 17.78 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -5318,8 +5318,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 15.24 0)
-					(length 6.35)
+					(at -48.26 15.24 0)
+					(length 7.62)
 					(name "D#[4]"
 						(effects
 							(font
@@ -5336,8 +5336,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 12.7 0)
-					(length 6.35)
+					(at -48.26 12.7 0)
+					(length 7.62)
 					(name "D#[2]"
 						(effects
 							(font
@@ -5354,8 +5354,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 10.16 0)
-					(length 6.35)
+					(at -48.26 10.16 0)
+					(length 7.62)
 					(name "D#[0]"
 						(effects
 							(font
@@ -5372,8 +5372,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 7.62 0)
-					(length 6.35)
+					(at -48.26 7.62 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -5390,8 +5390,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 190.5 180)
-					(length 6.35)
+					(at 48.26 190.5 180)
+					(length 7.62)
 					(name "VCC_VTT"
 						(effects
 							(font
@@ -5408,8 +5408,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 187.96 180)
-					(length 6.35)
+					(at 48.26 187.96 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5426,8 +5426,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 185.42 180)
-					(length 6.35)
+					(at 48.26 185.42 180)
+					(length 7.62)
 					(name "VCC_VTT"
 						(effects
 							(font
@@ -5444,8 +5444,8 @@
 					)
 				)
 				(pin output inverted
-					(at 46.99 182.88 180)
-					(length 6.35)
+					(at 48.26 182.88 180)
+					(length 7.62)
 					(name "IERR#"
 						(effects
 							(font
@@ -5462,8 +5462,8 @@
 					)
 				)
 				(pin input inverted
-					(at 46.99 180.34 180)
-					(length 6.35)
+					(at 48.26 180.34 180)
+					(length 7.62)
 					(name "A20M#"
 						(effects
 							(font
@@ -5480,8 +5480,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 177.8 180)
-					(length 6.35)
+					(at 48.26 177.8 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5498,8 +5498,8 @@
 					)
 				)
 				(pin output inverted
-					(at 46.99 175.26 180)
-					(length 6.35)
+					(at 48.26 175.26 180)
+					(length 7.62)
 					(name "FERR#"
 						(effects
 							(font
@@ -5516,8 +5516,8 @@
 					)
 				)
 				(pin input inverted
-					(at 46.99 172.72 180)
-					(length 6.35)
+					(at 48.26 172.72 180)
+					(length 7.62)
 					(name "IGNNE#"
 						(effects
 							(font
@@ -5534,8 +5534,8 @@
 					)
 				)
 				(pin input line
-					(at 46.99 170.18 180)
-					(length 6.35)
+					(at 48.26 170.18 180)
+					(length 7.62)
 					(name "TDI"
 						(effects
 							(font
@@ -5552,8 +5552,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 167.64 180)
-					(length 6.35)
+					(at 48.26 167.64 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5570,8 +5570,8 @@
 					)
 				)
 				(pin output line
-					(at 46.99 165.1 180)
-					(length 6.35)
+					(at 48.26 165.1 180)
+					(length 7.62)
 					(name "TDO"
 						(effects
 							(font
@@ -5588,8 +5588,8 @@
 					)
 				)
 				(pin input line
-					(at 46.99 162.56 180)
-					(length 6.35)
+					(at 48.26 162.56 180)
+					(length 7.62)
 					(name "PWRGD"
 						(effects
 							(font
@@ -5606,8 +5606,8 @@
 					)
 				)
 				(pin input line
-					(at 46.99 160.02 180)
-					(length 6.35)
+					(at 48.26 160.02 180)
+					(length 7.62)
 					(name "TESTHI"
 						(effects
 							(font
@@ -5624,8 +5624,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 157.48 180)
-					(length 6.35)
+					(at 48.26 157.48 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5642,8 +5642,8 @@
 					)
 				)
 				(pin output inverted
-					(at 46.99 154.94 180)
-					(length 6.35)
+					(at 48.26 154.94 180)
+					(length 7.62)
 					(name "THERMTRIP#"
 						(effects
 							(font
@@ -5660,8 +5660,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 46.99 152.4 180)
-					(length 6.35)
+					(at 48.26 152.4 180)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -5678,8 +5678,8 @@
 					)
 				)
 				(pin input line
-					(at 46.99 149.86 180)
-					(length 6.35)
+					(at 48.26 149.86 180)
+					(length 7.62)
 					(name "INTR"
 						(effects
 							(font
@@ -5696,8 +5696,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 147.32 180)
-					(length 6.35)
+					(at 48.26 147.32 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5714,8 +5714,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 46.99 144.78 180)
-					(length 6.35)
+					(at 48.26 144.78 180)
+					(length 7.62)
 					(name "PICD[0]"
 						(effects
 							(font
@@ -5732,8 +5732,8 @@
 					)
 				)
 				(pin input inverted
-					(at 46.99 142.24 180)
-					(length 6.35)
+					(at 48.26 142.24 180)
+					(length 7.62)
 					(name "PREQ#"
 						(effects
 							(font
@@ -5750,8 +5750,8 @@
 					)
 				)
 				(pin bidirectional line
-					(at 46.99 139.7 180)
-					(length 6.35)
+					(at 48.26 139.7 180)
+					(length 7.62)
 					(name "BP#[3]"
 						(effects
 							(font
@@ -5768,8 +5768,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 137.16 180)
-					(length 6.35)
+					(at 48.26 137.16 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5786,8 +5786,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 134.62 180)
-					(length 6.35)
+					(at 48.26 134.62 180)
+					(length 7.62)
 					(name "BPM#[0]"
 						(effects
 							(font
@@ -5804,8 +5804,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 132.08 180)
-					(length 6.35)
+					(at 48.26 132.08 180)
+					(length 7.62)
 					(name "BINIT#"
 						(effects
 							(font
@@ -5822,8 +5822,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 129.54 180)
-					(length 6.35)
+					(at 48.26 129.54 180)
+					(length 7.62)
 					(name "DEP#[0]"
 						(effects
 							(font
@@ -5840,8 +5840,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 127 180)
-					(length 6.35)
+					(at 48.26 127 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5858,8 +5858,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 124.46 180)
-					(length 6.35)
+					(at 48.26 124.46 180)
+					(length 7.62)
 					(name "DEP#[1]"
 						(effects
 							(font
@@ -5876,8 +5876,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 121.92 180)
-					(length 6.35)
+					(at 48.26 121.92 180)
+					(length 7.62)
 					(name "DEP#[3]"
 						(effects
 							(font
@@ -5894,8 +5894,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 119.38 180)
-					(length 6.35)
+					(at 48.26 119.38 180)
+					(length 7.62)
 					(name "DEP#[5]"
 						(effects
 							(font
@@ -5912,8 +5912,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 116.84 180)
-					(length 6.35)
+					(at 48.26 116.84 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -5930,8 +5930,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 114.3 180)
-					(length 6.35)
+					(at 48.26 114.3 180)
+					(length 7.62)
 					(name "DEP#[6]"
 						(effects
 							(font
@@ -5948,8 +5948,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 111.76 180)
-					(length 6.35)
+					(at 48.26 111.76 180)
+					(length 7.62)
 					(name "D#[61]"
 						(effects
 							(font
@@ -5966,8 +5966,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 109.22 180)
-					(length 6.35)
+					(at 48.26 109.22 180)
+					(length 7.62)
 					(name "D#[55]"
 						(effects
 							(font
@@ -5984,8 +5984,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 106.68 180)
-					(length 6.35)
+					(at 48.26 106.68 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6002,8 +6002,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 104.14 180)
-					(length 6.35)
+					(at 48.26 104.14 180)
+					(length 7.62)
 					(name "D#[60]"
 						(effects
 							(font
@@ -6020,8 +6020,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 101.6 180)
-					(length 6.35)
+					(at 48.26 101.6 180)
+					(length 7.62)
 					(name "D#[53]"
 						(effects
 							(font
@@ -6038,8 +6038,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 99.06 180)
-					(length 6.35)
+					(at 48.26 99.06 180)
+					(length 7.62)
 					(name "D#[57]"
 						(effects
 							(font
@@ -6056,8 +6056,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 96.52 180)
-					(length 6.35)
+					(at 48.26 96.52 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6074,8 +6074,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 93.98 180)
-					(length 6.35)
+					(at 48.26 93.98 180)
+					(length 7.62)
 					(name "D#[46]"
 						(effects
 							(font
@@ -6092,8 +6092,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 91.44 180)
-					(length 6.35)
+					(at 48.26 91.44 180)
+					(length 7.62)
 					(name "D#[49]"
 						(effects
 							(font
@@ -6110,8 +6110,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 88.9 180)
-					(length 6.35)
+					(at 48.26 88.9 180)
+					(length 7.62)
 					(name "D#[51]"
 						(effects
 							(font
@@ -6128,8 +6128,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 86.36 180)
-					(length 6.35)
+					(at 48.26 86.36 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6146,8 +6146,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 83.82 180)
-					(length 6.35)
+					(at 48.26 83.82 180)
+					(length 7.62)
 					(name "D#[42]"
 						(effects
 							(font
@@ -6164,8 +6164,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 81.28 180)
-					(length 6.35)
+					(at 48.26 81.28 180)
+					(length 7.62)
 					(name "D#[45]"
 						(effects
 							(font
@@ -6182,8 +6182,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 78.74 180)
-					(length 6.35)
+					(at 48.26 78.74 180)
+					(length 7.62)
 					(name "D#[39]"
 						(effects
 							(font
@@ -6200,8 +6200,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 76.2 180)
-					(length 6.35)
+					(at 48.26 76.2 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6218,8 +6218,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 46.99 73.66 180)
-					(length 6.35)
+					(at 48.26 73.66 180)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -6236,8 +6236,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 71.12 180)
-					(length 6.35)
+					(at 48.26 71.12 180)
+					(length 7.62)
 					(name "D#[43]"
 						(effects
 							(font
@@ -6254,8 +6254,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 68.58 180)
-					(length 6.35)
+					(at 48.26 68.58 180)
+					(length 7.62)
 					(name "D#[37]"
 						(effects
 							(font
@@ -6272,8 +6272,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 66.04 180)
-					(length 6.35)
+					(at 48.26 66.04 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6290,8 +6290,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 63.5 180)
-					(length 6.35)
+					(at 48.26 63.5 180)
+					(length 7.62)
 					(name "D#[33]"
 						(effects
 							(font
@@ -6308,8 +6308,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 60.96 180)
-					(length 6.35)
+					(at 48.26 60.96 180)
+					(length 7.62)
 					(name "D#[35]"
 						(effects
 							(font
@@ -6326,8 +6326,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 58.42 180)
-					(length 6.35)
+					(at 48.26 58.42 180)
+					(length 7.62)
 					(name "D#[31]"
 						(effects
 							(font
@@ -6344,8 +6344,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 55.88 180)
-					(length 6.35)
+					(at 48.26 55.88 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6362,8 +6362,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 53.34 180)
-					(length 6.35)
+					(at 48.26 53.34 180)
+					(length 7.62)
 					(name "D#[30]"
 						(effects
 							(font
@@ -6380,8 +6380,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 50.8 180)
-					(length 6.35)
+					(at 48.26 50.8 180)
+					(length 7.62)
 					(name "D#[27]"
 						(effects
 							(font
@@ -6398,8 +6398,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 48.26 180)
-					(length 6.35)
+					(at 48.26 48.26 180)
+					(length 7.62)
 					(name "D#[24]"
 						(effects
 							(font
@@ -6416,8 +6416,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 45.72 180)
-					(length 6.35)
+					(at 48.26 45.72 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6434,8 +6434,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 43.18 180)
-					(length 6.35)
+					(at 48.26 43.18 180)
+					(length 7.62)
 					(name "D#[23]"
 						(effects
 							(font
@@ -6452,8 +6452,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 40.64 180)
-					(length 6.35)
+					(at 48.26 40.64 180)
+					(length 7.62)
 					(name "D#[21]"
 						(effects
 							(font
@@ -6470,8 +6470,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 38.1 180)
-					(length 6.35)
+					(at 48.26 38.1 180)
+					(length 7.62)
 					(name "D#[16]"
 						(effects
 							(font
@@ -6488,8 +6488,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 35.56 180)
-					(length 6.35)
+					(at 48.26 35.56 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6506,8 +6506,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 33.02 180)
-					(length 6.35)
+					(at 48.26 33.02 180)
+					(length 7.62)
 					(name "D#[13]"
 						(effects
 							(font
@@ -6524,8 +6524,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 30.48 180)
-					(length 6.35)
+					(at 48.26 30.48 180)
+					(length 7.62)
 					(name "D#[11]"
 						(effects
 							(font
@@ -6542,8 +6542,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 27.94 180)
-					(length 6.35)
+					(at 48.26 27.94 180)
+					(length 7.62)
 					(name "D#[10]"
 						(effects
 							(font
@@ -6560,8 +6560,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 25.4 180)
-					(length 6.35)
+					(at 48.26 25.4 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6578,8 +6578,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 22.86 180)
-					(length 6.35)
+					(at 48.26 22.86 180)
+					(length 7.62)
 					(name "D#[14]"
 						(effects
 							(font
@@ -6596,8 +6596,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 20.32 180)
-					(length 6.35)
+					(at 48.26 20.32 180)
+					(length 7.62)
 					(name "D#[9]"
 						(effects
 							(font
@@ -6614,8 +6614,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 17.78 180)
-					(length 6.35)
+					(at 48.26 17.78 180)
+					(length 7.62)
 					(name "D#[8]"
 						(effects
 							(font
@@ -6632,8 +6632,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 15.24 180)
-					(length 6.35)
+					(at 48.26 15.24 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -6650,8 +6650,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 12.7 180)
-					(length 6.35)
+					(at 48.26 12.7 180)
+					(length 7.62)
 					(name "D#[5]"
 						(effects
 							(font
@@ -6668,8 +6668,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 10.16 180)
-					(length 6.35)
+					(at 48.26 10.16 180)
+					(length 7.62)
 					(name "D#[3]"
 						(effects
 							(font
@@ -6686,8 +6686,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 7.62 180)
-					(length 6.35)
+					(at 48.26 7.62 180)
+					(length 7.62)
 					(name "D#[1]"
 						(effects
 							(font
@@ -8927,8 +8927,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 190.5 0)
-					(length 6.35)
+					(at -48.26 190.5 0)
+					(length 7.62)
 					(name "RESET#"
 						(effects
 							(font
@@ -8945,8 +8945,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 187.96 0)
-					(length 6.35)
+					(at -48.26 187.96 0)
+					(length 7.62)
 					(name "BR1#"
 						(effects
 							(font
@@ -8963,8 +8963,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 185.42 0)
-					(length 6.35)
+					(at -48.26 185.42 0)
+					(length 7.62)
 					(name "FRCERR#"
 						(effects
 							(font
@@ -8981,8 +8981,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 182.88 0)
-					(length 6.35)
+					(at -48.26 182.88 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -8999,8 +8999,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 180.34 0)
-					(length 6.35)
+					(at -48.26 180.34 0)
+					(length 7.62)
 					(name "A#[35]"
 						(effects
 							(font
@@ -9017,8 +9017,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 177.8 0)
-					(length 6.35)
+					(at -48.26 177.8 0)
+					(length 7.62)
 					(name "A#[32]"
 						(effects
 							(font
@@ -9035,8 +9035,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 175.26 0)
-					(length 6.35)
+					(at -48.26 175.26 0)
+					(length 7.62)
 					(name "A#[29]"
 						(effects
 							(font
@@ -9053,8 +9053,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 172.72 0)
-					(length 6.35)
+					(at -48.26 172.72 0)
+					(length 7.62)
 					(name "EMI"
 						(effects
 							(font
@@ -9071,8 +9071,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 170.18 0)
-					(length 6.35)
+					(at -48.26 170.18 0)
+					(length 7.62)
 					(name "A#[26]"
 						(effects
 							(font
@@ -9089,8 +9089,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 167.64 0)
-					(length 6.35)
+					(at -48.26 167.64 0)
+					(length 7.62)
 					(name "A#[24]"
 						(effects
 							(font
@@ -9107,8 +9107,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 165.1 0)
-					(length 6.35)
+					(at -48.26 165.1 0)
+					(length 7.62)
 					(name "A#[28]"
 						(effects
 							(font
@@ -9125,8 +9125,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 162.56 0)
-					(length 6.35)
+					(at -48.26 162.56 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -9143,8 +9143,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 160.02 0)
-					(length 6.35)
+					(at -48.26 160.02 0)
+					(length 7.62)
 					(name "A#[20]"
 						(effects
 							(font
@@ -9161,8 +9161,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 157.48 0)
-					(length 6.35)
+					(at -48.26 157.48 0)
+					(length 7.62)
 					(name "A#[21]"
 						(effects
 							(font
@@ -9179,8 +9179,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 154.94 0)
-					(length 6.35)
+					(at -48.26 154.94 0)
+					(length 7.62)
 					(name "A#[25]"
 						(effects
 							(font
@@ -9197,8 +9197,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 152.4 0)
-					(length 6.35)
+					(at -48.26 152.4 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -9215,8 +9215,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 149.86 0)
-					(length 6.35)
+					(at -48.26 149.86 0)
+					(length 7.62)
 					(name "A#[15]"
 						(effects
 							(font
@@ -9233,8 +9233,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 147.32 0)
-					(length 6.35)
+					(at -48.26 147.32 0)
+					(length 7.62)
 					(name "A#[17]"
 						(effects
 							(font
@@ -9251,8 +9251,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 144.78 0)
-					(length 6.35)
+					(at -48.26 144.78 0)
+					(length 7.62)
 					(name "A#[11]"
 						(effects
 							(font
@@ -9269,8 +9269,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 142.24 0)
-					(length 6.35)
+					(at -48.26 142.24 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -9287,8 +9287,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 139.7 0)
-					(length 6.35)
+					(at -48.26 139.7 0)
+					(length 7.62)
 					(name "A#[12]"
 						(effects
 							(font
@@ -9305,8 +9305,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 137.16 0)
-					(length 6.35)
+					(at -48.26 137.16 0)
+					(length 7.62)
 					(name "A#[8]"
 						(effects
 							(font
@@ -9323,8 +9323,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 134.62 0)
-					(length 6.35)
+					(at -48.26 134.62 0)
+					(length 7.62)
 					(name "A#[7]"
 						(effects
 							(font
@@ -9341,8 +9341,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 132.08 0)
-					(length 6.35)
+					(at -48.26 132.08 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -9359,8 +9359,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 129.54 0)
-					(length 6.35)
+					(at -48.26 129.54 0)
+					(length 7.62)
 					(name "A#[3]"
 						(effects
 							(font
@@ -9377,8 +9377,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at -46.99 127 0)
-					(length 6.35)
+					(at -48.26 127 0)
+					(length 7.62)
 					(name "A#[6]"
 						(effects
 							(font
@@ -9395,8 +9395,8 @@
 					)
 				)
 				(pin input line
-					(at -46.99 124.46 0)
-					(length 6.35)
+					(at -48.26 124.46 0)
+					(length 7.62)
 					(name "EMI"
 						(effects
 							(font
@@ -9413,8 +9413,8 @@
 					)
 				)
 				(pin output inverted
-					(at -46.99 121.92 0)
-					(length 6.35)
+					(at -48.26 121.92 0)
+					(length 7.62)
 					(name "SLOTOCC#"
 						(effects
 							(font
@@ -9431,8 +9431,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 119.38 0)
-					(length 6.35)
+					(at -48.26 119.38 0)
+					(length 7.62)
 					(name "REQ#[0]"
 						(effects
 							(font
@@ -9449,8 +9449,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 116.84 0)
-					(length 6.35)
+					(at -48.26 116.84 0)
+					(length 7.62)
 					(name "REQ#[1]"
 						(effects
 							(font
@@ -9467,8 +9467,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 114.3 0)
-					(length 6.35)
+					(at -48.26 114.3 0)
+					(length 7.62)
 					(name "REQ#[4]"
 						(effects
 							(font
@@ -9485,8 +9485,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 111.76 0)
-					(length 6.35)
+					(at -48.26 111.76 0)
+					(length 7.62)
 					(name "VCC_CORE"
 						(effects
 							(font
@@ -9503,8 +9503,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 109.22 0)
-					(length 6.35)
+					(at -48.26 109.22 0)
+					(length 7.62)
 					(name "LOCK#"
 						(effects
 							(font
@@ -9521,8 +9521,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 106.68 0)
-					(length 6.35)
+					(at -48.26 106.68 0)
+					(length 7.62)
 					(name "DRDY#"
 						(effects
 							(font
@@ -9539,8 +9539,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 104.14 0)
-					(length 6.35)
+					(at -48.26 104.14 0)
+					(length 7.62)
 					(name "RS#[0]"
 						(effects
 							(font
@@ -9557,8 +9557,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 101.6 0)
-					(length 6.35)
+					(at -48.26 101.6 0)
+					(length 7.62)
 					(name "VCC5"
 						(effects
 							(font
@@ -9575,8 +9575,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 99.06 0)
-					(length 6.35)
+					(at -48.26 99.06 0)
+					(length 7.62)
 					(name "HIT#"
 						(effects
 							(font
@@ -9593,8 +9593,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 96.52 0)
-					(length 6.35)
+					(at -48.26 96.52 0)
+					(length 7.62)
 					(name "RS#[2]"
 						(effects
 							(font
@@ -9611,8 +9611,8 @@
 					)
 				)
 				(pin no_connect line
-					(at -46.99 93.98 0)
-					(length 6.35)
+					(at -48.26 93.98 0)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -9629,8 +9629,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 91.44 0)
-					(length 6.35)
+					(at -48.26 91.44 0)
+					(length 7.62)
 					(name "VCC_L2"
 						(effects
 							(font
@@ -9647,8 +9647,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 88.9 0)
-					(length 6.35)
+					(at -48.26 88.9 0)
+					(length 7.62)
 					(name "RP#"
 						(effects
 							(font
@@ -9665,8 +9665,8 @@
 					)
 				)
 				(pin input inverted
-					(at -46.99 86.36 0)
-					(length 6.35)
+					(at -48.26 86.36 0)
+					(length 7.62)
 					(name "RSP#"
 						(effects
 							(font
@@ -9683,8 +9683,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 83.82 0)
-					(length 6.35)
+					(at -48.26 83.82 0)
+					(length 7.62)
 					(name "AP#[1]"
 						(effects
 							(font
@@ -9701,8 +9701,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 81.28 0)
-					(length 6.35)
+					(at -48.26 81.28 0)
+					(length 7.62)
 					(name "VCC_L2"
 						(effects
 							(font
@@ -9719,8 +9719,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at -46.99 78.74 0)
-					(length 6.35)
+					(at -48.26 78.74 0)
+					(length 7.62)
 					(name "AERR#"
 						(effects
 							(font
@@ -9737,8 +9737,8 @@
 					)
 				)
 				(pin output line
-					(at -46.99 76.2 0)
-					(length 6.35)
+					(at -48.26 76.2 0)
+					(length 7.62)
 					(name "VID[3]"
 						(effects
 							(font
@@ -9755,8 +9755,8 @@
 					)
 				)
 				(pin output line
-					(at -46.99 73.66 0)
-					(length 6.35)
+					(at -48.26 73.66 0)
+					(length 7.62)
 					(name "VID[0]"
 						(effects
 							(font
@@ -9773,8 +9773,8 @@
 					)
 				)
 				(pin power_in line
-					(at -46.99 71.12 0)
-					(length 6.35)
+					(at -48.26 71.12 0)
+					(length 7.62)
 					(name "VCC_L2"
 						(effects
 							(font
@@ -9791,8 +9791,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 190.5 180)
-					(length 6.35)
+					(at 48.26 190.5 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -9809,8 +9809,8 @@
 					)
 				)
 				(pin input clock
-					(at 46.99 187.96 180)
-					(length 6.35)
+					(at 48.26 187.96 180)
+					(length 7.62)
 					(name "BCLK"
 						(effects
 							(font
@@ -9827,8 +9827,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 185.42 180)
-					(length 6.35)
+					(at 48.26 185.42 180)
+					(length 7.62)
 					(name "BR0#"
 						(effects
 							(font
@@ -9845,8 +9845,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 182.88 180)
-					(length 6.35)
+					(at 48.26 182.88 180)
+					(length 7.62)
 					(name "BERR#"
 						(effects
 							(font
@@ -9863,8 +9863,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 180.34 180)
-					(length 6.35)
+					(at 48.26 180.34 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -9881,8 +9881,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 177.8 180)
-					(length 6.35)
+					(at 48.26 177.8 180)
+					(length 7.62)
 					(name "A#[33]"
 						(effects
 							(font
@@ -9899,8 +9899,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 175.26 180)
-					(length 6.35)
+					(at 48.26 175.26 180)
+					(length 7.62)
 					(name "A#[34]"
 						(effects
 							(font
@@ -9917,8 +9917,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 172.72 180)
-					(length 6.35)
+					(at 48.26 172.72 180)
+					(length 7.62)
 					(name "A#[30]"
 						(effects
 							(font
@@ -9935,8 +9935,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 170.18 180)
-					(length 6.35)
+					(at 48.26 170.18 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -9953,8 +9953,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 167.64 180)
-					(length 6.35)
+					(at 48.26 167.64 180)
+					(length 7.62)
 					(name "A#[31]"
 						(effects
 							(font
@@ -9971,8 +9971,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 165.1 180)
-					(length 6.35)
+					(at 48.26 165.1 180)
+					(length 7.62)
 					(name "A#[27]"
 						(effects
 							(font
@@ -9989,8 +9989,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 162.56 180)
-					(length 6.35)
+					(at 48.26 162.56 180)
+					(length 7.62)
 					(name "A#[22]"
 						(effects
 							(font
@@ -10007,8 +10007,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 160.02 180)
-					(length 6.35)
+					(at 48.26 160.02 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10025,8 +10025,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 157.48 180)
-					(length 6.35)
+					(at 48.26 157.48 180)
+					(length 7.62)
 					(name "A#[23]"
 						(effects
 							(font
@@ -10043,8 +10043,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 46.99 154.94 180)
-					(length 6.35)
+					(at 48.26 154.94 180)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -10061,8 +10061,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 152.4 180)
-					(length 6.35)
+					(at 48.26 152.4 180)
+					(length 7.62)
 					(name "A#[19]"
 						(effects
 							(font
@@ -10079,8 +10079,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 149.86 180)
-					(length 6.35)
+					(at 48.26 149.86 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10097,8 +10097,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 147.32 180)
-					(length 6.35)
+					(at 48.26 147.32 180)
+					(length 7.62)
 					(name "A#[18]"
 						(effects
 							(font
@@ -10115,8 +10115,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 144.78 180)
-					(length 6.35)
+					(at 48.26 144.78 180)
+					(length 7.62)
 					(name "A#[16]"
 						(effects
 							(font
@@ -10133,8 +10133,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 142.24 180)
-					(length 6.35)
+					(at 48.26 142.24 180)
+					(length 7.62)
 					(name "A#[13]"
 						(effects
 							(font
@@ -10151,8 +10151,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 139.7 180)
-					(length 6.35)
+					(at 48.26 139.7 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10169,8 +10169,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 137.16 180)
-					(length 6.35)
+					(at 48.26 137.16 180)
+					(length 7.62)
 					(name "A#[14]"
 						(effects
 							(font
@@ -10187,8 +10187,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 134.62 180)
-					(length 6.35)
+					(at 48.26 134.62 180)
+					(length 7.62)
 					(name "A#[10]"
 						(effects
 							(font
@@ -10205,8 +10205,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 132.08 180)
-					(length 6.35)
+					(at 48.26 132.08 180)
+					(length 7.62)
 					(name "A#[5]"
 						(effects
 							(font
@@ -10223,8 +10223,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 129.54 180)
-					(length 6.35)
+					(at 48.26 129.54 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10241,8 +10241,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 127 180)
-					(length 6.35)
+					(at 48.26 127 180)
+					(length 7.62)
 					(name "A#[9]"
 						(effects
 							(font
@@ -10259,8 +10259,8 @@
 					)
 				)
 				(pin tri_state inverted
-					(at 46.99 124.46 180)
-					(length 6.35)
+					(at 48.26 124.46 180)
+					(length 7.62)
 					(name "A#[4]"
 						(effects
 							(font
@@ -10277,8 +10277,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 121.92 180)
-					(length 6.35)
+					(at 48.26 121.92 180)
+					(length 7.62)
 					(name "BNR#"
 						(effects
 							(font
@@ -10295,8 +10295,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 119.38 180)
-					(length 6.35)
+					(at 48.26 119.38 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10313,8 +10313,8 @@
 					)
 				)
 				(pin input inverted
-					(at 46.99 116.84 180)
-					(length 6.35)
+					(at 48.26 116.84 180)
+					(length 7.62)
 					(name "BPRI#"
 						(effects
 							(font
@@ -10331,8 +10331,8 @@
 					)
 				)
 				(pin input inverted
-					(at 46.99 114.3 180)
-					(length 6.35)
+					(at 48.26 114.3 180)
+					(length 7.62)
 					(name "TRDY#"
 						(effects
 							(font
@@ -10349,8 +10349,8 @@
 					)
 				)
 				(pin input inverted
-					(at 46.99 111.76 180)
-					(length 6.35)
+					(at 48.26 111.76 180)
+					(length 7.62)
 					(name "DEFER#"
 						(effects
 							(font
@@ -10367,8 +10367,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 109.22 180)
-					(length 6.35)
+					(at 48.26 109.22 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10385,8 +10385,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 106.68 180)
-					(length 6.35)
+					(at 48.26 106.68 180)
+					(length 7.62)
 					(name "REQ#[2]"
 						(effects
 							(font
@@ -10403,8 +10403,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 104.14 180)
-					(length 6.35)
+					(at 48.26 104.14 180)
+					(length 7.62)
 					(name "REQ#[3]"
 						(effects
 							(font
@@ -10421,8 +10421,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 101.6 180)
-					(length 6.35)
+					(at 48.26 101.6 180)
+					(length 7.62)
 					(name "HITM#"
 						(effects
 							(font
@@ -10439,8 +10439,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 99.06 180)
-					(length 6.35)
+					(at 48.26 99.06 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10457,8 +10457,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 96.52 180)
-					(length 6.35)
+					(at 48.26 96.52 180)
+					(length 7.62)
 					(name "DBSY#"
 						(effects
 							(font
@@ -10475,8 +10475,8 @@
 					)
 				)
 				(pin input inverted
-					(at 46.99 93.98 180)
-					(length 6.35)
+					(at 48.26 93.98 180)
+					(length 7.62)
 					(name "RS#[1]"
 						(effects
 							(font
@@ -10493,8 +10493,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 46.99 91.44 180)
-					(length 6.35)
+					(at 48.26 91.44 180)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -10511,8 +10511,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 88.9 180)
-					(length 6.35)
+					(at 48.26 88.9 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10529,8 +10529,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 86.36 180)
-					(length 6.35)
+					(at 48.26 86.36 180)
+					(length 7.62)
 					(name "ADS#"
 						(effects
 							(font
@@ -10547,8 +10547,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 46.99 83.82 180)
-					(length 6.35)
+					(at 48.26 83.82 180)
+					(length 7.62)
 					(name "RESERVED"
 						(effects
 							(font
@@ -10565,8 +10565,8 @@
 					)
 				)
 				(pin bidirectional inverted
-					(at 46.99 81.28 180)
-					(length 6.35)
+					(at 48.26 81.28 180)
+					(length 7.62)
 					(name "AP#[0]"
 						(effects
 							(font
@@ -10583,8 +10583,8 @@
 					)
 				)
 				(pin power_in line
-					(at 46.99 78.74 180)
-					(length 6.35)
+					(at 48.26 78.74 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -10601,8 +10601,8 @@
 					)
 				)
 				(pin output line
-					(at 46.99 76.2 180)
-					(length 6.35)
+					(at 48.26 76.2 180)
+					(length 7.62)
 					(name "VID[2]"
 						(effects
 							(font
@@ -10619,8 +10619,8 @@
 					)
 				)
 				(pin output line
-					(at 46.99 73.66 180)
-					(length 6.35)
+					(at 48.26 73.66 180)
+					(length 7.62)
 					(name "VID[1]"
 						(effects
 							(font
@@ -10637,8 +10637,8 @@
 					)
 				)
 				(pin output line
-					(at 46.99 71.12 180)
-					(length 6.35)
+					(at 48.26 71.12 180)
+					(length 7.62)
 					(name "VID[4]"
 						(effects
 							(font
@@ -11718,6 +11718,54 @@
 		(uuid "fec16fe7-f266-4c73-b602-e2ad9f389ca9")
 	)
 	(junction
+		(at 177.8 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "053650aa-4347-418e-ba72-444c066534e1")
+	)
+	(junction
+		(at 177.8 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07107937-c4dc-4bb2-ab22-4acd9351e9f6")
+	)
+	(junction
+		(at 177.8 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0802a8af-1567-4e32-93f5-2d4b6f5432c1")
+	)
+	(junction
+		(at 177.8 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bb8cf0a-28b6-41fe-a3d8-a6bc4dc27e65")
+	)
+	(junction
+		(at 177.8 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130a2cf3-dd18-4afd-a6b0-d3a767971725")
+	)
+	(junction
+		(at 177.8 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "186b470c-e2fe-4c9a-bc4b-751845e05171")
+	)
+	(junction
+		(at 177.8 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c8a6bdf-3323-459d-9116-d7a61fe6cb03")
+	)
+	(junction
+		(at 177.8 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "205e8726-e2ec-4598-8c2b-192d337e9580")
+	)
+	(junction
 		(at 170.18 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11748,6 +11796,12 @@
 		(uuid "2d934294-ae6c-49ec-b4a2-0bcb53bb8b89")
 	)
 	(junction
+		(at 177.8 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dd5c025-fe7c-4374-8921-f1cfc5be6f8d")
+	)
+	(junction
 		(at 289.56 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11772,10 +11826,46 @@
 		(uuid "3f9583cf-c3c1-4e0e-915c-1369b24d8b86")
 	)
 	(junction
+		(at 177.8 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4355ee61-b7e8-4fb0-8971-ddb4803deffd")
+	)
+	(junction
 		(at 284.48 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47a1dc51-85e0-44fc-9035-9a12b4dad58f")
+	)
+	(junction
+		(at 177.8 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a0ebd99-54a2-45d8-ba34-47dc0e3fd45f")
+	)
+	(junction
+		(at 177.8 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c59d9db-7538-430c-bd5c-f52cf07a7365")
+	)
+	(junction
+		(at 177.8 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cdf3487-9fe3-4f8d-baca-6c1f0fdb4c75")
+	)
+	(junction
+		(at 177.8 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f266c82-34fb-421a-be0c-561a41899eac")
+	)
+	(junction
+		(at 177.8 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53fdc6c7-6824-4f8e-aca0-18f2f36f6893")
 	)
 	(junction
 		(at 86.36 137.16)
@@ -11788,6 +11878,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e7d9f93-0739-4842-b7a1-6a990f7082e1")
+	)
+	(junction
+		(at 177.8 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ed6aee7-c54b-4f7f-a7d5-66fd49b56ed8")
+	)
+	(junction
+		(at 177.8 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631511e2-3b97-445b-b0b6-cb313833b0a5")
 	)
 	(junction
 		(at 170.18 177.8)
@@ -11808,10 +11910,40 @@
 		(uuid "73c92f1c-6a71-4d7b-a6c0-5598c6179a61")
 	)
 	(junction
+		(at 177.8 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b51c6ae-4ea2-4d1c-872b-4e1344f2526f")
+	)
+	(junction
+		(at 177.8 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd4cf44-5e23-44d2-b5e6-3df423564aa9")
+	)
+	(junction
 		(at 170.18 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bfa5620-5abc-4663-a13e-33a4fae6ca52")
+	)
+	(junction
+		(at 177.8 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e7a259d-0e93-4c35-8b93-20fb4b9e57ae")
+	)
+	(junction
+		(at 177.8 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8143fe32-abcb-4834-a367-930b0f566ae1")
+	)
+	(junction
+		(at 177.8 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b37141-c994-4239-a654-9e7f2dd54238")
 	)
 	(junction
 		(at 152.4 63.5)
@@ -11820,16 +11952,46 @@
 		(uuid "89040791-8afa-4a63-a4f9-9e8cea8658d7")
 	)
 	(junction
+		(at 177.8 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b270460-810c-4d25-adca-fdd043306549")
+	)
+	(junction
 		(at 289.56 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90b747a1-30d0-47c9-8904-f8cde47d61cb")
 	)
 	(junction
+		(at 177.8 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b6c0fe-7275-4da2-8c45-89aadcc3efcc")
+	)
+	(junction
 		(at 170.18 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93b0a4eb-349d-481f-b0a6-7a268739c52c")
+	)
+	(junction
+		(at 177.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93bf0784-f012-435b-807a-23a3ed562bc5")
+	)
+	(junction
+		(at 177.8 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c1869b-c59c-403d-b847-2080c41d9d77")
+	)
+	(junction
+		(at 177.8 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "967b81c7-1d17-4fda-a97c-ec4aec169bd3")
 	)
 	(junction
 		(at 289.56 139.7)
@@ -11842,6 +12004,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b43aa6c-1c0c-463c-9201-a0e48238aaa3")
+	)
+	(junction
+		(at 177.8 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0b68325-0e97-4b65-9b0c-95e7f08b27bf")
+	)
+	(junction
+		(at 177.8 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4dc1fef-cfd7-486a-a597-ddcf5b3ae721")
 	)
 	(junction
 		(at 170.18 218.44)
@@ -11860,6 +12034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afb6460e-17f1-4fef-b96f-29a9d00ea17d")
+	)
+	(junction
+		(at 177.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3832b1f-ed97-4959-8b4f-99ac1ebc2c4e")
 	)
 	(junction
 		(at 149.86 71.12)
@@ -11886,6 +12066,12 @@
 		(uuid "c5ca4caa-d440-4af5-b30e-58c8270c9697")
 	)
 	(junction
+		(at 177.8 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7aa7d9e-fb7a-4326-9120-0078f4090933")
+	)
+	(junction
 		(at 289.56 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11904,10 +12090,22 @@
 		(uuid "cc49a3cb-bb95-4495-b9f1-230c7b1a3f20")
 	)
 	(junction
+		(at 177.8 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd009d7a-1a11-4929-8128-feda08cd520d")
+	)
+	(junction
 		(at 91.44 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d050923c-732f-47d2-964f-ec539cf6050a")
+	)
+	(junction
+		(at 177.8 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d726dcb4-7976-480b-bb85-908d52a4ca12")
 	)
 	(junction
 		(at 170.18 137.16)
@@ -11922,6 +12120,18 @@
 		(uuid "dfd84b8e-564f-4076-80d2-32617efcf77a")
 	)
 	(junction
+		(at 177.8 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e022117c-6ba8-4e7e-bf8d-82b73fb053dc")
+	)
+	(junction
+		(at 177.8 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e05d62f8-d146-474e-8600-30200840ae2a")
+	)
+	(junction
 		(at 289.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11934,10 +12144,34 @@
 		(uuid "e28866bd-0c47-489a-bbc1-cabca55998f3")
 	)
 	(junction
+		(at 177.8 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea9c65a0-fdee-4baf-a26e-e75ad52365b5")
+	)
+	(junction
 		(at 170.18 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2c8a5d9-df24-4cb6-9339-b8f37a0a92d0")
+	)
+	(junction
+		(at 177.8 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f65dc136-b3ad-4fc7-99d0-dcd0ef85e1a5")
+	)
+	(junction
+		(at 177.8 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f83aca8c-953e-4855-9603-a1e509a74902")
+	)
+	(junction
+		(at 177.8 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9e6a383-4b24-4bf3-8fee-ee4d7ffff2d7")
 	)
 	(junction
 		(at 289.56 68.58)
@@ -11950,23 +12184,23 @@
 		(uuid "0704e964-b7ef-45b5-b101-3530793d4e28")
 	)
 	(no_connect
-		(at 274.32 96.52)
+		(at 276.86 96.52)
 		(uuid "0c2e4968-5d0d-419b-b9a5-c7b50c157752")
 	)
 	(no_connect
-		(at 274.32 114.3)
+		(at 276.86 114.3)
 		(uuid "32fcd7ae-c6af-4764-b4eb-ad8a07007b27")
 	)
 	(no_connect
-		(at 274.32 111.76)
+		(at 276.86 111.76)
 		(uuid "43d38b66-c476-439c-b89a-9c74b74acc16")
 	)
 	(no_connect
-		(at 274.32 53.34)
+		(at 276.86 53.34)
 		(uuid "4c38f723-70a1-4801-9b4a-c32fd12049eb")
 	)
 	(no_connect
-		(at 274.32 106.68)
+		(at 276.86 106.68)
 		(uuid "52ba1515-6dd5-4dba-b3c8-a05528644fbb")
 	)
 	(no_connect
@@ -11974,15 +12208,15 @@
 		(uuid "5e34fe46-bb5c-4988-8461-62988f7fbc1b")
 	)
 	(no_connect
-		(at 274.32 121.92)
+		(at 276.86 121.92)
 		(uuid "6f0260e8-4310-4e3f-967b-211f12ebc804")
 	)
 	(no_connect
-		(at 274.32 116.84)
+		(at 276.86 116.84)
 		(uuid "7cb66f55-383b-4692-8d3a-efd6922a6588")
 	)
 	(no_connect
-		(at 274.32 101.6)
+		(at 276.86 101.6)
 		(uuid "94af206c-fd9c-4cff-800a-2a40073c0896")
 	)
 	(no_connect
@@ -11990,7 +12224,7 @@
 		(uuid "d648344c-4624-4820-9b36-475324fbe516")
 	)
 	(no_connect
-		(at 274.32 104.14)
+		(at 276.86 104.14)
 		(uuid "d95bbff8-b369-45bb-83ab-fe08162ccf3f")
 	)
 	(no_connect
@@ -12589,17 +12823,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 162.56) (xy 144.78 162.56)
+			(xy 177.8 167.64) (xy 180.34 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "011b95a5-e0c8-4ee9-b558-e63930e6cb3f")
+		(uuid "01094a15-a796-41d6-9ad0-1a7d8bdd0384")
 	)
 	(wire
 		(pts
-			(xy 274.32 48.26) (xy 289.56 48.26)
+			(xy 276.86 48.26) (xy 289.56 48.26)
 		)
 		(stroke
 			(width 0)
@@ -12609,7 +12843,27 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 167.64) (xy 180.34 167.64)
+			(xy 177.8 195.58) (xy 180.34 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0372f53d-1110-4de6-aea3-13d7787e335e")
+	)
+	(wire
+		(pts
+			(xy 177.8 53.34) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03928ca0-d239-42ea-9936-8badcf9ad205")
+	)
+	(wire
+		(pts
+			(xy 170.18 167.64) (xy 177.8 167.64)
 		)
 		(stroke
 			(width 0)
@@ -12639,13 +12893,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 220.98) (xy 180.34 220.98)
+			(xy 144.78 220.98) (xy 177.8 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "066a64cc-5657-4b0e-8ea2-82ed9163f21b")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07335d5f-fc03-4d86-ae4f-14fda0efd2e9")
 	)
 	(bus
 		(pts
@@ -12659,7 +12923,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 185.42) (xy 180.34 185.42)
+			(xy 177.8 149.86) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bef956-a945-48ea-bee7-aa19afcad23d")
+	)
+	(wire
+		(pts
+			(xy 144.78 185.42) (xy 177.8 185.42)
 		)
 		(stroke
 			(width 0)
@@ -12669,7 +12943,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 210.82) (xy 180.34 210.82)
+			(xy 177.8 149.86) (xy 144.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086ca3d0-082e-415b-9d0c-935c25c52c24")
+	)
+	(wire
+		(pts
+			(xy 144.78 210.82) (xy 177.8 210.82)
 		)
 		(stroke
 			(width 0)
@@ -12699,7 +12983,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 165.1) (xy 309.88 165.1)
+			(xy 276.86 165.1) (xy 309.88 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12717,16 +13001,6 @@
 		)
 		(uuid "0c772fbf-b386-406b-98aa-a9401f115301")
 	)
-	(wire
-		(pts
-			(xy 180.34 68.58) (xy 172.72 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ceacd0f-97e6-45e1-876f-80e5ee743f2d")
-	)
 	(bus
 		(pts
 			(xy 312.42 175.26) (xy 312.42 177.8)
@@ -12739,7 +13013,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 228.6) (xy 180.34 228.6)
+			(xy 170.18 228.6) (xy 177.8 228.6)
 		)
 		(stroke
 			(width 0)
@@ -12749,7 +13023,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 55.88) (xy 317.5 55.88)
+			(xy 276.86 55.88) (xy 317.5 55.88)
 		)
 		(stroke
 			(width 0)
@@ -12779,23 +13053,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 200.66) (xy 180.34 200.66)
+			(xy 177.8 152.4) (xy 180.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a3c4ea-fb1a-40af-b3ac-5176a8de7aa4")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b4396e-dba1-47e2-86bf-fe5b43caccab")
+	)
+	(wire
+		(pts
+			(xy 144.78 200.66) (xy 177.8 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "144b0b58-7210-4e73-b2ae-1c40d3cdc61d")
-	)
-	(wire
-		(pts
-			(xy 180.34 88.9) (xy 139.7 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1593780f-a6d0-4d02-914e-0da45e8065cf")
 	)
 	(wire
 		(pts
@@ -12809,6 +13093,36 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 193.04) (xy 180.34 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cf37af-5455-4051-8ecf-eefe0dc743ea")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d2e573-4acc-4013-b0f0-be398593047f")
+	)
+	(wire
+		(pts
+			(xy 177.8 198.12) (xy 177.8 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f0b220-d3f5-4a38-85bd-b126c6aa0b40")
+	)
+	(wire
+		(pts
 			(xy 48.26 73.66) (xy 58.42 73.66)
 		)
 		(stroke
@@ -12819,7 +13133,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 127) (xy 309.88 127)
+			(xy 177.8 208.28) (xy 180.34 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c0f294-5531-4f11-afeb-1d49b3dbee76")
+	)
+	(wire
+		(pts
+			(xy 276.86 127) (xy 309.88 127)
 		)
 		(stroke
 			(width 0)
@@ -12849,7 +13173,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 154.94) (xy 180.34 154.94)
+			(xy 139.7 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a316edc-cd53-43ce-841e-e49a1b3d6566")
+	)
+	(wire
+		(pts
+			(xy 144.78 154.94) (xy 177.8 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12859,7 +13193,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 182.88) (xy 309.88 182.88)
+			(xy 276.86 182.88) (xy 309.88 182.88)
 		)
 		(stroke
 			(width 0)
@@ -12879,6 +13213,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 180.34) (xy 180.34 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b68c277-fcbd-4c47-8607-9b764b4818f5")
+	)
+	(wire
+		(pts
+			(xy 177.8 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8451dd-7558-4ddd-b99b-27ac16f03c2f")
+	)
+	(wire
+		(pts
 			(xy 165.1 83.82) (xy 165.1 86.36)
 		)
 		(stroke
@@ -12889,13 +13243,33 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 119.38) (xy 289.56 119.38)
+			(xy 276.86 119.38) (xy 289.56 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c9956e1-31e1-43ae-88de-f321f43a6bd2")
+	)
+	(wire
+		(pts
+			(xy 177.8 182.88) (xy 180.34 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d77285f-9ecc-4a3a-92dc-ad2c0e1b3a0b")
+	)
+	(wire
+		(pts
+			(xy 177.8 185.42) (xy 180.34 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9dff50-e051-4b5a-806e-d3aa8f43e866")
 	)
 	(bus
 		(pts
@@ -12917,6 +13291,16 @@
 		)
 		(uuid "1f240de2-e3ad-4b48-bcca-0e2f8ca44f33")
 	)
+	(wire
+		(pts
+			(xy 177.8 162.56) (xy 177.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3f23cc-b0c7-46c9-85bf-653b5a75d2da")
+	)
 	(bus
 		(pts
 			(xy 312.42 231.14) (xy 312.42 233.68)
@@ -12926,6 +13310,16 @@
 			(type default)
 		)
 		(uuid "1fb42297-478a-408d-95c6-005ce36e31b1")
+	)
+	(wire
+		(pts
+			(xy 177.8 200.66) (xy 180.34 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e3ce3c-6c08-4d15-add3-22d9d9391303")
 	)
 	(wire
 		(pts
@@ -12949,13 +13343,43 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 228.6) (xy 309.88 228.6)
+			(xy 177.8 187.96) (xy 180.34 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225b42d9-10d4-4520-be5f-9757d72febea")
+	)
+	(wire
+		(pts
+			(xy 276.86 228.6) (xy 309.88 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2272b158-27aa-4bb7-b057-35e1ecb6d630")
+	)
+	(wire
+		(pts
+			(xy 180.34 157.48) (xy 177.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d6aaa0-5906-4c65-ba84-688e7aa1aa17")
+	)
+	(wire
+		(pts
+			(xy 177.8 203.2) (xy 180.34 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234ded77-03e3-421c-bd2b-178aa84abd26")
 	)
 	(wire
 		(pts
@@ -12979,17 +13403,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 149.86) (xy 144.78 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "248b68c6-1978-4bab-bf3b-354841a2fc85")
-	)
-	(wire
-		(pts
-			(xy 170.18 218.44) (xy 180.34 218.44)
+			(xy 170.18 218.44) (xy 177.8 218.44)
 		)
 		(stroke
 			(width 0)
@@ -12999,7 +13413,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 154.94) (xy 309.88 154.94)
+			(xy 180.34 147.32) (xy 177.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a49a0a-9ad9-4244-8069-ee1320e1e7fd")
+	)
+	(wire
+		(pts
+			(xy 276.86 154.94) (xy 309.88 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13009,7 +13433,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 175.26) (xy 309.88 175.26)
+			(xy 276.86 175.26) (xy 309.88 175.26)
 		)
 		(stroke
 			(width 0)
@@ -13049,7 +13473,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 58.42) (xy 289.56 58.42)
+			(xy 276.86 58.42) (xy 289.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -13059,13 +13483,33 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 210.82) (xy 289.56 210.82)
+			(xy 276.86 210.82) (xy 289.56 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b5514ec-d527-4b50-9dda-5898676997ae")
+	)
+	(wire
+		(pts
+			(xy 180.34 162.56) (xy 177.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bce7887-1de1-46b4-8c3f-9efd0bbc48c3")
+	)
+	(wire
+		(pts
+			(xy 177.8 50.8) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c38f82b-0f12-4362-b096-0eb235e85b39")
 	)
 	(bus
 		(pts
@@ -13079,7 +13523,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 170.18) (xy 144.78 170.18)
+			(xy 180.34 170.18) (xy 177.8 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13089,7 +13533,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 177.8) (xy 309.88 177.8)
+			(xy 276.86 177.8) (xy 309.88 177.8)
 		)
 		(stroke
 			(width 0)
@@ -13109,13 +13553,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 175.26) (xy 180.34 175.26)
+			(xy 144.78 175.26) (xy 177.8 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31210712-16d9-4811-873c-34fb59dcff8a")
+	)
+	(wire
+		(pts
+			(xy 177.8 215.9) (xy 177.8 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eb5571-3591-4180-921b-84b50515cd2c")
 	)
 	(wire
 		(pts
@@ -13129,13 +13583,23 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 139.7) (xy 289.56 139.7)
+			(xy 276.86 139.7) (xy 289.56 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3492ad4e-a31a-4add-844b-198ae6573760")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35276cb2-2472-458d-9f08-cc85c21ba1b2")
 	)
 	(wire
 		(pts
@@ -13149,7 +13613,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 73.66) (xy 317.5 73.66)
+			(xy 276.86 73.66) (xy 317.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -13176,6 +13640,26 @@
 			(type default)
 		)
 		(uuid "375ae71f-9339-4b9d-87f0-dbd08a250cd8")
+	)
+	(wire
+		(pts
+			(xy 177.8 185.42) (xy 177.8 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38510c19-8a9e-4177-a788-12541023cace")
+	)
+	(wire
+		(pts
+			(xy 177.8 190.5) (xy 144.78 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39251b95-99eb-44df-ab4f-cf6e5e87cffe")
 	)
 	(wire
 		(pts
@@ -13219,7 +13703,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 203.2) (xy 309.88 203.2)
+			(xy 177.8 63.5) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aec3997-8fef-4b5c-91e2-d717a72d9c44")
+	)
+	(wire
+		(pts
+			(xy 276.86 203.2) (xy 309.88 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13247,6 +13741,26 @@
 		)
 		(uuid "3bbc62ac-b08c-45fd-be76-d4887a1b9c5f")
 	)
+	(wire
+		(pts
+			(xy 177.8 200.66) (xy 177.8 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be3b5d2-531b-4dd8-aae4-8272efd00196")
+	)
+	(wire
+		(pts
+			(xy 177.8 58.42) (xy 177.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4ea15a-e9ff-40f6-be16-c4eb1edceea3")
+	)
 	(bus
 		(pts
 			(xy 312.42 180.34) (xy 312.42 185.42)
@@ -13259,7 +13773,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 193.04) (xy 180.34 193.04)
+			(xy 144.78 193.04) (xy 177.8 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13299,7 +13813,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 190.5) (xy 144.78 190.5)
+			(xy 180.34 190.5) (xy 177.8 190.5)
 		)
 		(stroke
 			(width 0)
@@ -13329,7 +13843,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 195.58) (xy 180.34 195.58)
+			(xy 144.78 195.58) (xy 177.8 195.58)
 		)
 		(stroke
 			(width 0)
@@ -13356,6 +13870,16 @@
 			(type default)
 		)
 		(uuid "439d596f-16be-48f4-b531-20304a23b404")
+	)
+	(wire
+		(pts
+			(xy 177.8 193.04) (xy 177.8 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ae95eb-25ea-4096-a072-48c6c5d5c50d")
 	)
 	(wire
 		(pts
@@ -13389,13 +13913,43 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 147.32) (xy 177.8 147.32)
+			(xy 177.8 213.36) (xy 177.8 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45baff89-54e9-4fce-95ed-91e2b217c68c")
+		(uuid "448ba629-84ea-4500-92b2-244e32404eae")
+	)
+	(wire
+		(pts
+			(xy 177.8 152.4) (xy 177.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b5bdef-dbe7-4228-b578-820f275eb351")
+	)
+	(wire
+		(pts
+			(xy 177.8 218.44) (xy 180.34 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48eb2896-fb30-41ba-a24e-d209327c045a")
+	)
+	(wire
+		(pts
+			(xy 177.8 205.74) (xy 180.34 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492f4465-ec93-473c-a908-3b5e04af8928")
 	)
 	(bus
 		(pts
@@ -13409,7 +13963,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 45.72) (xy 284.48 45.72)
+			(xy 276.86 45.72) (xy 284.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -13419,7 +13973,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 203.2) (xy 180.34 203.2)
+			(xy 144.78 203.2) (xy 177.8 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13449,7 +14003,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 226.06) (xy 309.88 226.06)
+			(xy 276.86 226.06) (xy 309.88 226.06)
 		)
 		(stroke
 			(width 0)
@@ -13467,6 +14021,16 @@
 		)
 		(uuid "4f7a77bc-a675-479e-9971-bd1163c3c6f8")
 	)
+	(wire
+		(pts
+			(xy 177.8 170.18) (xy 177.8 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb96649-faab-4a67-9640-68741078eabe")
+	)
 	(bus
 		(pts
 			(xy 312.42 210.82) (xy 312.42 215.9)
@@ -13476,6 +14040,16 @@
 			(type default)
 		)
 		(uuid "50272a3c-f519-4bc9-a879-1bbb328d0969")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5138f8e4-3a85-4759-b79e-24855bfa71e4")
 	)
 	(wire
 		(pts
@@ -13499,7 +14073,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 215.9) (xy 309.88 215.9)
+			(xy 276.86 215.9) (xy 309.88 215.9)
 		)
 		(stroke
 			(width 0)
@@ -13509,7 +14083,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 88.9) (xy 289.56 88.9)
+			(xy 276.86 88.9) (xy 289.56 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13519,7 +14093,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 157.48) (xy 309.88 157.48)
+			(xy 276.86 157.48) (xy 309.88 157.48)
 		)
 		(stroke
 			(width 0)
@@ -13529,7 +14103,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 63.5) (xy 152.4 63.5)
+			(xy 180.34 63.5) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -13539,7 +14113,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 157.48) (xy 180.34 157.48)
+			(xy 170.18 157.48) (xy 177.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -13569,7 +14143,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 63.5) (xy 317.5 63.5)
+			(xy 276.86 63.5) (xy 317.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -13599,16 +14173,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 167.64 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d70ad6c-6c2d-4860-87eb-ce478356cfa1")
-	)
-	(wire
-		(pts
 			(xy 91.44 134.62) (xy 91.44 137.16)
 		)
 		(stroke
@@ -13619,7 +14183,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 208.28) (xy 180.34 208.28)
+			(xy 170.18 208.28) (xy 177.8 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13649,13 +14213,33 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 134.62) (xy 309.88 134.62)
+			(xy 177.8 218.44) (xy 177.8 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f1456b-d35d-46f2-8a2c-37cdac67f109")
+	)
+	(wire
+		(pts
+			(xy 276.86 134.62) (xy 309.88 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "626a403a-5002-4bce-8962-caeaccaafe6f")
+	)
+	(wire
+		(pts
+			(xy 177.8 154.94) (xy 177.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e5705f-c8c6-4af1-8f2b-29fbb24e961a")
 	)
 	(wire
 		(pts
@@ -13679,7 +14263,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 187.96) (xy 180.34 187.96)
+			(xy 170.18 187.96) (xy 177.8 187.96)
 		)
 		(stroke
 			(width 0)
@@ -13719,7 +14303,27 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 132.08) (xy 309.88 132.08)
+			(xy 177.8 228.6) (xy 180.34 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670101ad-6260-4d9a-8190-7c7f964e4dd8")
+	)
+	(wire
+		(pts
+			(xy 177.8 172.72) (xy 177.8 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e75238-ecbf-4f25-acf0-39014ff81222")
+	)
+	(wire
+		(pts
+			(xy 276.86 132.08) (xy 309.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13729,7 +14333,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 55.88)
+			(xy 177.8 66.04) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -13739,7 +14343,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 198.12) (xy 167.64 198.12)
+			(xy 180.34 198.12) (xy 177.8 198.12)
 		)
 		(stroke
 			(width 0)
@@ -13759,6 +14363,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 167.64) (xy 177.8 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a986f97-f7b1-4df4-beff-a2ed4d5d207c")
+	)
+	(wire
+		(pts
 			(xy 167.64 260.35) (xy 167.64 265.43)
 		)
 		(stroke
@@ -13766,6 +14380,16 @@
 			(type default)
 		)
 		(uuid "6d3ad584-7692-4e6d-9a49-cbcbda3eb96e")
+	)
+	(wire
+		(pts
+			(xy 177.8 220.98) (xy 180.34 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9d033b-3b0f-446d-9c7b-bff5029cf69d")
 	)
 	(wire
 		(pts
@@ -13779,7 +14403,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 187.96) (xy 309.88 187.96)
+			(xy 177.8 208.28) (xy 177.8 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3384a5-c62a-49b9-aedb-9820661e0bb0")
+	)
+	(wire
+		(pts
+			(xy 276.86 187.96) (xy 309.88 187.96)
 		)
 		(stroke
 			(width 0)
@@ -13807,6 +14441,26 @@
 		)
 		(uuid "71e10db8-7017-4524-9d46-50376295c2ba")
 	)
+	(wire
+		(pts
+			(xy 177.8 223.52) (xy 177.8 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72763b9b-3489-402f-b1a0-c4f148dbd903")
+	)
+	(wire
+		(pts
+			(xy 177.8 182.88) (xy 177.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735e3d6a-1440-4cb3-82c4-15b658265f49")
+	)
 	(bus
 		(pts
 			(xy 129.54 243.84) (xy 142.24 243.84)
@@ -13819,7 +14473,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 213.36) (xy 180.34 213.36)
+			(xy 177.8 160.02) (xy 177.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c46273-5c22-4aba-bb24-eb36f4f4e5c4")
+	)
+	(wire
+		(pts
+			(xy 144.78 213.36) (xy 177.8 213.36)
 		)
 		(stroke
 			(width 0)
@@ -13839,7 +14503,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 193.04) (xy 309.88 193.04)
+			(xy 177.8 45.72) (xy 177.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ef9ea9-4d8c-418e-987a-98cd972ad88a")
+	)
+	(wire
+		(pts
+			(xy 276.86 193.04) (xy 309.88 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13849,7 +14523,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 147.32) (xy 309.88 147.32)
+			(xy 276.86 147.32) (xy 309.88 147.32)
 		)
 		(stroke
 			(width 0)
@@ -13879,7 +14553,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 109.22) (xy 289.56 109.22)
+			(xy 276.86 109.22) (xy 289.56 109.22)
 		)
 		(stroke
 			(width 0)
@@ -13889,17 +14563,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 81.28) (xy 162.56 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b4849ae-baab-4b63-b159-007dd165b083")
-	)
-	(wire
-		(pts
-			(xy 274.32 198.12) (xy 309.88 198.12)
+			(xy 276.86 198.12) (xy 309.88 198.12)
 		)
 		(stroke
 			(width 0)
@@ -13919,7 +14583,27 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 71.12) (xy 317.5 71.12)
+			(xy 177.8 177.8) (xy 177.8 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8004bfc9-9552-44d8-91d6-fde887e78c45")
+	)
+	(wire
+		(pts
+			(xy 177.8 226.06) (xy 180.34 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ac2713-a15b-4c70-8c69-eeae8b1d371a")
+	)
+	(wire
+		(pts
+			(xy 276.86 71.12) (xy 317.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -13929,7 +14613,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 129.54) (xy 289.56 129.54)
+			(xy 276.86 129.54) (xy 289.56 129.54)
 		)
 		(stroke
 			(width 0)
@@ -13939,7 +14623,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 195.58) (xy 309.88 195.58)
+			(xy 276.86 195.58) (xy 309.88 195.58)
 		)
 		(stroke
 			(width 0)
@@ -13949,7 +14633,27 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 137.16) (xy 309.88 137.16)
+			(xy 177.8 223.52) (xy 180.34 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a600cd-492a-48ac-a156-49cd9cfb6a66")
+	)
+	(wire
+		(pts
+			(xy 177.8 175.26) (xy 177.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c0ea66-80d2-43cd-b146-a0d361944cb0")
+	)
+	(wire
+		(pts
+			(xy 276.86 137.16) (xy 309.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -13999,6 +14703,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 53.34) (xy 177.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bf34d4-e26d-4841-b48a-766ef59711d7")
+	)
+	(wire
+		(pts
+			(xy 177.8 228.6) (xy 177.8 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e1065f-00c8-46e7-adf5-ecda98a8d5fd")
+	)
+	(wire
+		(pts
 			(xy 152.4 30.48) (xy 152.4 34.29)
 		)
 		(stroke
@@ -14009,7 +14733,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 167.64) (xy 309.88 167.64)
+			(xy 276.86 167.64) (xy 309.88 167.64)
 		)
 		(stroke
 			(width 0)
@@ -14029,7 +14753,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 180.34 50.8)
+			(xy 139.7 50.8) (xy 177.8 50.8)
 		)
 		(stroke
 			(width 0)
@@ -14049,7 +14773,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 86.36) (xy 317.5 86.36)
+			(xy 276.86 86.36) (xy 317.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -14069,7 +14793,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 215.9) (xy 180.34 215.9)
+			(xy 144.78 215.9) (xy 177.8 215.9)
 		)
 		(stroke
 			(width 0)
@@ -14089,13 +14813,23 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 99.06) (xy 289.56 99.06)
+			(xy 276.86 99.06) (xy 289.56 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9079b8dc-1084-45a5-9c1c-4860bcfd238e")
+	)
+	(wire
+		(pts
+			(xy 177.8 195.58) (xy 177.8 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9085b04c-c765-4215-8573-9b762f358caa")
 	)
 	(wire
 		(pts
@@ -14129,7 +14863,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 152.4) (xy 180.34 152.4)
+			(xy 172.72 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93957118-4696-4824-811e-9f3eb8ea9cb8")
+	)
+	(wire
+		(pts
+			(xy 144.78 152.4) (xy 177.8 152.4)
 		)
 		(stroke
 			(width 0)
@@ -14139,7 +14883,37 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 144.78) (xy 309.88 144.78)
+			(xy 165.1 78.74) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a72f29-79ed-4c5f-9062-c7344075726b")
+	)
+	(wire
+		(pts
+			(xy 180.34 149.86) (xy 177.8 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cd90d7-28de-4dec-b857-07cdcb9fbe7b")
+	)
+	(wire
+		(pts
+			(xy 177.8 157.48) (xy 177.8 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9527cb58-a11e-46b1-b6b7-e9883ecbccdc")
+	)
+	(wire
+		(pts
+			(xy 276.86 144.78) (xy 309.88 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14159,6 +14933,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 165.1) (xy 180.34 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962fc6a4-8792-42d0-ad3a-41333287b9ae")
+	)
+	(wire
+		(pts
+			(xy 177.8 220.98) (xy 177.8 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9640bed1-fd96-4bc0-8b2d-0b12aee3e5b4")
+	)
+	(wire
+		(pts
 			(xy 111.76 104.14) (xy 111.76 111.76)
 		)
 		(stroke
@@ -14169,7 +14963,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 172.72) (xy 144.78 172.72)
+			(xy 180.34 172.72) (xy 177.8 172.72)
 		)
 		(stroke
 			(width 0)
@@ -14186,6 +14980,16 @@
 			(type default)
 		)
 		(uuid "98b7354f-0948-4c2a-a49c-8b0ed7fea90c")
+	)
+	(wire
+		(pts
+			(xy 177.8 50.8) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0a13ec-3633-4873-a9c9-06a130dd8d2c")
 	)
 	(wire
 		(pts
@@ -14209,7 +15013,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 205.74) (xy 180.34 205.74)
+			(xy 144.78 205.74) (xy 177.8 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14229,6 +15033,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 177.8) (xy 180.34 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e11b67d-c5d2-40ce-92c3-a6d31f9dff2a")
+	)
+	(wire
+		(pts
 			(xy 144.78 119.38) (xy 180.34 119.38)
 		)
 		(stroke
@@ -14236,16 +15050,6 @@
 			(type default)
 		)
 		(uuid "9eff0773-9749-41e3-8537-8b35900d2cb9")
-	)
-	(wire
-		(pts
-			(xy 180.34 53.34) (xy 139.7 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f6d04f3-eedc-46f3-89f5-f4ec9b7a1e72")
 	)
 	(wire
 		(pts
@@ -14279,7 +15083,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 180.34) (xy 180.34 180.34)
+			(xy 144.78 180.34) (xy 177.8 180.34)
 		)
 		(stroke
 			(width 0)
@@ -14309,7 +15113,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 180.34) (xy 289.56 180.34)
+			(xy 276.86 180.34) (xy 289.56 180.34)
 		)
 		(stroke
 			(width 0)
@@ -14319,7 +15123,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 160.02) (xy 289.56 160.02)
+			(xy 276.86 160.02) (xy 289.56 160.02)
 		)
 		(stroke
 			(width 0)
@@ -14329,17 +15133,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 165.1 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5227888-eca8-4495-a498-3b5aad05fbf1")
-	)
-	(wire
-		(pts
-			(xy 274.32 124.46) (xy 309.88 124.46)
+			(xy 276.86 124.46) (xy 309.88 124.46)
 		)
 		(stroke
 			(width 0)
@@ -14357,6 +15151,16 @@
 		)
 		(uuid "a6c25f7f-f44d-4efa-afb8-232d3cbbd681")
 	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f4d278-4f4f-4633-86e8-96b47ecd1ec7")
+	)
 	(bus
 		(pts
 			(xy 142.24 147.32) (xy 142.24 152.4)
@@ -14369,23 +15173,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 139.7 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7f5f0dd-16ee-43ea-ad7a-9e950f57ff89")
-	)
-	(wire
-		(pts
-			(xy 144.78 165.1) (xy 180.34 165.1)
+			(xy 144.78 165.1) (xy 177.8 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8e0de2d-eb4f-4e21-8cd5-2626c5ff01be")
+	)
+	(wire
+		(pts
+			(xy 177.8 165.1) (xy 177.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99ade23-d29b-460a-a57c-51858031a44a")
 	)
 	(bus
 		(pts
@@ -14429,7 +15233,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 223.52) (xy 309.88 223.52)
+			(xy 276.86 223.52) (xy 309.88 223.52)
 		)
 		(stroke
 			(width 0)
@@ -14489,7 +15293,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 223.52) (xy 180.34 223.52)
+			(xy 144.78 223.52) (xy 177.8 223.52)
 		)
 		(stroke
 			(width 0)
@@ -14509,7 +15313,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 226.06) (xy 180.34 226.06)
+			(xy 144.78 226.06) (xy 177.8 226.06)
 		)
 		(stroke
 			(width 0)
@@ -14519,7 +15323,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 200.66) (xy 289.56 200.66)
+			(xy 276.86 200.66) (xy 289.56 200.66)
 		)
 		(stroke
 			(width 0)
@@ -14599,6 +15403,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 213.36) (xy 180.34 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb311ae3-4ff6-4c9a-8934-6282050a23b1")
+	)
+	(wire
+		(pts
+			(xy 177.8 170.18) (xy 144.78 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5af6b8-2494-4811-beee-a8aaea548b61")
+	)
+	(wire
+		(pts
 			(xy 177.8 260.35) (xy 177.8 265.43)
 		)
 		(stroke
@@ -14606,6 +15430,16 @@
 			(type default)
 		)
 		(uuid "bd55dba2-3f7a-4c08-a9f7-36852b930696")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc405f8-a961-40f4-87b9-35aa15544e77")
 	)
 	(wire
 		(pts
@@ -14629,7 +15463,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 93.98) (xy 317.5 93.98)
+			(xy 276.86 93.98) (xy 317.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -14659,16 +15493,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 165.1 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ee202b-8d95-43b2-a94d-d906815d7771")
-	)
-	(wire
-		(pts
 			(xy 35.56 83.82) (xy 58.42 83.82)
 		)
 		(stroke
@@ -14676,6 +15500,16 @@
 			(type default)
 		)
 		(uuid "c30b0cab-4f18-48c2-b498-52bd910cbffb")
+	)
+	(wire
+		(pts
+			(xy 177.8 187.96) (xy 177.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3186e6a-977f-4105-9090-ed47c828547f")
 	)
 	(wire
 		(pts
@@ -14719,13 +15553,43 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 170.18) (xy 289.56 170.18)
+			(xy 177.8 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49c5438-f0f0-4025-b584-82326579e9bb")
+	)
+	(wire
+		(pts
+			(xy 177.8 210.82) (xy 180.34 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51693a6-95da-493d-88bc-af6b34e62ba5")
+	)
+	(wire
+		(pts
+			(xy 276.86 170.18) (xy 289.56 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5362834-5750-467f-89ac-a0d9e1a60ade")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5daee5e-c14c-4a94-a161-ed2252799180")
 	)
 	(wire
 		(pts
@@ -14739,13 +15603,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 60.96) (xy 139.7 60.96)
+			(xy 180.34 60.96) (xy 177.8 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c723f9ef-598a-4619-b7e8-c6fa29e19907")
+	)
+	(wire
+		(pts
+			(xy 177.8 160.02) (xy 144.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7289032-dbae-42ba-96d8-73f45b605461")
 	)
 	(bus
 		(pts
@@ -14759,7 +15633,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 213.36) (xy 309.88 213.36)
+			(xy 276.86 213.36) (xy 309.88 213.36)
 		)
 		(stroke
 			(width 0)
@@ -14797,6 +15671,26 @@
 		)
 		(uuid "ca19bd41-742c-48af-93d6-f9ffb838383c")
 	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdd233e-062f-4c4e-a607-479d685d18c5")
+	)
+	(wire
+		(pts
+			(xy 177.8 45.72) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9b54dd-70f6-41c3-bc89-97992215d61e")
+	)
 	(bus
 		(pts
 			(xy 142.24 218.44) (xy 142.24 223.52)
@@ -14829,7 +15723,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 50.8) (xy 284.48 50.8)
+			(xy 276.86 50.8) (xy 284.48 50.8)
 		)
 		(stroke
 			(width 0)
@@ -14849,7 +15743,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 208.28) (xy 309.88 208.28)
+			(xy 177.8 154.94) (xy 180.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a25370-222d-4bc6-b2fe-d8b8f79229a3")
+	)
+	(wire
+		(pts
+			(xy 276.86 208.28) (xy 309.88 208.28)
 		)
 		(stroke
 			(width 0)
@@ -14859,7 +15763,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 68.58) (xy 289.56 68.58)
+			(xy 276.86 68.58) (xy 289.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -14879,7 +15783,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 180.34 45.72)
+			(xy 160.02 45.72) (xy 177.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -14889,7 +15793,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 220.98) (xy 289.56 220.98)
+			(xy 276.86 220.98) (xy 289.56 220.98)
 		)
 		(stroke
 			(width 0)
@@ -14909,7 +15813,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 185.42) (xy 309.88 185.42)
+			(xy 276.86 185.42) (xy 309.88 185.42)
 		)
 		(stroke
 			(width 0)
@@ -14919,7 +15823,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 182.88) (xy 180.34 182.88)
+			(xy 144.78 182.88) (xy 177.8 182.88)
 		)
 		(stroke
 			(width 0)
@@ -14929,7 +15833,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 55.88) (xy 177.8 30.48)
+			(xy 177.8 55.88) (xy 177.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -14939,7 +15843,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 81.28) (xy 317.5 81.28)
+			(xy 276.86 81.28) (xy 317.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -14979,7 +15883,27 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 60.96) (xy 317.5 60.96)
+			(xy 177.8 198.12) (xy 167.64 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27490ec-c9e4-4f21-810b-956d2eee8075")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2832463-05b0-4dfe-b5fe-b32b08c04f31")
+	)
+	(wire
+		(pts
+			(xy 276.86 60.96) (xy 317.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -14989,7 +15913,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 180.34 58.42)
+			(xy 139.7 58.42) (xy 177.8 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14999,7 +15923,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 76.2) (xy 353.06 76.2)
+			(xy 276.86 76.2) (xy 353.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -15029,7 +15953,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 147.32) (xy 177.8 252.73)
+			(xy 177.8 147.32) (xy 177.8 149.86)
 		)
 		(stroke
 			(width 0)
@@ -15049,7 +15973,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 218.44) (xy 309.88 218.44)
+			(xy 276.86 218.44) (xy 309.88 218.44)
 		)
 		(stroke
 			(width 0)
@@ -15059,7 +15983,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 205.74) (xy 309.88 205.74)
+			(xy 276.86 205.74) (xy 309.88 205.74)
 		)
 		(stroke
 			(width 0)
@@ -15109,7 +16033,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 78.74) (xy 289.56 78.74)
+			(xy 276.86 78.74) (xy 289.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -15119,13 +16043,33 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 91.44) (xy 317.5 91.44)
+			(xy 276.86 91.44) (xy 317.5 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eaed3906-b4b3-486d-9234-584a2f253d63")
+	)
+	(wire
+		(pts
+			(xy 177.8 226.06) (xy 177.8 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebeee22b-946d-4b17-a52b-c159a8184aa8")
+	)
+	(wire
+		(pts
+			(xy 177.8 205.74) (xy 177.8 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb65ef4-a6ba-44c9-8140-7d45e3dd3b7a")
 	)
 	(wire
 		(pts
@@ -15149,6 +16093,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 175.26) (xy 180.34 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9cb404-82ac-49c8-95c9-e73d1a76f1e0")
+	)
+	(wire
+		(pts
 			(xy 134.62 83.82) (xy 149.86 83.82)
 		)
 		(stroke
@@ -15159,13 +16113,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 139.7 96.52)
+			(xy 177.8 172.72) (xy 144.78 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f112ad19-73b8-458c-9c9d-4c12a599b930")
+		(uuid "f0e42290-f146-4ff3-895c-7df2f9035e38")
 	)
 	(bus
 		(pts
@@ -15179,13 +16133,33 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 66.04) (xy 317.5 66.04)
+			(xy 177.8 180.34) (xy 177.8 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f6b638-92bb-4b43-9b27-bdd1f9dccb7a")
+	)
+	(wire
+		(pts
+			(xy 276.86 66.04) (xy 317.5 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2d672ce-6256-4288-b7bf-8a2e85d0cd0d")
+	)
+	(wire
+		(pts
+			(xy 177.8 203.2) (xy 177.8 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f330d7d3-d55e-4cf9-ace1-e69405046ca8")
 	)
 	(bus
 		(pts
@@ -15219,17 +16193,27 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 160.02) (xy 144.78 160.02)
+			(xy 177.8 190.5) (xy 177.8 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f58087d0-1f1b-49de-89b3-c700f5ff8c93")
+		(uuid "f5e19363-0cf5-4c25-bf81-a5e9c6215418")
 	)
 	(wire
 		(pts
-			(xy 274.32 149.86) (xy 289.56 149.86)
+			(xy 177.8 215.9) (xy 180.34 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6960991-69e3-49d9-9aa4-75b82768d242")
+	)
+	(wire
+		(pts
+			(xy 276.86 149.86) (xy 289.56 149.86)
 		)
 		(stroke
 			(width 0)
@@ -15239,7 +16223,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 48.26) (xy 139.7 48.26)
+			(xy 180.34 48.26) (xy 177.8 48.26)
 		)
 		(stroke
 			(width 0)
@@ -15249,7 +16233,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 177.8) (xy 180.34 177.8)
+			(xy 170.18 177.8) (xy 177.8 177.8)
 		)
 		(stroke
 			(width 0)
@@ -15259,7 +16243,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 142.24) (xy 309.88 142.24)
+			(xy 276.86 142.24) (xy 309.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -15299,7 +16283,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 152.4) (xy 309.88 152.4)
+			(xy 276.86 152.4) (xy 309.88 152.4)
 		)
 		(stroke
 			(width 0)
@@ -15319,7 +16303,17 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 172.72) (xy 309.88 172.72)
+			(xy 180.34 160.02) (xy 177.8 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2b3e2a-d5da-40b8-aa06-2b9c18b508d7")
+	)
+	(wire
+		(pts
+			(xy 276.86 172.72) (xy 309.88 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15329,7 +16323,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 190.5) (xy 289.56 190.5)
+			(xy 276.86 190.5) (xy 289.56 190.5)
 		)
 		(stroke
 			(width 0)
@@ -15356,6 +16350,26 @@
 			(type default)
 		)
 		(uuid "fe090ba4-bb50-4337-a203-184ef652b5c5")
+	)
+	(wire
+		(pts
+			(xy 177.8 210.82) (xy 177.8 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecbe528-1c61-4377-88fd-004eb21aaef1")
+	)
+	(wire
+		(pts
+			(xy 177.8 162.56) (xy 144.78 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3ee180-67ee-40c1-bf47-eceee7638f4b")
 	)
 	(label "HD#52"
 		(at 154.94 144.78 180)
@@ -17973,7 +18987,7 @@
 	)
 	(symbol
 		(lib_id "P2-3_era:Slot1")
-		(at 227.33 236.22 0)
+		(at 228.6 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17981,7 +18995,7 @@
 		(dnp no)
 		(uuid "c1156c18-db89-41de-af80-739b4d56d979")
 		(property "Reference" "J33"
-			(at 188.976 39.37 0)
+			(at 190.246 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17989,7 +19003,7 @@
 			)
 		)
 		(property "Value" "Slot1"
-			(at 189.23 235.204 0)
+			(at 190.5 235.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17997,7 +19011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.2 62.91 0)
+			(at 154.47 62.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18006,7 +19020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.364 46.99 0)
+			(at 119.634 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18015,7 +19029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.364 49.53 0)
+			(at 119.634 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

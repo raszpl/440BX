@@ -7093,6 +7093,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "AGP CONNECTOR"
+		(exclude_from_sim no)
+		(at 290.83 29.21 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "7845ed3b-315a-4fbd-a89d-f6d085a93d74")
+	)
 	(junction
 		(at 231.14 213.36)
 		(diameter 0)
