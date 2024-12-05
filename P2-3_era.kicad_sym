@@ -2650,7 +2650,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AGP2.0_GENERIC"
+	(symbol "AGP1.0_Slot"
 		(pin_names
 			(offset 1.016)
 		)
@@ -2709,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AGP2.0_GENERIC_0_1"
+		(symbol "AGP1.0_Slot_0_1"
 			(rectangle
 				(start -38.1 175.26)
 				(end 38.1 -177.8)
@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(symbol "AGP2.0_GENERIC_1_0"
+		(symbol "AGP1.0_Slot_1_0"
 			(polyline
 				(pts
 					(xy -16.6136 162.5506) (xy -3.81 162.56)
@@ -6962,8 +6962,8 @@
 				)
 			)
 		)
-		(symbol "AGP2.0_GENERIC_1_1"
-			(pin output inverted
+		(symbol "AGP1.0_Slot_1_1"
+			(pin input inverted
 				(at -45.72 162.56 0)
 				(length 7.62)
 				(name "OVRCNT#"
@@ -7053,7 +7053,7 @@
 					)
 				)
 			)
-			(pin output inverted
+			(pin input inverted
 				(at -45.72 137.16 0)
 				(length 7.62)
 				(name "INTB#"
@@ -7071,7 +7071,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -45.72 132.08 0)
 				(length 7.62)
 				(name "CLK"
@@ -7089,7 +7089,7 @@
 					)
 				)
 			)
-			(pin output inverted
+			(pin input inverted
 				(at -45.72 127 0)
 				(length 7.62)
 				(name "REQ#"
@@ -7125,7 +7125,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -45.72 116.84 0)
 				(length 7.62)
 				(name "STO"
@@ -7143,7 +7143,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -45.72 111.76 0)
 				(length 7.62)
 				(name "ST2"
@@ -7161,7 +7161,7 @@
 					)
 				)
 			)
-			(pin bidirectional inverted
+			(pin input inverted
 				(at -45.72 106.68 0)
 				(length 7.62)
 				(name "RBF#"
@@ -7215,7 +7215,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -45.72 91.44 0)
 				(length 7.62)
 				(name "SBAO"
@@ -7251,7 +7251,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -45.72 81.28 0)
 				(length 7.62)
 				(name "SBA2"
@@ -7269,7 +7269,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -45.72 76.2 0)
 				(length 7.62)
 				(name "SB_STB"
@@ -7305,7 +7305,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -45.72 66.04 0)
 				(length 7.62)
 				(name "SBA4"
@@ -7323,7 +7323,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -45.72 60.96 0)
 				(length 7.62)
 				(name "SBA6"
@@ -7629,7 +7629,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -45.72 -45.72 0)
 				(length 7.62)
 				(name "SPARE"
@@ -7665,7 +7665,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -45.72 -55.88 0)
 				(length 7.62)
 				(name "SPARE"
@@ -7737,7 +7737,7 @@
 					)
 				)
 			)
-			(pin bidirectional inverted
+			(pin input inverted
 				(at -45.72 -76.2 0)
 				(length 7.62)
 				(name "PERR#"
@@ -8061,7 +8061,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -45.72 -167.64 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -8097,10 +8097,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input inverted
 				(at 45.72 157.48 180)
 				(length 7.62)
-				(name "SPARE"
+				(name "TYPEDET#"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8115,7 +8115,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 152.4 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -8169,7 +8169,7 @@
 					)
 				)
 			)
-			(pin output inverted
+			(pin input inverted
 				(at 45.72 137.16 180)
 				(length 7.62)
 				(name "INTA#"
@@ -8187,7 +8187,7 @@
 					)
 				)
 			)
-			(pin input inverted
+			(pin output inverted
 				(at 45.72 132.08 180)
 				(length 7.62)
 				(name "RST#"
@@ -8205,7 +8205,7 @@
 					)
 				)
 			)
-			(pin power_in inverted
+			(pin output inverted
 				(at 45.72 127 180)
 				(length 7.62)
 				(name "GNT#"
@@ -8241,7 +8241,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 45.72 116.84 180)
 				(length 7.62)
 				(name "ST1"
@@ -8259,7 +8259,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 111.76 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -8277,7 +8277,7 @@
 					)
 				)
 			)
-			(pin output inverted
+			(pin input inverted
 				(at 45.72 106.68 180)
 				(length 7.62)
 				(name "PIPE#"
@@ -8331,7 +8331,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 45.72 91.44 180)
 				(length 7.62)
 				(name "SBA1"
@@ -8367,7 +8367,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 45.72 81.28 180)
 				(length 7.62)
 				(name "SBA3"
@@ -8385,7 +8385,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 76.2 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -8421,7 +8421,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 45.72 66.04 180)
 				(length 7.62)
 				(name "SBA5"
@@ -8439,7 +8439,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 45.72 60.96 180)
 				(length 7.62)
 				(name "SBA7"
@@ -8565,7 +8565,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 5.08 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -8745,7 +8745,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -45.72 180)
 				(length 7.62)
 				(name "SPARE"
@@ -8781,7 +8781,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -55.88 180)
 				(length 7.62)
 				(name "SPARE"
@@ -8853,7 +8853,7 @@
 					)
 				)
 			)
-			(pin output inverted
+			(pin bidirectional inverted
 				(at 45.72 -76.2 180)
 				(length 7.62)
 				(name "PME#"
@@ -9051,7 +9051,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -132.08 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -9177,7 +9177,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 45.72 -167.64 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -30039,23 +30039,23 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "PCI_Generic_1"
+	(symbol "PCI_Slot"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
-			(at 2.54 161.29 0)
+		(property "Reference" "J"
+			(at -16.51 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PCI1"
-			(at 2.54 158.75 0)
+		(property "Value" "PCI Connector"
+			(at -10.668 -80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30063,7 +30063,7 @@
 			)
 		)
 		(property "Footprint" "custom:PCI1"
-			(at -74.13 173.31 0)
+			(at -1.524 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30071,8 +30071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "blah"
-			(at -44.45 173.99 0)
+		(property "Datasheet" ""
+			(at 9.614 105.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30080,17 +30080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "blah"
-			(at -29.718 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "PCI1"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 24.346 126.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30107,10 +30098,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "PCI_Generic_1_0_1"
+		(symbol "PCI_Slot_0_1"
 			(rectangle
-				(start -12.7 156.21)
-				(end 17.78 -6.35)
+				(start -17.78 81.28)
+				(end 17.78 -78.74)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -30120,10 +30111,10 @@
 				)
 			)
 		)
-		(symbol "PCI_Generic_1_1_1"
+		(symbol "PCI_Slot_1_1"
 			(pin power_in line
-				(at -17.78 151.13 0)
-				(length 5.08)
+				(at -25.4 78.74 0)
+				(length 7.62)
 				(name "-12V"
 					(effects
 						(font
@@ -30131,7 +30122,7 @@
 						)
 					)
 				)
-				(number "B01"
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30140,8 +30131,8 @@
 				)
 			)
 			(pin output line
-				(at -17.78 148.59 0)
-				(length 5.08)
+				(at -25.4 76.2 0)
+				(length 7.62)
 				(name "TCK"
 					(effects
 						(font
@@ -30149,7 +30140,7 @@
 						)
 					)
 				)
-				(number "B02"
+				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30157,9 +30148,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 146.05 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 73.66 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30167,7 +30158,7 @@
 						)
 					)
 				)
-				(number "B03"
+				(number "B3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30175,9 +30166,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -17.78 143.51 0)
-				(length 5.08)
+			(pin input line
+				(at -25.4 71.12 0)
+				(length 7.62)
 				(name "TDO"
 					(effects
 						(font
@@ -30185,7 +30176,7 @@
 						)
 					)
 				)
-				(number "B04"
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30194,8 +30185,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 140.97 0)
-				(length 5.08)
+				(at -25.4 68.58 0)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -30203,7 +30194,7 @@
 						)
 					)
 				)
-				(number "B05"
+				(number "B5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30212,8 +30203,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 138.43 0)
-				(length 5.08)
+				(at -25.4 66.04 0)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -30221,7 +30212,7 @@
 						)
 					)
 				)
-				(number "B06"
+				(number "B6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30229,9 +30220,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at -17.78 135.89 0)
-				(length 5.08)
+			(pin input inverted
+				(at -25.4 63.5 0)
+				(length 7.62)
 				(name "INTB#"
 					(effects
 						(font
@@ -30239,7 +30230,7 @@
 						)
 					)
 				)
-				(number "B07"
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30247,9 +30238,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at -17.78 133.35 0)
-				(length 5.08)
+			(pin input inverted
+				(at -25.4 60.96 0)
+				(length 7.62)
 				(name "INTD#"
 					(effects
 						(font
@@ -30257,7 +30248,7 @@
 						)
 					)
 				)
-				(number "B08"
+				(number "B8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30265,9 +30256,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -17.78 130.81 0)
-				(length 5.08)
+			(pin input inverted
+				(at -25.4 58.42 0)
+				(length 7.62)
 				(name "PRSNT1#"
 					(effects
 						(font
@@ -30275,7 +30266,7 @@
 						)
 					)
 				)
-				(number "B09"
+				(number "B9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30283,9 +30274,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -17.78 128.27 0)
-				(length 5.08)
+			(pin passive line
+				(at -25.4 55.88 0)
+				(length 7.62)
 				(name "RSV"
 					(effects
 						(font
@@ -30301,9 +30292,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -17.78 125.73 0)
-				(length 5.08)
+			(pin input inverted
+				(at -25.4 53.34 0)
+				(length 7.62)
 				(name "PRSNT2#"
 					(effects
 						(font
@@ -30319,9 +30310,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 123.19 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 50.8 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30337,9 +30328,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 120.65 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 48.26 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30355,9 +30346,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -17.78 118.11 0)
-				(length 5.08)
+			(pin passive line
+				(at -25.4 45.72 0)
+				(length 7.62)
 				(name "RSV"
 					(effects
 						(font
@@ -30373,9 +30364,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 115.57 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 43.18 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30391,9 +30382,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 113.03 0)
-				(length 5.08)
+			(pin output line
+				(at -25.4 40.64 0)
+				(length 7.62)
 				(name "CLK"
 					(effects
 						(font
@@ -30409,9 +30400,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 110.49 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 38.1 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30427,9 +30418,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -17.78 107.95 0)
-				(length 5.08)
+			(pin input inverted
+				(at -25.4 35.56 0)
+				(length 7.62)
 				(name "REQ#"
 					(effects
 						(font
@@ -30446,8 +30437,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 105.41 0)
-				(length 5.08)
+				(at -25.4 33.02 0)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -30464,8 +30455,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 102.87 0)
-				(length 5.08)
+				(at -25.4 30.48 0)
+				(length 7.62)
 				(name "AD(31)"
 					(effects
 						(font
@@ -30482,8 +30473,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 100.33 0)
-				(length 5.08)
+				(at -25.4 27.94 0)
+				(length 7.62)
 				(name "AD(29)"
 					(effects
 						(font
@@ -30499,9 +30490,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 97.79 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 25.4 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30518,8 +30509,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 95.25 0)
-				(length 5.08)
+				(at -25.4 22.86 0)
+				(length 7.62)
 				(name "AD(27)"
 					(effects
 						(font
@@ -30536,8 +30527,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 92.71 0)
-				(length 5.08)
+				(at -25.4 20.32 0)
+				(length 7.62)
 				(name "AD(25)"
 					(effects
 						(font
@@ -30554,8 +30545,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 90.17 0)
-				(length 5.08)
+				(at -25.4 17.78 0)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -30571,9 +30562,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 87.63 0)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at -25.4 15.24 0)
+				(length 7.62)
 				(name "C/BE#(3)"
 					(effects
 						(font
@@ -30590,8 +30581,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 85.09 0)
-				(length 5.08)
+				(at -25.4 12.7 0)
+				(length 7.62)
 				(name "AD(23)"
 					(effects
 						(font
@@ -30607,9 +30598,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 82.55 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 10.16 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30626,8 +30617,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 80.01 0)
-				(length 5.08)
+				(at -25.4 7.62 0)
+				(length 7.62)
 				(name "AD(21)"
 					(effects
 						(font
@@ -30644,8 +30635,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 77.47 0)
-				(length 5.08)
+				(at -25.4 5.08 0)
+				(length 7.62)
 				(name "AD(19)"
 					(effects
 						(font
@@ -30662,8 +30653,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 74.93 0)
-				(length 5.08)
+				(at -25.4 2.54 0)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -30680,8 +30671,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 72.39 0)
-				(length 5.08)
+				(at -25.4 0 0)
+				(length 7.62)
 				(name "AD(17)"
 					(effects
 						(font
@@ -30697,9 +30688,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 69.85 0)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at -25.4 -2.54 0)
+				(length 7.62)
 				(name "C/BE#(2)"
 					(effects
 						(font
@@ -30715,9 +30706,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 67.31 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 -5.08 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30733,9 +30724,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 64.77 0)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at -25.4 -7.62 0)
+				(length 7.62)
 				(name "IRDY#"
 					(effects
 						(font
@@ -30752,8 +30743,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 62.23 0)
-				(length 5.08)
+				(at -25.4 -10.16 0)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -30769,10 +30760,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 59.69 0)
-				(length 5.08)
-				(name "DEVSEL"
+			(pin bidirectional inverted
+				(at -25.4 -12.7 0)
+				(length 7.62)
+				(name "DEVSEL#"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30787,9 +30778,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 57.15 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 -15.24 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30805,9 +30796,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 54.61 0)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at -25.4 -17.78 0)
+				(length 7.62)
 				(name "LOCK#"
 					(effects
 						(font
@@ -30823,9 +30814,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 52.07 0)
-				(length 5.08)
+			(pin input inverted
+				(at -25.4 -20.32 0)
+				(length 7.62)
 				(name "PERR#"
 					(effects
 						(font
@@ -30842,8 +30833,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 49.53 0)
-				(length 5.08)
+				(at -25.4 -22.86 0)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -30859,9 +30850,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 46.99 0)
-				(length 5.08)
+			(pin input inverted
+				(at -25.4 -25.4 0)
+				(length 7.62)
 				(name "SERR#"
 					(effects
 						(font
@@ -30878,8 +30869,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 44.45 0)
-				(length 5.08)
+				(at -25.4 -27.94 0)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -30895,9 +30886,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 41.91 0)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at -25.4 -30.48 0)
+				(length 7.62)
 				(name "C/BE#(1)"
 					(effects
 						(font
@@ -30914,8 +30905,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 39.37 0)
-				(length 5.08)
+				(at -25.4 -33.02 0)
+				(length 7.62)
 				(name "AD(14)"
 					(effects
 						(font
@@ -30931,9 +30922,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 36.83 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 -35.56 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -30950,8 +30941,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 34.29 0)
-				(length 5.08)
+				(at -25.4 -38.1 0)
+				(length 7.62)
 				(name "AD(12)"
 					(effects
 						(font
@@ -30968,8 +30959,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 31.75 0)
-				(length 5.08)
+				(at -25.4 -40.64 0)
+				(length 7.62)
 				(name "AD(10)"
 					(effects
 						(font
@@ -30985,9 +30976,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 29.21 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 -43.18 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31004,8 +30995,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 21.59 0)
-				(length 5.08)
+				(at -25.4 -50.8 0)
+				(length 7.62)
 				(name "AD(8)"
 					(effects
 						(font
@@ -31022,8 +31013,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 19.05 0)
-				(length 5.08)
+				(at -25.4 -53.34 0)
+				(length 7.62)
 				(name "AD(7)"
 					(effects
 						(font
@@ -31040,8 +31031,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 16.51 0)
-				(length 5.08)
+				(at -25.4 -55.88 0)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -31058,8 +31049,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 13.97 0)
-				(length 5.08)
+				(at -25.4 -58.42 0)
+				(length 7.62)
 				(name "AD(5)"
 					(effects
 						(font
@@ -31076,8 +31067,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 11.43 0)
-				(length 5.08)
+				(at -25.4 -60.96 0)
+				(length 7.62)
 				(name "AD(3)"
 					(effects
 						(font
@@ -31093,9 +31084,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -17.78 8.89 0)
-				(length 5.08)
+			(pin power_in line
+				(at -25.4 -63.5 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31112,8 +31103,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 6.35 0)
-				(length 5.08)
+				(at -25.4 -66.04 0)
+				(length 7.62)
 				(name "AD(1)"
 					(effects
 						(font
@@ -31130,8 +31121,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 3.81 0)
-				(length 5.08)
+				(at -25.4 -68.58 0)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -31147,9 +31138,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -17.78 1.27 0)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at -25.4 -71.12 0)
+				(length 7.62)
 				(name "ACK64#"
 					(effects
 						(font
@@ -31166,8 +31157,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -1.27 0)
-				(length 5.08)
+				(at -25.4 -73.66 0)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -31184,8 +31175,8 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -3.81 0)
-				(length 5.08)
+				(at -25.4 -76.2 0)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -31201,9 +31192,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 151.13 180)
-				(length 5.08)
+			(pin output inverted
+				(at 25.4 78.74 180)
+				(length 7.62)
 				(name "TRST#"
 					(effects
 						(font
@@ -31211,7 +31202,7 @@
 						)
 					)
 				)
-				(number "A01"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31220,8 +31211,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 148.59 180)
-				(length 5.08)
+				(at 25.4 76.2 180)
+				(length 7.62)
 				(name "+12V"
 					(effects
 						(font
@@ -31229,7 +31220,7 @@
 						)
 					)
 				)
-				(number "A02"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31238,8 +31229,8 @@
 				)
 			)
 			(pin output line
-				(at 22.86 146.05 180)
-				(length 5.08)
+				(at 25.4 73.66 180)
+				(length 7.62)
 				(name "TMS"
 					(effects
 						(font
@@ -31247,7 +31238,7 @@
 						)
 					)
 				)
-				(number "A03"
+				(number "A3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31256,8 +31247,8 @@
 				)
 			)
 			(pin output line
-				(at 22.86 143.51 180)
-				(length 5.08)
+				(at 25.4 71.12 180)
+				(length 7.62)
 				(name "TDI"
 					(effects
 						(font
@@ -31265,7 +31256,7 @@
 						)
 					)
 				)
-				(number "A04"
+				(number "A4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31274,8 +31265,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 140.97 180)
-				(length 5.08)
+				(at 25.4 68.58 180)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -31283,7 +31274,7 @@
 						)
 					)
 				)
-				(number "A05"
+				(number "A5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31291,9 +31282,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 138.43 180)
-				(length 5.08)
+			(pin input inverted
+				(at 25.4 66.04 180)
+				(length 7.62)
 				(name "INTA#"
 					(effects
 						(font
@@ -31301,7 +31292,7 @@
 						)
 					)
 				)
-				(number "A06"
+				(number "A6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31309,9 +31300,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 135.89 180)
-				(length 5.08)
+			(pin input inverted
+				(at 25.4 63.5 180)
+				(length 7.62)
 				(name "INTC#"
 					(effects
 						(font
@@ -31319,7 +31310,7 @@
 						)
 					)
 				)
-				(number "A07"
+				(number "A7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31328,8 +31319,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 133.35 180)
-				(length 5.08)
+				(at 25.4 60.96 180)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -31337,7 +31328,7 @@
 						)
 					)
 				)
-				(number "A08"
+				(number "A8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31345,9 +31336,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 130.81 180)
-				(length 5.08)
+			(pin passive line
+				(at 25.4 58.42 180)
+				(length 7.62)
 				(name "RSV"
 					(effects
 						(font
@@ -31355,7 +31346,7 @@
 						)
 					)
 				)
-				(number "A09"
+				(number "A9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31364,8 +31355,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 128.27 180)
-				(length 5.08)
+				(at 25.4 55.88 180)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -31381,9 +31372,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 125.73 180)
-				(length 5.08)
+			(pin passive line
+				(at 25.4 53.34 180)
+				(length 7.62)
 				(name "RSV"
 					(effects
 						(font
@@ -31399,9 +31390,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 123.19 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 50.8 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31417,9 +31408,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 120.65 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 48.26 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31435,9 +31426,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 118.11 180)
-				(length 5.08)
+			(pin passive line
+				(at 25.4 45.72 180)
+				(length 7.62)
 				(name "RSV"
 					(effects
 						(font
@@ -31453,9 +31444,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 22.86 115.57 180)
-				(length 5.08)
+			(pin output inverted
+				(at 25.4 43.18 180)
+				(length 7.62)
 				(name "RESET#"
 					(effects
 						(font
@@ -31472,8 +31463,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 113.03 180)
-				(length 5.08)
+				(at 25.4 40.64 180)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -31489,9 +31480,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 22.86 110.49 180)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at 25.4 38.1 180)
+				(length 7.62)
 				(name "GNT#"
 					(effects
 						(font
@@ -31507,9 +31498,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 107.95 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 35.56 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31525,9 +31516,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 105.41 180)
-				(length 5.08)
+			(pin input inverted
+				(at 25.4 33.02 180)
+				(length 7.62)
 				(name "PME#"
 					(effects
 						(font
@@ -31544,8 +31535,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 102.87 180)
-				(length 5.08)
+				(at 25.4 30.48 180)
+				(length 7.62)
 				(name "AD(30)"
 					(effects
 						(font
@@ -31562,8 +31553,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 100.33 180)
-				(length 5.08)
+				(at 25.4 27.94 180)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -31580,8 +31571,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 97.79 180)
-				(length 5.08)
+				(at 25.4 25.4 180)
+				(length 7.62)
 				(name "AD(28)"
 					(effects
 						(font
@@ -31598,8 +31589,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 95.25 180)
-				(length 5.08)
+				(at 25.4 22.86 180)
+				(length 7.62)
 				(name "AD(26)"
 					(effects
 						(font
@@ -31615,9 +31606,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 92.71 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 20.32 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31634,8 +31625,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 90.17 180)
-				(length 5.08)
+				(at 25.4 17.78 180)
+				(length 7.62)
 				(name "AD(24)"
 					(effects
 						(font
@@ -31651,9 +31642,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 87.63 180)
-				(length 5.08)
+			(pin output line
+				(at 25.4 15.24 180)
+				(length 7.62)
 				(name "IDSEL"
 					(effects
 						(font
@@ -31670,8 +31661,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 85.09 180)
-				(length 5.08)
+				(at 25.4 12.7 180)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -31688,8 +31679,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 82.55 180)
-				(length 5.08)
+				(at 25.4 10.16 180)
+				(length 7.62)
 				(name "AD(22)"
 					(effects
 						(font
@@ -31706,8 +31697,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 80.01 180)
-				(length 5.08)
+				(at 25.4 7.62 180)
+				(length 7.62)
 				(name "AD(20)"
 					(effects
 						(font
@@ -31723,9 +31714,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 77.47 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 5.08 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31742,8 +31733,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 74.93 180)
-				(length 5.08)
+				(at 25.4 2.54 180)
+				(length 7.62)
 				(name "AD(18)"
 					(effects
 						(font
@@ -31760,8 +31751,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 72.39 180)
-				(length 5.08)
+				(at 25.4 0 180)
+				(length 7.62)
 				(name "AD(16)"
 					(effects
 						(font
@@ -31778,8 +31769,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 69.85 180)
-				(length 5.08)
+				(at 25.4 -2.54 180)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -31795,9 +31786,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 67.31 180)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at 25.4 -5.08 180)
+				(length 7.62)
 				(name "FRAME#"
 					(effects
 						(font
@@ -31813,9 +31804,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 64.77 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 -7.62 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31831,9 +31822,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 62.23 180)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at 25.4 -10.16 180)
+				(length 7.62)
 				(name "TRDY#"
 					(effects
 						(font
@@ -31849,9 +31840,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 59.69 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 -12.7 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31867,9 +31858,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 57.15 180)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at 25.4 -15.24 180)
+				(length 7.62)
 				(name "STOP#"
 					(effects
 						(font
@@ -31886,8 +31877,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 54.61 180)
-				(length 5.08)
+				(at 25.4 -17.78 180)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -31903,9 +31894,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 52.07 180)
-				(length 5.08)
+			(pin bidirectional line
+				(at 25.4 -20.32 180)
+				(length 7.62)
 				(name "SDONE"
 					(effects
 						(font
@@ -31921,9 +31912,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 49.53 180)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at 25.4 -22.86 180)
+				(length 7.62)
 				(name "SBO#"
 					(effects
 						(font
@@ -31939,9 +31930,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 46.99 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 -25.4 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -31957,9 +31948,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 22.86 44.45 180)
-				(length 5.08)
+			(pin bidirectional line
+				(at 25.4 -27.94 180)
+				(length 7.62)
 				(name "PAR"
 					(effects
 						(font
@@ -31976,8 +31967,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 41.91 180)
-				(length 5.08)
+				(at 25.4 -30.48 180)
+				(length 7.62)
 				(name "AD(15)"
 					(effects
 						(font
@@ -31994,8 +31985,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 39.37 180)
-				(length 5.08)
+				(at 25.4 -33.02 180)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -32012,8 +32003,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 36.83 180)
-				(length 5.08)
+				(at 25.4 -35.56 180)
+				(length 7.62)
 				(name "AD(13)"
 					(effects
 						(font
@@ -32030,8 +32021,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 34.29 180)
-				(length 5.08)
+				(at 25.4 -38.1 180)
+				(length 7.62)
 				(name "AD(11)"
 					(effects
 						(font
@@ -32047,9 +32038,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 31.75 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 -40.64 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -32066,8 +32057,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 29.21 180)
-				(length 5.08)
+				(at 25.4 -43.18 180)
+				(length 7.62)
 				(name "AD(09)"
 					(effects
 						(font
@@ -32083,9 +32074,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 22.86 21.59 180)
-				(length 5.08)
+			(pin bidirectional inverted
+				(at 25.4 -50.8 180)
+				(length 7.62)
 				(name "C/BE#(0)"
 					(effects
 						(font
@@ -32102,8 +32093,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 19.05 180)
-				(length 5.08)
+				(at 25.4 -53.34 180)
+				(length 7.62)
 				(name "+3.3V"
 					(effects
 						(font
@@ -32120,8 +32111,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 16.51 180)
-				(length 5.08)
+				(at 25.4 -55.88 180)
+				(length 7.62)
 				(name "AD(06)"
 					(effects
 						(font
@@ -32138,8 +32129,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 13.97 180)
-				(length 5.08)
+				(at 25.4 -58.42 180)
+				(length 7.62)
 				(name "AD(04)"
 					(effects
 						(font
@@ -32155,9 +32146,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 11.43 180)
-				(length 5.08)
+			(pin power_in line
+				(at 25.4 -60.96 180)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -32174,8 +32165,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 8.89 180)
-				(length 5.08)
+				(at 25.4 -63.5 180)
+				(length 7.62)
 				(name "AD(02)"
 					(effects
 						(font
@@ -32192,8 +32183,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 6.35 180)
-				(length 5.08)
+				(at 25.4 -66.04 180)
+				(length 7.62)
 				(name "AD(00)"
 					(effects
 						(font
@@ -32210,8 +32201,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 3.81 180)
-				(length 5.08)
+				(at 25.4 -68.58 180)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -32227,9 +32218,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 22.86 1.27 180)
-				(length 5.08)
+			(pin unspecified inverted
+				(at 25.4 -71.12 180)
+				(length 7.62)
 				(name "REQ64#"
 					(effects
 						(font
@@ -32246,8 +32237,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -1.27 180)
-				(length 5.08)
+				(at 25.4 -73.66 180)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
@@ -32264,8 +32255,8 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -3.81 180)
-				(length 5.08)
+				(at 25.4 -76.2 180)
+				(length 7.62)
 				(name "+5V"
 					(effects
 						(font
