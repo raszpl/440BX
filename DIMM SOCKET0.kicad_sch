@@ -3365,7 +3365,6 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3379,7 +3378,6 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3406,7 +3404,6 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3446,7 +3443,6 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3486,7 +3482,6 @@
 		(stroke
 			(width 0)
 			(type dash)
-			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -4156,7 +4151,6 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
-				(color 0 0 0 1)
 			)
 			(justify left)
 		)
@@ -4209,7 +4203,6 @@
 				(size 2 2)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 0 1)
 			)
 		)
 		(uuid "cd257309-edb2-4f78-8cc4-44efbec71e5b")
@@ -4282,19 +4275,6 @@
 			)
 		)
 		(uuid "e4515cb3-f0cf-423d-8b7e-9a79196a4e25")
-	)
-	(text "DIMM SOCKET 0"
-		(exclude_from_sim no)
-		(at 218.948 22.352 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "e4f3ba45-1eec-4866-84bd-de7d72e53523")
 	)
 	(text "10"
 		(exclude_from_sim no)
@@ -10559,7 +10539,7 @@
 		(dnp no)
 		(uuid "bd62eab9-93be-451c-b89e-3134be1bdb89")
 		(property "Reference" "J4"
-			(at 184.658 255.524 0)
+			(at 183.388 252.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,11 +10547,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DIMM REF"
-			(at 184.404 258.064 0)
+		(property "Value" "DIMM SOCKET 0"
+			(at 196.342 22.098 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -10594,13 +10576,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIMM SOCKET"
-			(at 220.218 179.07 0)
+		(property "Description" "DIMM REF"
+			(at 186.436 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "23"

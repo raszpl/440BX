@@ -19804,7 +19804,7 @@
 		(dnp no)
 		(uuid "71ee0582-b9f2-4308-9da6-a96b9f1c813e")
 		(property "Reference" "U23"
-			(at 112.014 259.334 0)
+			(at 111.76 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19832,7 +19832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "blah"
+		(property "Datasheet" ""
 			(at -6.604 -242.57 0)
 			(effects
 				(font
@@ -19841,13 +19841,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BXChipset"
-			(at -6.604 -252.73 0)
+		(property "Description" "PIIX4_15"
+			(at 115.824 259.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "C6"

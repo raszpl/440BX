@@ -969,7 +969,7 @@
 			)
 		)
 		(property "page" "2"
-			(at 142.24 59.182 0)
+			(at 142.494 59.182 0)
 			(effects
 				(font
 					(size 3 3)
@@ -1530,7 +1530,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "64138dad-0552-4410-af5b-f91ef9e9a39f")
-		(property "Sheetname" "82443BX"
+		(property "Sheetname" "82443BX SYSTEM AND DRAM INTERFACES"
 			(at 136.144 76.2 0)
 			(effects
 				(font
@@ -1722,6 +1722,57 @@
 			(project "440BX REFERENCE DESIGN"
 				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
 					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 72.39)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95aa5074-6189-46a1-af90-5d74dc47e803")
+		(property "Sheetname" "82443BX PCI AND AGP INTERFACES"
+			(at 148.59 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "82443BX1.kicad_sch"
+			(at 148.59 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "page" "7"
+			(at 155.194 74.422 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+			)
+		)
+		(instances
+			(project "440BX REFERENCE DESIGN"
+				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
+					(page "7")
 				)
 			)
 		)
@@ -2357,6 +2408,57 @@
 			(project "440BX REFERENCE DESIGN"
 				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
 					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 72.39)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f67e79d5-fab4-49bb-8a6a-71bb22b6e86b")
+		(property "Sheetname" "82443BX MD-HD BUS"
+			(at 161.29 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "82443BX2.kicad_sch"
+			(at 161.29 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "page" "8"
+			(at 167.894 74.422 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+			)
+		)
+		(instances
+			(project "440BX REFERENCE DESIGN"
+				(path "/373c3af7-3bc7-49b4-93d6-3114ef59c408"
+					(page "8")
 				)
 			)
 		)

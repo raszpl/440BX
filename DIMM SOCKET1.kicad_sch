@@ -4072,19 +4072,6 @@
 		)
 		(uuid "e4e0e7ba-18f0-469f-a5a3-74859f6037d0")
 	)
-	(text "DIMM SOCKET 1"
-		(exclude_from_sim no)
-		(at 183.388 29.972 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "e4f3ba45-1eec-4866-84bd-de7d72e53523")
-	)
 	(text "33"
 		(exclude_from_sim no)
 		(at 302.768 211.074 0)
@@ -10332,11 +10319,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DIMM REF"
-			(at 144.78 261.366 0)
+		(property "Value" "DIMM SOCKET 1"
+			(at 163.576 27.432 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 1)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -10359,13 +10348,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIMM SOCKET"
-			(at 184.658 186.69 0)
+		(property "Description" "DIMM REF"
+			(at 151.13 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "23"

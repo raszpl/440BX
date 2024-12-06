@@ -11709,7 +11709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "blah"
+		(property "Datasheet" ""
 			(at 263.652 115.062 0)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "blah"
+		(property "Description" ""
 			(at 278.384 94.742 0)
 			(effects
 				(font

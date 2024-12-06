@@ -10489,7 +10489,6 @@
 		(effects
 			(font
 				(size 3 3)
-				(color 0 0 0 1)
 			)
 			(justify left)
 		)
@@ -10547,7 +10546,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 0 0 0 1)
 			)
 			(justify left)
 		)

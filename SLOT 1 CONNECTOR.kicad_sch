@@ -10778,7 +10778,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 0 0 0 1)
 			)
 			(justify left)
 		)
@@ -11418,7 +11417,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 0 0 0 1)
 			)
 		)
 		(uuid "c63b62fa-561d-46d0-bd2e-e3039069bf28")
@@ -11429,7 +11427,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 0 0 0 1)
 			)
 			(justify left)
 		)

@@ -3488,7 +3488,6 @@
 		(stroke
 			(width 0.1303)
 			(type solid)
-			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3680,7 +3679,6 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
-				(color 0 0 0 1)
 			)
 		)
 		(uuid "28875c27-b99f-4534-acd0-2be26e3b65e3")
@@ -4065,7 +4063,6 @@
 				(size 2 2)
 				(thickness 0.4)
 				(bold yes)
-				(color 0 0 0 1)
 			)
 			(justify left)
 		)
@@ -4191,19 +4188,6 @@
 			(href "#33")
 		)
 		(uuid "e4e0e7ba-18f0-469f-a5a3-74859f6037d0")
-	)
-	(text "DIMM SOCKET 2"
-		(exclude_from_sim no)
-		(at 246.888 29.972 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "e4f3ba45-1eec-4866-84bd-de7d72e53523")
 	)
 	(text "33"
 		(exclude_from_sim no)
@@ -10782,11 +10766,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DIMM REF"
-			(at 208.28 261.366 0)
+		(property "Value" "DIMM SOCKET 2"
+			(at 223.52 28.702 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -10809,13 +10795,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIMM SOCKET"
-			(at 248.158 186.69 0)
+		(property "Description" "DIMM REF"
+			(at 215.392 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "23"
